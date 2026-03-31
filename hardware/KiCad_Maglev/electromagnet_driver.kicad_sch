@@ -3958,6 +3958,16 @@
 		)
 		(uuid "cba76c54-0b6f-4b37-bf84-7e75a237c4b1")
 	)
+	(text "tbd. add status leds für each fault pin"
+		(exclude_from_sim no)
+		(at 35.052 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec7943c6-89cf-4c31-85b5-e6420d149a24")
+	)
 	(junction
 		(at 160.02 170.18)
 		(diameter 0)
