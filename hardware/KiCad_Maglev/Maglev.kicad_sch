@@ -2841,6 +2841,420 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LED_Wurth_WL-SMCW:0603dome_150060VS86000"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603dome_150060VS86000"
+				(at 12.7 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LED_SMD_Wurth:D_Wurth_WL-SMCW-0603dome"
+				(at 12.7 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060VS86000.pdf?ki"
+				(at 12.7 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Mono-color Chip LED Waterclear"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 12.7 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 12.7 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Created Date" "20260320"
+				(at 12.7 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Series" "WL-SMCW"
+				(at 12.7 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "150060VS86000"
+				(at 12.7 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Size" "0603dome"
+				(at 12.7 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mounting Technology" "SMT"
+				(at 12.7 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "λDom typ.(nm)" "573 nm"
+				(at 12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Emitting Color" "Bright Green"
+				(at 12.7 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "λPeak typ.(nm)" "575 nm"
+				(at 12.7 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "IV typ.(mcd)" "300 mcd"
+				(at 12.7 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VF typ.(V)" "2 V"
+				(at 12.7 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Chip Technology" "AlInGaP"
+				(at 12.7 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "2θ50% typ.(°)" "60 °"
+				(at 12.7 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WL-SMCW*0603dome*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603dome_150060VS86000_1_0"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.905) (xy -2.032 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy -0.889 3.429)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at 2.54 -0.635 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "0603dome_150060VS86000_1_1"
+				(polyline
+					(pts
+						(xy -2.032 3.302) (xy -1.143 2.921) (xy -1.143 2.921) (xy -1.651 2.413) (xy -1.651 2.413) (xy -2.032 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 3.429) (xy 0 3.048) (xy 0 3.048) (xy -0.508 2.54) (xy -0.508 2.54) (xy -0.889 3.429)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Espressif:ESP32-C3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4694,6 +5108,330 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Resistor_Wurth_WRIS-RSKS:1206_R_560112132050"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1206_R_560112132050"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-1206_R"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132050.pdf?ki"
+				(at 52.07 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Anti-Sulfur Thick Film Resistors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 52.07 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 52.07 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Created Date" "20250214"
+				(at 52.07 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Series" "WRIS-RSKS"
+				(at 52.07 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "560112132050"
+				(at 52.07 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Size" "1206_R"
+				(at 52.07 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mounting Technology" "SMT"
+				(at 52.07 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "R" "68 Ω"
+				(at 52.07 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tol. R" "±1%"
+				(at 52.07 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PRated (mW)" "250.0"
+				(at 52.07 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "TCR (ppm/ °C)" "-100"
+				(at 52.07 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "TCR (ppm/ °C).1" "100"
+				(at 52.07 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "VE (V)" "200"
+				(at 52.07 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "L (mm)" "3.1"
+				(at 52.07 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "W (mm)" "1.6"
+				(at 52.07 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "H (mm)" "0.6"
+				(at 52.07 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Critical Parameter" "68 Ω"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WRIS-RSKS*1206*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1206_R_560112132050_0_1"
+				(rectangle
+					(start -2.54 -1.016)
+					(end 2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1206_R_560112132050_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -5376,10 +6114,16 @@
 		(uuid "b09b4b4f-3b0d-4fab-a5f3-4de57a0cfcbd")
 	)
 	(junction
-		(at 124.46 175.26)
+		(at 124.46 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dea65014-6dd0-48c9-a875-790f0549100d")
+	)
+	(junction
+		(at 107.95 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff0371d9-fe5c-4090-ba9a-b0f8c6f2fa00")
 	)
 	(no_connect
 		(at 45.72 151.13)
@@ -5405,7 +6149,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 175.26) (xy 138.43 175.26)
+			(xy 124.46 176.53) (xy 138.43 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5665,7 +6409,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 77.47) (xy 19.05 74.93)
+			(xy 12.7 77.47) (xy 12.7 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5685,7 +6429,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 185.42) (xy 138.43 185.42)
+			(xy 124.46 186.69) (xy 138.43 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5705,7 +6449,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 77.47) (xy 15.24 77.47)
+			(xy 12.7 77.47) (xy 15.24 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5805,7 +6549,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 185.42) (xy 124.46 187.96)
+			(xy 124.46 186.69) (xy 124.46 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5815,7 +6559,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 172.72) (xy 124.46 175.26)
+			(xy 124.46 173.99) (xy 124.46 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5835,7 +6579,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 175.26) (xy 124.46 175.26)
+			(xy 118.11 176.53) (xy 124.46 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5985,7 +6729,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 171.45) (xy 107.95 175.26)
+			(xy 107.95 172.72) (xy 107.95 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6105,7 +6849,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 175.26) (xy 110.49 175.26)
+			(xy 107.95 176.53) (xy 110.49 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6205,7 +6949,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 172.72) (xy 124.46 172.72)
+			(xy 127 173.99) (xy 124.46 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6323,6 +7067,18 @@
 		)
 		(uuid "07cf56b2-7225-4c5a-a216-87e9fcde6658")
 	)
+	(label "HBRIDGE_A_PWM"
+		(at 161.29 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "0c3ee207-b855-4c68-93be-008e315500d6")
+	)
 	(label "-XTAL_40_MHz"
 		(at 49.53 39.37 0)
 		(effects
@@ -6381,6 +7137,18 @@
 		)
 		(uuid "165b3cbe-5dc9-4e4c-873c-9d0cfdee2d0f")
 	)
+	(label "RXD"
+		(at 161.29 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "1a160e52-6634-4b98-9e6a-f6adcb0bcefa")
+	)
 	(label "HBRIDGE_C_PWM"
 		(at 218.44 50.8 180)
 		(effects
@@ -6416,6 +7184,18 @@
 			(justify left)
 		)
 		(uuid "1e2ee7b5-7e2f-462b-8aec-d66033223da7")
+	)
+	(label "+USB_D"
+		(at 161.29 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ca77f1a-4bde-41ed-bc10-4c67b7cb2dd9")
 	)
 	(label "HBRIDGE_A_PWM"
 		(at 218.44 30.48 180)
@@ -6465,6 +7245,30 @@
 		)
 		(uuid "35b86627-2f83-4cca-a103-524f6f5727f2")
 	)
+	(label "HBRIDGE_C_ISENSE"
+		(at 161.29 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "38550721-d423-493a-bbc7-de89437e3d3e")
+	)
+	(label "TXD"
+		(at 161.29 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "399d7b54-db6a-4211-928d-f727b50db914")
+	)
 	(label "HBRIDGE_B_ISENSE"
 		(at 218.44 45.72 180)
 		(effects
@@ -6478,7 +7282,7 @@
 		(uuid "3bbbd642-aa34-4f46-9bf1-d13436ecacd8")
 	)
 	(label "BOOT"
-		(at 127 172.72 0)
+		(at 127 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6571,6 +7375,30 @@
 		)
 		(uuid "552b5223-5144-441d-a4b7-821efc31f7ca")
 	)
+	(label "HBRIDGE_B_PWM"
+		(at 161.29 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "57370ae8-adbe-4c30-9077-3d32c292740b")
+	)
+	(label "HBRIDGE_A_ISENSE"
+		(at 161.29 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "5832b046-fb50-4a66-a8ab-d4079dee5bd3")
+	)
 	(label "HBRIDGE_B_ISENSE"
 		(at 64.77 34.29 180)
 		(effects
@@ -6582,6 +7410,30 @@
 			(justify right)
 		)
 		(uuid "5889bbbc-132c-4481-9159-495dc18b40c7")
+	)
+	(label "HBRIDGE_D_DIR"
+		(at 161.29 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "5e05bb2b-9af9-4c95-b345-dae0330a7045")
+	)
+	(label "HBRIDG_ALL_FAULT"
+		(at 161.29 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "5fa65bf7-6a39-4a89-8556-0c7168f7b92f")
 	)
 	(label "I2C_SDA"
 		(at 120.65 64.77 0)
@@ -6595,6 +7447,42 @@
 		)
 		(uuid "637e20d9-5de5-4e1f-824a-35cbc0ef427a")
 	)
+	(label "HBRIDGE_D_PWM"
+		(at 161.29 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "655b900c-39f3-4ee0-9e11-afeebe045037")
+	)
+	(label "HBRIDGE_C_PWM"
+		(at 161.29 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "675a1a17-6f07-4947-bfef-ef78cea15553")
+	)
+	(label "HBRIDGE_C_DIR"
+		(at 161.29 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "6e859401-0f32-43fc-9b32-71046f4f83ff")
+	)
 	(label "HBRIDG_ALL_FAULT"
 		(at 64.77 54.61 180)
 		(effects
@@ -6606,6 +7494,54 @@
 			(justify right)
 		)
 		(uuid "71bbf6d6-aba6-44d2-b6eb-1a80dc558582")
+	)
+	(label "-XTAL_40_MHz"
+		(at 161.29 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "75cf1fcf-6a1e-400e-a601-7735985d6c63")
+	)
+	(label "I2C_SDA"
+		(at 161.29 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "816f4d72-c759-4c0c-a545-c6441a663803")
+	)
+	(label "VDD3P3"
+		(at 161.29 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "8798d9bf-9d9f-4ce4-9587-716b4783993a")
+	)
+	(label "HBRIDGE_D_ISENSE"
+		(at 161.29 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "8a273e39-98ba-4e38-a090-299b3ae11a23")
 	)
 	(label "VDDA"
 		(at 50.8 69.85 0)
@@ -6698,6 +7634,18 @@
 			(justify right)
 		)
 		(uuid "9eeb6d80-66af-409d-a97d-87ec32361c81")
+	)
+	(label "CHIP_EN"
+		(at 161.29 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "a05e9478-67d5-4bbb-b425-d2ddaa986ba5")
 	)
 	(label "-USB_D"
 		(at 120.65 31.75 0)
@@ -6795,6 +7743,30 @@
 		)
 		(uuid "c2ba02d7-7024-4f16-b143-b03eb07ea795")
 	)
+	(label "+XTAL_40_MHz"
+		(at 161.29 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2f540f1-e425-4567-ad22-1ecb8374771a")
+	)
+	(label "I2C_INT"
+		(at 161.29 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "c60fe08d-a239-4759-8b03-30b9a106966b")
+	)
 	(label "HBRIDGE_B_DIR"
 		(at 218.44 43.18 180)
 		(effects
@@ -6831,6 +7803,18 @@
 		)
 		(uuid "d735a59b-af9a-4158-89f8-0368734a63d9")
 	)
+	(label "HBRIDGE_B_DIR"
+		(at 161.29 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "d867e5a4-22d7-4ad3-841c-55306356465e")
+	)
 	(label "CHIP_EN"
 		(at 64.77 29.21 180)
 		(effects
@@ -6842,6 +7826,30 @@
 			(justify right)
 		)
 		(uuid "dadac92d-b87c-4414-addd-56a585d74a9e")
+	)
+	(label "BOOT"
+		(at 161.29 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "dbbc563c-1a4f-47e4-8c83-6b1ad98bfa12")
+	)
+	(label "HBRIDGE_A_DIR"
+		(at 161.29 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "de1d57a3-3513-4181-9031-2e629a36b0fa")
 	)
 	(label "HBRIDGE_D_PWM"
 		(at 218.44 60.96 180)
@@ -6879,6 +7887,30 @@
 		)
 		(uuid "e58f3f49-20b0-4602-8c2d-fe5c2b19f580")
 	)
+	(label "I2C_SCL"
+		(at 161.29 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "e956b517-19ec-4e8f-a1c6-2356df890d1b")
+	)
+	(label "HBRIDGE_ALL_EN"
+		(at 161.29 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "f1527a18-90ad-4dd5-be46-1d4502210de2")
+	)
 	(label "HBRIDGE_C_PWM"
 		(at 120.65 52.07 0)
 		(effects
@@ -6900,6 +7932,30 @@
 			(justify left bottom)
 		)
 		(uuid "fac69ca6-ea4e-4bdf-8846-3d885df57800")
+	)
+	(label "HBRIDGE_B_ISENSE"
+		(at 161.29 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "fdd6d9ba-b261-444c-8f61-bcede327c598")
+	)
+	(label "-USB_D"
+		(at 161.29 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff97d016-ec00-4f1e-a984-396566075dfc")
 	)
 	(symbol
 		(lib_id "power:+5VP")
@@ -6982,7 +8038,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 19.05 74.93 0)
+		(at 12.7 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6992,7 +8048,7 @@
 		(dnp no)
 		(uuid "067a47a4-31d3-47e1-b969-f56a0a5ffe7d")
 		(property "Reference" "#PWR01"
-			(at 19.05 78.74 0)
+			(at 12.7 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7003,7 +8059,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 19.05 70.866 0)
+			(at 12.7 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7013,7 +8069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 74.93 0)
+			(at 12.7 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7024,7 +8080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 74.93 0)
+			(at 12.7 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7035,7 +8091,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 19.05 74.93 0)
+			(at 12.7 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9066,7 +10122,7 @@
 	(symbol
 		(lib_name "430182043816_1")
 		(lib_id "Switch_Wurth_WS-TASV:430182043816")
-		(at 143.51 180.34 0)
+		(at 143.51 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9076,7 +10132,7 @@
 		(dnp no)
 		(uuid "671a40c3-6a95-481b-8dc5-cc79770428c8")
 		(property "Reference" "BOOT1"
-			(at 143.51 174.244 0)
+			(at 143.51 175.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9086,7 +10142,7 @@
 			)
 		)
 		(property "Value" "430182043816"
-			(at 156.21 157.48 0)
+			(at 156.21 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9098,7 +10154,7 @@
 			)
 		)
 		(property "Footprint" "Switch_SMD_Wurth:SW_Wurth_WS-TASV_430182043816"
-			(at 156.21 160.02 0)
+			(at 156.21 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9110,7 +10166,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/430182043816.pdf?ki"
-			(at 156.21 162.56 0)
+			(at 156.21 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9122,7 +10178,7 @@
 			)
 		)
 		(property "Description" "SMT Tact Switch 6x6 mm"
-			(at 140.97 180.34 0)
+			(at 140.97 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9133,7 +10189,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 156.21 165.1 0)
+			(at 156.21 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9145,7 +10201,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 156.21 167.64 0)
+			(at 156.21 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9157,7 +10213,7 @@
 			)
 		)
 		(property "Created Date" "20260204"
-			(at 156.21 170.18 0)
+			(at 156.21 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9169,7 +10225,7 @@
 			)
 		)
 		(property "Series" "WS-TASV"
-			(at 156.21 172.72 0)
+			(at 156.21 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9181,7 +10237,7 @@
 			)
 		)
 		(property "Part Number" "430182043816"
-			(at 156.21 175.26 0)
+			(at 156.21 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9193,7 +10249,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 156.21 177.8 0)
+			(at 156.21 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9205,7 +10261,7 @@
 			)
 		)
 		(property "H (mm)" "4.3"
-			(at 156.21 180.34 0)
+			(at 156.21 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9217,7 +10273,7 @@
 			)
 		)
 		(property "Operation Force (g)" "160.0"
-			(at 156.21 182.88 0)
+			(at 156.21 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9229,7 +10285,7 @@
 			)
 		)
 		(property "Electrical Life (Cycles)" "1000000"
-			(at 156.21 185.42 0)
+			(at 156.21 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9241,7 +10297,7 @@
 			)
 		)
 		(property "Actuator Color" "Black"
-			(at 156.21 187.96 0)
+			(at 156.21 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9253,7 +10309,7 @@
 			)
 		)
 		(property "Vaporphase process" "not specified"
-			(at 156.21 190.5 0)
+			(at 156.21 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9265,7 +10321,7 @@
 			)
 		)
 		(property "Purpose" "BOOT"
-			(at 140.97 187.452 0)
+			(at 140.97 188.722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9738,7 +10794,7 @@
 	)
 	(symbol
 		(lib_id "Resistor_Wurth_WRIS-RSKS:0402_560112110020")
-		(at 114.3 175.26 0)
+		(at 114.3 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9749,7 +10805,7 @@
 		(fields_autoplaced yes)
 		(uuid "711e1c00-e9f4-4ebd-849c-fae33a995402")
 		(property "Reference" "R4"
-			(at 114.3 168.91 0)
+			(at 114.3 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9759,7 +10815,7 @@
 			)
 		)
 		(property "Value" "0402_560112110020"
-			(at 114.3 177.8 0)
+			(at 114.3 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9770,7 +10826,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-0402"
-			(at 114.3 167.64 0)
+			(at 114.3 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9781,7 +10837,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112110020.pdf?ki"
-			(at 166.37 157.48 0)
+			(at 166.37 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9792,7 +10848,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfur Thick Film Resistors"
-			(at 114.3 175.26 0)
+			(at 114.3 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9803,7 +10859,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 166.37 160.02 0)
+			(at 166.37 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9814,7 +10870,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 166.37 162.56 0)
+			(at 166.37 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9825,7 +10881,7 @@
 			)
 		)
 		(property "Created Date" "20250214"
-			(at 166.37 165.1 0)
+			(at 166.37 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9836,7 +10892,7 @@
 			)
 		)
 		(property "Series" "WRIS-RSKS"
-			(at 166.37 167.64 0)
+			(at 166.37 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9847,7 +10903,7 @@
 			)
 		)
 		(property "Part Number" "560112110020"
-			(at 166.37 170.18 0)
+			(at 166.37 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9858,7 +10914,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 166.37 172.72 0)
+			(at 166.37 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9869,7 +10925,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 166.37 175.26 0)
+			(at 166.37 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9880,7 +10936,7 @@
 			)
 		)
 		(property "R" "10 kΩ"
-			(at 166.37 177.8 0)
+			(at 166.37 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9891,7 +10947,7 @@
 			)
 		)
 		(property "Tol. R" "±1%"
-			(at 166.37 180.34 0)
+			(at 166.37 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9902,7 +10958,7 @@
 			)
 		)
 		(property "PRated (mW)" "100.0"
-			(at 166.37 182.88 0)
+			(at 166.37 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9913,7 +10969,7 @@
 			)
 		)
 		(property "TCR (ppm/ °C)" "-100"
-			(at 166.37 185.42 0)
+			(at 166.37 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9924,7 +10980,7 @@
 			)
 		)
 		(property "TCR (ppm/ °C).1" "100"
-			(at 166.37 187.96 0)
+			(at 166.37 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9935,7 +10991,7 @@
 			)
 		)
 		(property "VE (V)" "50"
-			(at 166.37 190.5 0)
+			(at 166.37 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9946,7 +11002,7 @@
 			)
 		)
 		(property "L (mm)" "1.0"
-			(at 166.37 193.04 0)
+			(at 166.37 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9957,7 +11013,7 @@
 			)
 		)
 		(property "W (mm)" "0.5"
-			(at 166.37 195.58 0)
+			(at 166.37 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9968,7 +11024,7 @@
 			)
 		)
 		(property "H (mm)" "0.35"
-			(at 166.37 198.12 0)
+			(at 166.37 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9979,7 +11035,7 @@
 			)
 		)
 		(property "Critical Parameter" "10 kΩ"
-			(at 114.3 171.45 0)
+			(at 114.3 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10577,8 +11633,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:LINE")
-		(at 107.95 171.45 0)
+		(lib_id "power:GND")
+		(at 107.95 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10586,9 +11642,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "83712667-6f5c-4d50-9068-1d98340217fb")
-		(property "Reference" "#VDD02"
-			(at 107.95 175.26 0)
+		(uuid "82cea8cf-76b8-4231-b34f-572bc29aabb1")
+		(property "Reference" "#PWR042"
+			(at 107.95 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10598,19 +11654,18 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 105.156 167.386 0)
+		(property "Value" "GND"
+			(at 108.204 163.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 171.45 0)
+			(at 107.95 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10621,7 +11676,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 171.45 0)
+			(at 107.95 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bb55561-9a8b-4daa-8406-b113d15c7a45")
+		)
+		(instances
+			(project "Maglev"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:LINE")
+		(at 107.95 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83712667-6f5c-4d50-9068-1d98340217fb")
+		(property "Reference" "#VDD02"
+			(at 107.95 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 105.156 168.656 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10632,7 +11765,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"LINE\""
-			(at 107.95 171.45 0)
+			(at 107.95 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11093,6 +12226,274 @@
 		)
 	)
 	(symbol
+		(lib_id "Resistor_Wurth_WRIS-RSKS:1206_R_560112132050")
+		(at 107.95 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1b6a6f8-ced1-4244-9711-29baf6712e42")
+		(property "Reference" "R16"
+			(at 110.49 147.3199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1206_R_560112132050"
+			(at 110.49 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-1206_R"
+			(at 100.33 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132050.pdf?ki"
+			(at 90.17 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Anti-Sulfur Thick Film Resistors"
+			(at 107.95 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 92.71 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 95.25 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Created Date" "20250214"
+			(at 97.79 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "WRIS-RSKS"
+			(at 100.33 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "560112132050"
+			(at 102.87 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" "1206_R"
+			(at 105.41 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 107.95 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "R" "68 Ω"
+			(at 110.49 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tol. R" "±1%"
+			(at 113.03 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRated (mW)" "250.0"
+			(at 115.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TCR (ppm/ °C)" "-100"
+			(at 118.11 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TCR (ppm/ °C).1" "100"
+			(at 120.65 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VE (V)" "200"
+			(at 123.19 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (mm)" "3.1"
+			(at 125.73 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "W (mm)" "1.6"
+			(at 128.27 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "H (mm)" "0.6"
+			(at 130.81 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" "68 Ω"
+			(at 109.728 150.114 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "e42190e1-a521-4664-8e63-7008b6c8619f")
+		)
+		(pin "1"
+			(uuid "6e2e4830-3f79-4e34-a9d6-b7c46b71a741")
+		)
+		(instances
+			(project "Maglev"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistor_Wurth_WRIS-RSKS:0402_560112110020")
 		(at 114.3 144.78 0)
 		(unit 1)
@@ -11361,7 +12762,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 187.96 0)
+		(at 124.46 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11371,7 +12772,7 @@
 		(dnp no)
 		(uuid "bca7a685-c2b9-4964-997a-fbc1b9ac3dc7")
 		(property "Reference" "#PWR010"
-			(at 124.46 194.31 0)
+			(at 124.46 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11382,7 +12783,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 192.278 0)
+			(at 124.46 193.548 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11392,7 +12793,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 187.96 0)
+			(at 124.46 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11403,7 +12804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 187.96 0)
+			(at 124.46 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11414,7 +12815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 187.96 0)
+			(at 124.46 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11870,6 +13271,259 @@
 		)
 	)
 	(symbol
+		(lib_id "LED_Wurth_WL-SMCW:0603dome_150060VS86000")
+		(at 107.95 156.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f658c792-45b4-4ed9-9207-e743fca7cc94")
+		(property "Reference" "POWER_LED2"
+			(at 110.49 155.5707 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0603dome_150060VS86000"
+			(at 85.09 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD_Wurth:D_Wurth_WL-SMCW-0603dome"
+			(at 87.63 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060VS86000.pdf?ki"
+			(at 90.17 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Mono-color Chip LED Waterclear"
+			(at 107.95 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 92.71 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 95.25 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20260320"
+			(at 97.79 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WL-SMCW"
+			(at 100.33 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "150060VS86000"
+			(at 102.87 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0603dome"
+			(at 105.41 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 107.95 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λDom typ.(nm)" "573 nm"
+			(at 110.49 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Emitting Color" "Bright Green"
+			(at 113.03 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "λPeak typ.(nm)" "575 nm"
+			(at 115.57 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IV typ.(mcd)" "300 mcd"
+			(at 118.11 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF typ.(V)" "2 V"
+			(at 120.65 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Chip Technology" "AlInGaP"
+			(at 123.19 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "2θ50% typ.(°)" "60 °"
+			(at 125.73 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "657a1390-3d91-43f8-8526-fe7ddcecad6e")
+		)
+		(pin "1"
+			(uuid "8de170fc-adcc-4440-8c56-707c2fbb4cdf")
+		)
+		(instances
+			(project "Maglev"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625"
+					(reference "POWER_LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 214.63 93.98 0)
 		(unit 1)
@@ -12279,6 +13933,312 @@
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 20.32)
+		(size 26.67 81.28)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "995c9bf7-2294-48ef-9351-edb7b71be1a3")
+		(property "Sheetname" "Pin Header"
+			(at 161.29 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pin_header.kicad_sch"
+			(at 161.29 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+USB_D" input
+			(at 161.29 25.4 180)
+			(uuid "3509b47c-7af8-464b-b607-a5f199f0baea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-USB_D" input
+			(at 161.29 27.94 180)
+			(uuid "b4276f1e-9078-4387-9214-1c95de6f4197")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BOOT" input
+			(at 161.29 21.59 180)
+			(uuid "c1f2a326-5fee-4f6c-8067-6c86e10c42d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CHIP_EN" input
+			(at 161.29 31.75 180)
+			(uuid "e79a4f8a-697f-4bbf-b703-f37f1643c217")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HBRIDGE_ALL_EN" input
+			(at 161.29 34.29 180)
+			(uuid "1daf4352-2dbe-4a15-965b-686e51d51ce3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HBRIDGE_ALL_FAULT" input
+			(at 161.29 36.83 180)
+			(uuid "8e4b8629-5956-422a-bb25-8efde1e067c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HBRIDGE_A_DIR" input
+			(at 161.29 46.99 180)
+			(uuid "a4cbcfad-568d-49d9-8d13-a34509aee930")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HBRIDGE_A_ISENSE" input
+			(at 161.29 92.71 180)
+			(uuid "bccfe7fa-ef11-4b9f-9077-aaaa92afcab7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HBRIDGE_A_PWM" input
+			(at 161.29 49.53 180)
+			(uuid "ebef020e-49d8-4fef-9098-a087786ebf13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HBRIDGE_B_DIR" input
+			(at 161.29 53.34 180)
+			(uuid "c9143ee4-4133-4b65-b1a2-821416caec93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HBRIDGE_B_ISENSE" input
+			(at 161.29 95.25 180)
+			(uuid "74834553-1dbb-4eb9-bdb2-29c839ae55d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HBRIDGE_B_PWM" input
+			(at 161.29 55.88 180)
+			(uuid "ac9e1cfe-b7f3-470d-9b45-4a3e2e3abafc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HBRIDGE_C_DIR" input
+			(at 161.29 59.69 180)
+			(uuid "21d7681d-1b62-4933-ad66-5104c0d3213d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HBRIDGE_C_ISENSE" input
+			(at 161.29 97.79 180)
+			(uuid "41c7dd95-ffd1-43e1-b935-88ddd974eabf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HBRIDGE_C_PWM" input
+			(at 161.29 62.23 180)
+			(uuid "a841447a-5d2e-45fd-8589-f70526a5c5af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HBRIDGE_D_DIR" input
+			(at 161.29 66.04 180)
+			(uuid "c17c1865-9af4-4047-acbf-d7e0d489860c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HBRIDGE_D_ISENSE" input
+			(at 161.29 100.33 180)
+			(uuid "5a4d54dd-48a8-4786-810d-61a719aa3796")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HBRIDGE_D_PWM" input
+			(at 161.29 68.58 180)
+			(uuid "ff2398d8-6006-4117-8f7f-d62dc6dbd9db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_INT" input
+			(at 161.29 76.2 180)
+			(uuid "ae1d0e12-900a-422e-b612-34089407aca8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 161.29 78.74 180)
+			(uuid "c8449d90-d679-4cbe-9093-0b06b3cea3e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" input
+			(at 161.29 81.28 180)
+			(uuid "f12c28dd-e056-456d-852a-e7b974e5393f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD" input
+			(at 161.29 86.36 180)
+			(uuid "9ef6e041-126e-4321-ae58-d081f9d7af9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD" input
+			(at 161.29 88.9 180)
+			(uuid "4e91bc30-cf46-4f15-afbd-3a713940c9c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+XTAL_40_MHz" input
+			(at 161.29 40.64 180)
+			(uuid "16ce8bff-01a2-4113-8ea4-e3584e74112d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-XTAL_40_MHz" input
+			(at 161.29 43.18 180)
+			(uuid "c9ddcf33-8880-44c2-ba31-20f26699ada4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD3P3" input
+			(at 161.29 72.39 180)
+			(uuid "2124db6a-11a6-4b19-9bd7-8c4814fa7c87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Maglev"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625"
+					(page "5")
 				)
 			)
 		)

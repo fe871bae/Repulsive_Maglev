@@ -1,0 +1,96 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f2da5941-5b4a-4b6b-bbc0-eefd804bfb54")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "TXD"
+		(shape input)
+		(at 17.78 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f85477f-debf-4a72-8299-e170b42ad0ed")
+	)
+	(hierarchical_label "HBRIDGE_A_PWM"
+		(shape input)
+		(at 17.78 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28301190-b879-46c5-b4e3-971a9f07a100")
+	)
+	(hierarchical_label "HBRIDGE_A_DIR"
+		(shape input)
+		(at 17.78 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28a91d30-90b4-4a54-953f-7826b2ac0dcc")
+	)
+	(hierarchical_label "RXD"
+		(shape input)
+		(at 17.78 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68e97aac-6313-409b-924d-31bba0ef4b5f")
+	)
+	(hierarchical_label "HBRIDGE_B_DIR"
+		(shape input)
+		(at 17.78 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a4327f5-034b-4390-9072-f7d95e82ad14")
+	)
+	(hierarchical_label "HBRIDGE_B_PWM"
+		(shape input)
+		(at 17.78 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a02dc968-59f6-4549-bc3b-6f5a5b7ce3c0")
+	)
+	(hierarchical_label "+USB_D"
+		(shape input)
+		(at 17.78 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8506c4f-5da0-4adb-871b-94a12d3eabd7")
+	)
+	(hierarchical_label "-USB_D"
+		(shape input)
+		(at 17.78 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f86d7f3f-3ec8-4625-b93e-da6776b99bc4")
+	)
+)
