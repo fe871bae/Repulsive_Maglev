@@ -632,7 +632,7 @@
         "uuid": "cf460145-35f8-4019-907e-b966a2c32625"
       }
     ],
-    "used_designators": "",
+    "used_designators": "POWER_LED4,Status_LED_RX1,R18-19,#PWR35,#PWR43,J8,J10-11",
     "variants": []
   },
   "sheets": [

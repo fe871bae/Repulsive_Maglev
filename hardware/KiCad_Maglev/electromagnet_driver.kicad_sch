@@ -1257,7 +1257,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Wurth_WR-PHD:621006245821"
+		(symbol "Connector_Wurth_WR-PHD:61300621121"
 			(pin_names
 				(hide yes)
 			)
@@ -1267,7 +1267,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 12.7 0)
+				(at 0 13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1276,19 +1276,8 @@
 					)
 				)
 			)
-			(property "Value" "621006245821"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_SMD_Wurth:J_Wurth_WR-PHD_621006245821"
-				(at 0 15.24 0)
+			(property "Value" "61300621121"
+				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1298,8 +1287,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/621006245821?ki"
-				(at 45.72 12.7 0)
+			(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61300621121"
+				(at 0 16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1309,7 +1298,18 @@
 					)
 				)
 			)
-			(property "Description" "2.00 mm SMT Dual Pin Header Low Profile"
+			(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300621121?ki"
+				(at 40.64 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2.54 mm THT Dual Pin Header"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1321,7 +1321,7 @@
 				)
 			)
 			(property "Manufacturer" "Wurth Elektronik"
-				(at 45.72 10.16 0)
+				(at 40.64 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1332,7 +1332,7 @@
 				)
 			)
 			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 45.72 7.62 0)
+				(at 40.64 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1343,7 +1343,7 @@
 				)
 			)
 			(property "Series" "WR-PHD"
-				(at 45.72 5.08 0)
+				(at 40.64 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1353,8 +1353,8 @@
 					)
 				)
 			)
-			(property "Pitch" "2.00 mm"
-				(at 45.72 2.54 0)
+			(property "Pitch" "2.54 mm"
+				(at 40.64 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1364,8 +1364,8 @@
 					)
 				)
 			)
-			(property "Mounting Technology" "SMT"
-				(at 45.72 0 0)
+			(property "Mounting Technology" "THT"
+				(at 40.64 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1376,7 +1376,7 @@
 				)
 			)
 			(property "Pins (pcs)" "6"
-				(at 45.72 -2.54 0)
+				(at 40.64 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1387,7 +1387,7 @@
 				)
 			)
 			(property "Rows" "Dual"
-				(at 45.72 -5.08 0)
+				(at 40.64 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1398,7 +1398,7 @@
 				)
 			)
 			(property "Gender" "Pin Header"
-				(at 45.72 -7.62 0)
+				(at 40.64 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1408,8 +1408,8 @@
 					)
 				)
 			)
-			(property "Type" "Straight Low Profile"
-				(at 45.72 -10.16 0)
+			(property "Type" "Straight"
+				(at 40.64 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1419,8 +1419,8 @@
 					)
 				)
 			)
-			(property "IR (A)" "2"
-				(at 45.72 -12.7 0)
+			(property "IR (A)" "3"
+				(at 40.64 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1430,7 +1430,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "SMT"
+			(property "ki_keywords" "THT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1452,7 +1452,7 @@
 					)
 				)
 			)
-			(symbol "621006245821_1_1"
+			(symbol "61300621121_1_1"
 				(rectangle
 					(start -3.81 2.54)
 					(end 3.81 -2.54)
@@ -1464,9 +1464,21 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -3.175 2.4765)
-					(end -1.905 0.5715)
+				(polyline
+					(pts
+						(xy -2.54 1.778) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.27)
+					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1475,9 +1487,9 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start -3.175 -0.635)
-					(end -1.905 -2.54)
+				(circle
+					(center -2.54 -1.27)
+					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1486,9 +1498,33 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start -0.635 2.4765)
-					(end 0.635 0.5715)
+				(polyline
+					(pts
+						(xy -2.54 -1.778) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.27)
+					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1497,9 +1533,9 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start -0.635 -0.635)
-					(end 0.635 -2.54)
+				(circle
+					(center 0 -1.27)
+					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1508,9 +1544,33 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 1.905 2.4765)
-					(end 3.175 0.5715)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.778) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.27)
+					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1519,15 +1579,27 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 1.905 -0.635)
-					(end 3.175 -2.54)
+				(circle
+					(center 2.54 -1.27)
+					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.778) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -1641,7 +1713,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Wurth_WR-PHD:621008245821"
+		(symbol "Connector_Wurth_WR-PHD:61300821121"
 			(pin_names
 				(hide yes)
 			)
@@ -1651,7 +1723,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 12.7 0)
+				(at 0 13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1660,19 +1732,8 @@
 					)
 				)
 			)
-			(property "Value" "621008245821"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_SMD_Wurth:J_Wurth_WR-PHD_621008245821"
-				(at 0 15.24 0)
+			(property "Value" "61300821121"
+				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1682,8 +1743,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/621008245821?ki"
-				(at 45.72 12.7 0)
+			(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61300821121"
+				(at 0 16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1693,7 +1754,18 @@
 					)
 				)
 			)
-			(property "Description" "2.00 mm SMT Dual Pin Header Low Profile"
+			(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300821121?ki"
+				(at 40.64 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2.54 mm THT Dual Pin Header"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1705,7 +1777,7 @@
 				)
 			)
 			(property "Manufacturer" "Wurth Elektronik"
-				(at 45.72 10.16 0)
+				(at 40.64 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1716,7 +1788,7 @@
 				)
 			)
 			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 45.72 7.62 0)
+				(at 40.64 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1727,7 +1799,7 @@
 				)
 			)
 			(property "Series" "WR-PHD"
-				(at 45.72 5.08 0)
+				(at 40.64 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1737,8 +1809,8 @@
 					)
 				)
 			)
-			(property "Pitch" "2.00 mm"
-				(at 45.72 2.54 0)
+			(property "Pitch" "2.54 mm"
+				(at 40.64 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1748,8 +1820,8 @@
 					)
 				)
 			)
-			(property "Mounting Technology" "SMT"
-				(at 45.72 0 0)
+			(property "Mounting Technology" "THT"
+				(at 40.64 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1760,7 +1832,7 @@
 				)
 			)
 			(property "Pins (pcs)" "8"
-				(at 45.72 -2.54 0)
+				(at 40.64 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1771,7 +1843,7 @@
 				)
 			)
 			(property "Rows" "Dual"
-				(at 45.72 -5.08 0)
+				(at 40.64 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1782,7 +1854,7 @@
 				)
 			)
 			(property "Gender" "Pin Header"
-				(at 45.72 -7.62 0)
+				(at 40.64 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1792,8 +1864,8 @@
 					)
 				)
 			)
-			(property "Type" "Straight Low Profile"
-				(at 45.72 -10.16 0)
+			(property "Type" "Straight"
+				(at 40.64 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1803,8 +1875,8 @@
 					)
 				)
 			)
-			(property "IR (A)" "2"
-				(at 45.72 -12.7 0)
+			(property "IR (A)" "3"
+				(at 40.64 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1814,7 +1886,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "SMT"
+			(property "ki_keywords" "THT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1836,7 +1908,7 @@
 					)
 				)
 			)
-			(symbol "621008245821_1_1"
+			(symbol "61300821121_1_1"
 				(rectangle
 					(start -5.08 2.54)
 					(end 5.08 -2.54)
@@ -1848,9 +1920,21 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -4.445 2.4765)
-					(end -3.175 0.5715)
+				(polyline
+					(pts
+						(xy -3.81 1.778) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 1.27)
+					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1859,9 +1943,9 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start -4.445 -0.635)
-					(end -3.175 -2.54)
+				(circle
+					(center -3.81 -1.27)
+					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1870,9 +1954,33 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start -1.905 2.4765)
-					(end -0.635 0.5715)
+				(polyline
+					(pts
+						(xy -3.81 -1.778) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 1.27)
+					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1881,9 +1989,9 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start -1.905 -0.635)
-					(end -0.635 -2.54)
+				(circle
+					(center -1.27 -1.27)
+					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1892,9 +2000,33 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 0.635 2.4765)
-					(end 1.905 0.5715)
+				(polyline
+					(pts
+						(xy -1.27 -1.778) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.778) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 1.27)
+					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1903,9 +2035,9 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 0.635 -0.635)
-					(end 1.905 -2.54)
+				(circle
+					(center 1.27 -1.27)
+					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1914,9 +2046,33 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 3.175 2.4765)
-					(end 4.445 0.5715)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.778) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 1.27)
+					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1925,15 +2081,27 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 3.175 -0.635)
-					(end 4.445 -2.54)
+				(circle
+					(center 3.81 -1.27)
+					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.778) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -4143,12 +4311,6 @@
 		(uuid "b08c5cc2-f161-4017-80e6-412d0dd47450")
 	)
 	(junction
-		(at 120.65 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf3cd996-b56c-4429-9207-a51116dee43b")
-	)
-	(junction
 		(at 91.44 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4185,6 +4347,10 @@
 	(no_connect
 		(at 109.22 166.37)
 		(uuid "8693ec58-66ce-48a4-a2a9-eb0c19c06c62")
+	)
+	(no_connect
+		(at 119.38 166.37)
+		(uuid "99b9ca43-0513-4a6b-bf4d-2fd195637e71")
 	)
 	(wire
 		(pts
@@ -4708,16 +4874,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 166.37) (xy 120.65 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59ddcbcb-d109-4a1f-8a12-3b9a11a94029")
-	)
-	(wire
-		(pts
 			(xy 76.2 93.98) (xy 77.47 93.98)
 		)
 		(stroke
@@ -4785,16 +4941,6 @@
 			(type default)
 		)
 		(uuid "662d459b-ef5e-4452-be94-fe0979badf9f")
-	)
-	(wire
-		(pts
-			(xy 119.38 166.37) (xy 120.65 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6730f661-b5ad-43d2-8425-3212352f32c2")
 	)
 	(wire
 		(pts
@@ -7274,215 +7420,6 @@
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/99843b3b-9377-494e-8774-1c4f1e6356f7"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Wurth_WR-PHD:621008245821")
-		(at 114.3 170.18 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22e83240-0066-4bed-90bb-3da210f7d84b")
-		(property "Reference" "J5"
-			(at 114.3 162.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "621008245821"
-			(at 101.6 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_SMD_Wurth:J_Wurth_WR-PHD_621008245821"
-			(at 129.54 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/621008245821?ki"
-			(at 127 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2.00 mm SMT Dual Pin Header Low Profile"
-			(at 114.3 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 124.46 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 121.92 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" "WR-PHD"
-			(at 119.38 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch" "2.00 mm"
-			(at 116.84 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 114.3 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pins (pcs)" "8"
-			(at 111.76 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rows" "Dual"
-			(at 109.22 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Gender" "Pin Header"
-			(at 106.68 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "Straight Low Profile"
-			(at 104.14 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IR (A)" "2"
-			(at 101.6 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "bc8fe66a-172f-4bac-abc7-46ff584ddef3")
-		)
-		(pin "2"
-			(uuid "1ef88ea0-8424-4841-a61e-2cdd27a9e342")
-		)
-		(pin "1"
-			(uuid "e6d0df28-7b87-4bab-8f05-2c2d31199e02")
-		)
-		(pin "4"
-			(uuid "a5ee2730-585d-4a61-92f8-dc0cf41852da")
-		)
-		(pin "6"
-			(uuid "cd0f8c21-37c7-4846-b2bc-6830363766b6")
-		)
-		(pin "5"
-			(uuid "a6932b9a-158c-4657-a988-bb6689f3fc18")
-		)
-		(pin "8"
-			(uuid "6622268d-dca4-4251-aee8-4591e6382574")
-		)
-		(pin "7"
-			(uuid "b352581b-84f0-4dd6-9746-a4677c4cb1dc")
-		)
-		(instances
-			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625/99843b3b-9377-494e-8774-1c4f1e6356f7"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10271,6 +10208,215 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Wurth_WR-PHD:61300821121")
+		(at 114.3 170.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72997205-a60f-4827-9056-70f11ef57e73")
+		(property "Reference" "J3"
+			(at 114.3 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "61300821121"
+			(at 100.33 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61300821121"
+			(at 130.81 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300821121?ki"
+			(at 127 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.54 mm THT Dual Pin Header"
+			(at 114.3 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 124.46 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 121.92 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "WR-PHD"
+			(at 119.38 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch" "2.54 mm"
+			(at 116.84 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 114.3 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pins (pcs)" "8"
+			(at 111.76 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rows" "Dual"
+			(at 109.22 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Gender" "Pin Header"
+			(at 106.68 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Straight"
+			(at 104.14 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IR (A)" "3"
+			(at 101.6 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d133f04a-0c28-4467-a9dd-d607c444ebed")
+		)
+		(pin "7"
+			(uuid "1c00fece-4d0d-45ac-92e6-e88444d4036f")
+		)
+		(pin "8"
+			(uuid "29bf4470-42e7-4f03-ab3d-fa4425d2450a")
+		)
+		(pin "2"
+			(uuid "5472d067-f468-4043-9cb6-376a47d8dd6b")
+		)
+		(pin "3"
+			(uuid "6c4b55e8-23d0-4fad-8d6e-1220586da11f")
+		)
+		(pin "4"
+			(uuid "bc120575-84e1-4160-9c40-edc8adbacb75")
+		)
+		(pin "6"
+			(uuid "876d4eec-ace9-43d8-8520-cbac5094d31f")
+		)
+		(pin "5"
+			(uuid "d2b40e95-c9e6-4a59-965b-4ebf7fe14086")
+		)
+		(instances
+			(project "Maglev"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625/99843b3b-9377-494e-8774-1c4f1e6356f7"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 78.74 50.8 0)
 		(unit 1)
@@ -12769,6 +12915,209 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Wurth_WR-PHD:61300621121")
+		(at 153.67 170.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa6e3f4b-dcb0-43ac-9615-e0d06eeca696")
+		(property "Reference" "J5"
+			(at 153.67 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "61300621121"
+			(at 139.7 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61300621121"
+			(at 170.18 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300621121?ki"
+			(at 166.37 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.54 mm THT Dual Pin Header"
+			(at 153.67 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 163.83 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 161.29 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "WR-PHD"
+			(at 158.75 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch" "2.54 mm"
+			(at 156.21 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 153.67 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pins (pcs)" "6"
+			(at 151.13 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rows" "Dual"
+			(at 148.59 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Gender" "Pin Header"
+			(at 146.05 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Straight"
+			(at 143.51 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IR (A)" "3"
+			(at 140.97 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "b4eedf85-52ef-4f68-b6c0-292647490d34")
+		)
+		(pin "1"
+			(uuid "b4701f2d-c97f-4a2f-98d4-51813aff3591")
+		)
+		(pin "2"
+			(uuid "7dae52ce-cea0-4e3d-afa0-bea9115f85c5")
+		)
+		(pin "6"
+			(uuid "b2003203-aad1-49a7-9eb6-ccb9af1e6b57")
+		)
+		(pin "4"
+			(uuid "1945a5b9-e024-4824-8a99-8cb5fc3e7247")
+		)
+		(pin "3"
+			(uuid "a75c9199-2728-4d95-b5be-cb4219cd2589")
+		)
+		(instances
+			(project "Maglev"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625/99843b3b-9377-494e-8774-1c4f1e6356f7"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 182.88 0)
 		(unit 1)
@@ -14843,209 +15192,6 @@
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/99843b3b-9377-494e-8774-1c4f1e6356f7"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Wurth_WR-PHD:621006245821")
-		(at 153.67 170.18 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebb8fe08-8a2e-403b-a4ba-79240d9145b8")
-		(property "Reference" "J6"
-			(at 153.67 163.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "621006245821"
-			(at 140.97 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_SMD_Wurth:J_Wurth_WR-PHD_621006245821"
-			(at 168.91 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/621006245821?ki"
-			(at 166.37 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2.00 mm SMT Dual Pin Header Low Profile"
-			(at 153.67 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 163.83 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 161.29 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" "WR-PHD"
-			(at 158.75 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch" "2.00 mm"
-			(at 156.21 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 153.67 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pins (pcs)" "6"
-			(at 151.13 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rows" "Dual"
-			(at 148.59 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Gender" "Pin Header"
-			(at 146.05 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "Straight Low Profile"
-			(at 143.51 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IR (A)" "2"
-			(at 140.97 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "88037fea-fbc4-4539-a001-7a00ab9350fd")
-		)
-		(pin "4"
-			(uuid "6d005091-2c6f-4a75-8090-a681b5b61f02")
-		)
-		(pin "3"
-			(uuid "2496b9f3-b777-4b60-bab0-fa2ed0eaa6f5")
-		)
-		(pin "1"
-			(uuid "c5e4f784-3c71-4ae2-be4c-ab05f9861299")
-		)
-		(pin "6"
-			(uuid "a92a3a0b-aa74-4534-9fc2-748fc453a73e")
-		)
-		(pin "5"
-			(uuid "fc2e5748-d597-468a-ab64-f9b99506f246")
-		)
-		(instances
-			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625/99843b3b-9377-494e-8774-1c4f1e6356f7"
-					(reference "J6")
 					(unit 1)
 				)
 			)
