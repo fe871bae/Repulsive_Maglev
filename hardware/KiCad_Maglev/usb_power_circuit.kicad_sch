@@ -5,7 +5,7 @@
 	(uuid "fbe1bab5-9ae5-492b-90fd-390b0a165e55")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Capacitor_Wurth_WCAP-CSGP:0603_R_885012006017"
+		(symbol "Capacitor_Wurth_WCAP-CSGP:1206_H0.8_885012008001"
 			(pin_numbers
 				(hide yes)
 			)
@@ -28,7 +28,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "0603_R_885012006017"
+			(property "Value" "1206_H0.8_885012008001"
 				(at 5.08 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -40,7 +40,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0603_R"
+			(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1206_H0.8"
 				(at 5.08 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -52,1297 +52,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012006017.pdf?ki"
-				(at 5.08 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "MLCCs 16 V(DC) ED"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 5.08 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 5.08 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Created Date" "20251008"
-				(at 5.08 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Series" "WCAP-CSGP"
-				(at 5.08 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Size" "0603_R"
-				(at 5.08 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Mounting Technology" "SMT"
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Part Number" "885012006017"
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Capacitance" "10 pF"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Voltage" "16.0"
-				(at 5.08 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "C" "10 pF"
-				(at 12.7 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Tol. C" "±5%"
-				(at 12.7 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "VR (V (DC))" "16.0"
-				(at 12.7 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Operating Temperature" "-55 °C up to +125 °C"
-				(at 12.7 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "DF (%)" "–"
-				(at 12.7 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "RISO" "10 GΩ"
-				(at 12.7 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Ceramic Type" "NP0 Class I"
-				(at 12.7 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "L (mm)" "1.6"
-				(at 12.7 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "W (mm)" "0.8"
-				(at 12.7 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "H (mm)" "0.8"
-				(at 12.7 -25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Fl (mm)" "0.4"
-				(at 12.7 -27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Q (%)" "600"
-				(at 12.7 -30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Demoboard" "–"
-				(at 12.7 -33.02 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Critical Parameter" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*WCAP-CSGP*0603*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0603_R_885012006017_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0603_R_885012006017_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Capacitor_Wurth_WCAP-CSGP:0603_R_885012006044"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 5.08 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "0603_R_885012006044"
-				(at 5.08 22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0603_R"
-				(at 5.08 20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012006044.pdf?ki"
-				(at 5.08 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "MLCCs 25 V(DC)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 5.08 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 5.08 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Created Date" "20251008"
-				(at 5.08 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Series" "WCAP-CSGP"
-				(at 5.08 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Size" "0603_R"
-				(at 5.08 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Mounting Technology" "SMT"
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Part Number" "885012006044"
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Capacitance" "1 nF"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Voltage" "25.0"
-				(at 5.08 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "C" "1 nF"
-				(at 12.7 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Tol. C" "±5%"
-				(at 12.7 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "VR (V (DC))" "25.0"
-				(at 12.7 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Operating Temperature" "-55 °C up to +125 °C"
-				(at 12.7 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "DF (%)" "–"
-				(at 12.7 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "RISO" "10 GΩ"
-				(at 12.7 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Ceramic Type" "NP0 Class I"
-				(at 12.7 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "L (mm)" "1.6"
-				(at 12.7 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "W (mm)" "0.8"
-				(at 12.7 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "H (mm)" "0.8"
-				(at 12.7 -25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Fl (mm)" "0.4"
-				(at 12.7 -27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Q (%)" "1000"
-				(at 12.7 -30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Demoboard" "nan"
-				(at 12.7 -33.02 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Critical Parameter" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*WCAP-CSGP*0603*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0603_R_885012006044_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0603_R_885012006044_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Capacitor_Wurth_WCAP-CSGP:0805_H1.25_R_885012107015"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 5.08 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "0805_H1.25_R_885012107015"
-				(at 5.08 22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0805_H1.25_R"
-				(at 5.08 20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012107015.pdf?ki"
-				(at 5.08 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "MLCCs 25 V(DC)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 5.08 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 5.08 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Created Date" "20251008"
-				(at 5.08 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Series" "WCAP-CSGP"
-				(at 5.08 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Size" "0805_H1.25_R"
-				(at 5.08 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Mounting Technology" "SMT"
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Part Number" "885012107015"
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Capacitance" "1 µF"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Voltage" "25.0"
-				(at 5.08 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "C" "1 µF"
-				(at 12.7 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Tol. C" "±20%"
-				(at 12.7 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "VR (V (DC))" "25.0"
-				(at 12.7 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Operating Temperature" "-55 °C up to +85 °C"
-				(at 12.7 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "DF (%)" "5"
-				(at 12.7 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "RISO" "0.5 GΩ"
-				(at 12.7 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Ceramic Type" "X5R Class II"
-				(at 12.7 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "L (mm)" "2.0"
-				(at 12.7 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "W (mm)" "1.25"
-				(at 12.7 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "H (mm)" "1.25"
-				(at 12.7 -25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Fl (mm)" "0.5"
-				(at 12.7 -27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Q (%)" "–"
-				(at 12.7 -30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Demoboard" "nan"
-				(at 12.7 -33.02 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Critical Parameter" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*WCAP-CSGP*0805*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0805_H1.25_R_885012107015_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0805_H1.25_R_885012107015_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Capacitor_Wurth_WCAP-CSGP:1210_H2.5_885012209006"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 5.08 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1210_H2.5_885012209006"
-				(at 5.08 22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
-				(at 5.08 20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012209006.pdf?ki"
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012008001.pdf?ki"
 				(at 5.08 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1413,7 +123,7 @@
 					(justify left)
 				)
 			)
-			(property "Size" "1210_H2.5"
+			(property "Size" "1206_H0.8"
 				(at 5.08 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1437,7 +147,7 @@
 					(justify left)
 				)
 			)
-			(property "Part Number" "885012209006"
+			(property "Part Number" "885012008001"
 				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1448,7 +158,7 @@
 					(justify left)
 				)
 			)
-			(property "Capacitance" "22 µF"
+			(property "Capacitance" "10 pF"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1470,7 +180,7 @@
 					(justify left)
 				)
 			)
-			(property "C" "22 µF"
+			(property "C" "10 pF"
 				(at 12.7 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1482,7 +192,7 @@
 					(justify left)
 				)
 			)
-			(property "Tol. C" "±10%"
+			(property "Tol. C" "±5%"
 				(at 12.7 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1518,7 +228,7 @@
 					(justify left)
 				)
 			)
-			(property "DF (%)" "5"
+			(property "DF (%)" "–"
 				(at 12.7 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1530,7 +240,867 @@
 					(justify left)
 				)
 			)
-			(property "RISO" "0.02 GΩ"
+			(property "RISO" "10 GΩ"
+				(at 12.7 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Ceramic Type" "NP0 Class I"
+				(at 12.7 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "L (mm)" "3.2"
+				(at 12.7 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "W (mm)" "1.6"
+				(at 12.7 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "H (mm)" "0.8"
+				(at 12.7 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Fl (mm)" "0.6"
+				(at 12.7 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Q (%)" "600"
+				(at 12.7 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Demoboard" "nan"
+				(at 12.7 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Critical Parameter" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WCAP-CSGP*1206*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1206_H0.8_885012008001_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1206_H0.8_885012008001_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Capacitor_Wurth_WCAP-CSGP:1206_H1.6_885012108003"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 5.08 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1206_H1.6_885012108003"
+				(at 5.08 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1206_H1.6"
+				(at 5.08 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012108003.pdf?ki"
+				(at 5.08 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "MLCCs 6.3 V(DC) ED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 5.08 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 5.08 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Created Date" "20251008"
+				(at 5.08 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Series" "WCAP-CSGP"
+				(at 5.08 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Size" "1206_H1.6"
+				(at 5.08 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mounting Technology" "SMT"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "885012108003"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Capacitance" "22 µF"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Voltage" "6.3"
+				(at 5.08 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "C" "22 µF"
+				(at 12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Tol. C" "±20%"
+				(at 12.7 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VR (V (DC))" "6.3"
+				(at 12.7 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Operating Temperature" "-55 °C up to +85 °C"
+				(at 12.7 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "DF (%)" "10"
+				(at 12.7 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "RISO" "0.002 GΩ"
+				(at 12.7 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Ceramic Type" "X5R Class II"
+				(at 12.7 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "L (mm)" "3.2"
+				(at 12.7 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "W (mm)" "1.6"
+				(at 12.7 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "H (mm)" "1.6"
+				(at 12.7 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Fl (mm)" "0.6"
+				(at 12.7 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Q (%)" "nan"
+				(at 12.7 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Demoboard" "nan"
+				(at 12.7 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Critical Parameter" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WCAP-CSGP*1206*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1206_H1.6_885012108003_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1206_H1.6_885012108003_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Capacitor_Wurth_WCAP-CSGP:1206_H1.6_885012208093"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 5.08 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1206_H1.6_885012208093"
+				(at 5.08 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1206_H1.6"
+				(at 5.08 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012208093.pdf?ki"
+				(at 5.08 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "MLCCs 50 V(DC) ED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 5.08 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 5.08 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Created Date" "20251008"
+				(at 5.08 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Series" "WCAP-CSGP"
+				(at 5.08 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Size" "1206_H1.6"
+				(at 5.08 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mounting Technology" "SMT"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "885012208093"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Capacitance" "1 µF"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Voltage" "50.0"
+				(at 5.08 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "C" "1 µF"
+				(at 12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Tol. C" "±10%"
+				(at 12.7 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VR (V (DC))" "50.0"
+				(at 12.7 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Operating Temperature" "-55 °C up to +125 °C"
+				(at 12.7 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "DF (%)" "3"
+				(at 12.7 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "RISO" "0.5 GΩ"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1566,7 +1136,7 @@
 					(justify left)
 				)
 			)
-			(property "W (mm)" "2.5"
+			(property "W (mm)" "1.6"
 				(at 12.7 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1578,7 +1148,7 @@
 					(justify left)
 				)
 			)
-			(property "H (mm)" "2.5"
+			(property "H (mm)" "1.6"
 				(at 12.7 -25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1648,7 +1218,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*WCAP-CSGP*1210*"
+			(property "ki_fp_filters" "*WCAP-CSGP*1206*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1659,7 +1229,7 @@
 					)
 				)
 			)
-			(symbol "1210_H2.5_885012209006_0_1"
+			(symbol "1206_H1.6_885012208093_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -1685,7 +1255,424 @@
 					)
 				)
 			)
-			(symbol "1210_H2.5_885012209006_1_1"
+			(symbol "1206_H1.6_885012208093_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Capacitor_Wurth_WCAP-CSMH:1206_H1.6_885342008003"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 5.08 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1206_H1.6_885342008003"
+				(at 5.08 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSMH-1206_H1.6"
+				(at 5.08 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885342008003.pdf?ki"
+				(at 5.08 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "MLCCS Mid and High Voltage"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 5.08 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 5.08 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Created Date" "20250416"
+				(at 5.08 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Series" "WCAP-CSMH"
+				(at 5.08 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Size" "1206_H1.6"
+				(at 5.08 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mounting Technology" "SMT"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "885342008003"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Capacitance" "1 nF"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Voltage" "500"
+				(at 5.08 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "C" "1 nF"
+				(at 5.08 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Tol. C" "±5%"
+				(at 5.08 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VR (V (DC))" "500"
+				(at 5.08 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Operating Temperature" "-55 °C up to +125 °C"
+				(at 5.08 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Qmin." "1000"
+				(at 5.08 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "DF (%)" "–"
+				(at 5.08 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "RISO" "10 GΩ"
+				(at 5.08 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Ceramic Type" "NP0 Class I"
+				(at 5.08 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "L (mm)" "3.2"
+				(at 5.08 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "W (mm)" "1.6"
+				(at 5.08 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "H (mm)" "1.6"
+				(at 5.08 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Fl (mm)" "0.6"
+				(at 5.08 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Critical Parameter" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WCAP-CSMH*1206*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1206_H1.6_885342008003_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1206_H1.6_885342008003_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -4361,7 +4348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02311dc1-b499-4448-b744-2bc59884a3e0")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 127 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4581,7 +4568,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -4746,7 +4733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f66a9df-de40-47ae-88ce-7079ce93e0eb")
-		(property "Reference" "R15"
+		(property "Reference" "R18"
 			(at 162.306 125.984 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4997,7 +4984,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "R15")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5015,7 +5002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c60fa01-ba67-4c91-9cc9-589ba8db3843")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR052"
 			(at 180.34 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5075,7 +5062,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "#PWR079")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5093,7 +5080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30810bc5-b07d-441b-992b-7c62510e75db")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR044"
 			(at 95.25 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5153,7 +5140,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "#PWR068")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5421,7 +5408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "462a2c6e-fcef-4b54-897b-b4f634dd759e")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR045"
 			(at 106.68 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5481,15 +5468,15 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "#PWR069")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Capacitor_Wurth_WCAP-CSGP:0603_R_885012006017")
-		(at 152.4 127 0)
+		(lib_id "Capacitor_Wurth_WCAP-CSGP:1206_H1.6_885012108003")
+		(at 180.34 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5497,9 +5484,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "47ff4086-bce7-421b-8774-b1e3d47575cb")
+		(fields_autoplaced yes)
+		(uuid "567b815b-1c1f-4174-a65d-f08e751faf26")
 		(property "Reference" "C31"
-			(at 152.908 124.968 0)
+			(at 184.15 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5509,8 +5497,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0603_R_885012006017"
-			(at 157.48 104.14 0)
+		(property "Value" "1206_H1.6_885012108003"
+			(at 185.42 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5521,8 +5509,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0603_R"
-			(at 157.48 106.68 0)
+		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1206_H1.6"
+			(at 185.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5533,8 +5521,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012006017.pdf?ki"
-			(at 157.48 109.22 0)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012108003.pdf?ki"
+			(at 185.42 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5545,8 +5533,8 @@
 				(justify left)
 			)
 		)
-		(property "Description" "MLCCs 16 V(DC) ED"
-			(at 152.4 127 0)
+		(property "Description" "MLCCs 6.3 V(DC) ED"
+			(at 180.34 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5557,7 +5545,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 157.48 111.76 0)
+			(at 185.42 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5569,7 +5557,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 157.48 114.3 0)
+			(at 185.42 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5581,7 +5569,7 @@
 			)
 		)
 		(property "Created Date" "20251008"
-			(at 157.48 116.84 0)
+			(at 185.42 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5593,7 +5581,7 @@
 			)
 		)
 		(property "Series" "WCAP-CSGP"
-			(at 157.48 119.38 0)
+			(at 185.42 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5604,8 +5592,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "0603_R"
-			(at 157.48 121.92 0)
+		(property "Size" "1206_H1.6"
+			(at 185.42 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5617,7 +5605,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 157.48 124.46 0)
+			(at 185.42 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5628,8 +5616,41 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "885012006017"
-			(at 156.21 125.7299 0)
+		(property "Part Number" "885012108003"
+			(at 184.15 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "22 µF"
+			(at 184.15 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "6.3"
+			(at 184.15 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "C" "22 µF"
+			(at 193.04 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5640,19 +5661,8 @@
 				(justify left)
 			)
 		)
-		(property "Capacitance" "10 pF"
-			(at 152.908 129.032 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "16.0"
-			(at 156.21 130.8099 0)
+		(property "Tol. C" "±20%"
+			(at 193.04 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5663,8 +5673,8 @@
 				(justify left)
 			)
 		)
-		(property "C" "10 pF"
-			(at 165.1 129.54 0)
+		(property "VR (V (DC))" "6.3"
+			(at 193.04 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5675,8 +5685,8 @@
 				(justify left)
 			)
 		)
-		(property "Tol. C" "±5%"
-			(at 165.1 132.08 0)
+		(property "Operating Temperature" "-55 °C up to +85 °C"
+			(at 193.04 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,8 +5697,8 @@
 				(justify left)
 			)
 		)
-		(property "VR (V (DC))" "16.0"
-			(at 165.1 134.62 0)
+		(property "DF (%)" "10"
+			(at 193.04 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5699,8 +5709,8 @@
 				(justify left)
 			)
 		)
-		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 165.1 137.16 0)
+		(property "RISO" "0.002 GΩ"
+			(at 193.04 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5711,8 +5721,8 @@
 				(justify left)
 			)
 		)
-		(property "DF (%)" "–"
-			(at 165.1 139.7 0)
+		(property "Ceramic Type" "X5R Class II"
+			(at 193.04 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5723,8 +5733,8 @@
 				(justify left)
 			)
 		)
-		(property "RISO" "10 GΩ"
-			(at 165.1 142.24 0)
+		(property "L (mm)" "3.2"
+			(at 193.04 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5735,8 +5745,8 @@
 				(justify left)
 			)
 		)
-		(property "Ceramic Type" "NP0 Class I"
-			(at 165.1 144.78 0)
+		(property "W (mm)" "1.6"
+			(at 193.04 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5747,8 +5757,8 @@
 				(justify left)
 			)
 		)
-		(property "L (mm)" "1.6"
-			(at 165.1 147.32 0)
+		(property "H (mm)" "1.6"
+			(at 193.04 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5759,8 +5769,8 @@
 				(justify left)
 			)
 		)
-		(property "W (mm)" "0.8"
-			(at 165.1 149.86 0)
+		(property "Fl (mm)" "0.6"
+			(at 193.04 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5771,8 +5781,8 @@
 				(justify left)
 			)
 		)
-		(property "H (mm)" "0.8"
-			(at 165.1 152.4 0)
+		(property "Q (%)" "nan"
+			(at 193.04 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5783,32 +5793,8 @@
 				(justify left)
 			)
 		)
-		(property "Fl (mm)" "0.4"
-			(at 165.1 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Q (%)" "600"
-			(at 165.1 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Demoboard" "–"
-			(at 165.1 160.02 0)
+		(property "Demoboard" "nan"
+			(at 193.04 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5820,7 +5806,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 152.4 134.62 0)
+			(at 180.34 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5830,11 +5816,11 @@
 				(justify left)
 			)
 		)
-		(pin "1"
-			(uuid "fbe9029a-375f-45ae-a7ac-2f8b32897f1e")
-		)
 		(pin "2"
-			(uuid "e7f6549e-6306-4ddc-9d49-b3e1e6dddf40")
+			(uuid "6e4f3f3c-89ee-43ec-8b0c-aa4b8a924dca")
+		)
+		(pin "1"
+			(uuid "346b3df3-fffa-4433-8073-824c320b354b")
 		)
 		(instances
 			(project "Maglev"
@@ -5846,7 +5832,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor_Wurth_WCAP-CSGP:0805_H1.25_R_885012107015")
+		(lib_id "Capacitor_Wurth_WCAP-CSGP:1206_H1.6_885012208093")
 		(at 95.25 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -5855,9 +5841,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "48376aee-41a9-4d3f-85a8-0f75e16939ab")
-		(property "Reference" "C36"
-			(at 99.06 75.184 0)
+		(uuid "66d8e7b6-7853-4458-ad5c-f7586d878bbb")
+		(property "Reference" "C27"
+			(at 99.06 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5867,7 +5853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805_H1.25_R_885012107015"
+		(property "Value" "1206_H1.6_885012208093"
 			(at 100.33 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5879,7 +5865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0805_H1.25_R"
+		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1206_H1.6"
 			(at 100.33 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5891,7 +5877,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012107015.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012208093.pdf?ki"
 			(at 100.33 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5903,7 +5889,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "MLCCs 25 V(DC)"
+		(property "Description" "MLCCs 50 V(DC) ED"
 			(at 95.25 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5962,7 +5948,7 @@
 				(justify left)
 			)
 		)
-		(property "Size" "0805_H1.25_R"
+		(property "Size" "1206_H1.6"
 			(at 100.33 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5986,7 +5972,7 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "885012107015"
+		(property "Part Number" "885012208093"
 			(at 99.06 74.9299 0)
 			(hide yes)
 			(show_name no)
@@ -6009,7 +5995,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "25.0"
+		(property "Voltage" "50.0"
 			(at 99.06 80.0099 0)
 			(hide yes)
 			(show_name no)
@@ -6033,7 +6019,7 @@
 				(justify left)
 			)
 		)
-		(property "Tol. C" "±20%"
+		(property "Tol. C" "±10%"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6045,7 +6031,7 @@
 				(justify left)
 			)
 		)
-		(property "VR (V (DC))" "25.0"
+		(property "VR (V (DC))" "50.0"
 			(at 107.95 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6057,7 +6043,7 @@
 				(justify left)
 			)
 		)
-		(property "Operating Temperature" "-55 °C up to +85 °C"
+		(property "Operating Temperature" "-55 °C up to +125 °C"
 			(at 107.95 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6069,7 +6055,7 @@
 				(justify left)
 			)
 		)
-		(property "DF (%)" "5"
+		(property "DF (%)" "3"
 			(at 107.95 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6093,7 +6079,7 @@
 				(justify left)
 			)
 		)
-		(property "Ceramic Type" "X5R Class II"
+		(property "Ceramic Type" "X7R Class II"
 			(at 107.95 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6105,7 +6091,7 @@
 				(justify left)
 			)
 		)
-		(property "L (mm)" "2.0"
+		(property "L (mm)" "3.2"
 			(at 107.95 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6117,7 +6103,7 @@
 				(justify left)
 			)
 		)
-		(property "W (mm)" "1.25"
+		(property "W (mm)" "1.6"
 			(at 107.95 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6129,7 +6115,7 @@
 				(justify left)
 			)
 		)
-		(property "H (mm)" "1.25"
+		(property "H (mm)" "1.6"
 			(at 107.95 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6141,7 +6127,7 @@
 				(justify left)
 			)
 		)
-		(property "Fl (mm)" "0.5"
+		(property "Fl (mm)" "0.6"
 			(at 107.95 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6188,16 +6174,16 @@
 				(justify left)
 			)
 		)
-		(pin "1"
-			(uuid "5fb8e3fb-2154-4ae9-bc05-b112f0a626f9")
-		)
 		(pin "2"
-			(uuid "f46d0c50-760b-49ec-b667-0ada5f6a290d")
+			(uuid "20e3bdb7-fdd1-4f70-a77f-146181072deb")
+		)
+		(pin "1"
+			(uuid "4fccfde5-2725-478d-a9fd-09d154844772")
 		)
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "C36")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -6215,7 +6201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a073cb6-bb7a-4b8b-a744-45c1e9bb99e8")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR046"
 			(at 146.05 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6275,7 +6261,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "#PWR077")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6293,7 +6279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "711cfbcd-6f67-46e5-9865-b18ca9fc51da")
-		(property "Reference" "R62"
+		(property "Reference" "R19"
 			(at 180.34 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6544,7 +6530,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "R62")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6562,7 +6548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "748d3a8d-beed-4015-9068-75f83a37cde3")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR051"
 			(at 177.8 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6622,7 +6608,365 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "#PWR071")
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor_Wurth_WCAP-CSGP:1206_H0.8_885012008001")
+		(at 152.4 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74d40660-4471-4dc3-a09d-891d7897dc81")
+		(property "Reference" "C28"
+			(at 155.956 125.476 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1206_H0.8_885012008001"
+			(at 157.48 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1206_H0.8"
+			(at 157.48 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012008001.pdf?ki"
+			(at 157.48 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "MLCCs 10 V(DC) ED"
+			(at 152.4 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 157.48 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 157.48 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20251008"
+			(at 157.48 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WCAP-CSGP"
+			(at 157.48 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "1206_H0.8"
+			(at 157.48 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 157.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "885012008001"
+			(at 156.21 125.7299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "10 pF"
+			(at 156.21 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "10.0"
+			(at 156.21 130.8099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "C" "10 pF"
+			(at 165.1 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tol. C" "±5%"
+			(at 165.1 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VR (V (DC))" "10.0"
+			(at 165.1 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Operating Temperature" "-55 °C up to +125 °C"
+			(at 165.1 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "DF (%)" "–"
+			(at 165.1 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "RISO" "10 GΩ"
+			(at 165.1 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Ceramic Type" "NP0 Class I"
+			(at 165.1 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "L (mm)" "3.2"
+			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "W (mm)" "1.6"
+			(at 165.1 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "H (mm)" "0.8"
+			(at 165.1 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Fl (mm)" "0.6"
+			(at 165.1 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Q (%)" "600"
+			(at 165.1 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Demoboard" "nan"
+			(at 165.1 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Critical Parameter" ""
+			(at 152.4 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "df32be6b-8edc-4e78-9fd6-caeef2387106")
+		)
+		(pin "1"
+			(uuid "5938ec2a-d5b9-43c8-9fc1-de5d7158fc65")
+		)
+		(instances
+			(project "Maglev"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -6640,7 +6984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "762e831e-a144-4f3f-8e45-e8276d086f34")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR049"
 			(at 161.29 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6700,7 +7044,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "#PWR080")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -6718,7 +7062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b1fb302-6fc5-420c-a51c-9207a3800269")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR048"
 			(at 153.67 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6778,7 +7122,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "#PWR070")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6796,7 +7140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "976ed6a5-9293-4944-b454-cdfd7430f14a")
-		(property "Reference" "POWER_LED1"
+		(property "Reference" "POWER_LED2"
 			(at 180.34 75.5607 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7031,723 +7375,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "POWER_LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Capacitor_Wurth_WCAP-CSGP:1210_H2.5_885012209006")
-		(at 180.34 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b116d41d-fa1c-4065-9cbf-450c23518a78")
-		(property "Reference" "C29"
-			(at 181.102 124.714 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1210_H2.5_885012209006"
-			(at 185.42 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
-			(at 185.42 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012209006.pdf?ki"
-			(at 185.42 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "MLCCs 10 V(DC) ED"
-			(at 180.34 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 185.42 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 185.42 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20251008"
-			(at 185.42 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WCAP-CSGP"
-			(at 185.42 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "1210_H2.5"
-			(at 185.42 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 185.42 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "885012209006"
-			(at 184.15 125.7299 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Capacitance" "22 µF"
-			(at 181.102 129.286 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "10.0"
-			(at 184.15 130.8099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "C" "22 µF"
-			(at 193.04 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tol. C" "±10%"
-			(at 193.04 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VR (V (DC))" "10.0"
-			(at 193.04 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 193.04 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "DF (%)" "5"
-			(at 193.04 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "RISO" "0.02 GΩ"
-			(at 193.04 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Ceramic Type" "X7R Class II"
-			(at 193.04 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "L (mm)" "3.2"
-			(at 193.04 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "W (mm)" "2.5"
-			(at 193.04 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "H (mm)" "2.5"
-			(at 193.04 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Fl (mm)" "0.6"
-			(at 193.04 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Q (%)" "–"
-			(at 193.04 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Demoboard" "nan"
-			(at 193.04 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Critical Parameter" ""
-			(at 180.34 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "b0a4ec7e-623f-4663-9fcd-608c0ff1ebb5")
-		)
-		(pin "2"
-			(uuid "06fa2947-b963-46c6-8a1e-5e49444f29fc")
-		)
-		(instances
-			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Capacitor_Wurth_WCAP-CSGP:0603_R_885012006044")
-		(at 171.45 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cc4a75a0-cb8e-4a64-8ff7-4e077ba7dbb4")
-		(property "Reference" "C30"
-			(at 171.958 124.714 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0603_R_885012006044"
-			(at 176.53 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0603_R"
-			(at 176.53 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012006044.pdf?ki"
-			(at 176.53 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "MLCCs 25 V(DC)"
-			(at 171.45 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 176.53 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 176.53 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20251008"
-			(at 176.53 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WCAP-CSGP"
-			(at 176.53 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0603_R"
-			(at 176.53 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 176.53 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "885012006044"
-			(at 175.26 125.7299 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Capacitance" "1 nF"
-			(at 171.958 129.286 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "25.0"
-			(at 175.26 130.8099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "C" "1 nF"
-			(at 184.15 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tol. C" "±5%"
-			(at 184.15 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VR (V (DC))" "25.0"
-			(at 184.15 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 184.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "DF (%)" "–"
-			(at 184.15 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "RISO" "10 GΩ"
-			(at 184.15 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Ceramic Type" "NP0 Class I"
-			(at 184.15 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "L (mm)" "1.6"
-			(at 184.15 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "W (mm)" "0.8"
-			(at 184.15 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "H (mm)" "0.8"
-			(at 184.15 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Fl (mm)" "0.4"
-			(at 184.15 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Q (%)" "1000"
-			(at 184.15 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Demoboard" "nan"
-			(at 184.15 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Critical Parameter" ""
-			(at 171.45 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "b7199a9e-b747-464b-b4f9-d5ad3f530f90")
-		)
-		(pin "2"
-			(uuid "2e4ef771-9a47-4661-ad88-5bc339a2a919")
-		)
-		(instances
-			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "C30")
+					(reference "POWER_LED2")
 					(unit 1)
 				)
 			)
@@ -7765,7 +7393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8b1f826-3313-497e-821e-25f11c5c3c07")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR047"
 			(at 152.4 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7825,7 +7453,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "#PWR078")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7843,7 +7471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc71bf49-a04c-4779-9a70-8fe02c65103a")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR050"
 			(at 171.45 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7903,14 +7531,14 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "#PWR076")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Capacitor_Wurth_WCAP-CSGP:0805_H1.25_R_885012107015")
+		(lib_id "Capacitor_Wurth_WCAP-CSGP:1206_H1.6_885012208093")
 		(at 153.67 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -7919,9 +7547,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ff152bf4-d3e1-4221-b3fb-3d2c126f0e06")
-		(property "Reference" "C37"
-			(at 157.48 75.184 0)
+		(uuid "f338f93a-0402-4f57-a548-87c5918bb544")
+		(property "Reference" "C29"
+			(at 157.48 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7931,7 +7559,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805_H1.25_R_885012107015"
+		(property "Value" "1206_H1.6_885012208093"
 			(at 158.75 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7943,7 +7571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0805_H1.25_R"
+		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1206_H1.6"
 			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7955,7 +7583,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012107015.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012208093.pdf?ki"
 			(at 158.75 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7967,7 +7595,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "MLCCs 25 V(DC)"
+		(property "Description" "MLCCs 50 V(DC) ED"
 			(at 153.67 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8026,7 +7654,7 @@
 				(justify left)
 			)
 		)
-		(property "Size" "0805_H1.25_R"
+		(property "Size" "1206_H1.6"
 			(at 158.75 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8050,7 +7678,7 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "885012107015"
+		(property "Part Number" "885012208093"
 			(at 157.48 74.9299 0)
 			(hide yes)
 			(show_name no)
@@ -8073,7 +7701,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "25.0"
+		(property "Voltage" "50.0"
 			(at 157.48 80.0099 0)
 			(hide yes)
 			(show_name no)
@@ -8097,7 +7725,7 @@
 				(justify left)
 			)
 		)
-		(property "Tol. C" "±20%"
+		(property "Tol. C" "±10%"
 			(at 166.37 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8109,7 +7737,7 @@
 				(justify left)
 			)
 		)
-		(property "VR (V (DC))" "25.0"
+		(property "VR (V (DC))" "50.0"
 			(at 166.37 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8121,7 +7749,7 @@
 				(justify left)
 			)
 		)
-		(property "Operating Temperature" "-55 °C up to +85 °C"
+		(property "Operating Temperature" "-55 °C up to +125 °C"
 			(at 166.37 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8133,7 +7761,7 @@
 				(justify left)
 			)
 		)
-		(property "DF (%)" "5"
+		(property "DF (%)" "3"
 			(at 166.37 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8157,7 +7785,7 @@
 				(justify left)
 			)
 		)
-		(property "Ceramic Type" "X5R Class II"
+		(property "Ceramic Type" "X7R Class II"
 			(at 166.37 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -8169,7 +7797,7 @@
 				(justify left)
 			)
 		)
-		(property "L (mm)" "2.0"
+		(property "L (mm)" "3.2"
 			(at 166.37 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8181,7 +7809,7 @@
 				(justify left)
 			)
 		)
-		(property "W (mm)" "1.25"
+		(property "W (mm)" "1.6"
 			(at 166.37 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8193,7 +7821,7 @@
 				(justify left)
 			)
 		)
-		(property "H (mm)" "1.25"
+		(property "H (mm)" "1.6"
 			(at 166.37 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8205,7 +7833,7 @@
 				(justify left)
 			)
 		)
-		(property "Fl (mm)" "0.5"
+		(property "Fl (mm)" "0.6"
 			(at 166.37 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8252,16 +7880,361 @@
 				(justify left)
 			)
 		)
-		(pin "1"
-			(uuid "38fd098e-c46c-4463-8e4e-f4de1c4e26e2")
-		)
 		(pin "2"
-			(uuid "9f385217-a1f3-4858-a14b-5a6db9d64048")
+			(uuid "fa6098e8-50cf-4022-ad36-79698bb8d8bb")
+		)
+		(pin "1"
+			(uuid "c3daee02-57dc-4777-9187-4fd9afe1c347")
 		)
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "C37")
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor_Wurth_WCAP-CSMH:1206_H1.6_885342008003")
+		(at 171.45 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5845549-c0a4-409c-8cc2-bea129411c64")
+		(property "Reference" "C30"
+			(at 173.736 122.174 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1206_H1.6_885342008003"
+			(at 176.53 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSMH-1206_H1.6"
+			(at 176.53 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885342008003.pdf?ki"
+			(at 176.53 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "MLCCS Mid and High Voltage"
+			(at 171.45 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 176.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 176.53 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20250416"
+			(at 176.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WCAP-CSMH"
+			(at 176.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "1206_H1.6"
+			(at 176.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 176.53 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "885342008003"
+			(at 175.26 125.7299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "1 nF"
+			(at 173.736 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "500"
+			(at 175.26 130.8099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "C" "1 nF"
+			(at 176.53 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tol. C" "±5%"
+			(at 176.53 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VR (V (DC))" "500"
+			(at 176.53 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Operating Temperature" "-55 °C up to +125 °C"
+			(at 176.53 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Qmin." "1000"
+			(at 176.53 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "DF (%)" "–"
+			(at 176.53 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "RISO" "10 GΩ"
+			(at 176.53 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Ceramic Type" "NP0 Class I"
+			(at 176.53 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "L (mm)" "3.2"
+			(at 176.53 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "W (mm)" "1.6"
+			(at 176.53 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "H (mm)" "1.6"
+			(at 176.53 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Fl (mm)" "0.6"
+			(at 176.53 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Critical Parameter" ""
+			(at 171.45 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c7bf1cd-4fc6-4718-962f-4da8c3e5871f")
+		)
+		(pin "2"
+			(uuid "e590bc60-857e-4509-9175-8a3141120cd1")
+		)
+		(instances
+			(project "Maglev"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
+					(reference "C30")
 					(unit 1)
 				)
 			)

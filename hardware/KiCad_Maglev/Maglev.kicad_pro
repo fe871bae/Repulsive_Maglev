@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 3.3,
+          "height": 3.3,
+          "width": 3.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -632,7 +632,7 @@
         "uuid": "cf460145-35f8-4019-907e-b966a2c32625"
       }
     ],
-    "used_designators": "POWER_LED4,Status_LED_RX1,R18-19,#PWR35,#PWR43,J8,J10-11",
+    "used_designators": "Status_LED_TX1,IC1,Y1,Status_LED_RX1,#PWR1-55,EMD1,EMC1,EMB1,#VDD1-2,L1-7,POWER_LED1-2,EMA1,R1-22,U1-5,FB1,C1-49,BOOT1,RESET1,J1-17",
     "variants": []
   },
   "sheets": [
