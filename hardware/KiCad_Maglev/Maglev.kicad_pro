@@ -701,7 +701,7 @@
         "uuid": "cf460145-35f8-4019-907e-b966a2c32625"
       }
     ],
-    "used_designators": "U6-13",
+    "used_designators": "XTAL1,USB1,UART1,PWM&DIR1,I_SENSE1,REST/BOT1,I2C1,FAULT1,S1-8,U6-13",
     "variants": []
   },
   "sheets": [

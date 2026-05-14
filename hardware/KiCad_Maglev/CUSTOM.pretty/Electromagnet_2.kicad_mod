@@ -1,4 +1,4 @@
-(footprint "EM"
+(footprint "Electromagnet_2"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -7,7 +7,7 @@
 		(at 0 -14.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "cc4305cf-7cfa-42f5-b43b-2d75228c39a0")
+		(uuid "772a0095-f3c8-4651-b320-92478e89e5a1")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "EM"
+	(property "Value" "Electromagnet_2"
 		(at 0 -13 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ce40a42e-b3d0-463b-998c-cefbb466030c")
+		(uuid "3b3fbe1e-726e-45e1-a1f9-0f2d928775e6")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3d43052f-df1f-4e14-89e8-54bc3a10efcc")
+		(uuid "509fdf9a-678a-4193-838e-8d44404b02c2")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "951208c7-09d4-4165-8f34-5841d26804e3")
+		(uuid "8acc4413-96d0-4087-9c63-f5afdabcc3d9")
 		(effects
 			(font
 				(size 1 1)
@@ -64,45 +64,19 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "708dbfad-e067-4a13-9cc1-c9bc376029a9")
+		(uuid "7916867e-5ebb-4fad-8490-bac8633b825a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -11.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9b6b3e57-579c-4822-93dc-ae9f100cdeea")
+		(uuid "739db7d2-0745-4b1b-b803-fa59f91bf097")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
 		)
-	)
-	(pad "" np_thru_hole circle
-		(at 0 0)
-		(size 3.3 3.3)
-		(drill 3.3)
-		(layers "*.Cu" "*.Mask")
-		(thermal_bridge_angle 90)
-		(uuid "fbe1d701-aa3b-459e-9876-e1d8d14b3af8")
-	)
-	(pad "1" thru_hole roundrect
-		(at -12 -3)
-		(size 2.54 1.27)
-		(drill 0.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.15)
-		(uuid "1db65cf9-75f8-4e13-9312-97ab240e8b0c")
-	)
-	(pad "2" thru_hole roundrect
-		(at -12 3)
-		(size 2.54 1.27)
-		(drill 0.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.15)
-		(uuid "671ff96b-563a-46a5-a8d0-6a0dbc3e817c")
 	)
 	(embedded_fonts no)
 	(embedded_files
@@ -147,9 +121,8 @@
 		)
 	)
 	(model "kicad-embed://coil.step"
-		(opacity 0.6200)
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 8)
 		)
 		(scale
 			(xyz 1 1 1)

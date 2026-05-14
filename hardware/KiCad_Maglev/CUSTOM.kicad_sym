@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Electromagnet"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51,6 +51,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "CUSTOM:Electromagnet CUSTOM:Electromagnet_2"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -140,6 +151,91 @@
 				)
 			)
 		)
+		(property "Footprint" "CUSTOM:Electromagnet"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "CUSTOM:Electromagnet CUSTOM:Electromagnet_2"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MagnetRing_0_1"
+			(circle
+				(center 0 0)
+				(radius 3.5921)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Spacer"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "S"
+			(at 0 3.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
 			(at 0 0 0)
 			(show_name no)
@@ -173,70 +269,7 @@
 				)
 			)
 		)
-		(symbol "MagnetRing_0_1"
-			(circle
-				(center 0 0)
-				(radius 3.5921)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "Spacer"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U"
-			(at 2.032 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CUSTOM:Spacer"
-			(at 0 2.286 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
+		(property "ki_fp_filters" "CUSTOM:Spacer_15mm CUSTOM:Spacer_20mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -248,6 +281,19 @@
 			)
 		)
 		(symbol "Spacer_0_1"
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy 1.27 2.54) (xy 2.54 1.27) (xy 2.54 -1.27) (xy 1.27 -2.54) (xy -1.27 -2.54)
+					(xy -2.54 -1.27) (xy -2.54 1.27) (xy -1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
 				(center 0 0)
 				(radius 1.27)
@@ -257,16 +303,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-		)
-		(symbol "Spacer_1_1"
-			(text "x\n"
-				(at 0 0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 		)

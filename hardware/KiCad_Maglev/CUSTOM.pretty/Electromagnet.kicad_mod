@@ -1,0 +1,304 @@
+(footprint "Electromagnet"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -14.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ffe9b686-0478-458d-b482-dec66645eff0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Electromagnet"
+		(at 0 -13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bfba6b56-0442-4c90-b16b-f976fff3fece")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90e35156-76d4-4710-9d5f-06023fbfb021")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e59e5dd9-2a15-4ad7-874b-da76d17dedba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 9.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b109722d-d4bf-4b58-a59b-5b1e56b1b832")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 9.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "c52ab3cf-1411-4acb-9c66-50823f7536a0")
+	)
+	(fp_rect
+		(start -14 -4)
+		(end -10 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "85c070fc-3f74-4053-858a-ba22d54bec8d")
+	)
+	(fp_rect
+		(start -14 2)
+		(end -10 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "cfd26825-6a9f-453e-b971-90a6a2b3904d")
+	)
+	(fp_rect
+		(start -14 -4)
+		(end -8 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "46367b7b-e0d4-455c-9c95-e26aef300864")
+	)
+	(fp_rect
+		(start -14 2)
+		(end -8 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d6113431-3a17-4090-8133-c1d68dabec54")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 9.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "976e4e88-fd69-445a-b511-2274453ad46f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ae4c48e0-8bca-4445-9609-6c64c02cde72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.3 3.3)
+		(drill 3.3)
+		(layers "*.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "b8b27674-9c66-465b-9b3b-da1c9c2de3cc")
+	)
+	(pad "1" thru_hole roundrect
+		(at -12 -3)
+		(size 2.54 1.27)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "f72c1a7f-0668-44e5-8186-ea99d03ea6be")
+	)
+	(pad "2" thru_hole roundrect
+		(at -12 3)
+		(size 2.54 1.27)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "49846fb4-6c3d-4505-bb2c-ec10e5236ac4")
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "Cylinder head screw DIN 7984 M3x8.stp")
+			(type model)
+			(data |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|
+			)
+			(checksum "71BED0023316EDB73824983257053D2F")
+		)
+		(file
+			(name "coil.step")
+			(type model)
+			(data |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|
+			)
+			(checksum "ECEA906482939A2AF05FAC4579708443")
+		)
+	)
+	(model "kicad-embed://coil.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "kicad-embed://Cylinder head screw DIN 7984 M3x8.stp"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 -0)
+		)
+	)
+)

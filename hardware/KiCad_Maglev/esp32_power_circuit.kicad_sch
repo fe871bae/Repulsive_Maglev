@@ -2706,7 +2706,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 168.91 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2782,7 +2782,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 148.59 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2858,7 +2858,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 133.35 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3650,7 +3650,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 148.59 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3726,7 +3726,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 133.35 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4160,7 +4160,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 133.35 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4594,7 +4594,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 133.35 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4670,7 +4670,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 148.59 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)

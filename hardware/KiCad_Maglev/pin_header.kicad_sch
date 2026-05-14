@@ -2945,7 +2945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2969f34d-3794-40dd-b0f5-e43ada76b964")
-		(property "Reference" "J7"
+		(property "Reference" "REST/BOT"
 			(at 57.15 29.2099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3119,7 +3119,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/995c9bf7-2294-48ef-9351-edb7b71be1a3"
-					(reference "J7")
+					(reference "REST/BOT")
 					(unit 1)
 				)
 			)
@@ -3137,7 +3137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b65740b-4ce8-4981-83c3-a1dd097050b5")
-		(property "Reference" "J13"
+		(property "Reference" "XTAL"
 			(at 57.15 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3311,7 +3311,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/995c9bf7-2294-48ef-9351-edb7b71be1a3"
-					(reference "J13")
+					(reference "XTAL")
 					(unit 1)
 				)
 			)
@@ -3407,7 +3407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59f81e79-2ece-4571-9fc3-4ba9d12f85be")
-		(property "Reference" "J11"
+		(property "Reference" "UART"
 			(at 57.15 83.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3581,7 +3581,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/995c9bf7-2294-48ef-9351-edb7b71be1a3"
-					(reference "J11")
+					(reference "UART")
 					(unit 1)
 				)
 			)
@@ -3755,7 +3755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7df381ef-7a99-4e81-b0a5-70485a59cd75")
-		(property "Reference" "J9"
+		(property "Reference" "PWM&DIR"
 			(at 57.15 53.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3947,7 +3947,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/995c9bf7-2294-48ef-9351-edb7b71be1a3"
-					(reference "J9")
+					(reference "PWM&DIR")
 					(unit 1)
 				)
 			)
@@ -3965,7 +3965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9253abb8-a332-4bc4-ad62-ba31cec54081")
-		(property "Reference" "J17"
+		(property "Reference" "GND2"
 			(at 76.2 137.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4145,7 +4145,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/995c9bf7-2294-48ef-9351-edb7b71be1a3"
-					(reference "J17")
+					(reference "GND2")
 					(unit 1)
 				)
 			)
@@ -4163,7 +4163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99f7574c-34c8-4eba-976e-c1eb6158d2b0")
-		(property "Reference" "J14"
+		(property "Reference" "I_SENSE"
 			(at 57.15 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4346,7 +4346,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/995c9bf7-2294-48ef-9351-edb7b71be1a3"
-					(reference "J14")
+					(reference "I_SENSE")
 					(unit 1)
 				)
 			)
@@ -4364,7 +4364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e36ee54-7e9b-4e41-8509-de7976375e92")
-		(property "Reference" "J16"
+		(property "Reference" "3P3"
 			(at 57.15 157.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4544,7 +4544,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/995c9bf7-2294-48ef-9351-edb7b71be1a3"
-					(reference "J16")
+					(reference "3P3")
 					(unit 1)
 				)
 			)
@@ -4562,7 +4562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e5dd928-08b1-4e14-85f6-ea1728dac67c")
-		(property "Reference" "J8"
+		(property "Reference" "FAULT"
 			(at 57.15 36.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4736,7 +4736,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/995c9bf7-2294-48ef-9351-edb7b71be1a3"
-					(reference "J8")
+					(reference "FAULT")
 					(unit 1)
 				)
 			)
@@ -4754,7 +4754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce6f4ece-1b23-4aa1-9045-c1df408edfb8")
-		(property "Reference" "J15"
+		(property "Reference" "GND1"
 			(at 57.15 137.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4934,7 +4934,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/995c9bf7-2294-48ef-9351-edb7b71be1a3"
-					(reference "J15")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -4952,7 +4952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8b3dd29-6cdc-4069-849c-57350295b4b2")
-		(property "Reference" "J12"
+		(property "Reference" "USB"
 			(at 57.15 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5126,7 +5126,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/995c9bf7-2294-48ef-9351-edb7b71be1a3"
-					(reference "J12")
+					(reference "USB")
 					(unit 1)
 				)
 			)
@@ -5144,7 +5144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5d81f2b-9697-4322-9ead-20226a78a70e")
-		(property "Reference" "J10"
+		(property "Reference" "I2C"
 			(at 57.15 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5321,7 +5321,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/995c9bf7-2294-48ef-9351-edb7b71be1a3"
-					(reference "J10")
+					(reference "I2C")
 					(unit 1)
 				)
 			)
