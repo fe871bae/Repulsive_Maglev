@@ -466,6 +466,402 @@
 			)
 		)
 	)
+	(footprint "Connector_THT_Wurth:J_Wurth_WR-PHD_61300211121"
+		(layer "F.Cu")
+		(uuid "1654938e-b5ce-4027-95ed-b6729487816d")
+		(at 243.915 69.385)
+		(descr "2.54 mm THT Pin Header, body 5.08x2.54x11.54mm, https://www.we-online.com/en/components/products/datasheet/61300211121?ki")
+		(tags "THT")
+		(property "Reference" "REST/BOT1"
+			(at 1.27 -2.54 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9da0a6eb-b3ef-46ce-86b7-d9e085eef96a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "61300211121"
+			(at 1.27 2.54 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0cbc5459-74b8-48d5-acd6-9d24f983f6cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300211121?ki"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e7b2b6f-3fa6-43d2-9f65-76f052abc3a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "2.54 mm THT Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2a1e383-ac1b-4d79-a93a-0bc180cca6f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77835cf1-b60a-4eb3-82a9-970e47719dbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c207997-9cd4-43fd-b4a2-72aedba254fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Series" "WR-PHD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88367376-570e-4873-9ef6-b88314e94e4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch" "2.54 mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "799b67e6-ce86-4ab2-a3f8-d45b2443df79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86d6de7d-30f1-4b4f-adc9-b1370234a11f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pins (pcs)" "2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c779e30d-c9bf-48c8-9262-ce1b0006c52b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rows" "Single"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10c9c71f-e6e3-430a-ab33-84ef7801399b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Gender" "Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1bda911-46d6-4211-931d-6d3cc427221d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Straight"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "777ada35-ab79-4b64-8894-28c6f6f97a48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IR (A)" "3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75dd85c2-b17f-4891-94d7-aa2ce6e99668")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*WR-PHD*")
+		(path "/995c9bf7-2294-48ef-9351-edb7b71be1a3/2969f34d-3794-40dd-b0f5-e43ada76b964")
+		(sheetname "/Pin Header/")
+		(sheetfile "pin_header.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.855 -0.825)
+			(end -1.855 0.825)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "472e54b0-f1c8-43f9-a756-6f0e8de03204")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end -1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "955166dc-a03e-4cac-95ff-009a952ce867")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 3.92 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "534d70ac-8cf7-4457-aae3-a0a3011d212b")
+		)
+		(fp_line
+			(start -1.38 1.38)
+			(end 3.92 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8667105a-4a96-4d76-89f4-ab2b765416d7")
+		)
+		(fp_line
+			(start 3.92 -1.38)
+			(end 3.92 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "36915aaf-40d5-4e09-9f9b-8d47dfa41f48")
+		)
+		(fp_line
+			(start -1.77 -1.77)
+			(end 4.31 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6f758ac6-e05e-42a6-9970-201d3e9efc5a")
+		)
+		(fp_line
+			(start -1.77 1.77)
+			(end -1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d611f664-0740-4b2c-ad3f-d842a93360d6")
+		)
+		(fp_line
+			(start -1.77 1.77)
+			(end 4.31 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7acd1b4d-6116-476a-96e9-1698f79d55aa")
+		)
+		(fp_line
+			(start 4.31 -1.77)
+			(end 4.31 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f13800db-0904-4935-a84c-b2a55be86eae")
+		)
+		(fp_line
+			(start -1.27 -1.27)
+			(end 3.81 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3a26487f-8d65-47d3-add1-0c07b560afd6")
+		)
+		(fp_line
+			(start -1.27 -0.5)
+			(end -0.52 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "67d86a31-ecbc-404d-a206-62582013289e")
+		)
+		(fp_line
+			(start -0.52 0)
+			(end -1.27 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fac7abdb-2576-497f-af59-2b08e70425c8")
+		)
+		(fp_line
+			(start -1.27 1.27)
+			(end -1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "User.1")
+			(uuid "b4ce9109-7836-44fb-85e9-3de7701bd5ab")
+		)
+		(fp_line
+			(start 3.81 -1.27)
+			(end 3.81 1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "User.1")
+			(uuid "f0496396-deb6-421e-816e-3a49b1c5172d")
+		)
+		(fp_line
+			(start 3.81 1.27)
+			(end -1.27 1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "User.1")
+			(uuid "f55eacc1-43f7-4416-b997-d8b4e8b3b8f7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.27 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "462d7208-a874-4a1b-9ffb-11c6eac636c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/BOOT")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "01e7c325-8054-4bcf-b3c3-2e3125b623a2")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/CHIP_EN")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "dc6f8954-eb0b-400b-bc4c-12242c1136a7")
+		)
+		(embedded_fonts no)
+		(model "${WE_3DMODEL_DIR}/Connector_THT_Wurth.3dshapes/J_Wurth_WR-PHD_61300211121.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Switch_SMD_Wurth:SW_Wurth_WS-TASV_430182043816"
 		(locked yes)
 		(layer "F.Cu")
@@ -473,7 +869,7 @@
 		(at 186.25 149.796461 -30)
 		(descr "SMT Tact Switch 6x6 mm, body 6x6x4.3mm, https://www.we-online.com/en/components/products/datasheet/430182043816?ki")
 		(tags "SMT")
-		(property "Reference" "BOOT1"
+		(property "Reference" "BOOT"
 			(at 0 -4.25 330)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -832,6 +1228,755 @@
 		)
 		(embedded_fonts no)
 		(model "${WE_3DMODEL_DIR}/Switch_SMD_Wurth.3dshapes/SW_Wurth_WS-TASV_430182xxx816.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_THT_Wurth:J_Wurth_WR-PHD_61300511121"
+		(layer "F.Cu")
+		(uuid "520abf0a-9155-47bb-910f-c5b110f9e2ce")
+		(at 251.165 69.385)
+		(descr "2.54 mm THT Pin Header, body 12.7x2.54x11.54mm, https://www.we-online.com/en/components/products/datasheet/61300511121?ki")
+		(tags "THT")
+		(property "Reference" "I_SENSE1"
+			(at 5.08 -2.54 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2775eae8-63a8-4ee6-b8e7-c24b7a77b848")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "61300511121"
+			(at 5.08 2.54 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3ee130bb-7259-4fc2-93a9-ba2940fc9e8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300511121?ki"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87e39e8e-6664-4e4f-a4bd-bdbf057cb869")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "2.54 mm THT Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b6fecac-90f7-46db-ab7d-679789aaedbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d86bd79b-a354-4062-8ead-4f87a85372da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85291a2e-7657-4586-9846-9235dab961dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Series" "WR-PHD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79cbdb58-8f07-487f-b71b-c34ef716033d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch" "2.54 mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf0444a7-ee3d-4bab-83b6-39be72e38606")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f820beb7-cfe8-4c68-bf43-c1327480ed8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pins (pcs)" "5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df1eb103-6c0a-4ad1-a821-51b2e6da77d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rows" "Single"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15944ae5-2036-40a1-b5ea-7ea4928036a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Gender" "Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0f3639b-73c7-4343-927b-ad3787fcadb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Straight"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a215c969-8ef2-4f6d-a537-2c1ed8b0cc57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IR (A)" "3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11ac5f4b-317e-4b36-b2e5-d2720b9f295d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*WR-PHD*")
+		(path "/995c9bf7-2294-48ef-9351-edb7b71be1a3/99f7574c-34c8-4eba-976e-c1eb6158d2b0")
+		(sheetname "/Pin Header/")
+		(sheetfile "pin_header.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.855 -0.825)
+			(end -1.855 0.825)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3d5b4e41-0ade-4c82-9fac-9f8b95474dab")
+		)
+		(fp_rect
+			(start -1.38 -1.38)
+			(end 11.54 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "3dbc5d7f-3783-44dc-b445-dc02d34c9ec6")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 11.93 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a3b19b15-c4ce-4793-8aa7-33e12704c6b0")
+		)
+		(fp_line
+			(start -1.27 -0.5)
+			(end -0.52 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d6ecea4b-611d-4128-8b3b-350c93c4682c")
+		)
+		(fp_line
+			(start -0.52 0)
+			(end -1.27 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "516c98f3-59a2-43c5-8072-b0a0e8fd5fa6")
+		)
+		(fp_rect
+			(start -1.27 -1.27)
+			(end 11.43 1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3cc54cc5-b23b-42f9-a758-51fdf0047f6e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 5.08 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "29124ca5-834d-4cce-9830-d5a7792f86bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/HBRIDGE_D_ISENSE")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "4565c9ed-e554-4c6f-9e67-a62c78946a60")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/HBRIDGE_C_ISENSE")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "e96c41ce-dc42-4fd3-aef3-2ef35a72f8e5")
+		)
+		(pad "3" thru_hole circle
+			(at 5.08 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/HBRIDGE_B_ISENSE")
+			(pinfunction "3_3")
+			(pintype "passive")
+			(uuid "42357ad3-8cb3-4618-96ca-6e3fe6739a86")
+		)
+		(pad "4" thru_hole circle
+			(at 7.62 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/HBRIDGE_A_ISENSE")
+			(pinfunction "4_4")
+			(pintype "passive")
+			(uuid "9f2ac174-9e23-463d-8c80-b43f2492943b")
+		)
+		(pad "5" thru_hole circle
+			(at 10.16 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "5_5")
+			(pintype "passive")
+			(uuid "ca92d13a-c9f2-49ec-a2ad-c648942de4f7")
+		)
+		(embedded_fonts no)
+		(model "${WE_3DMODEL_DIR}/Connector_THT_Wurth.3dshapes/J_Wurth_WR-PHD_61300511121.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_THT_Wurth:J_Wurth_WR-PHD_61300311121"
+		(layer "F.Cu")
+		(uuid "5d2048a4-3f5c-4eff-8553-6597415f4988")
+		(at 263.495 73.975)
+		(descr "2.54 mm THT Pin Header, body 7.62x2.54x11.54mm, https://www.we-online.com/en/components/products/datasheet/61300311121?ki")
+		(tags "THT")
+		(property "Reference" "I2C1"
+			(at 2.54 -2.54 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "021c15db-4ca5-4dd8-bdb2-8b34307f94fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "61300311121"
+			(at 2.54 2.54 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "27ea5607-9bd2-417c-a578-aee323309611")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300311121?ki"
+			(at 0 5.35 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ee9c809-367c-4c08-bec8-7863ab756efd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "2.54 mm THT Pin Header"
+			(at 0 5.35 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84480e36-3591-4f20-ab15-8d9f55dac730")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fd0cb82-c45e-47e7-8b7a-c4f6c07a3509")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b176151-d1fd-4494-9f2c-50de815b3ca8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Series" "WR-PHD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f6ff16c-1cfa-42fa-8bf8-faf61cc37cec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch" "2.54 mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2973ff64-9df0-4298-a96c-673bc81b55db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3b18132-eb75-4868-b321-787691f6027e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pins (pcs)" "3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "426b150f-e2a3-405c-84ef-af6c069b4d88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rows" "Single"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65a338d4-ba8b-4fd5-847e-f621ebc04e1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Gender" "Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f68aca11-2f8f-43ed-8b64-b0b7ae401ae0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Straight"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27dba142-3de2-4e41-9945-59d219db0d04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IR (A)" "3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42717759-0226-4ddb-b61f-ec4b6356ff1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*WR-PHD*")
+		(path "/995c9bf7-2294-48ef-9351-edb7b71be1a3/f5d81f2b-9697-4322-9ead-20226a78a70e")
+		(sheetname "/Pin Header/")
+		(sheetfile "pin_header.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.855 -0.825)
+			(end -1.855 0.825)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f4e7a745-8374-4e71-bf9b-7275ff281a1c")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end -1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "850a611d-7987-4ff9-8cc9-01b670892925")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 6.46 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6fc51286-3ca1-40cb-af4c-1e70b6237d2f")
+		)
+		(fp_line
+			(start -1.38 1.38)
+			(end 6.46 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2bd57475-b4c3-45e4-8ac6-b3a4421f5203")
+		)
+		(fp_line
+			(start 6.46 -1.38)
+			(end 6.46 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "22ab57fc-1f9a-48a7-aba0-0202c1e3f655")
+		)
+		(fp_line
+			(start -1.77 -1.77)
+			(end 6.85 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "50f97f6d-96ba-474e-a4c6-f070e0c6832d")
+		)
+		(fp_line
+			(start -1.77 1.77)
+			(end -1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "349f6fed-8790-4c2c-93bd-59112056caf3")
+		)
+		(fp_line
+			(start -1.77 1.77)
+			(end 6.85 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "24d43230-6f86-4cf9-bb9f-11f86d6f415c")
+		)
+		(fp_line
+			(start 6.85 -1.77)
+			(end 6.85 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "04c9a650-6a73-45af-a9b9-c1fbeee5f41e")
+		)
+		(fp_line
+			(start -1.27 -1.27)
+			(end 6.35 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ffce4296-cdc1-4ddd-b819-289546610dbf")
+		)
+		(fp_line
+			(start -1.27 -0.5)
+			(end -0.52 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c20f41b5-1e92-4022-9c7c-174d284f524d")
+		)
+		(fp_line
+			(start -0.52 0)
+			(end -1.27 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "db55f373-4b48-4a59-b60c-f3a0129feafc")
+		)
+		(fp_line
+			(start -1.27 1.27)
+			(end -1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "User.1")
+			(uuid "f4be80c4-1f46-4dae-bafe-0fb6d5f8168f")
+		)
+		(fp_line
+			(start -1.27 1.27)
+			(end 6.35 1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "User.1")
+			(uuid "f2232d88-752a-419d-b2e7-7c0aa7e76d48")
+		)
+		(fp_line
+			(start 6.35 -1.27)
+			(end 6.35 1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "User.1")
+			(uuid "07a5d00b-8021-442a-bf3c-b3c1934dd7d8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.54 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b14dae12-a834-4544-8fe2-e92b87b5aeb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/I2C_INT")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "6c994bc3-7666-4106-87ac-58f9112c2a6c")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/I2C_SCL")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "cc7f1216-12fa-4ca6-8892-03e2b88067bd")
+		)
+		(pad "3" thru_hole circle
+			(at 5.08 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/I2C_SDA")
+			(pinfunction "3_3")
+			(pintype "passive")
+			(uuid "a6cc7d1b-3d9b-402e-ad33-2bcdf512e432")
+		)
+		(embedded_fonts no)
+		(model "${WE_3DMODEL_DIR}/Connector_THT_Wurth.3dshapes/J_Wurth_WR-PHD_61300311121.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1265,6 +2410,402 @@
 		)
 		(embedded_fonts no)
 		(model "${WE_3DMODEL_DIR}/Capacitor_THT_Wurth.3dshapes/CP_Wurth_WCAP-HTAH-D8L11.5.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_THT_Wurth:J_Wurth_WR-PHD_61300211121"
+		(layer "F.Cu")
+		(uuid "6b49d486-b94d-4740-ae7d-3d4b479e7bb6")
+		(at 243.915 83.155)
+		(descr "2.54 mm THT Pin Header, body 5.08x2.54x11.54mm, https://www.we-online.com/en/components/products/datasheet/61300211121?ki")
+		(tags "THT")
+		(property "Reference" "XTAL1"
+			(at 1.27 -2.54 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "82150db7-78bb-4d64-bda3-b08c8b9ad7dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "61300211121"
+			(at 1.27 2.54 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9e429c70-fdc1-4a9f-baf7-502d45bc4ef9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300211121?ki"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2472caaf-96b6-420b-b2a1-690b3d35ccd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "2.54 mm THT Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca931dd6-e272-46b7-b806-7cf108907863")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a18d7028-54c9-4463-b284-a4de1fe1f85a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6786a49-d382-482b-86d9-12c9350182cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Series" "WR-PHD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e36d7fc-61ff-4e9c-a1ca-b702cdfa57c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch" "2.54 mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f18479d-f855-49b2-8515-9fdabb52e5b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5de98e98-e7c8-465d-a5b7-815306138962")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pins (pcs)" "2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbd0483f-8e64-4dd4-82c6-5edde1080866")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rows" "Single"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b29ea719-ee9b-47dc-bafa-ba3d1faa86ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Gender" "Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04270d63-ad0e-4eda-8e44-39b38084ca9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Straight"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e7c0abd-64b9-428b-a19e-a5d5a3495b96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IR (A)" "3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58f30042-d68d-46e8-a62c-5ed42fd62a14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*WR-PHD*")
+		(path "/995c9bf7-2294-48ef-9351-edb7b71be1a3/4b65740b-4ce8-4981-83c3-a1dd097050b5")
+		(sheetname "/Pin Header/")
+		(sheetfile "pin_header.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.855 -0.825)
+			(end -1.855 0.825)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a016789d-5e3e-4fb8-ab57-9bc2dba565a1")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end -1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e6f65f26-c172-4902-81fe-c0a106634ece")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 3.92 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "de8bd70d-9e28-424b-a5a5-c8a005e9656c")
+		)
+		(fp_line
+			(start -1.38 1.38)
+			(end 3.92 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "519e1ec4-88ad-4f69-b30e-fea562da2db7")
+		)
+		(fp_line
+			(start 3.92 -1.38)
+			(end 3.92 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3f607b2d-a5ea-4b06-850d-cb1f64a4276f")
+		)
+		(fp_line
+			(start -1.77 -1.77)
+			(end 4.31 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e6342cc3-74f8-4e2e-9839-686ea1ae3591")
+		)
+		(fp_line
+			(start -1.77 1.77)
+			(end -1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "09d15d38-c415-47da-a6a5-0136a887a27d")
+		)
+		(fp_line
+			(start -1.77 1.77)
+			(end 4.31 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f4661a8c-42d0-40df-8ac9-921654c453b7")
+		)
+		(fp_line
+			(start 4.31 -1.77)
+			(end 4.31 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4cba77b1-52a5-425b-b212-a7db3aea00a9")
+		)
+		(fp_line
+			(start -1.27 -1.27)
+			(end 3.81 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "93940957-b915-40ec-ae2c-132154624c53")
+		)
+		(fp_line
+			(start -1.27 -0.5)
+			(end -0.52 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cad63f70-b12c-48de-96b7-ac9e6498ef19")
+		)
+		(fp_line
+			(start -0.52 0)
+			(end -1.27 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9b7e96f1-1c8c-49ce-9eba-532e7083a6e1")
+		)
+		(fp_line
+			(start -1.27 1.27)
+			(end -1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "User.1")
+			(uuid "5ae6dcc0-ace7-4815-81d0-cfa2decc1beb")
+		)
+		(fp_line
+			(start 3.81 -1.27)
+			(end 3.81 1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "User.1")
+			(uuid "6432f270-f175-4520-91f2-57305ffc64f1")
+		)
+		(fp_line
+			(start 3.81 1.27)
+			(end -1.27 1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "User.1")
+			(uuid "fc6d3953-b08d-4d65-af01-e27e0c730fc4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.27 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4a817500-f61a-4ec4-b4ad-963d1199e7b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/+XTAL_40_MHz")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "c751072c-aaea-4d28-a14b-63d8a21c0b4d")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/-XTAL_40_MHz")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "405b8a18-90b0-4760-bcba-e9beea8a73bd")
+		)
+		(embedded_fonts no)
+		(model "${WE_3DMODEL_DIR}/Connector_THT_Wurth.3dshapes/J_Wurth_WR-PHD_61300211121.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2242,6 +3783,1064 @@
 			)
 		)
 	)
+	(footprint "Connector_THT_Wurth:J_Wurth_WR-PHD_61300411121"
+		(layer "F.Cu")
+		(uuid "97543178-d6b1-43f4-ba18-7a78f8bf83d8")
+		(at 251.165 73.975)
+		(descr "2.54 mm THT Pin Header, body 10.16x2.54x11.54mm, https://www.we-online.com/en/components/products/datasheet/61300411121?ki")
+		(tags "THT")
+		(property "Reference" "3P3"
+			(at 3.81 -2.54 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d088f499-b99a-4caa-9a0f-b4be81bf0b0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "61300411121"
+			(at 3.81 2.54 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "eeb868b9-8180-48ff-b8da-e5ff2f5d0751")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300411121?ki"
+			(at 0 6.62 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb173cf3-b6fb-4864-b378-b01c6a1dff88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "2.54 mm THT Pin Header"
+			(at 0 6.62 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af852da3-a7b4-4498-8664-9b0b0244a754")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72715d4b-d23d-4541-955e-3c2c47495917")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "886c0bcf-b1e4-4da6-9480-9223e388314e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Series" "WR-PHD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07062c16-1a9d-4821-a6cc-eef69b93657a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch" "2.54 mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60ab038d-a09b-4b10-9c23-6ec431bb5426")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "371ffcdc-6758-43ec-9283-d40078d1cb36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pins (pcs)" "4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59873854-3539-42c1-ac09-d464ebb73b04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rows" "Single"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a167a8a6-c406-4ced-b09f-a8b427a56b0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Gender" "Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b46fe6b6-0c68-4a77-b63e-cfb4e5801132")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Straight"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6500db9a-6628-4d55-a48e-6d274bcf1b61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IR (A)" "3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24a2a9eb-2344-4ed3-b0f9-cfedaae0ca1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*WR-PHD*")
+		(path "/995c9bf7-2294-48ef-9351-edb7b71be1a3/9e36ee54-7e9b-4e41-8509-de7976375e92")
+		(sheetname "/Pin Header/")
+		(sheetfile "pin_header.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.855 -0.825)
+			(end -1.855 0.825)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cdd905b2-50e6-491a-b957-971897425de8")
+		)
+		(fp_rect
+			(start -1.38 -1.38)
+			(end 9 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "4bfdbff9-4c55-46b9-b448-63dc71414d19")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 9.39 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "6a14c098-a32a-4da3-b94c-ec104ed5479f")
+		)
+		(fp_line
+			(start -1.27 -0.5)
+			(end -0.52 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d701266a-d9c9-48db-bae2-971637518ee6")
+		)
+		(fp_line
+			(start -0.52 0)
+			(end -1.27 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "804fdb42-4530-4b02-a827-289489c6d07e")
+		)
+		(fp_rect
+			(start -1.27 -1.27)
+			(end 8.89 1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3e137ad9-f786-4add-9037-24293db5f0e9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 3.81 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5b1d28a8-72e8-4130-bf9f-d9238c61762a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/VDD3P3")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "c66d702b-676d-4f34-a3a8-10d58c9fd542")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/VDD3P3")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "f1f4df49-c633-48e9-afd1-be911a112fe8")
+		)
+		(pad "3" thru_hole circle
+			(at 5.08 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/VDD3P3")
+			(pinfunction "3_3")
+			(pintype "passive")
+			(uuid "03c7da2d-51d4-4d31-aa38-7d067d5974ce")
+		)
+		(pad "4" thru_hole circle
+			(at 7.62 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/VDD3P3")
+			(pinfunction "4_4")
+			(pintype "passive")
+			(uuid "d7cffd30-c16e-4c91-8ffb-6f6916f0b55a")
+		)
+		(embedded_fonts no)
+		(model "${WE_3DMODEL_DIR}/Connector_THT_Wurth.3dshapes/J_Wurth_WR-PHD_61300411121.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_THT_Wurth:J_Wurth_WR-PHD_61300211121"
+		(layer "F.Cu")
+		(uuid "99a02d31-a990-4ffb-9b58-1c1cfa4f2838")
+		(at 243.915 64.795)
+		(descr "2.54 mm THT Pin Header, body 5.08x2.54x11.54mm, https://www.we-online.com/en/components/products/datasheet/61300211121?ki")
+		(tags "THT")
+		(property "Reference" "FAULT1"
+			(at 1.27 -2.54 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "cae3ccf6-a293-4364-a8c0-01b0b480857a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "61300211121"
+			(at 1.27 2.54 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "664453e3-f36d-40e5-8092-37bec3087655")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300211121?ki"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9413bcf-aa3a-434b-9e9a-c92d4cbeeea2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "2.54 mm THT Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "781e4209-d3c2-4bbb-8491-9886f5c3aa94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e00582a-626c-478b-8d56-ec3c677c0728")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ce3f9b9-12b1-458f-80cb-2f2d0361eca0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Series" "WR-PHD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "395fbfa2-2313-4b3d-862d-8d598baf4edc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch" "2.54 mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3de1d682-daa5-465c-8be8-2ecd60f6fca0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52a0b291-ce39-4979-bc0e-cbb2f31d7345")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pins (pcs)" "2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b63b081-d00a-4db5-99ce-1c92d914be83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rows" "Single"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b284029-15c2-4567-a187-1d2efd3fc78d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Gender" "Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7100369-5c89-4288-b696-5cedcdae68eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Straight"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f5adea8-0b10-4d7b-9620-136e37a804ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IR (A)" "3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ed876eb-40f1-4eed-b213-e13858e0617e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*WR-PHD*")
+		(path "/995c9bf7-2294-48ef-9351-edb7b71be1a3/9e5dd928-08b1-4e14-85f6-ea1728dac67c")
+		(sheetname "/Pin Header/")
+		(sheetfile "pin_header.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.855 -0.825)
+			(end -1.855 0.825)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f4c927e5-b937-4856-b165-c3318c6df4b0")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end -1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e34558f8-87be-4b18-b180-33da5abaf75b")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 3.92 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "973a46a5-79e9-4805-896f-cc3e9ef5fa9c")
+		)
+		(fp_line
+			(start -1.38 1.38)
+			(end 3.92 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "450f5a77-5c7b-4ddd-975a-625e8eb8a40e")
+		)
+		(fp_line
+			(start 3.92 -1.38)
+			(end 3.92 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c7348769-bd91-4c6f-b5e8-86e9b5db07ac")
+		)
+		(fp_line
+			(start -1.77 -1.77)
+			(end 4.31 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "403c9bd5-e5d0-4f07-a06c-f391f472f103")
+		)
+		(fp_line
+			(start -1.77 1.77)
+			(end -1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dcfd3772-de8a-4564-be24-d47d08e3cc0d")
+		)
+		(fp_line
+			(start -1.77 1.77)
+			(end 4.31 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a077aff9-4ec9-45f5-a763-71068bf737b5")
+		)
+		(fp_line
+			(start 4.31 -1.77)
+			(end 4.31 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d858167a-1a5f-48d4-9dc7-f24bc11c4f3d")
+		)
+		(fp_line
+			(start -1.27 -1.27)
+			(end 3.81 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0ae4c22d-1641-4289-b029-5f6f947881f2")
+		)
+		(fp_line
+			(start -1.27 -0.5)
+			(end -0.52 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3e92e55e-1966-41c4-b0ab-59dce9b09b58")
+		)
+		(fp_line
+			(start -0.52 0)
+			(end -1.27 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2767a12f-9bd5-4300-b357-6f08e84dc4ef")
+		)
+		(fp_line
+			(start -1.27 1.27)
+			(end -1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "User.1")
+			(uuid "614a6359-9937-4d81-a4a3-7097fb91fbe1")
+		)
+		(fp_line
+			(start 3.81 -1.27)
+			(end 3.81 1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "User.1")
+			(uuid "7302d647-5092-43b6-94cf-6465a54ad0cd")
+		)
+		(fp_line
+			(start 3.81 1.27)
+			(end -1.27 1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "User.1")
+			(uuid "425a7599-c9cb-46cb-811c-427183fd8986")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.27 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a7eb65af-e591-4af4-a2a3-e2f356d1b84c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/HBRIDGE_ALL_EN")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "7c07cb9b-e46f-460a-af26-fd64d11f6819")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "117b1197-df22-4bbd-b2b6-53f1760c2da1")
+		)
+		(embedded_fonts no)
+		(model "${WE_3DMODEL_DIR}/Connector_THT_Wurth.3dshapes/J_Wurth_WR-PHD_61300211121.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_THT_Wurth:J_Wurth_WR-PHD_61300411121"
+		(layer "F.Cu")
+		(uuid "9af13da5-ea64-4b91-a1d3-05a633b408c3")
+		(at 251.165 83.155)
+		(descr "2.54 mm THT Pin Header, body 10.16x2.54x11.54mm, https://www.we-online.com/en/components/products/datasheet/61300411121?ki")
+		(tags "THT")
+		(property "Reference" "GND2"
+			(at 3.81 -2.54 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "097350b4-0833-4dcd-bcea-35a724d3b468")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "61300411121"
+			(at 3.81 2.54 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1d11d3c8-0600-4348-be1e-fab6ba616bd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300411121?ki"
+			(at 0 6.62 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea7c335d-67be-407b-bc01-ece7a92379d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "2.54 mm THT Pin Header"
+			(at 0 6.62 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7ae99e9-8034-43b1-9dba-7d21a85aa097")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3c9f2ca-6e3d-4fed-804e-6fb749f0eef6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63e13d68-b675-4a11-ad65-08467e5f3db5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Series" "WR-PHD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0295a221-d943-4d11-a301-13d16e71b486")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch" "2.54 mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21724830-e862-4b6f-b7b8-497335f39d9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d98f18be-40de-4c34-a418-3a62f9124232")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pins (pcs)" "4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28ad0a58-d7e1-4f6f-830e-d17affb68c9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rows" "Single"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcf16438-586e-4a8f-bb0b-620ac0e42946")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Gender" "Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d10a9391-8a49-442f-821b-6a9519660b1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Straight"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8fbd1a4-05ee-4078-aa31-5924825e8c81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IR (A)" "3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f19a19a-1d2e-4c55-bb8e-edec49acfdc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*WR-PHD*")
+		(path "/995c9bf7-2294-48ef-9351-edb7b71be1a3/9253abb8-a332-4bc4-ad62-ba31cec54081")
+		(sheetname "/Pin Header/")
+		(sheetfile "pin_header.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.855 -0.825)
+			(end -1.855 0.825)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aef4cd28-4007-4aa4-a9c4-fb354c91242b")
+		)
+		(fp_rect
+			(start -1.38 -1.38)
+			(end 9 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "bf89d550-2453-426e-8e87-05e304bd3f3a")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 9.39 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "9b0a345a-3717-4163-bea1-e2fa09bb0844")
+		)
+		(fp_line
+			(start -1.27 -0.5)
+			(end -0.52 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8b2e2f58-07b6-468b-9235-99b6f1823bec")
+		)
+		(fp_line
+			(start -0.52 0)
+			(end -1.27 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "36720aaa-e630-4376-be4d-d581f46abb5f")
+		)
+		(fp_rect
+			(start -1.27 -1.27)
+			(end 8.89 1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "eed9787b-518d-4ce8-889e-2f0c670aec55")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 3.81 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "491452ef-d1e9-48b8-a79f-0466b20f507a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "dcd40311-9488-45c9-bf30-b526d024276b")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "b606fc85-a2f3-41e1-9425-1507d67fe190")
+		)
+		(pad "3" thru_hole circle
+			(at 5.08 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "3_3")
+			(pintype "passive")
+			(uuid "bf584a02-5b0c-4b3c-be44-ecd060834628")
+		)
+		(pad "4" thru_hole circle
+			(at 7.62 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "4_4")
+			(pintype "passive")
+			(uuid "301086d5-1953-4a7c-8b00-1d2e93de177b")
+		)
+		(embedded_fonts no)
+		(model "${WE_3DMODEL_DIR}/Connector_THT_Wurth.3dshapes/J_Wurth_WR-PHD_61300411121.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "691103110002:691103110002"
 		(layer "F.Cu")
 		(uuid "a01975a9-14dc-495b-a2da-66178c81fad4")
@@ -2258,7 +4857,7 @@
 			)
 		)
 		(property "Value" "691103110002"
-			(at 4.119999 4.865001 67.5)
+			(at 4.119998 4.865001 67.5)
 			(layer "F.Fab")
 			(uuid "ff85755f-4d37-40b2-aa55-3ae25fa9762e")
 			(effects
@@ -2447,7 +5046,7 @@
 		)
 		(fp_line
 			(start 3.599999 -2.2)
-			(end 3.6 3.700001)
+			(end 3.6 3.700002)
 			(stroke
 				(width 0.2)
 				(type solid)
@@ -2516,7 +5115,7 @@
 			(uuid "ddd0cd21-7786-4b9f-bd90-9b9ae52788c5")
 		)
 		(fp_line
-			(start 3.6 3.700001)
+			(start 3.6 3.700002)
 			(end -3.6 3.7)
 			(stroke
 				(width 0.2)
@@ -4039,7 +6638,7 @@
 		(at 165.203539 128.75 -60)
 		(descr "SMT Tact Switch 6x6 mm, body 6x6x4.3mm, https://www.we-online.com/en/components/products/datasheet/430182043816?ki")
 		(tags "SMT")
-		(property "Reference" "RESET1"
+		(property "Reference" "RESET"
 			(at 0 -4.25 300)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -4776,6 +7375,798 @@
 			)
 		)
 	)
+	(footprint "Connector_THT_Wurth:J_Wurth_WR-PHD_61300211121"
+		(layer "F.Cu")
+		(uuid "d7ae1257-8dc0-4577-8381-a2a341c65d23")
+		(at 243.915 78.565)
+		(descr "2.54 mm THT Pin Header, body 5.08x2.54x11.54mm, https://www.we-online.com/en/components/products/datasheet/61300211121?ki")
+		(tags "THT")
+		(property "Reference" "USB1"
+			(at 1.27 -2.54 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f0af027f-da88-4189-9c45-0bebe8967d74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "61300211121"
+			(at 1.27 2.54 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "163ff96b-a9a6-4f1c-93c9-e369abbd1590")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300211121?ki"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "550985d3-7830-407f-904e-7f6bfb503b8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "2.54 mm THT Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5baf9131-8002-47ae-aae8-3c5ed52bd98a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b015b848-c21a-43a1-ac53-cabb501a026e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b043490-25c0-4dbd-9029-ee06e34c9b21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Series" "WR-PHD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d849a8f5-7c84-445a-977f-82d3101233c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch" "2.54 mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaf388a2-edb1-49b8-a29f-03c4ed0da0b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46f0d241-b4c5-4bac-b6d2-58e61e9e4165")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pins (pcs)" "2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19cfead6-096f-4e00-87f1-7d9bf5798d4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rows" "Single"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0347ae0-f046-48e5-b0e7-7da9e174efdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Gender" "Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0b9d4a4-2378-4268-add3-ffe45a113977")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Straight"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9348ed4-9abb-4cd9-af42-37989276766f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IR (A)" "3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87e371bb-622d-4692-8899-27d427cfcde8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*WR-PHD*")
+		(path "/995c9bf7-2294-48ef-9351-edb7b71be1a3/d8b3dd29-6cdc-4069-849c-57350295b4b2")
+		(sheetname "/Pin Header/")
+		(sheetfile "pin_header.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.855 -0.825)
+			(end -1.855 0.825)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5c4640b5-f823-4c08-82b6-a91e22144d07")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end -1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3676dec9-49e6-432c-ba4e-636655078a1c")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 3.92 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7c0732ba-7a03-49d4-aeba-b9eee216f334")
+		)
+		(fp_line
+			(start -1.38 1.38)
+			(end 3.92 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6cd0fc44-7357-4ca6-ab00-8279bccb48c3")
+		)
+		(fp_line
+			(start 3.92 -1.38)
+			(end 3.92 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "03041414-3386-40e7-a421-576a4a8a666a")
+		)
+		(fp_line
+			(start -1.77 -1.77)
+			(end 4.31 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a0958bc2-92c0-4d25-b16d-b72ecbb4eb44")
+		)
+		(fp_line
+			(start -1.77 1.77)
+			(end -1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fafeb1b8-cc92-4f02-90dd-57936ba8b875")
+		)
+		(fp_line
+			(start -1.77 1.77)
+			(end 4.31 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b3d5b3a9-3c46-434e-9a2d-0a5099945e9e")
+		)
+		(fp_line
+			(start 4.31 -1.77)
+			(end 4.31 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8b66c8d7-c520-4068-bf3b-5e699505e8bc")
+		)
+		(fp_line
+			(start -1.27 -1.27)
+			(end 3.81 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b62a0f0a-01c8-4a36-9318-478c74af1ce4")
+		)
+		(fp_line
+			(start -1.27 -0.5)
+			(end -0.52 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9ea1c901-0201-4559-b431-ac7eedc48390")
+		)
+		(fp_line
+			(start -0.52 0)
+			(end -1.27 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7f8231d7-7f80-4395-8429-d7858ca9bc2d")
+		)
+		(fp_line
+			(start -1.27 1.27)
+			(end -1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "User.1")
+			(uuid "8be119f2-9eb6-4255-afbb-275b36e021f2")
+		)
+		(fp_line
+			(start 3.81 -1.27)
+			(end 3.81 1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "User.1")
+			(uuid "0ca86424-565d-468f-8595-add9fe3f0b0a")
+		)
+		(fp_line
+			(start 3.81 1.27)
+			(end -1.27 1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "User.1")
+			(uuid "1ff9fe13-cca0-4efb-86e0-acab522f951a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.27 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "356b4eea-2cb5-4f12-bf43-fe41dfe2bb80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/+USB_D")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "80e9380c-9e6e-4d81-a7c1-6e378b48376e")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/-USB_D")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "e77c29e9-7cd2-4f1c-9341-924220b18535")
+		)
+		(embedded_fonts no)
+		(model "${WE_3DMODEL_DIR}/Connector_THT_Wurth.3dshapes/J_Wurth_WR-PHD_61300211121.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_THT_Wurth:J_Wurth_WR-PHD_61300211121"
+		(layer "F.Cu")
+		(uuid "d9f98c8d-ec22-478a-b00f-49c23aa60e26")
+		(at 243.915 73.975)
+		(descr "2.54 mm THT Pin Header, body 5.08x2.54x11.54mm, https://www.we-online.com/en/components/products/datasheet/61300211121?ki")
+		(tags "THT")
+		(property "Reference" "UART1"
+			(at 1.27 -2.54 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "34f95f0a-b5f9-42d1-8c74-1e835173bec9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "61300211121"
+			(at 1.27 2.54 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8faa7a1f-6931-4eee-88e4-b63ad7859a82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300211121?ki"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab74514f-003b-4fd8-b961-dec82a493a63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "2.54 mm THT Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "feb683c7-cdae-4d5b-b692-10ff682ee1e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "860b51fb-179d-4dba-8f95-c57a616ac833")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58a4e83e-6b35-4b96-b0bb-f5953e34080a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Series" "WR-PHD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94038448-3f74-49d6-a1b0-1b0c06c5a1ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch" "2.54 mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79a4542b-4fe3-48c2-8403-e009f5a957f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35290d61-dff9-44f7-a9c9-701da83e860e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pins (pcs)" "2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05742bb6-9cf4-4a30-9918-351029580ecf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rows" "Single"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c42dec2-f573-4243-9cf6-a6b28a432810")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Gender" "Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45de2d88-ae45-4c00-a08b-1d09ff6cfe12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Straight"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d692042-2b8c-46a8-a5e1-ea539d47b9b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IR (A)" "3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd59699b-2aa3-4b95-8115-19a4f150bf5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*WR-PHD*")
+		(path "/995c9bf7-2294-48ef-9351-edb7b71be1a3/59f81e79-2ece-4571-9fc3-4ba9d12f85be")
+		(sheetname "/Pin Header/")
+		(sheetfile "pin_header.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.855 -0.825)
+			(end -1.855 0.825)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c21af09a-4ff1-4542-8423-3896c8673ac0")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end -1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aea8b89d-9971-49e1-8736-ad573093aae5")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 3.92 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e336c1f2-6ca1-4eb0-9145-c8d208fb2abb")
+		)
+		(fp_line
+			(start -1.38 1.38)
+			(end 3.92 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d93d7aa3-2a32-4ce4-90a4-5b23ae4f71a9")
+		)
+		(fp_line
+			(start 3.92 -1.38)
+			(end 3.92 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "919216e5-430e-4c14-86ae-b95b9df383fe")
+		)
+		(fp_line
+			(start -1.77 -1.77)
+			(end 4.31 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "97b20ade-4eb8-4881-ad30-e61b13ac4caa")
+		)
+		(fp_line
+			(start -1.77 1.77)
+			(end -1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "23043f78-3da8-485f-8ee4-1269ad9ca5ec")
+		)
+		(fp_line
+			(start -1.77 1.77)
+			(end 4.31 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "20a012b1-3f80-4412-a4d4-c60b013c4001")
+		)
+		(fp_line
+			(start 4.31 -1.77)
+			(end 4.31 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4484bf82-f038-493a-b155-c3de9e703647")
+		)
+		(fp_line
+			(start -1.27 -1.27)
+			(end 3.81 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "aa526e05-71ba-488d-af0e-4c41fa07d9e3")
+		)
+		(fp_line
+			(start -1.27 -0.5)
+			(end -0.52 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a12c77fa-57e2-41c1-b77c-702e91103e2b")
+		)
+		(fp_line
+			(start -0.52 0)
+			(end -1.27 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d6b71f15-e06e-4c1f-a860-5b75b2e9f09a")
+		)
+		(fp_line
+			(start -1.27 1.27)
+			(end -1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "User.1")
+			(uuid "2307f69c-0cac-4764-9270-a1f7d584c4ac")
+		)
+		(fp_line
+			(start 3.81 -1.27)
+			(end 3.81 1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "User.1")
+			(uuid "729fc45e-a7ed-4b6b-992d-2482e02317a3")
+		)
+		(fp_line
+			(start 3.81 1.27)
+			(end -1.27 1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "User.1")
+			(uuid "a5628be1-16e7-4d5d-b8f4-1ff41e124548")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.27 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "18aedf7f-1a62-42c0-8c01-8e40d400a6f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/RXD")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "06fa5960-7ce0-4354-b003-819368e8de88")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/TXD")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "86c729d4-d6e5-4aa6-b6df-9823285790ac")
+		)
+		(embedded_fonts no)
+		(model "${WE_3DMODEL_DIR}/Connector_THT_Wurth.3dshapes/J_Wurth_WR-PHD_61300211121.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_THT_Wurth:CP_Wurth_WCAP-HTAH-D8L11.5"
 		(locked yes)
 		(layer "F.Cu")
@@ -5209,6 +8600,337 @@
 			)
 		)
 	)
+	(footprint "Connector_THT_Wurth:J_Wurth_WR-PHD_61300411121"
+		(layer "F.Cu")
+		(uuid "dbbc1b4d-8ef0-41af-80c6-076451d3f3bf")
+		(at 251.165 78.565)
+		(descr "2.54 mm THT Pin Header, body 10.16x2.54x11.54mm, https://www.we-online.com/en/components/products/datasheet/61300411121?ki")
+		(tags "THT")
+		(property "Reference" "GND1"
+			(at 3.81 -2.54 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "1914552f-f06e-4345-8568-9d1f6a03dfae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "61300411121"
+			(at 3.81 2.54 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a41ba9d6-c234-42a8-8959-b65f3ddba81e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300411121?ki"
+			(at 0 6.62 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8dab0e32-9179-40de-a15d-fa64ed5c6645")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "2.54 mm THT Pin Header"
+			(at 0 6.62 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85446180-3297-4c81-82ed-7d23e6646748")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef97e585-e370-4bc5-9ea2-b9103a00edcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f451478e-f2c8-4aa9-a8ac-37f3eb8d9ea3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Series" "WR-PHD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c296003-b3ab-4442-a4cf-464b9a180316")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch" "2.54 mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8d2f268-3654-416e-907e-4de689b485c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7804665a-8be6-4449-a321-81c504c218a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pins (pcs)" "4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9621f087-13dc-4836-89e8-a756cac99bf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rows" "Single"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7958ff4f-8de3-403d-a538-38e5a5391312")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Gender" "Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62341e9f-53a8-4d6a-95f9-7010c4dc7a1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Straight"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dc57c95-35b0-4b59-8613-3d1c37f02543")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IR (A)" "3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daf8d80e-093d-4ef1-8b6b-450c28b8802a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*WR-PHD*")
+		(path "/995c9bf7-2294-48ef-9351-edb7b71be1a3/ce6f4ece-1b23-4aa1-9045-c1df408edfb8")
+		(sheetname "/Pin Header/")
+		(sheetfile "pin_header.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.855 -0.825)
+			(end -1.855 0.825)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5d89ae70-5d72-48da-adb7-f309c029d7b1")
+		)
+		(fp_rect
+			(start -1.38 -1.38)
+			(end 9 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "802fba76-9408-48e3-96ff-f4e0db694696")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 9.39 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b6a06251-f541-4283-b3ad-5db10d066b46")
+		)
+		(fp_line
+			(start -1.27 -0.5)
+			(end -0.52 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dbb1938f-1f9a-4025-af56-42b8db070410")
+		)
+		(fp_line
+			(start -0.52 0)
+			(end -1.27 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c121c6a2-3565-462b-8f85-65743128816b")
+		)
+		(fp_rect
+			(start -1.27 -1.27)
+			(end 8.89 1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "ad2a3723-f09e-47b4-ba86-02b913fe9c44")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 3.81 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6d89bda7-1e08-4920-bad0-83178bd87918")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "fe0e7ccc-cac7-400f-9c55-94fd3e9ae37c")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "622244ae-1026-4038-819b-54ccfd824a20")
+		)
+		(pad "3" thru_hole circle
+			(at 5.08 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "3_3")
+			(pintype "passive")
+			(uuid "25a35de0-df37-4504-b2c1-65f3123aa93e")
+		)
+		(pad "4" thru_hole circle
+			(at 7.62 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "4_4")
+			(pintype "passive")
+			(uuid "47f06403-414a-435a-8d93-ba309d2a65ab")
+		)
+		(embedded_fonts no)
+		(model "${WE_3DMODEL_DIR}/Connector_THT_Wurth.3dshapes/J_Wurth_WR-PHD_61300411121.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Connector_THT_Wurth:J_Wurth_WR-MM_690367191672"
 		(locked yes)
 		(layer "F.Cu")
@@ -5484,6 +9206,381 @@
 		)
 		(embedded_fonts no)
 		(model "${WE_3DMODEL_DIR}/Connector_THT_Wurth.3dshapes/J_Wurth_WR-MM_690367191672.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_THT_Wurth:J_Wurth_WR-PHD_61300811121"
+		(layer "F.Cu")
+		(uuid "ee379773-8419-4c2d-a953-de33bd62cb6f")
+		(at 251.165 64.795)
+		(descr "2.54 mm THT Pin Header, body 20.32x2.54x11.5mm, https://www.we-online.com/en/components/products/datasheet/61300811121?ki")
+		(tags "THT")
+		(property "Reference" "PWM&DIR1"
+			(at 8.89 -2.54 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "112044cd-4956-467d-9517-5cf4bab89547")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "61300811121"
+			(at 8.89 2.54 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4c38ad96-45b8-4940-a284-b629123bf612")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300811121?ki"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce49f3b9-67fb-4bb1-814b-2f3935cf0421")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "2.54 mm THT Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5636ad35-3bc7-45e5-af32-9a750e570f54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b7645b2-d41f-41e7-8de3-4067df76df8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "145aa491-15b1-4586-8d15-bc60da663a7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Series" "WR-PHD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ff2e54a-6340-4775-857b-2aa4e16dea17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch" "2.54 mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d83d18a-e178-4c3d-8a15-66658c9e600f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf2d7d16-36ac-48e6-a3fc-28cdb9c000f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pins (pcs)" "8"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "358fa640-749e-4840-9534-8d6c2a0f2cb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rows" "Single"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cbbabf5-f6f6-4b01-9dcb-0747da66d639")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Gender" "Pin Header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddc2eda0-2926-42db-9829-40dfeaf4abac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Straight"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0866320d-61fd-4926-9454-86afe84871cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IR (A)" "3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eef4e82e-4c12-44d0-890c-1ccb81eeaae0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*WR-PHD*")
+		(path "/995c9bf7-2294-48ef-9351-edb7b71be1a3/7df381ef-7a99-4e81-b0a5-70485a59cd75")
+		(sheetname "/Pin Header/")
+		(sheetfile "pin_header.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.855 -0.825)
+			(end -1.855 0.825)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0c233133-d622-4d01-a809-609367f58365")
+		)
+		(fp_rect
+			(start -1.38 -1.38)
+			(end 19.16 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "da7e73e3-f618-4c66-8905-885e2d4a9e5c")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 19.55 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5f735931-62fa-4cd8-b9ed-3452a885eab7")
+		)
+		(fp_line
+			(start -1.27 -0.5)
+			(end -0.52 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4899954d-5387-4456-b5c3-3e0ebeadb522")
+		)
+		(fp_line
+			(start -0.52 0)
+			(end -1.27 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "473af633-5fe7-40ee-afc5-a9d85d6a0aa1")
+		)
+		(fp_rect
+			(start -1.27 -1.27)
+			(end 19.05 1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "a9d97af7-3d28-4db0-a4fe-f1da58b9cd59")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 8.89 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4bac8e16-de22-4d4c-8069-77d0cc627fde")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/HBRIDGE_A_DIR")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "caf02107-ac84-4cfe-ba7a-c1de888eb4fd")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/HBRIDGE_A_PWM")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "2f553081-b05d-4265-97da-1b37a6332bd4")
+		)
+		(pad "3" thru_hole circle
+			(at 5.08 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/HBRIDGE_B_DIR")
+			(pinfunction "3_3")
+			(pintype "passive")
+			(uuid "6611b80b-ac20-48c8-bb94-dde4cdf67772")
+		)
+		(pad "4" thru_hole circle
+			(at 7.62 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/HBRIDGE_B_PWM")
+			(pinfunction "4_4")
+			(pintype "passive")
+			(uuid "b0f64f11-a3fb-4f6b-bbca-05bdf9443018")
+		)
+		(pad "5" thru_hole circle
+			(at 10.16 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/HBRIDGE_C_DIR")
+			(pinfunction "5_5")
+			(pintype "passive")
+			(uuid "2302cebf-438b-4d79-9718-216dbc1a2834")
+		)
+		(pad "6" thru_hole circle
+			(at 12.7 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/HBRIDGE_C_PWM")
+			(pinfunction "6_6")
+			(pintype "passive")
+			(uuid "ffa153b2-a836-4e1d-b19c-bfcc7c3b2f9f")
+		)
+		(pad "7" thru_hole circle
+			(at 15.24 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/HBRIDGE_D_DIR")
+			(pinfunction "7_7")
+			(pintype "passive")
+			(uuid "93cbc8ee-e70f-46f0-a4b0-c38dd0eed7fe")
+		)
+		(pad "8" thru_hole circle
+			(at 17.78 0)
+			(size 1.65 1.65)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/HBRIDGE_D_PWM")
+			(pinfunction "8_8")
+			(pintype "passive")
+			(uuid "5bc6674f-3141-4e22-b4e1-8bad3e2acf55")
+		)
+		(embedded_fonts no)
+		(model "${WE_3DMODEL_DIR}/Connector_THT_Wurth.3dshapes/J_Wurth_WR-PHD_61300811121.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11321,12 +15418,6 @@
 		(path "/0f791d32-b286-4985-9cf3-ca8905ae96a3")
 		(sheetname "/")
 		(sheetfile "Maglev.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -11396,6 +15487,11 @@
 		(embedded_fonts no)
 		(embedded_files
 			(file
+				(name "94505039.stp")
+				(type model)
+				(checksum "AC932B9CA664F02FEA888C5EBE2127D0")
+			)
+			(file
 				(name "971150351.stp")
 				(type model)
 				(checksum "5C89D5FCF1E7F4AD1307A82C502C2C3C")
@@ -11410,6 +15506,18 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
+			)
+		)
+		(model "kicad-embed://94505039.stp"
+			(opacity 0.5500)
+			(offset
+				(xyz 0 0 -6.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -22613,12 +26721,6 @@
 		(path "/8f907d25-9ba7-4632-b32e-74ca376bee8d")
 		(sheetname "/")
 		(sheetfile "Maglev.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -22688,6 +26790,11 @@
 		(embedded_fonts no)
 		(embedded_files
 			(file
+				(name "94505039.stp")
+				(type model)
+				(checksum "AC932B9CA664F02FEA888C5EBE2127D0")
+			)
+			(file
 				(name "971150351.stp")
 				(type model)
 				(checksum "5C89D5FCF1E7F4AD1307A82C502C2C3C")
@@ -22702,6 +26809,17 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
+			)
+		)
+		(model "kicad-embed://94505039.stp"
+			(offset
+				(xyz 0 0 -6.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -33685,12 +37803,6 @@
 		(path "/da6edfe1-3969-41fb-b3d3-0f8be45e7184")
 		(sheetname "/")
 		(sheetfile "Maglev.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -33760,6 +37872,11 @@
 		(embedded_fonts no)
 		(embedded_files
 			(file
+				(name "94505039.stp")
+				(type model)
+				(checksum "AC932B9CA664F02FEA888C5EBE2127D0")
+			)
+			(file
 				(name "971150351.stp")
 				(type model)
 				(checksum "5C89D5FCF1E7F4AD1307A82C502C2C3C")
@@ -33774,6 +37891,17 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
+			)
+		)
+		(model "kicad-embed://94505039.stp"
+			(offset
+				(xyz 0 0 -6.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -34622,12 +38750,6 @@
 		(path "/7e886f4c-4521-468f-a697-480686a7b353")
 		(sheetname "/")
 		(sheetfile "Maglev.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -34697,6 +38819,11 @@
 		(embedded_fonts no)
 		(embedded_files
 			(file
+				(name "94505039.stp")
+				(type model)
+				(checksum "AC932B9CA664F02FEA888C5EBE2127D0")
+			)
+			(file
 				(name "971150351.stp")
 				(type model)
 				(checksum "5C89D5FCF1E7F4AD1307A82C502C2C3C")
@@ -34711,6 +38838,17 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
+			)
+		)
+		(model "kicad-embed://94505039.stp"
+			(offset
+				(xyz 0 0 -6.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -47377,6 +51515,151 @@
 				MBvQnBECnfLRPEqzYdq51boHKxt9tIdCbABNcz1ol5gB|
 			)
 			(checksum "EA3369534B60FD9418D16138FE7B423C")
+		)
+		(file
+			(name "94505039.stp")
+			(type model)
+			(data |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|
+			)
+			(checksum "AC932B9CA664F02FEA888C5EBE2127D0")
 		)
 		(file
 			(name "970200351.stp")
