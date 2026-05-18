@@ -7584,6 +7584,18 @@
 		)
 		(uuid "07cf56b2-7225-4c5a-a216-87e9fcde6658")
 	)
+	(label "I2C_INT"
+		(at 152.4 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "0820877b-9c88-4e4f-8fd4-0724166c3336")
+	)
 	(label "HBRIDGE_A_PWM"
 		(at 218.44 110.49 180)
 		(effects
@@ -7654,6 +7666,18 @@
 		)
 		(uuid "165b3cbe-5dc9-4e4c-873c-9d0cfdee2d0f")
 	)
+	(label "EM_B_P"
+		(at 152.4 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "1691c5f5-be7b-4bdc-82ab-17068f361adc")
+	)
 	(label "RXD"
 		(at 218.44 147.32 180)
 		(effects
@@ -7702,6 +7726,30 @@
 		)
 		(uuid "1e2ee7b5-7e2f-462b-8aec-d66033223da7")
 	)
+	(label "EM_A_N"
+		(at 152.4 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "2831ff3c-a7ce-4697-9c56-ce8377a2c56a")
+	)
+	(label "EM_B_N"
+		(at 152.4 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "29cf2e9b-a30f-479a-b247-5b6283dbd2cd")
+	)
 	(label "+USB_D"
 		(at 218.44 86.36 180)
 		(effects
@@ -7713,6 +7761,18 @@
 			(justify right bottom)
 		)
 		(uuid "2ca77f1a-4bde-41ed-bc10-4c67b7cb2dd9")
+	)
+	(label "I2C_SDA"
+		(at 152.4 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "2e280153-2217-4743-b80c-614856961e27")
 	)
 	(label "HBRIDGE_A_PWM"
 		(at 218.44 30.48 180)
@@ -7749,6 +7809,28 @@
 			(justify left)
 		)
 		(uuid "32e7682a-9ab0-41ff-96e2-dbe9a575afeb")
+	)
+	(label "EM_D_P"
+		(at 260.35 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3368c51c-ae34-4044-aa66-4192f11ccdbc")
+	)
+	(label "EM_C_N"
+		(at 152.4 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "34957395-a5e4-403c-b475-9e2861fe93f1")
 	)
 	(label "+USB_D"
 		(at 81.28 179.07 0)
@@ -7878,6 +7960,16 @@
 		)
 		(uuid "4e9e9c45-cbcc-4e85-98ca-f3c5af700fc9")
 	)
+	(label "EM_D_N"
+		(at 260.35 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "551d1608-fdf5-41ba-8663-416ca24c2939")
+	)
 	(label "I2C_SCL"
 		(at 120.65 59.69 0)
 		(effects
@@ -7950,6 +8042,16 @@
 		)
 		(uuid "5fa65bf7-6a39-4a89-8556-0c7168f7b92f")
 	)
+	(label "EM_B_N"
+		(at 260.35 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62117eac-a889-4247-87d1-d3b538309895")
+	)
 	(label "I2C_SDA"
 		(at 120.65 64.77 0)
 		(effects
@@ -7998,6 +8100,16 @@
 		)
 		(uuid "6e859401-0f32-43fc-9b32-71046f4f83ff")
 	)
+	(label "EM_B_P"
+		(at 260.35 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ef2d05f-7da7-4d06-8d8a-ccbadee5b3ff")
+	)
 	(label "HBRIDG_ALL_FAULT"
 		(at 64.77 54.61 180)
 		(effects
@@ -8033,6 +8145,26 @@
 			(justify right)
 		)
 		(uuid "816f4d72-c759-4c0c-a545-c6441a663803")
+	)
+	(label "EM_A_N"
+		(at 260.35 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83155821-9788-44a0-bbe6-c63a6d683b5f")
+	)
+	(label "EM_C_P"
+		(at 260.35 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84d24151-11aa-4eb4-938b-c07be3f8dfb8")
 	)
 	(label "VDD3P3"
 		(at 218.44 133.35 180)
@@ -8092,6 +8224,18 @@
 		)
 		(uuid "8c9aecfa-5280-4ae6-b73b-b7c14b662a84")
 	)
+	(label "I2C_SCL"
+		(at 152.4 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "8d47680f-8f2e-4a8f-a762-896c40af024e")
+	)
 	(label "VDD3P3"
 		(at 50.8 72.39 0)
 		(effects
@@ -8137,6 +8281,18 @@
 			(justify left)
 		)
 		(uuid "95a897ec-2f18-4a8b-ac3a-b0fe07e84a05")
+	)
+	(label "EM_D_P"
+		(at 152.4 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "9c2fa9ab-c5eb-41d6-ada9-8357fff4a515")
 	)
 	(label "HBRIDGE_A_DIR"
 		(at 218.44 33.02 180)
@@ -8318,6 +8474,16 @@
 		)
 		(uuid "d2336294-508a-4d38-af7b-7bafd61a1bc1")
 	)
+	(label "EM_A_P"
+		(at 260.35 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d29e775d-8d6d-4423-8827-78acea703f6e")
+	)
 	(label "HBRIDGE_A_ISENSE"
 		(at 64.77 31.75 180)
 		(effects
@@ -8353,6 +8519,16 @@
 			(justify right)
 		)
 		(uuid "dadac92d-b87c-4414-addd-56a585d74a9e")
+	)
+	(label "EM_C_N"
+		(at 260.35 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db4429c0-b2e7-4e47-9a87-844e65c41a4f")
 	)
 	(label "BOOT"
 		(at 218.44 82.55 180)
@@ -8426,6 +8602,30 @@
 		)
 		(uuid "e956b517-19ec-4e8f-a1c6-2356df890d1b")
 	)
+	(label "EM_A_P"
+		(at 152.4 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "e99b578e-49b8-47f3-9249-1444aeecb5f4")
+	)
+	(label "EM_C_P"
+		(at 152.4 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee799c5b-63e3-4678-b3bc-b8f2aa9e044e")
+	)
 	(label "HBRIDGE_ALL_EN"
 		(at 218.44 95.25 180)
 		(effects
@@ -8437,6 +8637,18 @@
 			(justify right)
 		)
 		(uuid "f1527a18-90ad-4dd5-be46-1d4502210de2")
+	)
+	(label "EM_D_N"
+		(at 152.4 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3cf708c-7366-43cb-a7a5-4ebc8be45cbb")
 	)
 	(label "HBRIDGE_C_PWM"
 		(at 120.65 52.07 0)
@@ -8945,6 +9157,87 @@
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 152.4 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f5278fc-52cd-42d4-9ec5-bc80bff2476a")
+		(property "Reference" "#PWR058"
+			(at 156.21 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 148.59 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 152.4 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b94c6aa9-445b-4867-8545-13561c2ae55a")
+		)
+		(instances
+			(project "Maglev"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -16244,6 +16537,172 @@
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 74.93)
+		(size 40.64 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fa0f1235-f62c-4c44-92f4-296ab8f601de")
+		(property "Sheetname" "Board to Board Connection"
+			(at 152.4 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Board_to_Board_Connection.kicad_sch"
+			(at 152.4 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EM_A_N" input
+			(at 152.4 78.74 180)
+			(uuid "2b4d27b7-8faa-4f47-af02-d27373064cb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EM_A_P" input
+			(at 152.4 81.28 180)
+			(uuid "99727913-c299-4469-b670-63d8b00adb38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EM_B_N" input
+			(at 152.4 86.36 180)
+			(uuid "98b7674f-9786-4e6f-8114-e3bb88e8d9cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EM_B_P" input
+			(at 152.4 88.9 180)
+			(uuid "ece57ec8-f020-4abb-a1e6-34698eefb673")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EM_C_N" input
+			(at 152.4 93.98 180)
+			(uuid "11b4be33-510e-4061-a1f6-e7cf3232d596")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EM_C_P" input
+			(at 152.4 96.52 180)
+			(uuid "84b211fd-f72b-4b65-ae2f-80649be67965")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EM_D_N" input
+			(at 152.4 101.6 180)
+			(uuid "ff3c9152-6045-4781-b1e3-4363289902cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EM_D_P" input
+			(at 152.4 104.14 180)
+			(uuid "807cc793-03ea-4616-a329-479e99f8a4a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3V" input
+			(at 152.4 109.22 180)
+			(uuid "77df0b32-4a50-4e34-aab9-f4c353ea6251")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_INT" input
+			(at 152.4 114.3 180)
+			(uuid "1e41c8c6-a330-4b5b-966b-7c95720c132d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 152.4 116.84 180)
+			(uuid "bbea6cf6-bf88-4a2a-ac5f-e674b55eba60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" input
+			(at 152.4 119.38 180)
+			(uuid "0658a95e-1fef-43bf-98fc-58976488ccd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Maglev"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625"
+					(page "6")
 				)
 			)
 		)

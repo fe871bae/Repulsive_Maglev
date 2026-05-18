@@ -701,7 +701,7 @@
         "uuid": "cf460145-35f8-4019-907e-b966a2c32625"
       }
     ],
-    "used_designators": "XTAL1,USB1,UART1,PWM&DIR1,I_SENSE1,REST/BOT1,I2C1,FAULT1,S1-8,U6-13",
+    "used_designators": "#VDD3,J7-12,#PWR56-58,U6-7",
     "variants": []
   },
   "sheets": [
@@ -724,6 +724,10 @@
     [
       "995c9bf7-2294-48ef-9351-edb7b71be1a3",
       "Pin Header"
+    ],
+    [
+      "fa0f1235-f62c-4c44-92f4-296ab8f601de",
+      "Board to Board Connection"
     ],
     [
       "40fcf314-ba7b-4496-9834-06d98f848b7c",

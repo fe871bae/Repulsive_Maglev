@@ -21,7 +21,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -53,8 +53,8 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "ffffffff_ffffffff_ffffffff_7fffffdf",
+    "zone_display_mode": 1
   },
   "git": {
     "integration_disabled": false,
@@ -107,7 +107,7 @@
       103,
       103,
       103,
-      51
+      104
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
