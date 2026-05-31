@@ -1560,7 +1560,7 @@
 		(uuid "07c6810b-004e-4f23-b20c-6838e602ea9e")
 	)
 	(junction
-		(at 111.76 100.33)
+		(at 59.69 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b3c8c48-841d-4317-8b8c-6cafe1651dd5")
@@ -1650,7 +1650,7 @@
 		(uuid "dd0b7d31-6c41-46e2-84e3-1f2511f2cce8")
 	)
 	(junction
-		(at 58.42 100.33)
+		(at 107.95 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5f33dc1-c00b-46cf-9e6b-cd8c39e5fb09")
@@ -1743,7 +1743,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 100.33) (xy 111.76 95.25)
+			(xy 59.69 96.52) (xy 59.69 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1753,7 +1753,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 100.33) (xy 58.42 95.25)
+			(xy 107.95 95.25) (xy 107.95 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1853,7 +1853,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 92.71) (xy 45.72 92.71)
+			(xy 92.71 87.63) (xy 95.25 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1863,7 +1863,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 97.79) (xy 45.72 97.79)
+			(xy 92.71 92.71) (xy 95.25 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1943,7 +1943,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 90.17) (xy 109.22 90.17)
+			(xy 59.69 86.36) (xy 57.15 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2013,7 +2013,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 87.63) (xy 45.72 87.63)
+			(xy 92.71 82.55) (xy 95.25 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2033,7 +2033,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 87.63) (xy 99.06 87.63)
+			(xy 44.45 83.82) (xy 46.99 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2103,7 +2103,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 95.25) (xy 109.22 95.25)
+			(xy 59.69 91.44) (xy 57.15 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2193,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 90.17) (xy 55.88 90.17)
+			(xy 107.95 85.09) (xy 105.41 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2213,7 +2213,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 97.79) (xy 99.06 97.79)
+			(xy 44.45 93.98) (xy 46.99 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2293,7 +2293,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 100.33) (xy 55.88 100.33)
+			(xy 107.95 95.25) (xy 105.41 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2323,7 +2323,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 92.71) (xy 99.06 92.71)
+			(xy 44.45 88.9) (xy 46.99 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2353,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 95.25) (xy 55.88 95.25)
+			(xy 107.95 90.17) (xy 105.41 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2433,7 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 100.33) (xy 109.22 100.33)
+			(xy 59.69 96.52) (xy 57.15 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +2465,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape output)
-		(at 58.42 90.17 0)
+		(at 107.95 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2476,7 +2476,7 @@
 	)
 	(hierarchical_label "I2C_INT"
 		(shape output)
-		(at 96.52 97.79 180)
+		(at 44.45 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2487,7 +2487,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape output)
-		(at 111.76 90.17 0)
+		(at 59.69 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2531,7 +2531,7 @@
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape output)
-		(at 43.18 87.63 180)
+		(at 92.71 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2575,7 +2575,7 @@
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape output)
-		(at 43.18 92.71 180)
+		(at 92.71 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2608,7 +2608,7 @@
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape output)
-		(at 96.52 87.63 180)
+		(at 44.45 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2674,7 +2674,7 @@
 	)
 	(hierarchical_label "I2C_INT"
 		(shape output)
-		(at 43.18 97.79 180)
+		(at 92.71 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2685,7 +2685,7 @@
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape output)
-		(at 96.52 92.71 180)
+		(at 44.45 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2995,7 +2995,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Wurth_WR-MM:690367190672")
-		(at 50.8 93.98 90)
+		(at 100.33 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3006,7 +3006,7 @@
 		(fields_autoplaced yes)
 		(uuid "36afa055-e130-4104-93b5-c0a235cbbe49")
 		(property "Reference" "J11"
-			(at 50.8 83.82 90)
+			(at 100.33 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3016,7 +3016,7 @@
 			)
 		)
 		(property "Value" "690367190672"
-			(at 63.5 93.98 0)
+			(at 113.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3027,7 +3027,7 @@
 			)
 		)
 		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-MM_690367190672"
-			(at 35.56 93.98 0)
+			(at 85.09 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3038,7 +3038,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/690367190672?ki"
-			(at 38.1 48.26 0)
+			(at 87.63 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3049,7 +3049,7 @@
 			)
 		)
 		(property "Description" "Female Connector with Latch & w/o Polarization"
-			(at 50.8 93.98 0)
+			(at 100.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3060,7 +3060,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 40.64 48.26 0)
+			(at 90.17 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3071,7 +3071,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 43.18 48.26 0)
+			(at 92.71 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3082,7 +3082,7 @@
 			)
 		)
 		(property "Series" "WR-MM"
-			(at 45.72 48.26 0)
+			(at 95.25 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3093,7 +3093,7 @@
 			)
 		)
 		(property "Pitch" "2.54 mm"
-			(at 48.26 48.26 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3104,7 +3104,7 @@
 			)
 		)
 		(property "Mounting Technology" "THT"
-			(at 50.8 48.26 0)
+			(at 100.33 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3115,7 +3115,7 @@
 			)
 		)
 		(property "Pins (pcs)" "6"
-			(at 53.34 48.26 0)
+			(at 102.87 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3126,7 +3126,7 @@
 			)
 		)
 		(property "Test Condition P" "per Row"
-			(at 55.88 48.26 0)
+			(at 105.41 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3137,7 +3137,7 @@
 			)
 		)
 		(property "Gender" "Female"
-			(at 58.42 48.26 0)
+			(at 107.95 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3148,7 +3148,7 @@
 			)
 		)
 		(property "Type" "Straight"
-			(at 60.96 48.26 0)
+			(at 110.49 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3159,7 +3159,7 @@
 			)
 		)
 		(property "IR (A)" "1.5"
-			(at 63.5 48.26 0)
+			(at 113.03 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3170,7 +3170,7 @@
 			)
 		)
 		(property "Polarization" "No"
-			(at 66.04 48.26 0)
+			(at 115.57 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3181,7 +3181,7 @@
 			)
 		)
 		(property "L (mm)" "12.22"
-			(at 68.58 48.26 0)
+			(at 118.11 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3192,7 +3192,7 @@
 			)
 		)
 		(property "Working Voltage (V (AC))" "250"
-			(at 71.12 48.26 0)
+			(at 120.65 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3203,7 +3203,7 @@
 			)
 		)
 		(property "Contact Resistance (mΩ)" "10"
-			(at 73.66 48.26 0)
+			(at 123.19 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3214,7 +3214,7 @@
 			)
 		)
 		(property "Tol. R" "max."
-			(at 76.2 48.26 0)
+			(at 125.73 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3541,7 +3541,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Wurth_WR-MM:690367190672")
-		(at 104.14 93.98 90)
+		(at 52.07 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3552,7 +3552,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb8bdd14-969b-4f92-9e3c-2813b4a0f1ea")
 		(property "Reference" "J12"
-			(at 104.14 83.82 90)
+			(at 52.07 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3562,7 +3562,7 @@
 			)
 		)
 		(property "Value" "690367190672"
-			(at 116.84 93.98 0)
+			(at 64.77 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3573,7 +3573,7 @@
 			)
 		)
 		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-MM_690367190672"
-			(at 88.9 93.98 0)
+			(at 36.83 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3584,7 +3584,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/690367190672?ki"
-			(at 91.44 48.26 0)
+			(at 39.37 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3595,7 +3595,7 @@
 			)
 		)
 		(property "Description" "Female Connector with Latch & w/o Polarization"
-			(at 104.14 93.98 0)
+			(at 52.07 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3606,7 +3606,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 93.98 48.26 0)
+			(at 41.91 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3617,7 +3617,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 96.52 48.26 0)
+			(at 44.45 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3628,7 +3628,7 @@
 			)
 		)
 		(property "Series" "WR-MM"
-			(at 99.06 48.26 0)
+			(at 46.99 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3639,7 +3639,7 @@
 			)
 		)
 		(property "Pitch" "2.54 mm"
-			(at 101.6 48.26 0)
+			(at 49.53 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3650,7 +3650,7 @@
 			)
 		)
 		(property "Mounting Technology" "THT"
-			(at 104.14 48.26 0)
+			(at 52.07 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3661,7 +3661,7 @@
 			)
 		)
 		(property "Pins (pcs)" "6"
-			(at 106.68 48.26 0)
+			(at 54.61 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3672,7 +3672,7 @@
 			)
 		)
 		(property "Test Condition P" "per Row"
-			(at 109.22 48.26 0)
+			(at 57.15 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3683,7 +3683,7 @@
 			)
 		)
 		(property "Gender" "Female"
-			(at 111.76 48.26 0)
+			(at 59.69 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3694,7 +3694,7 @@
 			)
 		)
 		(property "Type" "Straight"
-			(at 114.3 48.26 0)
+			(at 62.23 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3705,7 +3705,7 @@
 			)
 		)
 		(property "IR (A)" "1.5"
-			(at 116.84 48.26 0)
+			(at 64.77 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3716,7 +3716,7 @@
 			)
 		)
 		(property "Polarization" "No"
-			(at 119.38 48.26 0)
+			(at 67.31 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3727,7 +3727,7 @@
 			)
 		)
 		(property "L (mm)" "12.22"
-			(at 121.92 48.26 0)
+			(at 69.85 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3738,7 +3738,7 @@
 			)
 		)
 		(property "Working Voltage (V (AC))" "250"
-			(at 124.46 48.26 0)
+			(at 72.39 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3749,7 +3749,7 @@
 			)
 		)
 		(property "Contact Resistance (mΩ)" "10"
-			(at 127 48.26 0)
+			(at 74.93 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3760,7 +3760,7 @@
 			)
 		)
 		(property "Tol. R" "max."
-			(at 129.54 48.26 0)
+			(at 77.47 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3799,7 +3799,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 100.33 0)
+		(at 107.95 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3809,7 +3809,7 @@
 		(dnp no)
 		(uuid "c13085f4-6ce6-44a8-b6bc-83bfeaf986ed")
 		(property "Reference" "#PWR056"
-			(at 58.42 106.68 0)
+			(at 107.95 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3820,7 +3820,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.452 100.584 0)
+			(at 109.982 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3830,7 +3830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 100.33 0)
+			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3841,7 +3841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 100.33 0)
+			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3852,7 +3852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 100.33 0)
+			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3876,7 +3876,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 100.33 0)
+		(at 59.69 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3886,7 +3886,7 @@
 		(dnp no)
 		(uuid "eb6533a3-9fa9-4d8b-bb59-a1acd25d0bd5")
 		(property "Reference" "#PWR057"
-			(at 111.76 106.68 0)
+			(at 59.69 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3897,7 +3897,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.792 100.584 0)
+			(at 61.722 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3907,7 +3907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 100.33 0)
+			(at 59.69 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3918,7 +3918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 100.33 0)
+			(at 59.69 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3929,7 +3929,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 100.33 0)
+			(at 59.69 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

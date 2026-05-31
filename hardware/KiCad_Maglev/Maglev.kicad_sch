@@ -9915,7 +9915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WURTH_USB:632723300011"
+		(property "Footprint" "WURTH_USB:629722000214"
 			(at 34.29 158.75 0)
 			(hide yes)
 			(show_name no)
