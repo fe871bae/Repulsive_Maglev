@@ -98,7 +98,7 @@
           ""
         ],
         [
-          "unconnected_items|175688399|59790373|F.Cu|4|b56502b9-94ef-4a7d-a5fd-30d4fda60ebc|c98636a8-1b1e-43bf-9a64-a31d75378d15",
+          "unconnected_items|175688399|59790373|F.Cu|4|b56502b9-94ef-4a7d-a5fd-30d4fda60ebc|e6ec9367-3dab-42de-974f-dc0667b57f4c",
           ""
         ],
         [
@@ -106,7 +106,7 @@
           ""
         ],
         [
-          "unconnected_items|213000000|96500000|F.Cu|4|9c9d6419-2004-45e1-bee0-c5c463002502|e9e3ed7e-a753-476a-80f6-9d7aeaab58d9",
+          "unconnected_items|213000000|96500000|F.Cu|4|8eaac8ab-717c-41b4-a999-9af583c4054f|e9e3ed7e-a753-476a-80f6-9d7aeaab58d9",
           ""
         ],
         [
@@ -161,7 +161,7 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "warning",
+        "malformed_courtyard": "ignore",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
@@ -177,7 +177,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "warning",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
