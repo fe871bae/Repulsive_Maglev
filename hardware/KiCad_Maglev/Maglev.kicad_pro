@@ -766,7 +766,7 @@
         "uuid": "cf460145-35f8-4019-907e-b966a2c32625"
       }
     ],
-    "used_designators": "USB1,I2C1,TP1-17,UART1,J5,C26,C34",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
