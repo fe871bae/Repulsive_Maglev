@@ -1349,6 +1349,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_Probe"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 1.651 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Probe"
+				(at 1.651 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point (alternative probe-style design)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0"
 			(pin_names
 				(offset 1.016)
@@ -2048,6 +2184,631 @@
 						)
 					)
 					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Wurth_WR-PHD:61300211121"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "61300211121"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61300211121"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300211121?ki"
+				(at 40.64 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2.54 mm THT Pin Header"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 40.64 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 40.64 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Series" "WR-PHD"
+				(at 40.64 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pitch" "2.54 mm"
+				(at 40.64 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mounting Technology" "THT"
+				(at 40.64 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pins (pcs)" "2"
+				(at 40.64 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rows" "Single"
+				(at 40.64 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Gender" "Pin Header"
+				(at 40.64 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "Straight"
+				(at 40.64 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IR (A)" "3"
+				(at 40.64 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "THT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WR-PHD*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "61300211121_1_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.508) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.508) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -1.27 -3.81 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -3.81 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Wurth_WR-PHD:61300311121"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "61300311121"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61300311121"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300311121?ki"
+				(at 40.64 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2.54 mm THT Pin Header"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 40.64 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 40.64 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Series" "WR-PHD"
+				(at 40.64 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pitch" "2.54 mm"
+				(at 40.64 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mounting Technology" "THT"
+				(at 40.64 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pins (pcs)" "3"
+				(at 40.64 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rows" "Single"
+				(at 40.64 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Gender" "Pin Header"
+				(at 40.64 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "Straight"
+				(at 40.64 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IR (A)" "3"
+				(at 40.64 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "THT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WR-PHD*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "61300311121_1_1"
+				(rectangle
+					(start -3.81 1.27)
+					(end 3.81 -1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.508) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.508) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -3.81 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -3.81 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6380,6 +7141,12 @@
 		(uuid "47b36912-289e-429c-a6ee-c797170b13e2")
 	)
 	(junction
+		(at 124.46 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a6784e1-3233-498a-a046-ae4cf62a2fdc")
+	)
+	(junction
 		(at 124.46 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6390,6 +7157,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29ff0590-199f-4433-8a1a-ba876d19dc74")
+	)
+	(junction
+		(at 124.46 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47698d96-e32f-47d1-846d-8b5e914c5197")
 	)
 	(junction
 		(at 135.89 26.67)
@@ -6416,6 +7189,12 @@
 		(uuid "6a2a83ed-4d7a-49a8-9651-bdd82d0c1a0f")
 	)
 	(junction
+		(at 124.46 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bc6b1bc-5266-4bc2-a0a3-eec8327f1d05")
+	)
+	(junction
 		(at 106.68 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6438,12 +7217,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99572bb7-13a0-4ef2-bb8b-0b977220fb24")
-	)
-	(junction
-		(at 124.46 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dea65014-6dd0-48c9-a875-790f0549100d")
 	)
 	(no_connect
 		(at 45.72 151.13)
@@ -6517,7 +7290,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 179.07) (xy 76.2 179.07)
+			(xy 80.01 179.07) (xy 76.2 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6587,6 +7360,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 22.86) (xy 165.1 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4339fa-848f-46c2-9d94-1bacc8a02673")
+	)
+	(wire
+		(pts
 			(xy 67.31 179.07) (xy 71.12 179.07)
 		)
 		(stroke
@@ -6617,16 +7400,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 90.17) (xy 109.22 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "300999b6-d4d6-46cb-91c9-2afccff8ac2b")
-	)
-	(wire
-		(pts
 			(xy 30.48 185.42) (xy 50.8 185.42)
 		)
 		(stroke
@@ -6637,7 +7410,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 142.24) (xy 124.46 142.24)
+			(xy 127 139.7) (xy 124.46 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6647,13 +7420,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 93.98) (xy 109.22 93.98)
+			(xy 105.41 93.98) (xy 127 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "35c2e5bd-a827-473e-8aef-ec0f58ce736c")
+	)
+	(wire
+		(pts
+			(xy 127 91.44) (xy 127 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367cdba7-7e2b-4e9d-aa92-2b2ebc0eb1c8")
 	)
 	(wire
 		(pts
@@ -6694,6 +7477,16 @@
 			(type default)
 		)
 		(uuid "4404b073-c94d-4dee-b1e2-bfc45e6c7a00")
+	)
+	(wire
+		(pts
+			(xy 127 97.79) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44250ff0-78f0-4c1d-a114-1a41b6819f10")
 	)
 	(wire
 		(pts
@@ -6797,6 +7590,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 26.67) (xy 163.83 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c81dae5-089a-4926-b27e-b827498b094f")
+	)
+	(wire
+		(pts
 			(xy 124.46 154.94) (xy 138.43 154.94)
 		)
 		(stroke
@@ -6837,6 +7640,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 26.67) (xy 163.83 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6478cc2d-dfea-484f-99da-ba3b75615de8")
+	)
+	(wire
+		(pts
 			(xy 49.53 77.47) (xy 64.77 77.47)
 		)
 		(stroke
@@ -6867,7 +7680,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 173.99) (xy 124.46 176.53)
+			(xy 124.46 172.72) (xy 124.46 176.53)
 		)
 		(stroke
 			(width 0)
@@ -7027,6 +7840,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 90.17) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa5c7d7-b268-4d5d-80dc-91cfd3492af4")
+	)
+	(wire
+		(pts
 			(xy 124.46 154.94) (xy 124.46 157.48)
 		)
 		(stroke
@@ -7034,6 +7857,16 @@
 			(type default)
 		)
 		(uuid "90087182-db41-47b3-abf1-ebf392a50250")
+	)
+	(wire
+		(pts
+			(xy 163.83 22.86) (xy 163.83 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90636067-75ff-4def-9d42-3c93c2f3cc90")
 	)
 	(wire
 		(pts
@@ -7057,7 +7890,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 97.79) (xy 109.22 97.79)
+			(xy 105.41 97.79) (xy 127 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7137,7 +7970,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 142.24) (xy 124.46 144.78)
+			(xy 124.46 139.7) (xy 124.46 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7184,6 +8017,16 @@
 			(type default)
 		)
 		(uuid "c50473cb-48f7-4208-87b7-b03b015ec46e")
+	)
+	(wire
+		(pts
+			(xy 146.05 21.59) (xy 163.83 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5849508-f653-4945-88d3-49a6e5c4cf0e")
 	)
 	(wire
 		(pts
@@ -7234,6 +8077,16 @@
 			(type default)
 		)
 		(uuid "d0107569-5b5b-4adf-92dc-b225c2adc14d")
+	)
+	(wire
+		(pts
+			(xy 163.83 25.4) (xy 165.1 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f72211-8311-4ac0-b8d5-a1fefbba08b3")
 	)
 	(wire
 		(pts
@@ -7327,7 +8180,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 173.99) (xy 124.46 173.99)
+			(xy 128.27 172.72) (xy 124.46 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7446,7 +8299,7 @@
 		(uuid "07cf56b2-7225-4c5a-a216-87e9fcde6658")
 	)
 	(label "I2C_INT"
-		(at 156.21 120.65 180)
+		(at 170.18 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7456,18 +8309,6 @@
 			(justify right)
 		)
 		(uuid "0820877b-9c88-4e4f-8fd4-0724166c3336")
-	)
-	(label "HBRIDGE_A_PWM"
-		(at 218.44 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "0c3ee207-b855-4c68-93be-008e315500d6")
 	)
 	(label "-XTAL_40_MHz"
 		(at 49.53 39.37 0)
@@ -7480,7 +8321,7 @@
 		(uuid "0f9ed366-998d-4383-983f-827acfaa1f4a")
 	)
 	(label "I2C_SDA"
-		(at 109.22 93.98 0)
+		(at 107.95 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7528,7 +8369,7 @@
 		(uuid "165b3cbe-5dc9-4e4c-873c-9d0cfdee2d0f")
 	)
 	(label "EM_B_P"
-		(at 156.21 92.71 180)
+		(at 170.18 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7538,18 +8379,6 @@
 			(justify right bottom)
 		)
 		(uuid "1691c5f5-be7b-4bdc-82ab-17068f361adc")
-	)
-	(label "RXD"
-		(at 218.44 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "1a160e52-6634-4b98-9e6a-f6adcb0bcefa")
 	)
 	(label "HBRIDGE_C_PWM"
 		(at 218.44 50.8 180)
@@ -7588,7 +8417,7 @@
 		(uuid "1e2ee7b5-7e2f-462b-8aec-d66033223da7")
 	)
 	(label "EM_A_N"
-		(at 156.21 87.63 180)
+		(at 170.18 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7600,7 +8429,7 @@
 		(uuid "2831ff3c-a7ce-4697-9c56-ce8377a2c56a")
 	)
 	(label "EM_B_N"
-		(at 156.21 95.25 180)
+		(at 170.18 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7611,20 +8440,8 @@
 		)
 		(uuid "29cf2e9b-a30f-479a-b247-5b6283dbd2cd")
 	)
-	(label "+USB_D"
-		(at 218.44 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "2ca77f1a-4bde-41ed-bc10-4c67b7cb2dd9")
-	)
 	(label "I2C_SDA"
-		(at 156.21 125.73 180)
+		(at 170.18 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7682,7 +8499,7 @@
 		(uuid "3368c51c-ae34-4044-aa66-4192f11ccdbc")
 	)
 	(label "EM_C_N"
-		(at 156.21 102.87 180)
+		(at 170.18 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7694,7 +8511,7 @@
 		(uuid "34957395-a5e4-403c-b475-9e2861fe93f1")
 	)
 	(label "USB_D+"
-		(at 81.28 179.07 0)
+		(at 80.01 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7715,30 +8532,6 @@
 		)
 		(uuid "35cae120-a83b-49c0-a8e4-5162b4ec317b")
 	)
-	(label "HBRIDGE_C_ISENSE"
-		(at 218.44 158.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "38550721-d423-493a-bbc7-de89437e3d3e")
-	)
-	(label "TXD"
-		(at 218.44 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "399d7b54-db6a-4211-928d-f727b50db914")
-	)
 	(label "HBRIDGE_B_ISENSE"
 		(at 218.44 45.72 180)
 		(effects
@@ -7752,7 +8545,7 @@
 		(uuid "3bbbd642-aa34-4f46-9bf1-d13436ecacd8")
 	)
 	(label "BOOT"
-		(at 127 173.99 0)
+		(at 128.27 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7798,7 +8591,7 @@
 		(uuid "499af080-0f5a-4db5-81b3-43a60746097e")
 	)
 	(label "CHIP_EN"
-		(at 127 142.24 0)
+		(at 127 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7843,30 +8636,6 @@
 		)
 		(uuid "552b5223-5144-441d-a4b7-821efc31f7ca")
 	)
-	(label "HBRIDGE_B_PWM"
-		(at 218.44 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "57370ae8-adbe-4c30-9077-3d32c292740b")
-	)
-	(label "HBRIDGE_A_ISENSE"
-		(at 218.44 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "5832b046-fb50-4a66-a8ab-d4079dee5bd3")
-	)
 	(label "HBRIDGE_B_ISENSE"
 		(at 64.77 34.29 180)
 		(effects
@@ -7878,30 +8647,6 @@
 			(justify right)
 		)
 		(uuid "5889bbbc-132c-4481-9159-495dc18b40c7")
-	)
-	(label "HBRIDGE_D_DIR"
-		(at 218.44 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "5e05bb2b-9af9-4c95-b345-dae0330a7045")
-	)
-	(label "HBRIDG_ALL_FAULT"
-		(at 218.44 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "5fa65bf7-6a39-4a89-8556-0c7168f7b92f")
 	)
 	(label "EM_B_N"
 		(at 260.35 45.72 0)
@@ -7925,42 +8670,6 @@
 		)
 		(uuid "637e20d9-5de5-4e1f-824a-35cbc0ef427a")
 	)
-	(label "HBRIDGE_D_PWM"
-		(at 218.44 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "655b900c-39f3-4ee0-9e11-afeebe045037")
-	)
-	(label "HBRIDGE_C_PWM"
-		(at 218.44 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "675a1a17-6f07-4947-bfef-ef78cea15553")
-	)
-	(label "HBRIDGE_C_DIR"
-		(at 218.44 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "6e859401-0f32-43fc-9b32-71046f4f83ff")
-	)
 	(label "EM_B_P"
 		(at 260.35 38.1 0)
 		(effects
@@ -7983,30 +8692,6 @@
 		)
 		(uuid "71bbf6d6-aba6-44d2-b6eb-1a80dc558582")
 	)
-	(label "-XTAL_40_MHz"
-		(at 218.44 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "75cf1fcf-6a1e-400e-a601-7735985d6c63")
-	)
-	(label "I2C_SDA"
-		(at 218.44 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "816f4d72-c759-4c0c-a545-c6441a663803")
-	)
 	(label "EM_A_N"
 		(at 260.35 31.75 0)
 		(effects
@@ -8026,30 +8711,6 @@
 			(justify left bottom)
 		)
 		(uuid "84d24151-11aa-4eb4-938b-c07be3f8dfb8")
-	)
-	(label "VDD3P3"
-		(at 218.44 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "8798d9bf-9d9f-4ce4-9587-716b4783993a")
-	)
-	(label "HBRIDGE_D_ISENSE"
-		(at 218.44 161.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "8a273e39-98ba-4e38-a090-299b3ae11a23")
 	)
 	(label "VDDA"
 		(at 50.8 69.85 0)
@@ -8086,7 +8747,7 @@
 		(uuid "8c9aecfa-5280-4ae6-b73b-b7c14b662a84")
 	)
 	(label "I2C_SCL"
-		(at 156.21 123.19 180)
+		(at 170.18 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8108,7 +8769,7 @@
 		(uuid "8dda8adb-0b7f-4ca1-9cc9-29f77e5a9cda")
 	)
 	(label "TXD"
-		(at 146.05 21.59 0)
+		(at 147.32 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8144,7 +8805,7 @@
 		(uuid "95a897ec-2f18-4a8b-ac3a-b0fe07e84a05")
 	)
 	(label "EM_D_P"
-		(at 156.21 107.95 180)
+		(at 170.18 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8166,18 +8827,6 @@
 			(justify right)
 		)
 		(uuid "9eeb6d80-66af-409d-a97d-87ec32361c81")
-	)
-	(label "CHIP_EN"
-		(at 218.44 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "a05e9478-67d5-4bbb-b425-d2ddaa986ba5")
 	)
 	(label "USB_D-"
 		(at 120.65 31.75 0)
@@ -8275,30 +8924,6 @@
 		)
 		(uuid "c2ba02d7-7024-4f16-b143-b03eb07ea795")
 	)
-	(label "+XTAL_40_MHz"
-		(at 218.44 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "c2f540f1-e425-4567-ad22-1ecb8374771a")
-	)
-	(label "I2C_INT"
-		(at 218.44 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "c60fe08d-a239-4759-8b03-30b9a106966b")
-	)
 	(label "HBRIDGE_B_DIR"
 		(at 218.44 43.18 180)
 		(effects
@@ -8324,7 +8949,7 @@
 		(uuid "cb802a03-83e8-4ac2-9862-cacc93ef65e5")
 	)
 	(label "RXD"
-		(at 146.05 26.67 0)
+		(at 147.32 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8357,18 +8982,6 @@
 		)
 		(uuid "d735a59b-af9a-4158-89f8-0368734a63d9")
 	)
-	(label "HBRIDGE_B_DIR"
-		(at 218.44 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "d867e5a4-22d7-4ad3-841c-55306356465e")
-	)
 	(label "CHIP_EN"
 		(at 64.77 29.21 180)
 		(effects
@@ -8390,30 +9003,6 @@
 			(justify left bottom)
 		)
 		(uuid "db4429c0-b2e7-4e47-9a87-844e65c41a4f")
-	)
-	(label "BOOT"
-		(at 218.44 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "dbbc563c-1a4f-47e4-8c83-6b1ad98bfa12")
-	)
-	(label "HBRIDGE_A_DIR"
-		(at 218.44 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "de1d57a3-3513-4181-9031-2e629a36b0fa")
 	)
 	(label "HBRIDGE_D_PWM"
 		(at 218.44 60.96 180)
@@ -8451,20 +9040,8 @@
 		)
 		(uuid "e58f3f49-20b0-4602-8c2d-fe5c2b19f580")
 	)
-	(label "I2C_SCL"
-		(at 218.44 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "e956b517-19ec-4e8f-a1c6-2356df890d1b")
-	)
 	(label "EM_A_P"
-		(at 156.21 85.09 180)
+		(at 170.18 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8476,7 +9053,7 @@
 		(uuid "e99b578e-49b8-47f3-9249-1444aeecb5f4")
 	)
 	(label "EM_C_P"
-		(at 156.21 100.33 180)
+		(at 170.18 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8487,20 +9064,8 @@
 		)
 		(uuid "ee799c5b-63e3-4678-b3bc-b8f2aa9e044e")
 	)
-	(label "HBRIDGE_ALL_EN"
-		(at 218.44 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "f1527a18-90ad-4dd5-be46-1d4502210de2")
-	)
 	(label "EM_D_N"
-		(at 156.21 110.49 180)
+		(at 170.18 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8532,30 +9097,6 @@
 			(justify left bottom)
 		)
 		(uuid "fac69ca6-ea4e-4bdf-8846-3d885df57800")
-	)
-	(label "HBRIDGE_B_ISENSE"
-		(at 218.44 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "fdd6d9ba-b261-444c-8f61-bcede327c598")
-	)
-	(label "-USB_D"
-		(at 218.44 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "ff97d016-ec00-4f1e-a984-396566075dfc")
 	)
 	(symbol
 		(lib_id "power:+5VP")
@@ -9025,7 +9566,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 156.21 115.57 90)
+		(at 170.18 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9036,7 +9577,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f5278fc-52cd-42d4-9ec5-bc80bff2476a")
 		(property "Reference" "#PWR058"
-			(at 160.02 115.57 0)
+			(at 173.99 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9047,7 +9588,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 152.4 115.57 90)
+			(at 166.37 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9060,7 +9601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 115.57 0)
+			(at 170.18 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9071,7 +9612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 115.57 0)
+			(at 170.18 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9082,7 +9623,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 156.21 115.57 0)
+			(at 170.18 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10750,6 +11291,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 124.46 139.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "559b98fc-23dc-4218-878e-1e1a3c7dd170")
+		(property "Reference" "TP1"
+			(at 122.8725 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TP:CHIP_EN"
+			(at 122.8725 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 124.46 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 124.46 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98b6b1fa-754a-4479-aeb9-79e91597b638")
+		)
+		(instances
+			(project "Maglev"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 207.01 20.32 0)
 		(unit 1)
@@ -12273,6 +12891,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 124.46 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87fd83e0-577e-4118-be3d-f7cd88b1af81")
+		(property "Reference" "TP2"
+			(at 122.8725 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TP:BOOT"
+			(at 122.8725 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 124.46 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 124.46 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8150afe7-bc9d-4ef9-8e39-8402b30a596e")
+		)
+		(instances
+			(project "Maglev"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:ElectromagneticActor")
 		(at 260.35 40.64 180)
 		(unit 1)
@@ -13469,6 +14164,198 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Wurth_WR-PHD:61300211121")
+		(at 168.91 24.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c02c0cbe-aa3f-4db3-bb8d-63627e07b037")
+		(property "Reference" "UART1"
+			(at 171.45 24.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "61300211121"
+			(at 156.21 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61300211121"
+			(at 175.26 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300211121?ki"
+			(at 181.61 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.54 mm THT Pin Header"
+			(at 168.91 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 179.07 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 176.53 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "WR-PHD"
+			(at 173.99 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch" "2.54 mm"
+			(at 171.45 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 168.91 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pins (pcs)" "2"
+			(at 166.37 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rows" "Single"
+			(at 163.83 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Gender" "Pin Header"
+			(at 161.29 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Straight"
+			(at 158.75 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IR (A)" "3"
+			(at 156.21 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb68221c-7f20-4ccd-9654-a8cefaa20170")
+		)
+		(pin "2"
+			(uuid "0dcd4240-c3e3-427c-bd2b-01dcefba0985")
+		)
+		(instances
+			(project "Maglev"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625"
+					(reference "UART1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistor_Wurth_WRIS-RSKS:1206_R_560112132050")
 		(at 162.56 34.29 270)
 		(unit 1)
@@ -13732,6 +14619,201 @@
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Wurth_WR-PHD:61300311121")
+		(at 130.81 93.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6bfdbbc-7066-44aa-b979-c1243541960c")
+		(property "Reference" "I2C1"
+			(at 133.35 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "61300311121"
+			(at 118.11 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61300311121"
+			(at 137.16 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300311121?ki"
+			(at 143.51 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.54 mm THT Pin Header"
+			(at 130.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 140.97 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 138.43 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "WR-PHD"
+			(at 135.89 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch" "2.54 mm"
+			(at 133.35 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 130.81 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pins (pcs)" "3"
+			(at 128.27 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rows" "Single"
+			(at 125.73 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Gender" "Pin Header"
+			(at 123.19 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Straight"
+			(at 120.65 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IR (A)" "3"
+			(at 118.11 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1aa916d6-40e8-4d50-9e84-1b944e777a9b")
+		)
+		(pin "1"
+			(uuid "76e3fa08-25a5-425a-a09d-e5e29db9fc43")
+		)
+		(pin "2"
+			(uuid "4c13c02a-d63a-4550-95a3-25a73d3fc679")
+		)
+		(instances
+			(project "Maglev"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625"
+					(reference "I2C1")
 					(unit 1)
 				)
 			)
@@ -15216,311 +16298,6 @@
 		)
 	)
 	(sheet
-		(at 218.44 81.28)
-		(size 26.67 81.28)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "995c9bf7-2294-48ef-9351-edb7b71be1a3")
-		(property "Sheetname" "Pin Header"
-			(at 245.872 83.058 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pin_header.kicad_sch"
-			(at 218.44 163.1446 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "+USB_D" input
-			(at 218.44 86.36 180)
-			(uuid "3509b47c-7af8-464b-b607-a5f199f0baea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "-USB_D" input
-			(at 218.44 88.9 180)
-			(uuid "b4276f1e-9078-4387-9214-1c95de6f4197")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "BOOT" input
-			(at 218.44 82.55 180)
-			(uuid "c1f2a326-5fee-4f6c-8067-6c86e10c42d2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CHIP_EN" input
-			(at 218.44 92.71 180)
-			(uuid "e79a4f8a-697f-4bbf-b703-f37f1643c217")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HBRIDGE_ALL_EN" input
-			(at 218.44 95.25 180)
-			(uuid "1daf4352-2dbe-4a15-965b-686e51d51ce3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HBRIDGE_ALL_FAULT" input
-			(at 218.44 97.79 180)
-			(uuid "8e4b8629-5956-422a-bb25-8efde1e067c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HBRIDGE_A_DIR" input
-			(at 218.44 107.95 180)
-			(uuid "a4cbcfad-568d-49d9-8d13-a34509aee930")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HBRIDGE_A_ISENSE" input
-			(at 218.44 153.67 180)
-			(uuid "bccfe7fa-ef11-4b9f-9077-aaaa92afcab7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HBRIDGE_A_PWM" input
-			(at 218.44 110.49 180)
-			(uuid "ebef020e-49d8-4fef-9098-a087786ebf13")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HBRIDGE_B_DIR" input
-			(at 218.44 114.3 180)
-			(uuid "c9143ee4-4133-4b65-b1a2-821416caec93")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HBRIDGE_B_ISENSE" input
-			(at 218.44 156.21 180)
-			(uuid "74834553-1dbb-4eb9-bdb2-29c839ae55d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HBRIDGE_B_PWM" input
-			(at 218.44 116.84 180)
-			(uuid "ac9e1cfe-b7f3-470d-9b45-4a3e2e3abafc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HBRIDGE_C_DIR" input
-			(at 218.44 120.65 180)
-			(uuid "21d7681d-1b62-4933-ad66-5104c0d3213d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HBRIDGE_C_ISENSE" input
-			(at 218.44 158.75 180)
-			(uuid "41c7dd95-ffd1-43e1-b935-88ddd974eabf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HBRIDGE_C_PWM" input
-			(at 218.44 123.19 180)
-			(uuid "a841447a-5d2e-45fd-8589-f70526a5c5af")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HBRIDGE_D_DIR" input
-			(at 218.44 127 180)
-			(uuid "c17c1865-9af4-4047-acbf-d7e0d489860c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HBRIDGE_D_ISENSE" input
-			(at 218.44 161.29 180)
-			(uuid "5a4d54dd-48a8-4786-810d-61a719aa3796")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HBRIDGE_D_PWM" input
-			(at 218.44 129.54 180)
-			(uuid "ff2398d8-6006-4117-8f7f-d62dc6dbd9db")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C_INT" input
-			(at 218.44 137.16 180)
-			(uuid "ae1d0e12-900a-422e-b612-34089407aca8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C_SCL" input
-			(at 218.44 139.7 180)
-			(uuid "c8449d90-d679-4cbe-9093-0b06b3cea3e2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C_SDA" input
-			(at 218.44 142.24 180)
-			(uuid "f12c28dd-e056-456d-852a-e7b974e5393f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RXD" input
-			(at 218.44 147.32 180)
-			(uuid "9ef6e041-126e-4321-ae58-d081f9d7af9c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TXD" input
-			(at 218.44 149.86 180)
-			(uuid "4e91bc30-cf46-4f15-afbd-3a713940c9c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+XTAL_40_MHz" input
-			(at 218.44 101.6 180)
-			(uuid "16ce8bff-01a2-4113-8ea4-e3584e74112d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "-XTAL_40_MHz" input
-			(at 218.44 104.14 180)
-			(uuid "c9ddcf33-8880-44c2-ba31-20f26699ada4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VDD3P3" input
-			(at 218.44 133.35 180)
-			(uuid "2124db6a-11a6-4b19-9bd7-8c4814fa7c87")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 218.44 19.685)
 		(size 34.29 57.15)
 		(exclude_from_sim no)
@@ -15807,7 +16584,7 @@
 		)
 	)
 	(sheet
-		(at 156.21 81.28)
+		(at 170.18 97.79)
 		(size 40.64 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15823,7 +16600,7 @@
 		)
 		(uuid "fa0f1235-f62c-4c44-92f4-296ab8f601de")
 		(property "Sheetname" "Board to Board Connection"
-			(at 156.21 80.5684 0)
+			(at 170.18 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15834,7 +16611,7 @@
 			)
 		)
 		(property "Sheetfile" "Board_to_Board_Connection.kicad_sch"
-			(at 156.21 132.6646 0)
+			(at 170.18 149.1746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15845,7 +16622,7 @@
 			)
 		)
 		(pin "EM_A_N" input
-			(at 156.21 85.09 180)
+			(at 170.18 101.6 180)
 			(uuid "2b4d27b7-8faa-4f47-af02-d27373064cb9")
 			(effects
 				(font
@@ -15855,7 +16632,7 @@
 			)
 		)
 		(pin "EM_A_P" input
-			(at 156.21 87.63 180)
+			(at 170.18 104.14 180)
 			(uuid "99727913-c299-4469-b670-63d8b00adb38")
 			(effects
 				(font
@@ -15865,7 +16642,7 @@
 			)
 		)
 		(pin "EM_B_N" input
-			(at 156.21 92.71 180)
+			(at 170.18 109.22 180)
 			(uuid "98b7674f-9786-4e6f-8114-e3bb88e8d9cf")
 			(effects
 				(font
@@ -15875,7 +16652,7 @@
 			)
 		)
 		(pin "EM_B_P" input
-			(at 156.21 95.25 180)
+			(at 170.18 111.76 180)
 			(uuid "ece57ec8-f020-4abb-a1e6-34698eefb673")
 			(effects
 				(font
@@ -15885,7 +16662,7 @@
 			)
 		)
 		(pin "EM_C_N" input
-			(at 156.21 100.33 180)
+			(at 170.18 116.84 180)
 			(uuid "11b4be33-510e-4061-a1f6-e7cf3232d596")
 			(effects
 				(font
@@ -15895,7 +16672,7 @@
 			)
 		)
 		(pin "EM_C_P" input
-			(at 156.21 102.87 180)
+			(at 170.18 119.38 180)
 			(uuid "84b211fd-f72b-4b65-ae2f-80649be67965")
 			(effects
 				(font
@@ -15905,7 +16682,7 @@
 			)
 		)
 		(pin "EM_D_N" input
-			(at 156.21 107.95 180)
+			(at 170.18 124.46 180)
 			(uuid "ff3c9152-6045-4781-b1e3-4363289902cd")
 			(effects
 				(font
@@ -15915,7 +16692,7 @@
 			)
 		)
 		(pin "EM_D_P" input
-			(at 156.21 110.49 180)
+			(at 170.18 127 180)
 			(uuid "807cc793-03ea-4616-a329-479e99f8a4a9")
 			(effects
 				(font
@@ -15925,7 +16702,7 @@
 			)
 		)
 		(pin "+3.3V" input
-			(at 156.21 115.57 180)
+			(at 170.18 132.08 180)
 			(uuid "77df0b32-4a50-4e34-aab9-f4c353ea6251")
 			(effects
 				(font
@@ -15935,7 +16712,7 @@
 			)
 		)
 		(pin "I2C_INT" input
-			(at 156.21 120.65 180)
+			(at 170.18 137.16 180)
 			(uuid "1e41c8c6-a330-4b5b-966b-7c95720c132d")
 			(effects
 				(font
@@ -15945,7 +16722,7 @@
 			)
 		)
 		(pin "I2C_SCL" input
-			(at 156.21 123.19 180)
+			(at 170.18 139.7 180)
 			(uuid "bbea6cf6-bf88-4a2a-ac5f-e674b55eba60")
 			(effects
 				(font
@@ -15955,7 +16732,7 @@
 			)
 		)
 		(pin "I2C_SDA" input
-			(at 156.21 125.73 180)
+			(at 170.18 142.24 180)
 			(uuid "0658a95e-1fef-43bf-98fc-58976488ccd9")
 			(effects
 				(font

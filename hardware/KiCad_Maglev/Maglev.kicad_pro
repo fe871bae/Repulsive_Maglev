@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.6,
-          "height": 1.2,
-          "width": 0.6
+          "drill": 0.0,
+          "height": 1.15,
+          "width": 0.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -90,11 +90,7 @@
           ""
         ],
         [
-          "unconnected_items|167606168|64280501|F.Cu|4|aaa78585-cc3b-4714-bb0e-c4c117ce7e39|f7279910-4523-4d3f-8acc-75f25aebe108",
-          ""
-        ],
-        [
-          "unconnected_items|174790373|57096296|F.Cu|4|d7b11766-4852-437b-96c0-674eba6de944|364086d4-70b5-4356-8276-7152db98a5a8",
+          "unconnected_items|174790373|57096296|F.Cu|4|d7b11766-4852-437b-96c0-674eba6de944|f4804b7f-e2b0-48f5-9a99-dc2ba1467cce",
           ""
         ],
         [
@@ -102,11 +98,11 @@
           ""
         ],
         [
-          "unconnected_items|178382476|53504193|F.Cu|4|1c35a626-0fad-462d-b765-aec4e8fc2fb8|ac735397-5fe1-4c8a-a8cd-a3dc18ba98be",
+          "unconnected_items|178382476|53504193|F.Cu|4|1c35a626-0fad-462d-b765-aec4e8fc2fb8|b49a8f0c-1aad-42d7-bee4-3ef778266b77",
           ""
         ],
         [
-          "unconnected_items|213000000|96500000|F.Cu|4|8eaac8ab-717c-41b4-a999-9af583c4054f|e9e3ed7e-a753-476a-80f6-9d7aeaab58d9",
+          "unconnected_items|213000000|96500000|F.Cu|4|9c9d6419-2004-45e1-bee0-c5c463002502|e9e3ed7e-a753-476a-80f6-9d7aeaab58d9",
           ""
         ],
         [
@@ -114,7 +110,7 @@
           ""
         ],
         [
-          "unconnected_items|77000000|88917770|F.Cu|4|0c1cfc40-b313-4e87-aacc-e830b013b426|e8fb7d35-038b-4b2e-bc66-ddd80ca18ad4",
+          "unconnected_items|77000000|88917770|F.Cu|4|cab104c4-97d0-4586-b62e-5141f57ef66a|e8fb7d35-038b-4b2e-bc66-ddd80ca18ad4",
           ""
         ],
         [
@@ -177,7 +173,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "ignore",
+        "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -770,7 +766,7 @@
         "uuid": "cf460145-35f8-4019-907e-b966a2c32625"
       }
     ],
-    "used_designators": "J5,C26,C34",
+    "used_designators": "USB1,I2C1,TP1-17,UART1,J5,C26,C34",
     "variants": []
   },
   "sheets": [
@@ -789,10 +785,6 @@
     [
       "99843b3b-9377-494e-8774-1c4f1e6356f7",
       "Electromagnet Driver"
-    ],
-    [
-      "995c9bf7-2294-48ef-9351-edb7b71be1a3",
-      "Pin Header"
     ],
     [
       "fa0f1235-f62c-4c44-92f4-296ab8f601de",
