@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.15,
-          "width": 0.3
+          "drill": 0.8,
+          "height": 1.3,
+          "width": 1.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -76,56 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "unconnected_items|117250000|61500000|F.Cu|4|8431fd84-f92f-49e8-ab99-ce123f16d309|5af0f6b4-0884-4ea0-bb35-fa6b1a41b757",
-          ""
-        ],
-        [
-          "unconnected_items|122903704|59846296|F.Cu|4|5a061aee-6d77-4e71-a20f-419272fddce3|f7442a54-f3eb-49b1-b41e-48ddd8da5ed8",
-          ""
-        ],
-        [
-          "unconnected_items|150005394|100635424|F.Cu|4|395b5500-245d-499a-a0fe-a1b45aeac09c|62b526f2-ee37-4152-8ad9-7e1b2c9c0a76",
-          ""
-        ],
-        [
-          "unconnected_items|174790373|57096296|F.Cu|4|d7b11766-4852-437b-96c0-674eba6de944|f4804b7f-e2b0-48f5-9a99-dc2ba1467cce",
-          ""
-        ],
-        [
-          "unconnected_items|175688399|59790373|F.Cu|4|b56502b9-94ef-4a7d-a5fd-30d4fda60ebc|e6ec9367-3dab-42de-974f-dc0667b57f4c",
-          ""
-        ],
-        [
-          "unconnected_items|178382476|53504193|F.Cu|4|1c35a626-0fad-462d-b765-aec4e8fc2fb8|b49a8f0c-1aad-42d7-bee4-3ef778266b77",
-          ""
-        ],
-        [
-          "unconnected_items|213000000|96500000|F.Cu|4|9c9d6419-2004-45e1-bee0-c5c463002502|e9e3ed7e-a753-476a-80f6-9d7aeaab58d9",
-          ""
-        ],
-        [
-          "unconnected_items|77000000|107000000|F.Cu|4|ed56eeff-6d51-4677-8443-450465c7c914|deab5ad6-f38e-43a3-9ede-98dee971f109",
-          ""
-        ],
-        [
-          "unconnected_items|77000000|88917770|F.Cu|4|cab104c4-97d0-4586-b62e-5141f57ef66a|e8fb7d35-038b-4b2e-bc66-ddd80ca18ad4",
-          ""
-        ],
-        [
-          "unconnected_items|83000000|107000000|F.Cu|4|946227a6-4daf-446f-a8f0-265d542abb7f|54588fbf-9e68-4dce-af24-909eff7b5fe8",
-          ""
-        ],
-        [
-          "unconnected_items|89000000|99000000|F.Cu|4|2d43ca3e-4dc8-46f9-803d-7618690096eb|bf8e2025-4b54-40fd-a832-12ff09f6d755",
-          ""
-        ],
-        [
-          "unconnected_items|98250000|86750000|F.Cu|4|d1838633-7da5-4547-b0f7-c99f13298ebe|902bb24b-ea15-49a6-baf4-2e7a90bdd4af",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
