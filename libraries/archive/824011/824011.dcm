@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 824011
+D TVS Diode Array WE-TVS SOT23-5L; 5Vdc; 2pF; 2Channel + VDD; Marking: .W11XY
+K
+F https://www.we-online.com/catalog/datasheet/824011.pdf
+$ENDCMP
+#
+#End Doc Library
