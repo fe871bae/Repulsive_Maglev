@@ -1,62 +1,35 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
-
+# macOS metadata
 .DS_Store
 **/.DS_Store
+
+# KiCad lock/session/local UI files
 *.lck
-*.zip
+*.kicad_prl
+
+# KiCad backups/autosaves
+*-backups/
+*-bak/
+*.bak
+_autosave-*
+*.tmp
+
+# KiCad local history
 .history/
+
+# Local/private libraries not meant for the repo
 KiCad-Library/
+
+# Generated fabrication outputs
+# Keep this commented out if you want final Gerbers in Git.
+# Fabrication/
+# gerber_to_order/
+# *.gbr
+# *.drl
+# *.pos
+# *.gbrjob
+
+# Archives / manual backups
+# Do not ignore all zip files if final order ZIPs should be versioned.
+*.backup.zip
+*_backup.zip
+*-backup.zip
