@@ -293,7 +293,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1104900|711200|0415fb98-4bb0-4760-bb36-30fe4ab50dec|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|1346200|990600|02c9b64f-98a2-4390-9907-e9816e7d7ffc|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|304800|1485900|626e1707-26df-4ca4-a6fb-6febcf19cbaf|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|927100|520700|6e39a30b-bcc1-4208-826f-95add586d7b7|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "multiple_net_names|1803400|571500|699c0522-f06e-49c6-9688-7cdf271aa917|98959a95-5ec0-46ec-bd5a-d7a6558a3e24|/cf460145-35f8-4019-907e-b966a2c32625/91cdb619-a34a-44d7-a3c8-16d4596465c1|/cf460145-35f8-4019-907e-b966a2c32625/91cdb619-a34a-44d7-a3c8-16d4596465c1|/cf460145-35f8-4019-907e-b966a2c32625/91cdb619-a34a-44d7-a3c8-16d4596465c1",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -479,7 +500,7 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "ground_pin_not_ground": "warning",
@@ -506,7 +527,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -717,7 +738,7 @@
         "uuid": "cf460145-35f8-4019-907e-b966a2c32625"
       }
     ],
-    "used_designators": "U3",
+    "used_designators": "#PWR42-43,#PWR45,#PWR54,#PWR63-64,#FLG1,U3",
     "variants": []
   },
   "sheets": [

@@ -28,7 +28,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1206_H1.25_885012208118"
+			(property "Value" "100 nF"
 				(at 5.08 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -240,7 +240,7 @@
 					(justify left)
 				)
 			)
-			(property "RISO" "1 GΩ"
+			(property "RISO" "1 Gohm"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -454,7 +454,7 @@
 					)
 				)
 			)
-			(property "Value" "0805_R_560112120030"
+			(property "Value" "4.7 kohm"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -575,7 +575,7 @@
 					)
 				)
 			)
-			(property "R" "4.7 kΩ"
+			(property "R" "4.7 kohm"
 				(at 52.07 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -674,7 +674,7 @@
 					)
 				)
 			)
-			(property "Critical Parameter" "4.7 kΩ"
+			(property "Critical Parameter" "4.7 kohm"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)

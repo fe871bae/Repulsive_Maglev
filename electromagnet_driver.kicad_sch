@@ -5,654 +5,6 @@
 	(uuid "00a6322c-43be-4d76-942e-aad193094c15")
 	(paper "A4")
 	(lib_symbols
-		(symbol "0805_R_560112120002_1"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0805_R_560112120002"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-0805_R"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112120002.pdf?ki"
-				(at 52.07 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Anti-Sulfur Thick Film Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 52.07 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 52.07 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Created Date" "20250214"
-				(at 52.07 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Series" "WRIS-RSKS"
-				(at 52.07 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "560112120002"
-				(at 52.07 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Size" "0805_R"
-				(at 52.07 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mounting Technology" "SMT"
-				(at 52.07 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "R" "0 Ω"
-				(at 52.07 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tol. R" "+0.05Ω/-0Ω"
-				(at 52.07 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PRated (mW)" "125.0"
-				(at 52.07 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "TCR (ppm/ °C)" "–"
-				(at 52.07 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "TCR (ppm/ °C).1" "–"
-				(at 52.07 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "VE (V)" "–"
-				(at 52.07 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "L (mm)" "2.0"
-				(at 52.07 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "W (mm)" "1.25"
-				(at 52.07 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "H (mm)" "0.5"
-				(at 52.07 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Critical Parameter" "0 Ω"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*WRIS-RSKS*0805*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0805_R_560112120002_1_0_1"
-				(rectangle
-					(start -2.54 -1.016)
-					(end 2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0805_R_560112120002_1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "0805_R_560112120002_2"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0805_R_560112120002"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-0805_R"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112120002.pdf?ki"
-				(at 52.07 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Anti-Sulfur Thick Film Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 52.07 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 52.07 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Created Date" "20250214"
-				(at 52.07 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Series" "WRIS-RSKS"
-				(at 52.07 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "560112120002"
-				(at 52.07 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Size" "0805_R"
-				(at 52.07 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mounting Technology" "SMT"
-				(at 52.07 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "R" "0 Ω"
-				(at 52.07 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tol. R" "+0.05Ω/-0Ω"
-				(at 52.07 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PRated (mW)" "125.0"
-				(at 52.07 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "TCR (ppm/ °C)" "–"
-				(at 52.07 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "TCR (ppm/ °C).1" "–"
-				(at 52.07 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "VE (V)" "–"
-				(at 52.07 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "L (mm)" "2.0"
-				(at 52.07 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "W (mm)" "1.25"
-				(at 52.07 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "H (mm)" "0.5"
-				(at 52.07 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Critical Parameter" "0 Ω"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*WRIS-RSKS*0805*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0805_R_560112120002_2_0_1"
-				(rectangle
-					(start -2.54 -1.016)
-					(end 2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0805_R_560112120002_2_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Capacitor_Wurth_WCAP-CSGP:1206_H0.8_885012208083"
 			(pin_numbers
 				(hide yes)
@@ -676,7 +28,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1206_H0.8_885012208083"
+			(property "Value" "22 nF"
 				(at 5.08 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -888,7 +240,7 @@
 					(justify left)
 				)
 			)
-			(property "RISO" "10 GΩ"
+			(property "RISO" "10 Gohm"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1106,7 +458,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1206_H1.25_885012208118"
+			(property "Value" "100 nF"
 				(at 5.08 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1318,7 +670,7 @@
 					(justify left)
 				)
 			)
-			(property "RISO" "1 GΩ"
+			(property "RISO" "1 Gohm"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1536,7 +888,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1210_H2.5_885012109011"
+			(property "Value" "47 uF"
 				(at 5.08 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1666,7 +1018,7 @@
 					(justify left)
 				)
 			)
-			(property "Capacitance" "47 µF"
+			(property "Capacitance" "47 uF"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1688,7 +1040,7 @@
 					(justify left)
 				)
 			)
-			(property "C" "47 µF"
+			(property "C" "47 uF"
 				(at 12.7 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1748,7 +1100,7 @@
 					(justify left)
 				)
 			)
-			(property "RISO" "0.002 GΩ"
+			(property "RISO" "0.002 Gohm"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1976,7 +1328,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2425,8 +1777,8 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 2.54)
+					(at -2.54 -6.35 90)
+					(length 3.81)
 					(name "1"
 						(effects
 							(font
@@ -2443,8 +1795,8 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 5.08 270)
-					(length 2.54)
+					(at -2.54 6.35 270)
+					(length 3.81)
 					(name "2"
 						(effects
 							(font
@@ -2461,8 +1813,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
+					(at 0 -6.35 90)
+					(length 3.81)
 					(name "3"
 						(effects
 							(font
@@ -2479,8 +1831,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
+					(at 0 6.35 270)
+					(length 3.81)
 					(name "4"
 						(effects
 							(font
@@ -2497,8 +1849,8 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
+					(at 2.54 -6.35 90)
+					(length 3.81)
 					(name "5"
 						(effects
 							(font
@@ -2515,8 +1867,8 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
+					(at 2.54 6.35 270)
+					(length 3.81)
 					(name "6"
 						(effects
 							(font
@@ -3007,7 +2359,7 @@
 					)
 				)
 			)
-			(property "Value" "0603_R_560112116048"
+			(property "Value" "62 kohm"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3128,7 +2480,7 @@
 					)
 				)
 			)
-			(property "R" "62 kΩ"
+			(property "R" "62 kohm"
 				(at 52.07 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3227,7 +2579,7 @@
 					)
 				)
 			)
-			(property "Critical Parameter" "62 kΩ"
+			(property "Critical Parameter" "62 kohm"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3331,7 +2683,7 @@
 					)
 				)
 			)
-			(property "Value" "0805_R_560112120002"
+			(property "Value" "0 ohm"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3452,7 +2804,7 @@
 					)
 				)
 			)
-			(property "R" "0 Ω"
+			(property "R" "0 ohm"
 				(at 52.07 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3551,7 +2903,7 @@
 					)
 				)
 			)
-			(property "Critical Parameter" "0 Ω"
+			(property "Critical Parameter" "0 ohm"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3655,7 +3007,7 @@
 					)
 				)
 			)
-			(property "Value" "1206_R_560112132018"
+			(property "Value" "10 kohm"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3776,7 +3128,7 @@
 					)
 				)
 			)
-			(property "R" "10 kΩ"
+			(property "R" "10 kohm"
 				(at 52.07 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3875,7 +3227,7 @@
 					)
 				)
 			)
-			(property "Critical Parameter" "10 kΩ"
+			(property "Critical Parameter" "10 kohm"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3979,7 +3331,7 @@
 					)
 				)
 			)
-			(property "Value" "1206_R_560112132019"
+			(property "Value" "2.2 kohm"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4100,7 +3452,7 @@
 					)
 				)
 			)
-			(property "R" "2.2 kΩ"
+			(property "R" "2.2 kohm"
 				(at 52.07 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4199,7 +3551,7 @@
 					)
 				)
 			)
-			(property "Critical Parameter" "2.2 kΩ"
+			(property "Critical Parameter" "2.2 kohm"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4303,7 +3655,7 @@
 					)
 				)
 			)
-			(property "Value" "1206_R_560112132041"
+			(property "Value" "20 kohm"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4424,7 +3776,7 @@
 					)
 				)
 			)
-			(property "R" "20 kΩ"
+			(property "R" "20 kohm"
 				(at 52.07 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4523,7 +3875,7 @@
 					)
 				)
 			)
-			(property "Critical Parameter" "20 kΩ"
+			(property "Critical Parameter" "20 kohm"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4745,22 +4097,10 @@
 		(uuid "ec7943c6-89cf-4c31-85b5-e6420d149a24")
 	)
 	(junction
-		(at 158.75 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01937642-d6c2-4362-a282-72bd50a79b9b")
-	)
-	(junction
 		(at 21.59 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0667dd0d-8c33-4bf9-b748-eccd15df1dfe")
-	)
-	(junction
-		(at 54.61 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c507c10-4676-4d0d-b7e3-3f05a23c6bb8")
 	)
 	(junction
 		(at 264.16 109.22)
@@ -4785,12 +4125,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15e47694-4b26-43cb-a944-d5c8db2155b6")
-	)
-	(junction
-		(at 54.61 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20aa037e-87e2-41db-82eb-94acc37de137")
 	)
 	(junction
 		(at 132.08 95.25)
@@ -4853,6 +4187,12 @@
 		(uuid "5f9c58b0-e54a-4c8a-abd5-3d9ed3e7afff")
 	)
 	(junction
+		(at 160.02 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6062955b-350f-4b04-8cfd-c313a3b2c917")
+	)
+	(junction
 		(at 132.08 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4863,12 +4203,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "669e8114-f1a4-424d-b607-1e30585e02f8")
-	)
-	(junction
-		(at 166.37 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a7bf660-f839-431e-bd93-075d7484fe8b")
 	)
 	(junction
 		(at 116.84 40.64)
@@ -4895,22 +4229,10 @@
 		(uuid "924ae3fc-f868-449b-8444-d6a5f426bc10")
 	)
 	(junction
-		(at 54.61 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "937dd227-3e9d-4586-8d49-5e2dc9c01800")
-	)
-	(junction
 		(at 245.11 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9994319d-bb49-48a1-a9d1-fe243bdfa8ca")
-	)
-	(junction
-		(at 158.75 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99b16bd6-6958-4b2a-8566-d655206aac86")
 	)
 	(junction
 		(at 104.14 114.3)
@@ -4977,6 +4299,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca21e114-9b99-4933-977e-53d906669c4a")
+	)
+	(junction
+		(at 167.64 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7c27ff4-e137-40a2-ac70-07a123829ac0")
+	)
+	(junction
+		(at 160.02 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7de8a43-9c78-4930-817f-2b5d804a508a")
 	)
 	(junction
 		(at 132.08 40.64)
@@ -5174,16 +4508,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 187.96) (xy 54.61 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17cd7c09-bd88-4930-9ba6-ecd2bb5d880f")
-	)
-	(wire
-		(pts
 			(xy 162.56 45.72) (xy 165.1 45.72)
 		)
 		(stroke
@@ -5221,6 +4545,16 @@
 			(type default)
 		)
 		(uuid "1878162e-1769-4410-8753-3173c67da2da")
+	)
+	(wire
+		(pts
+			(xy 160.02 179.07) (xy 160.02 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e564c6-f1b4-46e6-9642-6818adaafa3e")
 	)
 	(wire
 		(pts
@@ -5281,16 +4615,6 @@
 			(type default)
 		)
 		(uuid "1f12baad-6090-47c1-8545-9aee3cc53aa3")
-	)
-	(wire
-		(pts
-			(xy 50.8 185.42) (xy 54.61 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20fcc6c4-d021-46ee-a01c-2c6fa63b4e54")
 	)
 	(wire
 		(pts
@@ -5554,16 +4878,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 179.07) (xy 158.75 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "417cb284-8784-4848-b007-2c26fb33f13d")
-	)
-	(wire
-		(pts
 			(xy 91.44 33.02) (xy 93.98 33.02)
 		)
 		(stroke
@@ -5654,16 +4968,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 182.88) (xy 54.61 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "571dff2f-4181-4801-85e9-3ebdf1dfdf3f")
-	)
-	(wire
-		(pts
 			(xy 113.03 109.22) (xy 132.08 109.22)
 		)
 		(stroke
@@ -5701,6 +5005,16 @@
 			(type default)
 		)
 		(uuid "5b6b9867-369e-44a7-8aa2-c1a80af92b8f")
+	)
+	(wire
+		(pts
+			(xy 160.02 184.15) (xy 167.64 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7b72a2-a4cc-4265-b5e9-385cbb9e8d40")
 	)
 	(wire
 		(pts
@@ -5874,16 +5188,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 182.88) (xy 54.61 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e186c42-cddf-4a57-941e-b63b3732dfb0")
-	)
-	(wire
-		(pts
 			(xy 236.22 55.88) (xy 236.22 58.42)
 		)
 		(stroke
@@ -6001,26 +5305,6 @@
 			(type default)
 		)
 		(uuid "8c6bc410-3bad-4240-a133-04428498c641")
-	)
-	(wire
-		(pts
-			(xy 50.8 180.34) (xy 54.61 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c7b266a-63d9-4c28-8550-e314d3c7a514")
-	)
-	(wire
-		(pts
-			(xy 50.8 187.96) (xy 54.61 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d03becf-9c83-48e5-bd91-0ccc61c49900")
 	)
 	(wire
 		(pts
@@ -6254,16 +5538,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 184.15) (xy 166.37 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8558203-b823-4153-bca4-a802f774c792")
-	)
-	(wire
-		(pts
 			(xy 21.59 50.8) (xy 21.59 53.34)
 		)
 		(stroke
@@ -6314,16 +5588,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 185.42) (xy 54.61 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c042053e-3e3a-4efb-833b-88ffbd6be53d")
-	)
-	(wire
-		(pts
 			(xy 234.95 101.6) (xy 234.95 104.14)
 		)
 		(stroke
@@ -6371,6 +5635,16 @@
 			(type default)
 		)
 		(uuid "c5a9cc2d-a437-41ac-bc9f-e7e4911621d0")
+	)
+	(wire
+		(pts
+			(xy 160.02 181.61) (xy 160.02 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f0e563-d780-4f11-a050-fc1cd7b02aa1")
 	)
 	(wire
 		(pts
@@ -6484,7 +5758,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 184.15) (xy 170.18 184.15)
+			(xy 167.64 184.15) (xy 171.45 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6564,16 +5838,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 181.61) (xy 158.75 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df9c8561-f6a0-4262-bf78-cd3deb999308")
-	)
-	(wire
-		(pts
 			(xy 172.72 119.38) (xy 173.99 119.38)
 		)
 		(stroke
@@ -6634,26 +5898,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 184.15) (xy 158.75 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e87bfe6f-d1d7-4877-8372-216de30f6096")
-	)
-	(wire
-		(pts
-			(xy 158.75 179.07) (xy 158.75 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9578456-3ae5-4ece-8cb6-cc0caf566e36")
-	)
-	(wire
-		(pts
 			(xy 153.67 45.72) (xy 153.67 48.26)
 		)
 		(stroke
@@ -6671,16 +5915,6 @@
 			(type default)
 		)
 		(uuid "eb5ad49f-45c5-4152-9ea5-a4f06051616a")
-	)
-	(wire
-		(pts
-			(xy 157.48 181.61) (xy 158.75 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed98895d-1d83-4a06-afa4-5d2aaedcd4d7")
 	)
 	(wire
 		(pts
@@ -6794,16 +6028,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 180.34) (xy 67.31 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f98494bb-4054-488a-a642-5d6a9487f20c")
-	)
-	(wire
-		(pts
 			(xy 116.84 36.83) (xy 116.84 40.64)
 		)
 		(stroke
@@ -6832,7 +6056,7 @@
 		)
 		(uuid "fe634df2-d900-43e7-ae4d-0b7f69784121")
 	)
-	(label "EM_D_FAULT"
+	(label "FAULT"
 		(at 187.96 132.08 180)
 		(effects
 			(font
@@ -6842,7 +6066,7 @@
 		)
 		(uuid "5466327c-7cb7-4fb0-8847-61ac89c1a8a9")
 	)
-	(label "EM_C_FAULT"
+	(label "FAULT"
 		(at 55.88 132.08 180)
 		(effects
 			(font
@@ -6852,18 +6076,8 @@
 		)
 		(uuid "6930031e-c036-413e-8d04-f984ae312dff")
 	)
-	(label "EM_D_FAULT"
-		(at 50.8 187.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "83da17a8-d87d-4bce-94b6-a17653a1b1c4")
-	)
 	(label "PMODE"
-		(at 170.18 184.15 0)
+		(at 171.45 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6872,7 +6086,7 @@
 		)
 		(uuid "87473b35-002f-4b6f-bb6a-5464ae6ba993")
 	)
-	(label "EM_A_FAULT"
+	(label "FAULT"
 		(at 55.88 63.5 180)
 		(effects
 			(font
@@ -6892,7 +6106,7 @@
 		)
 		(uuid "b4de0afe-d774-4f01-9302-7811e14cab42")
 	)
-	(label "EM_B_FAULT"
+	(label "FAULT"
 		(at 187.96 63.5 180)
 		(effects
 			(font
@@ -6912,26 +6126,6 @@
 		)
 		(uuid "c8a22559-bf71-4853-a39c-a6c1bb21c8b1")
 	)
-	(label "EM_A_FAULT"
-		(at 50.8 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c9727112-498e-4792-a79e-1fdee5b2e89c")
-	)
-	(label "EM_C_FAULT"
-		(at 50.8 185.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d42e7016-4cad-45ba-b2cd-d788d35b8bec")
-	)
 	(label "PMODE"
 		(at 187.96 124.46 180)
 		(effects
@@ -6941,16 +6135,6 @@
 			(justify right)
 		)
 		(uuid "d7f206b5-9941-4a27-8d57-689ce24ecd77")
-	)
-	(label "EM_B_FAULT"
-		(at 50.8 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ead98afe-2de1-40e7-bdc6-11aa4966c9a9")
 	)
 	(label "PMODE"
 		(at 187.96 55.88 180)
@@ -7282,7 +6466,7 @@
 		(uuid "b4f92201-4170-4d9a-9e34-9701512477f4")
 	)
 	(hierarchical_label "EM_A_ISENSE"
-		(shape input)
+		(shape bidirectional)
 		(at 107.95 45.72 0)
 		(effects
 			(font
@@ -8251,13 +7435,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 63.5 0)
+			(at 238.76 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8406,13 +7591,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 58.42 0)
+			(at 156.21 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10169,13 +9355,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 132.08 0)
+			(at 106.68 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10225,7 +9412,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 166.37 184.15 90)
+		(at 167.64 184.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10236,7 +9423,7 @@
 		(fields_autoplaced yes)
 		(uuid "38565bf2-82cb-4d41-91a2-a3a9ba365ef1")
 		(property "Reference" "TP4"
-			(at 164.7825 176.53 90)
+			(at 166.0525 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10246,7 +9433,7 @@
 			)
 		)
 		(property "Value" "TP:PMODE"
-			(at 164.7825 179.07 90)
+			(at 166.0525 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10256,7 +9443,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 166.37 179.07 0)
+			(at 167.64 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10267,7 +9454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 179.07 0)
+			(at 167.64 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10278,7 +9465,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 166.37 184.15 0)
+			(at 167.64 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11733,13 +10920,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 132.08 0)
+			(at 238.76 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12421,13 +11609,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 127 0)
+			(at 24.13 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13114,13 +12303,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 80.01 0)
+			(at 99.06 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13893,13 +13083,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 63.5 0)
+			(at 106.68 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -15118,13 +14309,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 102.87 0)
+			(at 274.32 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -15196,13 +14388,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 127 0)
+			(at 156.21 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -15274,13 +14467,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 34.29 0)
+			(at 274.32 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -15437,7 +14631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-17N:SOP65P640X120-17N"
+		(property "Footprint" "DRV8874PWPR:SOP65P640X120-17N"
 			(at 73.66 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -16269,7 +15463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-17N:SOP65P640X120-17N"
+		(property "Footprint" "DRV8874PWPR:SOP65P640X120-17N"
 			(at 205.74 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -16523,7 +15717,6 @@
 		)
 	)
 	(symbol
-		(lib_name "0805_R_560112120002_1")
 		(lib_id "Resistor_Wurth_WRIS-RSKS:0805_R_560112120002")
 		(at 36.83 114.3 0)
 		(unit 1)
@@ -17839,7 +17032,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Wurth_WR-PHD:61300621121")
-		(at 152.4 181.61 270)
+		(at 153.67 181.61 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17849,7 +17042,7 @@
 		(dnp no)
 		(uuid "aa6e3f4b-dcb0-43ac-9615-e0d06eeca696")
 		(property "Reference" "J6"
-			(at 152.4 176.022 90)
+			(at 153.67 176.022 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17859,7 +17052,7 @@
 			)
 		)
 		(property "Value" "61300621121"
-			(at 138.43 181.61 0)
+			(at 139.7 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17870,7 +17063,7 @@
 			)
 		)
 		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61300621121"
-			(at 168.91 181.61 0)
+			(at 170.18 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17881,7 +17074,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300621121?ki"
-			(at 165.1 222.25 0)
+			(at 166.37 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17892,7 +17085,7 @@
 			)
 		)
 		(property "Description" "2.54 mm THT Dual Pin Header"
-			(at 152.4 181.61 0)
+			(at 153.67 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17903,7 +17096,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 162.56 222.25 0)
+			(at 163.83 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17914,7 +17107,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 160.02 222.25 0)
+			(at 161.29 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17925,7 +17118,7 @@
 			)
 		)
 		(property "Series" "WR-PHD"
-			(at 157.48 222.25 0)
+			(at 158.75 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17936,7 +17129,7 @@
 			)
 		)
 		(property "Pitch" "2.54 mm"
-			(at 154.94 222.25 0)
+			(at 156.21 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17947,7 +17140,7 @@
 			)
 		)
 		(property "Mounting Technology" "THT"
-			(at 152.4 222.25 0)
+			(at 153.67 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17958,7 +17151,7 @@
 			)
 		)
 		(property "Pins (pcs)" "6"
-			(at 149.86 222.25 0)
+			(at 151.13 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17969,7 +17162,7 @@
 			)
 		)
 		(property "Rows" "Dual"
-			(at 147.32 222.25 0)
+			(at 148.59 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17980,7 +17173,7 @@
 			)
 		)
 		(property "Gender" "Pin Header"
-			(at 144.78 222.25 0)
+			(at 146.05 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17991,7 +17184,7 @@
 			)
 		)
 		(property "Type" "Straight"
-			(at 142.24 222.25 0)
+			(at 143.51 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18002,7 +17195,7 @@
 			)
 		)
 		(property "IR (A)" "3"
-			(at 139.7 222.25 0)
+			(at 140.97 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18063,13 +17256,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 196.85 0)
+			(at 69.85 193.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -18141,13 +17335,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 80.01 0)
+			(at 231.14 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -18570,7 +17765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-17N:SOP65P640X120-17N"
+		(property "Footprint" "DRV8874PWPR:SOP65P640X120-17N"
 			(at 205.74 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -18778,7 +17973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-17N:SOP65P640X120-17N"
+		(property "Footprint" "DRV8874PWPR:SOP65P640X120-17N"
 			(at 73.66 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -19694,13 +18889,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 102.87 0)
+			(at 142.24 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -20038,13 +19234,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 34.29 0)
+			(at 142.24 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -21086,13 +20283,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 148.59 0)
+			(at 231.14 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -21499,7 +20697,6 @@
 		)
 	)
 	(symbol
-		(lib_name "0805_R_560112120002_2")
 		(lib_id "Resistor_Wurth_WRIS-RSKS:0805_R_560112120002")
 		(at 36.83 119.38 0)
 		(unit 1)
@@ -21775,7 +20972,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ed9f034f-9f62-45ad-8b52-b2d64264f317")
 		(property "Reference" "#PWR034"
 			(at 144.78 191.77 0)
@@ -21789,13 +20985,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 190.5 0)
+			(at 148.59 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -22745,13 +21942,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 148.59 0)
+			(at 99.06 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -23181,13 +22379,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 58.42 0)
+			(at 24.13 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

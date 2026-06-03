@@ -28,7 +28,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1206_H1.25_885012008055"
+			(property "Value" "10 nF"
 				(at 5.08 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -240,7 +240,7 @@
 					(justify left)
 				)
 			)
-			(property "RISO" "10 GΩ"
+			(property "RISO" "10 Gohm"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -458,7 +458,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1206_H1.25_885012208118"
+			(property "Value" "100 nF"
 				(at 5.08 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -670,7 +670,7 @@
 					(justify left)
 				)
 			)
-			(property "RISO" "1 GΩ"
+			(property "RISO" "1 Gohm"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -888,7 +888,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1206_H1.6_885012108021"
+			(property "Value" "10 uF"
 				(at 5.08 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1018,7 +1018,7 @@
 					(justify left)
 				)
 			)
-			(property "Capacitance" "10 µF"
+			(property "Capacitance" "10 uF"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1040,7 +1040,7 @@
 					(justify left)
 				)
 			)
-			(property "C" "10 µF"
+			(property "C" "10 uF"
 				(at 12.7 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1100,7 +1100,7 @@
 					(justify left)
 				)
 			)
-			(property "RISO" "0.01 GΩ"
+			(property "RISO" "0.01 Gohm"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1318,7 +1318,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1206_H1.6_885012208093"
+			(property "Value" "1 uF"
 				(at 5.08 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1448,7 +1448,7 @@
 					(justify left)
 				)
 			)
-			(property "Capacitance" "1 µF"
+			(property "Capacitance" "1 uF"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1470,7 +1470,7 @@
 					(justify left)
 				)
 			)
-			(property "C" "1 µF"
+			(property "C" "1 uF"
 				(at 12.7 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1530,7 +1530,7 @@
 					(justify left)
 				)
 			)
-			(property "RISO" "0.5 GΩ"
+			(property "RISO" "0.5 Gohm"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1744,7 +1744,7 @@
 					)
 				)
 			)
-			(property "Value" "0603_744761020A"
+			(property "Value" "2.0 nH"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1920,7 +1920,7 @@
 					)
 				)
 			)
-			(property "RDC max. (Ω)" "0.08"
+			(property "RDC max. (ohm)" "0.08"
 				(at 52.07 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)

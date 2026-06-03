@@ -28,7 +28,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "0603_R_885012006002"
+			(property "Value" "10 pF"
 				(at 5.08 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -240,7 +240,7 @@
 					(justify left)
 				)
 			)
-			(property "RISO" "10 GΩ"
+			(property "RISO" "10 Gohm"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -444,30 +444,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y4"
-				(at -5.588 -3.81 90)
+			(property "Reference" "Y"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "IQXC-42_830108213209"
-				(at 12.7 22.86 0)
+			(property "Value" "40 MHz"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Crystal_SMD_Wurth:Y_Wurth_WE-XTAL-IQXC-42"
+			(property "Footprint" "Crystal_SMD_Wurth:Y_Wurth_WE-XTAL_Quartz-IQXC-42"
 				(at 12.7 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -526,7 +523,7 @@
 					(justify left)
 				)
 			)
-			(property "Created Date" "20250904"
+			(property "Created Date" "20260401"
 				(at 12.7 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -586,7 +583,7 @@
 					(justify left)
 				)
 			)
-			(property "f" "40 MHz"
+			(property "Automotive" "No"
 				(at 12.7 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -598,7 +595,7 @@
 					(justify left)
 				)
 			)
-			(property "Application" "Processor, USB, 3G/4G/5G, CAN, Wi-Fi"
+			(property "f" "40 MHz"
 				(at 12.7 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -610,7 +607,7 @@
 					(justify left)
 				)
 			)
-			(property "Tol. f" "±10ppm"
+			(property "Application" "Processor, USB, 3G/4G/5G, CAN, Wi-Fi"
 				(at 12.7 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -622,7 +619,7 @@
 					(justify left)
 				)
 			)
-			(property "Stability (ppm)" "15.0"
+			(property "Tol. f" "±10ppm"
 				(at 12.7 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -634,7 +631,7 @@
 					(justify left)
 				)
 			)
-			(property "Cload (pF)" "8"
+			(property "Stability (ppm)" "15.0"
 				(at 12.7 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -646,7 +643,7 @@
 					(justify left)
 				)
 			)
-			(property "Operating Temperature" "-40 °C up to +85 °C"
+			(property "Cload (pF)" "8"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -658,22 +655,11 @@
 					(justify left)
 				)
 			)
-			(property "sym_type" "CryB1"
+			(property "Operating Temperature" "-40 °C up to +85 °C"
 				(at 12.7 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Critical Parameter" ""
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -795,7 +781,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
+					(at -2.54 -5.08 90)
 					(length 1.27)
 					(name "GND"
 						(effects
@@ -831,7 +817,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 2.54 -5.08 90)
 					(length 1.27)
 					(name "GND1"
 						(effects
@@ -870,7 +856,7 @@
 					)
 				)
 			)
-			(property "Value" "0603_744761124A"
+			(property "Value" "24.0 nH"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1046,7 +1032,7 @@
 					)
 				)
 			)
-			(property "RDC max. (Ω)" "0.14"
+			(property "RDC max. (ohm)" "0.14"
 				(at 52.07 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1330,6 +1316,12 @@
 		(uuid "4bad15c0-19f1-4a0e-ae0b-fce2ee49df66")
 	)
 	(junction
+		(at 149.86 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "098b728c-4671-43b7-8341-1ce733b6c2cf")
+	)
+	(junction
 		(at 121.92 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1359,6 +1351,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 96.52) (xy 149.86 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116b7bca-0220-4cb5-88f4-047ee6263d9d")
+	)
+	(wire
+		(pts
 			(xy 127 88.9) (xy 121.92 88.9)
 		)
 		(stroke
@@ -1369,7 +1371,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 99.06) (xy 149.86 99.06)
+			(xy 146.05 101.6) (xy 149.86 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1379,7 +1381,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 99.06) (xy 149.86 102.87)
+			(xy 149.86 101.6) (xy 149.86 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1449,26 +1451,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 102.87) (xy 132.08 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b208e28-5263-47b9-95db-7120f6f74b04")
-	)
-	(wire
-		(pts
-			(xy 132.08 99.06) (xy 135.89 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7a3990-b558-4a4f-9102-dcc05336d589")
-	)
-	(wire
-		(pts
 			(xy 140.97 110.49) (xy 149.86 110.49)
 		)
 		(stroke
@@ -1486,6 +1468,16 @@
 			(type default)
 		)
 		(uuid "d21b0dab-0175-486d-b811-2925ade2ff01")
+	)
+	(wire
+		(pts
+			(xy 146.05 96.52) (xy 149.86 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d0efbc-5f8f-4354-b01d-82948dfbced1")
 	)
 	(wire
 		(pts
@@ -1855,82 +1847,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 132.08 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3ee63d00-e9ce-4b02-bd52-c78c8118186d")
-		(property "Reference" "#PWR054"
-			(at 132.08 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d4fb000-80db-4f7b-bbc0-cc7481e1abfb")
-		)
-		(instances
-			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625/462a968e-6e6c-46a9-9af2-97d4ca29316d"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Crystal_Wurth_WE-XTAL:IQXC-42_830108213209")
 		(at 140.97 99.06 90)
 		(unit 1)
@@ -1943,7 +1859,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c4d4222-2608-42e2-b318-53752d255c3e")
 		(property "Reference" "Y1"
-			(at 144.78 104.648 90)
+			(at 135.89 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

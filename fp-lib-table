@@ -3,7 +3,7 @@
 	(lib (name "ESP32-C3FH4") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/ESP32-C3FH4.pretty") (options "") (descr ""))
 	(lib (name "IC_TPS259474ARPWR") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/IC_TPS259474ARPWR.pretty") (options "") (descr ""))
 	(lib (name "KTT0003B") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/KTT0003B.pretty") (options "") (descr ""))
-	(lib (name "SOP65P640X120-17N") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/SOP65P640X120-17N.pretty") (options "") (descr ""))
+	(lib (name "DRV8874PWPR") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/DRV8874PWPR.pretty") (options "") (descr ""))
 	(lib (name "SOT95P280X116-6N") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/SOT95P280X116-6N.pretty") (options "") (descr ""))
 	(lib (name "SOT95P280X116-5N") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/SOT95P280X116-5N.pretty") (options "") (descr ""))
 	(lib (name "SOT95P280X145-6N") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/SOT95P280X145-6N.pretty") (options "") (descr ""))

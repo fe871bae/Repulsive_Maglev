@@ -144,7 +144,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "430182043816_1"
+		(symbol "1206_R_560112132018_1"
 			(pin_names
 				(hide yes)
 			)
@@ -153,18 +153,40 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW1"
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10 kohm"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-1206_R"
 				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "430182043816"
-				(at 12.7 22.86 0)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132018.pdf?ki"
+				(at 52.07 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -172,35 +194,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Switch_SMD_Wurth:SW_Wurth_WS-TASV_430182043816"
-				(at 12.7 20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/430182043816.pdf?ki"
-				(at 12.7 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "SMT Tact Switch 6x6 mm"
-				(at -2.54 0 0)
+			(property "Description" "Anti-Sulfur Thick Film Resistors"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -211,7 +208,7 @@
 				)
 			)
 			(property "Manufacturer" "Wurth Elektronik"
-				(at 12.7 15.24 0)
+				(at 52.07 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -219,11 +216,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 12.7 12.7 0)
+				(at 52.07 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -231,11 +227,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Created Date" "20260204"
-				(at 12.7 10.16 0)
+			(property "Created Date" "20250214"
+				(at 52.07 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -243,11 +238,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Series" "WS-TASV"
-				(at 12.7 7.62 0)
+			(property "Series" "WRIS-RSKS"
+				(at 52.07 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -255,11 +249,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Part Number" "430182043816"
-				(at 12.7 5.08 0)
+			(property "Part Number" "560112132018"
+				(at 52.07 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -267,11 +260,21 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+				)
+			)
+			(property "Size" "1206_R"
+				(at 52.07 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "Mounting Technology" "SMT"
-				(at 12.7 2.54 0)
+				(at 52.07 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -279,11 +282,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "H (mm)" "4.3"
-				(at 12.7 0 0)
+			(property "R" "10 kohm"
+				(at 52.07 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -291,11 +293,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Operation Force (g)" "160.0"
-				(at 12.7 -2.54 0)
+			(property "Tol. R" "±1%"
+				(at 52.07 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -303,11 +304,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Electrical Life (Cycles)" "1000000"
-				(at 12.7 -5.08 0)
+			(property "PRated (mW)" "250.0"
+				(at 52.07 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -315,11 +315,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Actuator Color" "Black"
-				(at 12.7 -7.62 0)
+			(property "TCR (ppm/ °C)" "-100"
+				(at 52.07 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -327,11 +326,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Vaporphase process" "not specified"
-				(at 12.7 -10.16 0)
+			(property "TCR (ppm/ °C).1" "100"
+				(at 52.07 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -339,11 +337,54 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Purpose" "BOOT"
-				(at 0 -7.366 0)
+			(property "VE (V)" "200"
+				(at 52.07 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "L (mm)" "3.1"
+				(at 52.07 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "W (mm)" "1.6"
+				(at 52.07 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "H (mm)" "0.6"
+				(at 52.07 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Critical Parameter" "10 kohm"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -363,7 +404,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*WS-TASV*430182043816*"
+			(property "ki_fp_filters" "*WRIS-RSKS*1206*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -374,35 +415,12 @@
 					)
 				)
 			)
-			(symbol "430182043816_1_0_0"
-				(circle
-					(center -2.54 2.032)
-					(radius 0.508)
+			(symbol "1206_R_560112132018_1_0_1"
+				(rectangle
+					(start -2.54 -1.016)
+					(end 2.54 1.016)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 -2.032)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 1.524) (xy -0.762 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -410,61 +428,11 @@
 					)
 				)
 			)
-			(symbol "430182043816_1_0_1"
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy 0 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "430182043816_1_1_1"
+			(symbol "1206_R_560112132018_1_1_1"
 				(pin passive line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "1"
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -480,9 +448,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "2"
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -490,44 +458,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1633,7 +1563,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1206_H1.6_885012208093"
+			(property "Value" "1 uF"
 				(at 5.08 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1763,7 +1693,7 @@
 					(justify left)
 				)
 			)
-			(property "Capacitance" "1 µF"
+			(property "Capacitance" "1 uF"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1785,7 +1715,7 @@
 					(justify left)
 				)
 			)
-			(property "C" "1 µF"
+			(property "C" "1 uF"
 				(at 12.7 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1845,7 +1775,7 @@
 					(justify left)
 				)
 			)
-			(property "RISO" "0.5 GΩ"
+			(property "RISO" "0.5 Gohm"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2073,7 +2003,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2430,8 +2360,8 @@
 					)
 				)
 				(pin passive line
-					(at -1.27 -3.81 90)
-					(length 2.54)
+					(at -1.27 -5.08 90)
+					(length 3.81)
 					(name "1"
 						(effects
 							(font
@@ -2448,8 +2378,8 @@
 					)
 				)
 				(pin passive line
-					(at 1.27 -3.81 90)
-					(length 2.54)
+					(at 1.27 -5.08 90)
+					(length 3.81)
 					(name "2"
 						(effects
 							(font
@@ -2745,8 +2675,8 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -3.81 90)
-					(length 2.54)
+					(at -2.54 -5.08 90)
+					(length 3.81)
 					(name "1"
 						(effects
 							(font
@@ -2763,8 +2693,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
+					(at 0 -5.08 90)
+					(length 3.81)
 					(name "2"
 						(effects
 							(font
@@ -2781,8 +2711,8 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -3.81 90)
-					(length 2.54)
+					(at 2.54 -5.08 90)
+					(length 3.81)
 					(name "3"
 						(effects
 							(font
@@ -3147,8 +3077,8 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 2.54)
+					(at -2.54 -6.35 90)
+					(length 3.81)
 					(name "1"
 						(effects
 							(font
@@ -3165,8 +3095,8 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 5.08 270)
-					(length 2.54)
+					(at -2.54 6.35 270)
+					(length 3.81)
 					(name "2"
 						(effects
 							(font
@@ -3183,8 +3113,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
+					(at 0 -6.35 90)
+					(length 3.81)
 					(name "3"
 						(effects
 							(font
@@ -3201,8 +3131,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
+					(at 0 6.35 270)
+					(length 3.81)
 					(name "4"
 						(effects
 							(font
@@ -3219,8 +3149,8 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
+					(at 2.54 -6.35 90)
+					(length 3.81)
 					(name "5"
 						(effects
 							(font
@@ -3237,8 +3167,8 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
+					(at 2.54 6.35 270)
+					(length 3.81)
 					(name "6"
 						(effects
 							(font
@@ -3649,8 +3579,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -5.08 90)
-					(length 2.54)
+					(at -3.81 -6.35 90)
+					(length 3.81)
 					(name "1"
 						(effects
 							(font
@@ -3667,8 +3597,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 5.08 270)
-					(length 2.54)
+					(at -3.81 6.35 270)
+					(length 3.81)
 					(name "2"
 						(effects
 							(font
@@ -3685,8 +3615,8 @@
 					)
 				)
 				(pin passive line
-					(at -1.27 -5.08 90)
-					(length 2.54)
+					(at -1.27 -6.35 90)
+					(length 3.81)
 					(name "3"
 						(effects
 							(font
@@ -3703,8 +3633,8 @@
 					)
 				)
 				(pin passive line
-					(at -1.27 5.08 270)
-					(length 2.54)
+					(at -1.27 6.35 270)
+					(length 3.81)
 					(name "4"
 						(effects
 							(font
@@ -3721,8 +3651,8 @@
 					)
 				)
 				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
+					(at 1.27 -6.35 90)
+					(length 3.81)
 					(name "5"
 						(effects
 							(font
@@ -3739,8 +3669,8 @@
 					)
 				)
 				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
+					(at 1.27 6.35 270)
+					(length 3.81)
 					(name "6"
 						(effects
 							(font
@@ -3757,8 +3687,8 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 -5.08 90)
-					(length 2.54)
+					(at 3.81 -6.35 90)
+					(length 3.81)
 					(name "7"
 						(effects
 							(font
@@ -3775,8 +3705,8 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 5.08 270)
-					(length 2.54)
+					(at 3.81 6.35 270)
+					(length 3.81)
 					(name "8"
 						(effects
 							(font
@@ -4359,29 +4289,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -25.4 35.56 0)
+			(property "Reference" "U2"
+				(at 0 35.56 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "ESP32-C3"
-				(at -25.4 33.02 0)
+				(at 0 33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+			(property "Footprint" "ESP32-C3FH4:QFN50P500X500X90-33N"
 				(at 0 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4403,11 +4331,10 @@
 					)
 				)
 			)
-			(property "Description" "ESP32-C3 family is an ultra-low-power MCU-based SoC solution that supports 2.4 GHz Wi-Fi and Bluetooth®Low Energy (Bluetooth LE)."
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4459,7 +4386,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at -27.94 20.32 0)
 					(length 2.54)
 					(name "XTAL_32K_P/ADC1_CH0"
@@ -5577,7 +5504,7 @@
 					)
 				)
 			)
-			(property "Value" "0805_R_560112120019"
+			(property "Value" "5.1 kohm"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5698,7 +5625,7 @@
 					)
 				)
 			)
-			(property "R" "5.1 kΩ"
+			(property "R" "5.1 kohm"
 				(at 52.07 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5797,7 +5724,7 @@
 					)
 				)
 			)
-			(property "Critical Parameter" "5.1 kΩ"
+			(property "Critical Parameter" "5.1 kohm"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5901,7 +5828,7 @@
 					)
 				)
 			)
-			(property "Value" "1206_R_560112132018"
+			(property "Value" "10 kohm"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6022,7 +5949,7 @@
 					)
 				)
 			)
-			(property "R" "10 kΩ"
+			(property "R" "10 kohm"
 				(at 52.07 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6121,7 +6048,7 @@
 					)
 				)
 			)
-			(property "Critical Parameter" "10 kΩ"
+			(property "Critical Parameter" "10 kohm"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6225,7 +6152,7 @@
 					)
 				)
 			)
-			(property "Value" "1206_R_560112132050"
+			(property "Value" "68 ohm"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6346,7 +6273,7 @@
 					)
 				)
 			)
-			(property "R" "68 Ω"
+			(property "R" "68 ohm"
 				(at 52.07 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6445,7 +6372,7 @@
 					)
 				)
 			)
-			(property "Critical Parameter" "68 Ω"
+			(property "Critical Parameter" "68 ohm"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6520,6 +6447,524 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch_Wurth_WS-TASV:430182043816"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "430182043816"
+				(at 12.7 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Switch_SMD_Wurth:SW_Wurth_WS-TASV_430182043816"
+				(at 12.7 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/430182043816.pdf?ki"
+				(at 12.7 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "SMT Tact Switch 6x6 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 12.7 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 12.7 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Created Date" "20260204"
+				(at 12.7 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Series" "WS-TASV"
+				(at 12.7 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "430182043816"
+				(at 12.7 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mounting Technology" "SMT"
+				(at 12.7 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "H (mm)" "4.3"
+				(at 12.7 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Operation Force (g)" "160.0"
+				(at 12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Electrical Life (Cycles)" "1000000"
+				(at 12.7 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Actuator Color" "Black"
+				(at 12.7 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Vaporphase process" "not specified"
+				(at 12.7 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WS-TASV*430182043816*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "430182043816_0_0"
+				(circle
+					(center 0 2.032)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.032)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.524) (xy 1.778 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "430182043816_0_1"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "430182043816_1_1"
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TestPoint_Probe_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files no)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 1.651 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Probe"
+				(at 1.651 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point (alternative probe-style design)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_1_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_1_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7112,10 +7557,22 @@
 		(uuid "47b36912-289e-429c-a6ee-c797170b13e2")
 	)
 	(junction
+		(at 134.62 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "129ffc6d-95bd-4f73-a18c-bcbba4b6c1f7")
+	)
+	(junction
 		(at 124.46 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a6784e1-3233-498a-a046-ae4cf62a2fdc")
+	)
+	(junction
+		(at 137.16 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21ec9800-4eef-4b89-8bb5-8a1ac9a1bb6a")
 	)
 	(junction
 		(at 124.46 144.78)
@@ -7136,28 +7593,16 @@
 		(uuid "47698d96-e32f-47d1-846d-8b5e914c5197")
 	)
 	(junction
-		(at 135.89 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d8197e4-33b9-49ae-934e-5c1e6a4ca7e7")
-	)
-	(junction
-		(at 135.89 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b4ddb83-04d1-425a-a7a0-e26d7e6118bf")
-	)
-	(junction
 		(at 124.46 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bc6b1bc-5266-4bc2-a0a3-eec8327f1d05")
 	)
 	(junction
-		(at 106.68 116.84)
+		(at 109.22 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "70cf3f36-6e78-4750-83ab-6b05b59920bc")
+		(uuid "7987dd43-47ab-4509-ab2f-5c669e6a3347")
 	)
 	(junction
 		(at 124.46 154.94)
@@ -7166,17 +7611,41 @@
 		(uuid "803564a5-cda6-4317-b2d3-6b2e5a00f950")
 	)
 	(junction
+		(at 138.43 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f3e1888-fc49-4c81-acc9-72be53402837")
+	)
+	(junction
+		(at 138.43 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac097076-08b5-481f-b740-f34d92132143")
+	)
+	(junction
+		(at 134.62 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba3bd50f-4f8d-453c-9016-bace607363a7")
+	)
+	(junction
 		(at 54.61 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e778f5f8-56fe-43d9-9542-3fac49434a96")
+	)
+	(junction
+		(at 137.16 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb02e26b-0b58-4c87-bed9-18780d5993a2")
 	)
 	(no_connect
 		(at 45.72 146.05)
 		(uuid "1ddb2c17-9d25-4d19-919c-7c9976d22ae3")
 	)
 	(no_connect
-		(at 106.68 111.76)
+		(at 109.22 111.76)
 		(uuid "3ae801e1-c766-4152-b6fc-df41a07568de")
 	)
 	(no_connect
@@ -7190,6 +7659,26 @@
 	(no_connect
 		(at 64.77 24.13)
 		(uuid "f8f8d97b-800a-4f05-9a55-26888950e623")
+	)
+	(wire
+		(pts
+			(xy 148.59 157.48) (xy 148.59 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009e4d0b-02eb-40b7-b1a5-549814323453")
+	)
+	(wire
+		(pts
+			(xy 137.16 144.78) (xy 138.43 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03275a36-52d9-4352-bca6-748cbde907ee")
 	)
 	(wire
 		(pts
@@ -7293,7 +7782,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 21.59) (xy 135.89 24.13)
+			(xy 134.62 21.59) (xy 134.62 24.13)
 		)
 		(stroke
 			(width 0)
@@ -7310,16 +7799,6 @@
 			(type default)
 		)
 		(uuid "29d9acec-d91c-4b92-8423-ff0a6ac4db0a")
-	)
-	(wire
-		(pts
-			(xy 163.83 22.86) (xy 165.1 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b4339fa-848f-46c2-9d94-1bacc8a02673")
 	)
 	(wire
 		(pts
@@ -7350,6 +7829,26 @@
 			(type default)
 		)
 		(uuid "2e6e1b4d-ff98-45d4-a145-b722df1201a7")
+	)
+	(wire
+		(pts
+			(xy 138.43 176.53) (xy 138.43 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325de9aa-053a-4909-a2a3-e8294cd2d194")
+	)
+	(wire
+		(pts
+			(xy 147.32 24.13) (xy 163.83 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3457986b-93d2-4322-8326-be4d8623ea72")
 	)
 	(wire
 		(pts
@@ -7413,6 +7912,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 173.99) (xy 148.59 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ca965a-c1e1-4ce2-a1cd-b984c31276c8")
+	)
+	(wire
+		(pts
 			(xy 54.61 143.51) (xy 57.15 143.51)
 		)
 		(stroke
@@ -7463,6 +7972,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 184.15) (xy 148.59 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b64431-e626-45bf-8a0f-ac11405dc04c")
+	)
+	(wire
+		(pts
 			(xy 45.72 151.13) (xy 52.07 151.13)
 		)
 		(stroke
@@ -7470,6 +7989,16 @@
 			(type default)
 		)
 		(uuid "4ad9176d-3c31-4b34-9bee-dd3d95da20b2")
+	)
+	(wire
+		(pts
+			(xy 137.16 142.24) (xy 148.59 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd89321-ae81-4be5-b13f-48244cadef8d")
 	)
 	(wire
 		(pts
@@ -7503,7 +8032,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 41.91) (xy 162.56 38.1)
+			(xy 163.83 41.91) (xy 163.83 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7553,7 +8082,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 26.67) (xy 163.83 25.4)
+			(xy 165.1 26.67) (xy 165.1 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7563,7 +8092,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 154.94) (xy 138.43 154.94)
+			(xy 124.46 154.94) (xy 137.16 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7593,7 +8122,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 26.67) (xy 163.83 26.67)
+			(xy 147.32 26.67) (xy 165.1 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7613,16 +8142,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 24.13) (xy 162.56 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65fd4de4-1b41-4cad-be25-5031a5146499")
-	)
-	(wire
-		(pts
 			(xy 124.46 186.69) (xy 124.46 189.23)
 		)
 		(stroke
@@ -7630,6 +8149,16 @@
 			(type default)
 		)
 		(uuid "672e5e37-03cd-4265-88f7-92c9c1f9f219")
+	)
+	(wire
+		(pts
+			(xy 137.16 157.48) (xy 148.59 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1e8e7a-4a10-4a19-aaac-e4af0378c369")
 	)
 	(wire
 		(pts
@@ -7663,6 +8192,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 173.99) (xy 148.59 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e36275d-fb7f-4743-8d6d-df0a7f2d0406")
+	)
+	(wire
+		(pts
 			(xy 214.63 21.59) (xy 218.44 21.59)
 		)
 		(stroke
@@ -7673,7 +8212,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 26.67) (xy 135.89 26.67)
+			(xy 166.37 22.86) (xy 165.1 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737bf808-07a2-4c98-8829-f137efb5940c")
+	)
+	(wire
+		(pts
+			(xy 120.65 26.67) (xy 134.62 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7700,6 +8249,16 @@
 			(type default)
 		)
 		(uuid "78ee43fa-4e1e-4524-a01e-13aa386923de")
+	)
+	(wire
+		(pts
+			(xy 138.43 186.69) (xy 138.43 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b698983-e0c0-4228-a639-b8ad35904160")
 	)
 	(wire
 		(pts
@@ -7733,7 +8292,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 52.07) (xy 153.67 49.53)
+			(xy 154.94 52.07) (xy 154.94 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7743,7 +8302,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 29.21) (xy 153.67 30.48)
+			(xy 154.94 29.21) (xy 154.94 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7773,7 +8332,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 22.86) (xy 163.83 21.59)
+			(xy 165.1 22.86) (xy 165.1 21.59)
 		)
 		(stroke
 			(width 0)
@@ -7833,6 +8392,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 25.4) (xy 165.1 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d783243-045e-4dc3-b913-2567789bb810")
+	)
+	(wire
+		(pts
 			(xy 105.41 97.79) (xy 127 97.79)
 		)
 		(stroke
@@ -7853,7 +8422,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 26.67) (xy 135.89 29.21)
+			(xy 148.59 142.24) (xy 148.59 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a777065a-5a38-45a1-85cf-4017f2189470")
+	)
+	(wire
+		(pts
+			(xy 134.62 26.67) (xy 134.62 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7923,7 +8502,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 52.07) (xy 162.56 49.53)
+			(xy 163.83 52.07) (xy 163.83 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7943,7 +8522,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 21.59) (xy 163.83 21.59)
+			(xy 137.16 144.78) (xy 137.16 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4749f6c-283d-4e59-a1fd-cccc778fe079")
+	)
+	(wire
+		(pts
+			(xy 147.32 21.59) (xy 165.1 21.59)
 		)
 		(stroke
 			(width 0)
@@ -7963,7 +8552,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 24.13) (xy 135.89 24.13)
+			(xy 120.65 24.13) (xy 134.62 24.13)
 		)
 		(stroke
 			(width 0)
@@ -8003,13 +8592,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 25.4) (xy 165.1 25.4)
+			(xy 138.43 184.15) (xy 148.59 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4f72211-8311-4ac0-b8d5-a1fefbba08b3")
+		(uuid "d83a0ed2-ea29-4a07-a851-6de41d02d231")
 	)
 	(wire
 		(pts
@@ -8043,7 +8632,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 144.78) (xy 138.43 144.78)
+			(xy 124.46 144.78) (xy 137.16 144.78)
 		)
 		(stroke
 			(width 0)
@@ -8063,7 +8652,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 24.13) (xy 162.56 30.48)
+			(xy 163.83 24.13) (xy 163.83 30.48)
 		)
 		(stroke
 			(width 0)
@@ -8093,13 +8682,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 114.3) (xy 106.68 116.84)
+			(xy 109.22 114.3) (xy 109.22 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e0b8bd0d-5a1f-49ef-a9d4-9c1f749677fc")
+	)
+	(wire
+		(pts
+			(xy 147.32 29.21) (xy 154.94 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b74db7-34fb-4e82-803a-1f36926519d2")
 	)
 	(wire
 		(pts
@@ -8133,6 +8732,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 154.94) (xy 138.43 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7af1c92-cc95-4ece-92b8-e1c30172c9d2")
+	)
+	(wire
+		(pts
 			(xy 76.2 161.29) (xy 80.01 161.29)
 		)
 		(stroke
@@ -8140,16 +8749,6 @@
 			(type default)
 		)
 		(uuid "f805b2cd-837e-4934-8a1b-adf4228f1073")
-	)
-	(wire
-		(pts
-			(xy 146.05 29.21) (xy 153.67 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f86f1976-c0f6-4645-a508-f82e18fe106e")
 	)
 	(wire
 		(pts
@@ -8163,7 +8762,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 41.91) (xy 153.67 38.1)
+			(xy 154.94 41.91) (xy 154.94 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8173,13 +8772,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 116.84) (xy 113.03 116.84)
+			(xy 109.22 116.84) (xy 115.57 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fe336eda-965a-44f7-9823-d3cff6d2e56c")
+	)
+	(wire
+		(pts
+			(xy 137.16 154.94) (xy 137.16 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9336ce-ea2c-4392-98d2-d7a074c39a8c")
 	)
 	(label "VDD3P3_CPU"
 		(at 50.8 77.47 0)
@@ -8416,7 +9025,7 @@
 		(uuid "35b86627-2f83-4cca-a103-524f6f5727f2")
 	)
 	(label "+V_HB"
-		(at 113.03 116.84 0)
+		(at 115.57 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8662,7 +9271,7 @@
 		(uuid "8dda8adb-0b7f-4ca1-9cc9-29f77e5a9cda")
 	)
 	(label "TXD"
-		(at 147.32 21.59 0)
+		(at 148.59 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8842,7 +9451,7 @@
 		(uuid "cb802a03-83e8-4ac2-9862-cacc93ef65e5")
 	)
 	(label "RXD"
-		(at 147.32 26.67 0)
+		(at 148.59 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9147,7 +9756,6 @@
 		)
 	)
 	(symbol
-		(lib_name "430182043816_1")
 		(lib_id "Switch_Wurth_WS-TASV:430182043816")
 		(at 143.51 149.86 0)
 		(unit 1)
@@ -9205,7 +9813,7 @@
 			)
 		)
 		(property "Description" "SMT Tact Switch 6x6 mm"
-			(at 140.97 149.86 0)
+			(at 143.51 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10776,6 +11384,7 @@
 		)
 	)
 	(symbol
+		(lib_name "1206_R_560112132018_1")
 		(lib_id "Resistor_Wurth_WRIS-RSKS:1206_R_560112132018")
 		(at 114.3 144.78 0)
 		(unit 1)
@@ -11782,7 +12391,7 @@
 	)
 	(symbol
 		(lib_id "LED_Wurth_WL-SMCW:0603dome_150060VS86000")
-		(at 153.67 45.72 90)
+		(at 154.94 45.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11792,7 +12401,7 @@
 		(dnp no)
 		(uuid "6656aad3-c72b-48c7-b5b8-96646f2eda9a")
 		(property "Reference" "Status_LED_RX1"
-			(at 149.098 39.878 0)
+			(at 150.368 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11803,7 +12412,7 @@
 			)
 		)
 		(property "Value" "0603dome_150060VS86000"
-			(at 130.81 33.02 0)
+			(at 132.08 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11815,7 +12424,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD_Wurth:D_Wurth_WL-SMCW-0603dome"
-			(at 133.35 33.02 0)
+			(at 134.62 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11827,7 +12436,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060VS86000.pdf?ki"
-			(at 135.89 33.02 0)
+			(at 137.16 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11839,7 +12448,7 @@
 			)
 		)
 		(property "Description" "Mono-color Chip LED Waterclear"
-			(at 153.67 45.72 0)
+			(at 154.94 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11850,7 +12459,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 138.43 33.02 0)
+			(at 139.7 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11862,7 +12471,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 140.97 33.02 0)
+			(at 142.24 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11874,7 +12483,7 @@
 			)
 		)
 		(property "Created Date" "20260320"
-			(at 143.51 33.02 0)
+			(at 144.78 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11886,7 +12495,7 @@
 			)
 		)
 		(property "Series" "WL-SMCW"
-			(at 146.05 33.02 0)
+			(at 147.32 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11898,7 +12507,7 @@
 			)
 		)
 		(property "Part Number" "150060VS86000"
-			(at 148.59 33.02 0)
+			(at 149.86 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11910,7 +12519,7 @@
 			)
 		)
 		(property "Size" "0603dome"
-			(at 151.13 33.02 0)
+			(at 152.4 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11922,7 +12531,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 153.67 33.02 0)
+			(at 154.94 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11934,7 +12543,7 @@
 			)
 		)
 		(property "λDom typ.(nm)" "573 nm"
-			(at 156.21 33.02 0)
+			(at 157.48 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11946,7 +12555,7 @@
 			)
 		)
 		(property "Emitting Color" "Bright Green"
-			(at 158.75 33.02 0)
+			(at 160.02 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11958,7 +12567,7 @@
 			)
 		)
 		(property "λPeak typ.(nm)" "575 nm"
-			(at 161.29 33.02 0)
+			(at 162.56 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11970,7 +12579,7 @@
 			)
 		)
 		(property "IV typ.(mcd)" "300 mcd"
-			(at 163.83 33.02 0)
+			(at 165.1 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11982,7 +12591,7 @@
 			)
 		)
 		(property "VF typ.(V)" "2 V"
-			(at 166.37 33.02 0)
+			(at 167.64 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11994,7 +12603,7 @@
 			)
 		)
 		(property "Chip Technology" "AlInGaP"
-			(at 168.91 33.02 0)
+			(at 170.18 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12006,7 +12615,7 @@
 			)
 		)
 		(property "2θ50% typ.(°)" "60 °"
-			(at 171.45 33.02 0)
+			(at 172.72 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12033,7 +12642,6 @@
 		)
 	)
 	(symbol
-		(lib_name "430182043816_1")
 		(lib_id "Switch_Wurth_WS-TASV:430182043816")
 		(at 143.51 181.61 0)
 		(unit 1)
@@ -12091,7 +12699,7 @@
 			)
 		)
 		(property "Description" "SMT Tact Switch 6x6 mm"
-			(at 140.97 181.61 0)
+			(at 143.51 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12941,6 +13549,7 @@
 		)
 	)
 	(symbol
+		(lib_name "TestPoint_Probe_1")
 		(lib_id "Connector:TestPoint_Probe")
 		(at 124.46 172.72 90)
 		(unit 1)
@@ -13777,7 +14386,7 @@
 	)
 	(symbol
 		(lib_id "LED_Wurth_WL-SMCW:0603dome_150060VS86000")
-		(at 162.56 45.72 90)
+		(at 163.83 45.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13787,7 +14396,7 @@
 		(dnp no)
 		(uuid "a8e0fdb2-fcf1-4d53-9baf-33be7bd41f36")
 		(property "Reference" "Status_LED_TX1"
-			(at 157.988 39.878 0)
+			(at 159.258 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13798,7 +14407,7 @@
 			)
 		)
 		(property "Value" "0603dome_150060VS86000"
-			(at 139.7 33.02 0)
+			(at 140.97 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13810,7 +14419,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD_Wurth:D_Wurth_WL-SMCW-0603dome"
-			(at 142.24 33.02 0)
+			(at 143.51 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13822,7 +14431,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060VS86000.pdf?ki"
-			(at 144.78 33.02 0)
+			(at 146.05 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13834,7 +14443,7 @@
 			)
 		)
 		(property "Description" "Mono-color Chip LED Waterclear"
-			(at 162.56 45.72 0)
+			(at 163.83 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13845,7 +14454,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 147.32 33.02 0)
+			(at 148.59 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13857,7 +14466,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 149.86 33.02 0)
+			(at 151.13 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13869,7 +14478,7 @@
 			)
 		)
 		(property "Created Date" "20260320"
-			(at 152.4 33.02 0)
+			(at 153.67 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13881,7 +14490,7 @@
 			)
 		)
 		(property "Series" "WL-SMCW"
-			(at 154.94 33.02 0)
+			(at 156.21 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13893,7 +14502,7 @@
 			)
 		)
 		(property "Part Number" "150060VS86000"
-			(at 157.48 33.02 0)
+			(at 158.75 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13905,7 +14514,7 @@
 			)
 		)
 		(property "Size" "0603dome"
-			(at 160.02 33.02 0)
+			(at 161.29 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13917,7 +14526,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 162.56 33.02 0)
+			(at 163.83 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13929,7 +14538,7 @@
 			)
 		)
 		(property "λDom typ.(nm)" "573 nm"
-			(at 165.1 33.02 0)
+			(at 166.37 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13941,7 +14550,7 @@
 			)
 		)
 		(property "Emitting Color" "Bright Green"
-			(at 167.64 33.02 0)
+			(at 168.91 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13953,7 +14562,7 @@
 			)
 		)
 		(property "λPeak typ.(nm)" "575 nm"
-			(at 170.18 33.02 0)
+			(at 171.45 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13965,7 +14574,7 @@
 			)
 		)
 		(property "IV typ.(mcd)" "300 mcd"
-			(at 172.72 33.02 0)
+			(at 173.99 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13977,7 +14586,7 @@
 			)
 		)
 		(property "VF typ.(V)" "2 V"
-			(at 175.26 33.02 0)
+			(at 176.53 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13989,7 +14598,7 @@
 			)
 		)
 		(property "Chip Technology" "AlInGaP"
-			(at 177.8 33.02 0)
+			(at 179.07 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14001,7 +14610,7 @@
 			)
 		)
 		(property "2θ50% typ.(°)" "60 °"
-			(at 180.34 33.02 0)
+			(at 181.61 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14029,7 +14638,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Wurth_WR-PHD:61300621121")
-		(at 101.6 114.3 270)
+		(at 102.87 114.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14040,7 +14649,7 @@
 		(fields_autoplaced yes)
 		(uuid "aefe4ace-c0e1-471e-8693-2861a99f1bad")
 		(property "Reference" "J3"
-			(at 101.6 107.95 90)
+			(at 102.87 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14050,7 +14659,7 @@
 			)
 		)
 		(property "Value" "61300621121"
-			(at 87.63 114.3 0)
+			(at 88.9 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14061,7 +14670,7 @@
 			)
 		)
 		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61300621121"
-			(at 118.11 114.3 0)
+			(at 119.38 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14072,7 +14681,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300621121?ki"
-			(at 114.3 154.94 0)
+			(at 115.57 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14083,7 +14692,7 @@
 			)
 		)
 		(property "Description" "2.54 mm THT Dual Pin Header"
-			(at 101.6 114.3 0)
+			(at 102.87 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14094,7 +14703,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 111.76 154.94 0)
+			(at 113.03 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14105,7 +14714,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 109.22 154.94 0)
+			(at 110.49 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14116,7 +14725,7 @@
 			)
 		)
 		(property "Series" "WR-PHD"
-			(at 106.68 154.94 0)
+			(at 107.95 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14127,7 +14736,7 @@
 			)
 		)
 		(property "Pitch" "2.54 mm"
-			(at 104.14 154.94 0)
+			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14138,7 +14747,7 @@
 			)
 		)
 		(property "Mounting Technology" "THT"
-			(at 101.6 154.94 0)
+			(at 102.87 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14149,7 +14758,7 @@
 			)
 		)
 		(property "Pins (pcs)" "6"
-			(at 99.06 154.94 0)
+			(at 100.33 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14160,7 +14769,7 @@
 			)
 		)
 		(property "Rows" "Dual"
-			(at 96.52 154.94 0)
+			(at 97.79 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14171,7 +14780,7 @@
 			)
 		)
 		(property "Gender" "Pin Header"
-			(at 93.98 154.94 0)
+			(at 95.25 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14182,7 +14791,7 @@
 			)
 		)
 		(property "Type" "Straight"
-			(at 91.44 154.94 0)
+			(at 92.71 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14193,7 +14802,7 @@
 			)
 		)
 		(property "IR (A)" "3"
-			(at 88.9 154.94 0)
+			(at 90.17 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14309,7 +14918,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Wurth_WR-PHD:61300211121")
-		(at 168.91 24.13 270)
+		(at 171.45 24.13 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14320,7 +14929,7 @@
 		(fields_autoplaced yes)
 		(uuid "c02c0cbe-aa3f-4db3-bb8d-63627e07b037")
 		(property "Reference" "UART1"
-			(at 171.45 24.1299 90)
+			(at 173.99 24.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14331,7 +14940,7 @@
 			)
 		)
 		(property "Value" "61300211121"
-			(at 156.21 24.13 0)
+			(at 158.75 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14342,7 +14951,7 @@
 			)
 		)
 		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61300211121"
-			(at 175.26 24.13 0)
+			(at 177.8 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14353,7 +14962,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300211121?ki"
-			(at 181.61 64.77 0)
+			(at 184.15 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14364,7 +14973,7 @@
 			)
 		)
 		(property "Description" "2.54 mm THT Pin Header"
-			(at 168.91 24.13 0)
+			(at 171.45 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14375,7 +14984,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 179.07 64.77 0)
+			(at 181.61 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14386,7 +14995,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 176.53 64.77 0)
+			(at 179.07 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14397,7 +15006,7 @@
 			)
 		)
 		(property "Series" "WR-PHD"
-			(at 173.99 64.77 0)
+			(at 176.53 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14408,7 +15017,7 @@
 			)
 		)
 		(property "Pitch" "2.54 mm"
-			(at 171.45 64.77 0)
+			(at 173.99 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14419,7 +15028,7 @@
 			)
 		)
 		(property "Mounting Technology" "THT"
-			(at 168.91 64.77 0)
+			(at 171.45 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14430,7 +15039,7 @@
 			)
 		)
 		(property "Pins (pcs)" "2"
-			(at 166.37 64.77 0)
+			(at 168.91 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14441,7 +15050,7 @@
 			)
 		)
 		(property "Rows" "Single"
-			(at 163.83 64.77 0)
+			(at 166.37 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14452,7 +15061,7 @@
 			)
 		)
 		(property "Gender" "Pin Header"
-			(at 161.29 64.77 0)
+			(at 163.83 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14463,7 +15072,7 @@
 			)
 		)
 		(property "Type" "Straight"
-			(at 158.75 64.77 0)
+			(at 161.29 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14474,7 +15083,7 @@
 			)
 		)
 		(property "IR (A)" "3"
-			(at 156.21 64.77 0)
+			(at 158.75 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14501,7 +15110,7 @@
 	)
 	(symbol
 		(lib_id "Resistor_Wurth_WRIS-RSKS:1206_R_560112132050")
-		(at 162.56 34.29 270)
+		(at 163.83 34.29 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14512,7 +15121,7 @@
 		(fields_autoplaced yes)
 		(uuid "c24e3a33-d765-4f08-acfc-7474864c15e0")
 		(property "Reference" "R7"
-			(at 165.1 33.0199 90)
+			(at 166.37 33.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14523,7 +15132,7 @@
 			)
 		)
 		(property "Value" "1206_R_560112132050"
-			(at 160.02 34.29 0)
+			(at 161.29 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14534,7 +15143,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-1206_R"
-			(at 170.18 34.29 0)
+			(at 171.45 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14545,7 +15154,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132050.pdf?ki"
-			(at 180.34 86.36 0)
+			(at 181.61 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14556,7 +15165,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfur Thick Film Resistors"
-			(at 162.56 34.29 0)
+			(at 163.83 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14567,7 +15176,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 177.8 86.36 0)
+			(at 179.07 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14578,7 +15187,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 175.26 86.36 0)
+			(at 176.53 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14589,7 +15198,7 @@
 			)
 		)
 		(property "Created Date" "20250214"
-			(at 172.72 86.36 0)
+			(at 173.99 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14600,7 +15209,7 @@
 			)
 		)
 		(property "Series" "WRIS-RSKS"
-			(at 170.18 86.36 0)
+			(at 171.45 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14611,7 +15220,7 @@
 			)
 		)
 		(property "Part Number" "560112132050"
-			(at 167.64 86.36 0)
+			(at 168.91 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14622,7 +15231,7 @@
 			)
 		)
 		(property "Size" "1206_R"
-			(at 165.1 86.36 0)
+			(at 166.37 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14633,7 +15242,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 162.56 86.36 0)
+			(at 163.83 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14644,7 +15253,7 @@
 			)
 		)
 		(property "R" "68 Ω"
-			(at 160.02 86.36 0)
+			(at 161.29 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14655,7 +15264,7 @@
 			)
 		)
 		(property "Tol. R" "±1%"
-			(at 157.48 86.36 0)
+			(at 158.75 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14666,7 +15275,7 @@
 			)
 		)
 		(property "PRated (mW)" "250.0"
-			(at 154.94 86.36 0)
+			(at 156.21 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14677,7 +15286,7 @@
 			)
 		)
 		(property "TCR (ppm/ °C)" "-100"
-			(at 152.4 86.36 0)
+			(at 153.67 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14688,7 +15297,7 @@
 			)
 		)
 		(property "TCR (ppm/ °C).1" "100"
-			(at 149.86 86.36 0)
+			(at 151.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14699,7 +15308,7 @@
 			)
 		)
 		(property "VE (V)" "200"
-			(at 147.32 86.36 0)
+			(at 148.59 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14710,7 +15319,7 @@
 			)
 		)
 		(property "L (mm)" "3.1"
-			(at 144.78 86.36 0)
+			(at 146.05 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14721,7 +15330,7 @@
 			)
 		)
 		(property "W (mm)" "1.6"
-			(at 142.24 86.36 0)
+			(at 143.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14732,7 +15341,7 @@
 			)
 		)
 		(property "H (mm)" "0.6"
-			(at 139.7 86.36 0)
+			(at 140.97 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14743,7 +15352,7 @@
 			)
 		)
 		(property "Critical Parameter" "68 Ω"
-			(at 165.1 35.5599 90)
+			(at 166.37 35.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14848,7 +15457,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Wurth_WR-PHD:61300311121")
-		(at 130.81 93.98 270)
+		(at 132.08 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14859,7 +15468,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6bfdbbc-7066-44aa-b979-c1243541960c")
 		(property "Reference" "I2C1"
-			(at 133.35 93.9799 90)
+			(at 134.62 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14870,7 +15479,7 @@
 			)
 		)
 		(property "Value" "61300311121"
-			(at 118.11 93.98 0)
+			(at 119.38 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14881,7 +15490,7 @@
 			)
 		)
 		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61300311121"
-			(at 137.16 93.98 0)
+			(at 138.43 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14892,7 +15501,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300311121?ki"
-			(at 143.51 134.62 0)
+			(at 144.78 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14903,7 +15512,7 @@
 			)
 		)
 		(property "Description" "2.54 mm THT Pin Header"
-			(at 130.81 93.98 0)
+			(at 132.08 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14914,7 +15523,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 140.97 134.62 0)
+			(at 142.24 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14925,7 +15534,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 138.43 134.62 0)
+			(at 139.7 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14936,7 +15545,7 @@
 			)
 		)
 		(property "Series" "WR-PHD"
-			(at 135.89 134.62 0)
+			(at 137.16 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14947,7 +15556,7 @@
 			)
 		)
 		(property "Pitch" "2.54 mm"
-			(at 133.35 134.62 0)
+			(at 134.62 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14958,7 +15567,7 @@
 			)
 		)
 		(property "Mounting Technology" "THT"
-			(at 130.81 134.62 0)
+			(at 132.08 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14969,7 +15578,7 @@
 			)
 		)
 		(property "Pins (pcs)" "3"
-			(at 128.27 134.62 0)
+			(at 129.54 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14980,7 +15589,7 @@
 			)
 		)
 		(property "Rows" "Single"
-			(at 125.73 134.62 0)
+			(at 127 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14991,7 +15600,7 @@
 			)
 		)
 		(property "Gender" "Pin Header"
-			(at 123.19 134.62 0)
+			(at 124.46 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15002,7 +15611,7 @@
 			)
 		)
 		(property "Type" "Straight"
-			(at 120.65 134.62 0)
+			(at 121.92 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15013,7 +15622,7 @@
 			)
 		)
 		(property "IR (A)" "3"
-			(at 118.11 134.62 0)
+			(at 119.38 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15043,7 +15652,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 52.07 0)
+		(at 163.83 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15054,7 +15663,7 @@
 		(fields_autoplaced yes)
 		(uuid "d90eb267-9c12-4e87-aa68-e138c0c27aeb")
 		(property "Reference" "#PWR014"
-			(at 162.56 58.42 0)
+			(at 163.83 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15065,7 +15674,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 57.15 0)
+			(at 163.83 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15075,7 +15684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 52.07 0)
+			(at 163.83 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15086,7 +15695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 52.07 0)
+			(at 163.83 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15097,7 +15706,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 52.07 0)
+			(at 163.83 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15195,7 +15804,7 @@
 	)
 	(symbol
 		(lib_id "Resistor_Wurth_WRIS-RSKS:1206_R_560112132050")
-		(at 153.67 34.29 270)
+		(at 154.94 34.29 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15205,7 +15814,7 @@
 		(dnp no)
 		(uuid "de938206-0f88-4115-a47d-859d8a3f13b2")
 		(property "Reference" "R6"
-			(at 155.448 33.02 90)
+			(at 156.718 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15216,7 +15825,7 @@
 			)
 		)
 		(property "Value" "1206_R_560112132050"
-			(at 151.13 34.29 0)
+			(at 152.4 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15227,7 +15836,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-1206_R"
-			(at 161.29 34.29 0)
+			(at 162.56 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15238,7 +15847,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132050.pdf?ki"
-			(at 171.45 86.36 0)
+			(at 172.72 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15249,7 +15858,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfur Thick Film Resistors"
-			(at 153.67 34.29 0)
+			(at 154.94 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15260,7 +15869,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 168.91 86.36 0)
+			(at 170.18 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15271,7 +15880,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 166.37 86.36 0)
+			(at 167.64 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15282,7 +15891,7 @@
 			)
 		)
 		(property "Created Date" "20250214"
-			(at 163.83 86.36 0)
+			(at 165.1 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15293,7 +15902,7 @@
 			)
 		)
 		(property "Series" "WRIS-RSKS"
-			(at 161.29 86.36 0)
+			(at 162.56 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15304,7 +15913,7 @@
 			)
 		)
 		(property "Part Number" "560112132050"
-			(at 158.75 86.36 0)
+			(at 160.02 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15315,7 +15924,7 @@
 			)
 		)
 		(property "Size" "1206_R"
-			(at 156.21 86.36 0)
+			(at 157.48 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15326,7 +15935,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 153.67 86.36 0)
+			(at 154.94 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15337,7 +15946,7 @@
 			)
 		)
 		(property "R" "68 Ω"
-			(at 151.13 86.36 0)
+			(at 152.4 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15348,7 +15957,7 @@
 			)
 		)
 		(property "Tol. R" "±1%"
-			(at 148.59 86.36 0)
+			(at 149.86 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15359,7 +15968,7 @@
 			)
 		)
 		(property "PRated (mW)" "250.0"
-			(at 146.05 86.36 0)
+			(at 147.32 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15370,7 +15979,7 @@
 			)
 		)
 		(property "TCR (ppm/ °C)" "-100"
-			(at 143.51 86.36 0)
+			(at 144.78 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15381,7 +15990,7 @@
 			)
 		)
 		(property "TCR (ppm/ °C).1" "100"
-			(at 140.97 86.36 0)
+			(at 142.24 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15392,7 +16001,7 @@
 			)
 		)
 		(property "VE (V)" "200"
-			(at 138.43 86.36 0)
+			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15403,7 +16012,7 @@
 			)
 		)
 		(property "L (mm)" "3.1"
-			(at 135.89 86.36 0)
+			(at 137.16 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15414,7 +16023,7 @@
 			)
 		)
 		(property "W (mm)" "1.6"
-			(at 133.35 86.36 0)
+			(at 134.62 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15425,7 +16034,7 @@
 			)
 		)
 		(property "H (mm)" "0.6"
-			(at 130.81 86.36 0)
+			(at 132.08 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15436,7 +16045,7 @@
 			)
 		)
 		(property "Critical Parameter" "68 Ω"
-			(at 155.448 35.56 90)
+			(at 156.718 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16108,7 +16717,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 52.07 0)
+		(at 154.94 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16119,7 +16728,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe6185dc-5f59-45e1-9e20-fc50c525f29c")
 		(property "Reference" "#PWR013"
-			(at 153.67 58.42 0)
+			(at 154.94 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16130,7 +16739,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 57.15 0)
+			(at 154.94 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16140,7 +16749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 52.07 0)
+			(at 154.94 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16151,7 +16760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 52.07 0)
+			(at 154.94 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16162,7 +16771,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 52.07 0)
+			(at 154.94 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16737,7 +17346,7 @@
 				(justify right)
 			)
 		)
-		(pin "EM_A_ISENSE" input
+		(pin "EM_A_ISENSE" bidirectional
 			(at 218.44 35.56 180)
 			(uuid "47858922-e2f7-467f-9814-dbfb587de5b8")
 			(effects
