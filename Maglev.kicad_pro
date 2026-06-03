@@ -124,7 +124,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "ignore",
+        "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -138,7 +138,7 @@
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
+        "tuning_profile_track_geometries": "warning",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "error",
@@ -717,7 +717,7 @@
         "uuid": "cf460145-35f8-4019-907e-b966a2c32625"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U3",
     "variants": []
   },
   "sheets": [

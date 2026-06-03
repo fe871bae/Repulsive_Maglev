@@ -568,7 +568,7 @@
 					)
 				)
 			)
-			(property "Footprint" "629722000214:629722000214"
+			(property "Footprint" "WURTH_USB:629722000214"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -878,7 +878,6 @@
 				(pin passive line
 					(at 15.24 2.54 180)
 					(length 5.08)
-					(hide yes)
 					(name "SBU1"
 						(effects
 							(font
@@ -1025,7 +1024,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 2.54 180)
+					(at -15.24 3.81 0)
 					(length 5.08)
 					(name "SBU2"
 						(effects
@@ -1434,6 +1433,80 @@
 								(size 1.016 1.016)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CUSTOM:MagnetRing"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CUSTOM:MagnetRing"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MagnetRing_0_1"
+				(circle
+					(center 0 0)
+					(radius 3.5921)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -1976,9 +2049,9 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 1.651 5.842 0)
@@ -7100,7 +7173,7 @@
 	)
 	(no_connect
 		(at 45.72 146.05)
-		(uuid "36b65072-4f76-4c87-8df8-6d6a6b472f81")
+		(uuid "1ddb2c17-9d25-4d19-919c-7c9976d22ae3")
 	)
 	(no_connect
 		(at 106.68 111.76)
@@ -7109,6 +7182,10 @@
 	(no_connect
 		(at 96.52 111.76)
 		(uuid "5641cf85-deff-4b11-9b0e-3000ecc84886")
+	)
+	(no_connect
+		(at 15.24 144.78)
+		(uuid "b2ca64d4-20e9-46db-bcbe-2bb8ddf40523")
 	)
 	(no_connect
 		(at 64.77 24.13)
@@ -10395,6 +10472,81 @@
 		)
 	)
 	(symbol
+		(lib_id "CUSTOM:MagnetRing")
+		(at 261.62 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35f9d156-7e8a-4d2f-b85a-e63c060ccf1a")
+		(property "Reference" "U3"
+			(at 266.7 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 261.62 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CUSTOM:MagnetRing"
+			(at 261.62 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Maglev"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 124.46 81.28 0)
 		(unit 1)
@@ -10896,9 +11048,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "559b98fc-23dc-4218-878e-1e1a3c7dd170")
@@ -11362,7 +11514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WURTH_USB:629722000214"
+		(property "Footprint" "WURTH_USB:629722000214_CUSTOM"
 			(at 30.48 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -12794,9 +12946,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87fd83e0-577e-4118-be3d-f7cd88b1af81")

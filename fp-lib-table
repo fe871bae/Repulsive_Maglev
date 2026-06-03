@@ -1,7 +1,5 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "Connector_SMD_Wurth") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/Connector_SMD_Wurth.pretty") (options "") (descr ""))
-	(lib (name "Connector_THT_Wurth") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/Connector_THT_Wurth.pretty") (options "") (descr ""))
 	(lib (name "ESP32-C3FH4") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/ESP32-C3FH4.pretty") (options "") (descr ""))
 	(lib (name "IC_TPS259474ARPWR") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/IC_TPS259474ARPWR.pretty") (options "") (descr ""))
 	(lib (name "KTT0003B") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/KTT0003B.pretty") (options "") (descr ""))
