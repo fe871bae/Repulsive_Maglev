@@ -3,5 +3,5 @@
 	(lib (name "Ringmagnet_D100_d70_T20") (type "KiCad") (uri "${KIPRJMOD}/libraries/Ringmagnet_D100_d70_T20.pretty") (options "") (descr ""))
 	(lib (name "CUSTOM") (type "KiCad") (uri "${KIPRJMOD}/CUSTOM.pretty") (options "") (descr ""))
 	(lib (name "691103110002") (type "KiCad") (uri "${KIPRJMOD}/691103110002.pretty") (options "") (descr ""))
-	(lib (name "Panelization") (type "KiCad") (uri "${KIPRJMOD}/libraries/Panelization.pretty") (options "") (descr ""))
+	(lib (name "Panelization") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/Panelization.pretty") (options "") (descr ""))
 )

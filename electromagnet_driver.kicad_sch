@@ -5556,6 +5556,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 43.18) (xy 185.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b536d117-9b59-4706-903f-c975bb6e7f0a")
+	)
+	(wire
+		(pts
 			(xy 132.08 36.83) (xy 132.08 40.64)
 		)
 		(stroke
@@ -5613,6 +5623,16 @@
 			(type default)
 		)
 		(uuid "bb9eafd4-4e69-4866-8a03-e5df703e8986")
+	)
+	(wire
+		(pts
+			(xy 185.42 45.72) (xy 187.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8a8bc9-c866-4539-afcf-d89aef853458")
 	)
 	(wire
 		(pts
@@ -13126,7 +13146,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 186.69 45.72 90)
+		(at 185.42 43.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13137,7 +13157,7 @@
 		(fields_autoplaced yes)
 		(uuid "708b22c2-6960-49a1-bb7f-915df16e32df")
 		(property "Reference" "TP8"
-			(at 185.1025 38.1 90)
+			(at 183.8325 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13147,7 +13167,7 @@
 			)
 		)
 		(property "Value" "TP:B_PWM"
-			(at 185.1025 40.64 90)
+			(at 183.8325 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13157,7 +13177,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 186.69 40.64 0)
+			(at 185.42 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13168,7 +13188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 40.64 0)
+			(at 185.42 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13179,7 +13199,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 186.69 45.72 0)
+			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
