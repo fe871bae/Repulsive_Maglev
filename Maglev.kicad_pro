@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -299,6 +299,10 @@
         ""
       ],
       [
+        "lib_symbol_mismatch|1270000|1168400|02311dc1-b499-4448-b744-2bc59884a3e0|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
         "lib_symbol_mismatch|1346200|990600|02c9b64f-98a2-4390-9907-e9816e7d7ffc|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
@@ -307,7 +311,15 @@
         ""
       ],
       [
+        "lib_symbol_mismatch|749300|1168400|f5873cb2-81c5-48e1-aa32-95f96765f0ea|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
         "lib_symbol_mismatch|927100|520700|6e39a30b-bcc1-4208-826f-95add586d7b7|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "multiple_net_names|1803400|1003300|699c0522-f06e-49c6-9688-7cdf271aa917|72062d12-3ea4-4f2c-8ce7-40f8906ae870|/cf460145-35f8-4019-907e-b966a2c32625/91cdb619-a34a-44d7-a3c8-16d4596465c1|/cf460145-35f8-4019-907e-b966a2c32625/91cdb619-a34a-44d7-a3c8-16d4596465c1|/cf460145-35f8-4019-907e-b966a2c32625/91cdb619-a34a-44d7-a3c8-16d4596465c1",
         ""
       ],
       [
@@ -738,7 +750,7 @@
         "uuid": "cf460145-35f8-4019-907e-b966a2c32625"
       }
     ],
-    "used_designators": "#PWR42-43,#PWR45,#PWR54,#PWR63-64,#FLG1,U3",
+    "used_designators": "U3,U6",
     "variants": []
   },
   "sheets": [

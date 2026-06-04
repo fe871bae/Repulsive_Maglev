@@ -498,7 +498,7 @@
 					)
 				)
 			)
-			(property "Footprint" "WURTH_USB:629722000214"
+			(property "Footprint" "WURTH_USB:629722000214_CUSTOM"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -971,7 +971,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 15.24 5.08 180)
 					(length 5.08)
 					(name "VBUS2"
@@ -989,7 +989,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 15.24 7.62 180)
 					(length 5.08)
 					(name "GND2"
@@ -1363,178 +1363,6 @@
 								(size 1.016 1.016)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CUSTOM:MagnetRing"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "CUSTOM:MagnetRing"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MagnetRing_0_1"
-				(circle
-					(center 0 0)
-					(radius 3.5921)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CUSTOM:Spacer"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "S"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CUSTOM:Spacer_15mm CUSTOM:Spacer_20mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Spacer_0_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 1.27 2.54) (xy 2.54 1.27) (xy 2.54 -1.27) (xy 1.27 -2.54) (xy -1.27 -2.54)
-						(xy -2.54 -1.27) (xy -2.54 1.27) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -7507,10 +7335,125 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 13.97 130.81)
-		(end 101.6 195.58)
+		(end 103.505 195.58)
 		(stroke
 			(width 0.381)
 			(type default)
@@ -7599,12 +7542,6 @@
 		(uuid "6bc6b1bc-5266-4bc2-a0a3-eec8327f1d05")
 	)
 	(junction
-		(at 109.22 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7987dd43-47ab-4509-ab2f-5c669e6a3347")
-	)
-	(junction
 		(at 124.46 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7623,22 +7560,34 @@
 		(uuid "ac097076-08b5-481f-b740-f34d92132143")
 	)
 	(junction
+		(at 63.5 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1976ca2-b74d-47e8-9a70-8156b5285f1b")
+	)
+	(junction
 		(at 134.62 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba3bd50f-4f8d-453c-9016-bace607363a7")
 	)
 	(junction
-		(at 54.61 143.51)
+		(at 115.57 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e778f5f8-56fe-43d9-9542-3fac49434a96")
+		(uuid "d757f24c-542a-498b-bfb2-3843f6698d90")
 	)
 	(junction
 		(at 137.16 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb02e26b-0b58-4c87-bed9-18780d5993a2")
+	)
+	(junction
+		(at 109.22 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcaa688a-3ef9-4790-8e31-6851fd999d53")
 	)
 	(no_connect
 		(at 45.72 146.05)
@@ -7702,6 +7651,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 179.07) (xy 63.5 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e0d8ad-2f7c-4902-b146-cdb10d3891c1")
+	)
+	(wire
+		(pts
 			(xy 214.63 20.32) (xy 214.63 21.59)
 		)
 		(stroke
@@ -7732,56 +7691,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 161.29) (xy 67.31 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15ce59dd-9268-40de-8a59-9a0145b2af6b")
-	)
-	(wire
-		(pts
-			(xy 80.01 179.07) (xy 76.2 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "177a20f9-5610-4424-8122-e3f3c3e65f73")
-	)
-	(wire
-		(pts
-			(xy 52.07 151.13) (xy 52.07 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f6c0e40-c363-4f1f-8239-355b8d997269")
-	)
-	(wire
-		(pts
-			(xy 67.31 161.29) (xy 67.31 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f7c73ce-cd3b-4370-b6f6-4106cabc3621")
-	)
-	(wire
-		(pts
-			(xy 71.12 179.07) (xy 71.12 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24b03738-86d1-438b-ad38-aad83f3d77c9")
-	)
-	(wire
-		(pts
 			(xy 134.62 21.59) (xy 134.62 24.13)
 		)
 		(stroke
@@ -7802,16 +7711,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 179.07) (xy 71.12 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2be07ceb-115b-4fcd-8bbc-953a1b97ff0c")
-	)
-	(wire
-		(pts
 			(xy 207.01 20.32) (xy 207.01 24.13)
 		)
 		(stroke
@@ -7829,6 +7728,26 @@
 			(type default)
 		)
 		(uuid "2e6e1b4d-ff98-45d4-a145-b722df1201a7")
+	)
+	(wire
+		(pts
+			(xy 63.5 143.51) (xy 69.85 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e661a6-653e-4eaa-ab1e-eb5a38c8a26a")
+	)
+	(wire
+		(pts
+			(xy 45.72 143.51) (xy 63.5 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3240139a-fab2-43a1-984c-4982a261bc4f")
 	)
 	(wire
 		(pts
@@ -7882,16 +7801,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 158.75) (xy 71.12 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38617950-add9-42f0-92a9-b25470652aec")
-	)
-	(wire
-		(pts
 			(xy 252.73 38.1) (xy 260.35 38.1)
 		)
 		(stroke
@@ -7919,16 +7828,6 @@
 			(type default)
 		)
 		(uuid "41ca965a-c1e1-4ce2-a1cd-b984c31276c8")
-	)
-	(wire
-		(pts
-			(xy 54.61 143.51) (xy 57.15 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43e0248a-768b-44ab-a5e9-6abf893234d8")
 	)
 	(wire
 		(pts
@@ -7972,6 +7871,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 148.59) (xy 60.96 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c68d87-9b2c-4c93-a8da-d4ba2645869b")
+	)
+	(wire
+		(pts
 			(xy 148.59 184.15) (xy 148.59 186.69)
 		)
 		(stroke
@@ -7979,16 +7888,6 @@
 			(type default)
 		)
 		(uuid "49b64431-e626-45bf-8a0f-ac11405dc04c")
-	)
-	(wire
-		(pts
-			(xy 45.72 151.13) (xy 52.07 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ad9176d-3c31-4b34-9bee-dd3d95da20b2")
 	)
 	(wire
 		(pts
@@ -8022,16 +7921,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 177.8) (xy 73.66 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ddff441-11ad-4e83-972f-b48d6a45eedf")
-	)
-	(wire
-		(pts
 			(xy 163.83 41.91) (xy 163.83 38.1)
 		)
 		(stroke
@@ -8052,16 +7941,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 156.21) (xy 73.66 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5983107c-f6df-47dd-a2a9-7047e1c0d75d")
-	)
-	(wire
-		(pts
 			(xy 124.46 153.67) (xy 124.46 154.94)
 		)
 		(stroke
@@ -8069,16 +7948,6 @@
 			(type default)
 		)
 		(uuid "5a68496d-896c-4ee8-a323-92f894f40e4f")
-	)
-	(wire
-		(pts
-			(xy 53.34 148.59) (xy 53.34 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a707dea-9573-4b44-bb48-07c5d8499710")
 	)
 	(wire
 		(pts
@@ -8099,26 +7968,6 @@
 			(type default)
 		)
 		(uuid "5cb77ba8-b4d1-41a2-99fd-1ca06455dca4")
-	)
-	(wire
-		(pts
-			(xy 71.12 158.75) (xy 71.12 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fc5d459-0868-4391-88c8-ec92434f1d9a")
-	)
-	(wire
-		(pts
-			(xy 54.61 143.51) (xy 54.61 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61308463-06ca-4afe-b0a1-6bb05dd53ead")
 	)
 	(wire
 		(pts
@@ -8149,6 +7998,16 @@
 			(type default)
 		)
 		(uuid "672e5e37-03cd-4265-88f7-92c9c1f9f219")
+	)
+	(wire
+		(pts
+			(xy 45.72 148.59) (xy 60.96 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9b4ddd-5b9f-4b47-9476-5972af739c0c")
 	)
 	(wire
 		(pts
@@ -8242,16 +8101,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 148.59) (xy 53.34 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78ee43fa-4e1e-4524-a01e-13aa386923de")
-	)
-	(wire
-		(pts
 			(xy 138.43 186.69) (xy 138.43 184.15)
 		)
 		(stroke
@@ -8312,6 +8161,26 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 116.84) (xy 115.57 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a164b27-26e8-4a12-9c48-e946967e2755")
+	)
+	(wire
+		(pts
+			(xy 66.04 151.13) (xy 66.04 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa4e9e6-5a3f-44bb-b48f-cbdf2c39999d")
+	)
+	(wire
+		(pts
 			(xy 127 90.17) (xy 105.41 90.17)
 		)
 		(stroke
@@ -8352,26 +8221,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 179.07) (xy 76.2 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97cfcd3b-e587-4966-83b8-629ecb5ab3aa")
-	)
-	(wire
-		(pts
-			(xy 45.72 143.51) (xy 54.61 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "986ae331-b677-4230-a9df-c310d43be27e")
-	)
-	(wire
-		(pts
 			(xy 252.73 31.75) (xy 260.35 31.75)
 		)
 		(stroke
@@ -8399,6 +8248,16 @@
 			(type default)
 		)
 		(uuid "9d783243-045e-4dc3-b913-2567789bb810")
+	)
+	(wire
+		(pts
+			(xy 45.72 151.13) (xy 66.04 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18637a2-4906-4e9d-8129-4b05375e7103")
 	)
 	(wire
 		(pts
@@ -8479,16 +8338,6 @@
 			(type default)
 		)
 		(uuid "b79fa3f0-19d2-47cf-b226-073747effc4b")
-	)
-	(wire
-		(pts
-			(xy 73.66 156.21) (xy 73.66 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd26cd2c-53a9-4a40-b421-9e68293b773f")
 	)
 	(wire
 		(pts
@@ -8612,16 +8461,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 162.56) (xy 76.2 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbf8b0b1-c8c0-4062-a3ce-a32009c2388d")
-	)
-	(wire
-		(pts
 			(xy 252.73 58.42) (xy 260.35 58.42)
 		)
 		(stroke
@@ -8702,6 +8541,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 143.51) (xy 63.5 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4fd1e93-e66e-4052-9365-e4ff21104677")
+	)
+	(wire
+		(pts
 			(xy 128.27 172.72) (xy 124.46 172.72)
 		)
 		(stroke
@@ -8739,16 +8588,6 @@
 			(type default)
 		)
 		(uuid "f7af1c92-cc95-4ece-92b8-e1c30172c9d2")
-	)
-	(wire
-		(pts
-			(xy 76.2 161.29) (xy 80.01 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f805b2cd-837e-4934-8a1b-adf4228f1073")
 	)
 	(wire
 		(pts
@@ -8847,14 +8686,14 @@
 		(uuid "133bf377-3fa8-47c1-a73c-a76c27316773")
 	)
 	(label "USB_D-"
-		(at 80.01 161.29 0)
+		(at 66.04 170.18 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "135cb699-25f2-4955-99d0-0baf510b8e8b")
 	)
@@ -9013,19 +8852,19 @@
 		(uuid "34957395-a5e4-403c-b475-9e2861fe93f1")
 	)
 	(label "USB_D+"
-		(at 80.01 179.07 0)
+		(at 60.96 170.18 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "35b86627-2f83-4cca-a103-524f6f5727f2")
 	)
 	(label "+V_HB"
-		(at 115.57 116.84 0)
+		(at 120.65 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9602,7 +9441,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VP")
-		(at 90.17 146.05 270)
+		(at 92.71 146.05 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9613,7 +9452,7 @@
 		(fields_autoplaced yes)
 		(uuid "00f0bd90-55dd-4461-972c-477e3acdc762")
 		(property "Reference" "#PWR08"
-			(at 86.36 146.05 0)
+			(at 88.9 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9624,7 +9463,7 @@
 			)
 		)
 		(property "Value" "+5VP"
-			(at 93.98 146.0499 90)
+			(at 96.52 146.0499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9635,7 +9474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 146.05 0)
+			(at 92.71 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9646,7 +9485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 146.05 0)
+			(at 92.71 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9657,7 +9496,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 90.17 146.05 0)
+			(at 92.71 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10141,81 +9980,6 @@
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CUSTOM:Spacer")
-		(at 257.81 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f791d32-b286-4985-9cf3-ca8905ae96a3")
-		(property "Reference" "S3"
-			(at 261.62 126.9999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 257.81 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CUSTOM:Spacer_15mm"
-			(at 257.81 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 257.81 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625"
-					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -10927,81 +10691,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CUSTOM:Spacer")
-		(at 271.78 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2eb4c157-3c89-4696-a9ce-4aa55cbd24f3")
-		(property "Reference" "S6"
-			(at 275.59 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 271.78 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CUSTOM:Spacer_20mm"
-			(at 271.78 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 271.78 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625"
-					(reference "S6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 124.46 157.48 0)
 		(unit 1)
@@ -11074,81 +10763,6 @@
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CUSTOM:MagnetRing")
-		(at 261.62 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35f9d156-7e8a-4d2f-b85a-e63c060ccf1a")
-		(property "Reference" "U3"
-			(at 266.7 149.8599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 261.62 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CUSTOM:MagnetRing"
-			(at 261.62 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -11232,84 +10846,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CUSTOM:Spacer")
-		(at 271.78 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4491458c-c92e-4fef-8fe7-2a5069feb495")
-		(property "Reference" "S8"
-			(at 275.59 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 271.78 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CUSTOM:Spacer_20mm"
-			(at 271.78 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 271.78 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625"
-					(reference "S8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 73.66 182.88 0)
-		(mirror y)
+		(at 63.5 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11319,7 +10857,7 @@
 		(dnp no)
 		(uuid "4a3fa1da-498f-4c60-b1e3-1ad7b0fb2374")
 		(property "Reference" "#PWR04"
-			(at 73.66 189.23 0)
+			(at 63.5 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11330,7 +10868,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 186.944 0)
+			(at 63.5 183.134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11340,7 +10878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 182.88 0)
+			(at 63.5 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11351,7 +10889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 182.88 0)
+			(at 63.5 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11362,7 +10900,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 182.88 0)
+			(at 63.5 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11877,6 +11415,84 @@
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 115.57 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "611cd229-6668-4e71-8b55-43dd62457305")
+		(property "Reference" "#FLG04"
+			(at 115.57 114.935 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 115.57 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 115.57 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb6af254-83de-4ea8-ba1e-5a183a17fb44")
+		)
+		(instances
+			(project "Maglev"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -12905,7 +12521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-C3FH4:QFN50P500X500X90-33N"
+		(property "Footprint" "PCM_Espressif:QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm"
 			(at 92.71 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13396,81 +13012,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CUSTOM:Spacer")
-		(at 257.81 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e886f4c-4521-468f-a697-480686a7b353")
-		(property "Reference" "S4"
-			(at 261.62 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 257.81 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CUSTOM:Spacer_15mm"
-			(at 257.81 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 257.81 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625"
-					(reference "S4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:LINE")
 		(at 107.95 172.72 0)
 		(unit 1)
@@ -13709,83 +13250,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CUSTOM:Spacer")
-		(at 257.81 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f907d25-9ba7-4632-b32e-74ca376bee8d")
-		(property "Reference" "S1"
-			(at 261.62 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 257.81 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CUSTOM:Spacer_15mm"
-			(at 257.81 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 257.81 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625"
-					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:WE-TVS-82400102")
-		(at 73.66 170.18 90)
+		(at 63.5 162.56 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13796,29 +13262,29 @@
 		(fields_autoplaced yes)
 		(uuid "90d223b4-2f26-44f9-8f01-4aa316b1927d")
 		(property "Reference" "U1"
-			(at 78.74 168.9099 90)
+			(at 68.58 161.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "WE-TVS-82400102"
-			(at 78.74 171.4499 90)
+			(at 68.58 163.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 78.74 170.18 0)
+			(at 58.42 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13829,7 +13295,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/82400102.pdf"
-			(at 80.01 170.18 0)
+			(at 57.15 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13840,7 +13306,7 @@
 			)
 		)
 		(property "Description" "Low Capacitance TVS Diode Array, 2 Channels, SOT-23-6"
-			(at 73.66 170.18 0)
+			(at 63.5 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13962,7 +13428,7 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 90.17 143.51 270)
+		(at 92.71 143.51 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13973,7 +13439,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c9a254d-47c6-4b0c-b2aa-40101319f5a0")
 		(property "Reference" "#PWR07"
-			(at 86.36 143.51 0)
+			(at 88.9 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13984,7 +13450,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 93.98 143.5099 90)
+			(at 96.52 143.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13995,7 +13461,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 143.51 0)
+			(at 92.71 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14006,7 +13472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 143.51 0)
+			(at 92.71 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14017,7 +13483,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 90.17 143.51 0)
+			(at 92.71 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15728,81 +15194,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CUSTOM:Spacer")
-		(at 257.81 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da6edfe1-3969-41fb-b3d3-0f8be45e7184")
-		(property "Reference" "S2"
-			(at 261.62 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 257.81 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CUSTOM:Spacer_15mm"
-			(at 257.81 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 257.81 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625"
-					(reference "S2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Resistor_Wurth_WRIS-RSKS:1206_R_560112132050")
 		(at 154.94 34.29 270)
 		(unit 1)
@@ -16150,7 +15541,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 90.17 140.97 270)
+		(at 92.71 140.97 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16161,7 +15552,7 @@
 		(fields_autoplaced yes)
 		(uuid "e30eb219-230a-4fbc-bcf9-ba5caae29d81")
 		(property "Reference" "#PWR06"
-			(at 86.36 140.97 0)
+			(at 88.9 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16172,7 +15563,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 93.98 140.9699 90)
+			(at 96.52 140.9699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16183,7 +15574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 140.97 0)
+			(at 92.71 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16194,7 +15585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 140.97 0)
+			(at 92.71 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16205,7 +15596,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 90.17 140.97 0)
+			(at 92.71 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16304,156 +15695,6 @@
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625"
 					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CUSTOM:Spacer")
-		(at 271.78 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f26763d1-5c10-4b58-aad9-acfa31fc67e2")
-		(property "Reference" "S7"
-			(at 275.59 126.9999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 271.78 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CUSTOM:Spacer_20mm"
-			(at 271.78 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 271.78 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625"
-					(reference "S7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CUSTOM:Spacer")
-		(at 271.78 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3fafd26-a358-46ca-89a9-78fc30e7f7ca")
-		(property "Reference" "S5"
-			(at 275.59 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 271.78 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CUSTOM:Spacer_20mm"
-			(at 271.78 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 271.78 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625"
-					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -16793,8 +16034,8 @@
 		)
 	)
 	(sheet
-		(at 57.15 138.43)
-		(size 33.02 10.16)
+		(at 69.85 138.43)
+		(size 22.86 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -16809,7 +16050,7 @@
 		)
 		(uuid "40fcf314-ba7b-4496-9834-06d98f848b7c")
 		(property "Sheetname" "USB Power Circuit"
-			(at 57.15 137.7184 0)
+			(at 69.85 137.7184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16822,7 +16063,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_power_circuit.kicad_sch"
-			(at 57.15 149.1746 0)
+			(at 69.85 149.1746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16832,8 +16073,8 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3" input
-			(at 90.17 140.97 0)
+		(pin "3V3" output
+			(at 92.71 140.97 0)
 			(uuid "17af542d-fa68-4970-8a4a-1e42d9da2636")
 			(effects
 				(font
@@ -16842,8 +16083,8 @@
 				(justify right)
 			)
 		)
-		(pin "USB_VBUS" output
-			(at 57.15 143.51 180)
+		(pin "USB_VBUS" input
+			(at 69.85 143.51 180)
 			(uuid "6799d408-d72a-4715-9c0c-c33f15caf84c")
 			(effects
 				(font
@@ -16852,8 +16093,8 @@
 				(justify left)
 			)
 		)
-		(pin "5V_Logic" input
-			(at 90.17 143.51 0)
+		(pin "5V_Logic" output
+			(at 92.71 143.51 0)
 			(uuid "bf7b8ca7-9d62-4312-a750-dfc5416d28f1")
 			(effects
 				(font
@@ -16862,8 +16103,8 @@
 				(justify right)
 			)
 		)
-		(pin "5V_Power" input
-			(at 90.17 146.05 0)
+		(pin "5V_Power" output
+			(at 92.71 146.05 0)
 			(uuid "f5c2aa82-50db-4c25-9929-2da2136da5ec")
 			(effects
 				(font
@@ -17316,7 +16557,7 @@
 				(justify right)
 			)
 		)
-		(pin "EM_POWER" input
+		(pin "EM_POWER" output
 			(at 218.44 21.59 180)
 			(uuid "bf0f01de-fe71-453b-98a9-473a6e74693c")
 			(effects

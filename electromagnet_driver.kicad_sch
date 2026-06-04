@@ -2230,78 +2230,6 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 12.7 180)
-					(length 5.08)
-					(name "VM"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 15.24 180)
-					(length 5.08)
-					(name "VCP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 20.32 180)
-					(length 5.08)
-					(name "CPH"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 17.78 180)
-					(length 5.08)
-					(name "CPL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 17.78 -17.78 180)
 					(length 5.08)
 					(name "GND"
@@ -2330,6 +2258,80 @@
 						)
 					)
 					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DRV8874PWPR_1_0"
+				(pin passive line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "VM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 15.24 180)
+					(length 5.08)
+					(name "VCP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 20.32 180)
+					(length 5.08)
+					(name "CPH"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 17.78 180)
+					(length 5.08)
+					(name "CPL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6158,7 +6160,7 @@
 		(uuid "029ae6f4-6952-4822-a1dc-f259c9af65a5")
 	)
 	(hierarchical_label "EM_POWER"
-		(shape input)
+		(shape output)
 		(at 134.62 40.64 0)
 		(effects
 			(font
@@ -6169,7 +6171,7 @@
 		(uuid "09bc76cb-44a4-49ab-ac2b-fd48d6b63880")
 	)
 	(hierarchical_label "EM_POWER"
-		(shape input)
+		(shape output)
 		(at 266.7 40.64 0)
 		(effects
 			(font
@@ -6378,7 +6380,7 @@
 		(uuid "7626da80-a199-44da-a94d-4917d8218300")
 	)
 	(hierarchical_label "EM_POWER"
-		(shape input)
+		(shape output)
 		(at 266.7 109.22 0)
 		(effects
 			(font
@@ -6488,7 +6490,7 @@
 		(uuid "c1ba15f9-9021-476c-9a86-1b18fe2c98c9")
 	)
 	(hierarchical_label "EM_POWER"
-		(shape input)
+		(shape output)
 		(at 134.62 109.22 0)
 		(effects
 			(font
