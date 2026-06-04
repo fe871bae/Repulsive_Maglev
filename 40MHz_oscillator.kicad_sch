@@ -1489,7 +1489,7 @@
 		)
 		(uuid "f36b92cd-9602-4bc4-afb9-d09d9938e64f")
 	)
-	(hierarchical_label "-XTAL_40MHz"
+	(hierarchical_label "XTAL_40MHz-"
 		(shape bidirectional)
 		(at 163.83 88.9 0)
 		(effects
@@ -1502,7 +1502,7 @@
 		)
 		(uuid "77b3175b-e0af-41cc-bbf8-577aab62e354")
 	)
-	(hierarchical_label "+XTAL_40MHz"
+	(hierarchical_label "XTAL_40MHz+"
 		(shape bidirectional)
 		(at 163.83 110.49 0)
 		(effects

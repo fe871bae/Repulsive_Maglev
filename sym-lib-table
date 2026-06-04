@@ -7,7 +7,6 @@
 	(lib (name "629722000214") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/629722000214.kicad_sym") (options "") (descr ""))
 	(lib (name "632723300011") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/632723300011.kicad_sym") (options "") (descr ""))
 	(lib (name "DRV8874PWPR") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/DRV8874PWPR.kicad_sym") (options "") (descr ""))
-	(lib (name "ESP32-C3FH4") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/ESP32-C3FH4.kicad_sym") (options "") (descr ""))
 	(lib (name "LMS1585AISX-3_3_NO") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/LMS1585AISX-3_3_NO.kicad_sym") (options "") (descr ""))
 	(lib (name "SS-52400-003") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/SS-52400-003.kicad_sym") (options "") (descr ""))
 	(lib (name "TLV1117LV33DCYR") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/TLV1117LV33DCYR.kicad_sym") (options "") (descr ""))

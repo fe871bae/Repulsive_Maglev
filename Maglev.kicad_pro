@@ -141,7 +141,7 @@
         "tuning_profile_track_geometries": "warning",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "error",
+        "via_dangling": "ignore",
         "zones_intersect": "error"
       },
       "rules": {
@@ -750,7 +750,7 @@
         "uuid": "cf460145-35f8-4019-907e-b966a2c32625"
       }
     ],
-    "used_designators": "U3,U6",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

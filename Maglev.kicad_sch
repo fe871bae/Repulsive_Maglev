@@ -7671,6 +7671,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 41.91) (xy 64.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1032f1be-51ad-4b84-b21a-1557ba9d2ada")
+	)
+	(wire
+		(pts
 			(xy 80.01 116.84) (xy 96.52 116.84)
 		)
 		(stroke
@@ -7688,6 +7698,16 @@
 			(type default)
 		)
 		(uuid "140b03dd-52f0-4890-904e-91a8e256d7e9")
+	)
+	(wire
+		(pts
+			(xy 49.53 39.37) (xy 64.77 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "143ec90d-8b91-4d43-90db-ce5ec17ae4a3")
 	)
 	(wire
 		(pts
@@ -7718,6 +7738,16 @@
 			(type default)
 		)
 		(uuid "2da0fb8e-748a-4a2a-b85a-37236ff0eb1c")
+	)
+	(wire
+		(pts
+			(xy 165.1 26.67) (xy 165.1 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0aa27e-c27b-4da5-ba0d-3b3790c36b15")
 	)
 	(wire
 		(pts
@@ -7881,6 +7911,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 21.59) (xy 167.64 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48da6021-c7be-4bd3-a7e6-c8ec39bcf86e")
+	)
+	(wire
+		(pts
 			(xy 148.59 184.15) (xy 148.59 186.69)
 		)
 		(stroke
@@ -7931,6 +7971,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 25.4) (xy 167.64 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ce7411-217a-40b7-89d3-de80e9b7fb3d")
+	)
+	(wire
+		(pts
 			(xy 12.7 77.47) (xy 15.24 77.47)
 		)
 		(stroke
@@ -7948,16 +7998,6 @@
 			(type default)
 		)
 		(uuid "5a68496d-896c-4ee8-a323-92f894f40e4f")
-	)
-	(wire
-		(pts
-			(xy 165.1 26.67) (xy 165.1 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c81dae5-089a-4926-b27e-b827498b094f")
 	)
 	(wire
 		(pts
@@ -8068,16 +8108,6 @@
 			(type default)
 		)
 		(uuid "6f534e56-60c9-4ad9-b6cd-b904944b6289")
-	)
-	(wire
-		(pts
-			(xy 166.37 22.86) (xy 165.1 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "737bf808-07a2-4c98-8829-f137efb5940c")
 	)
 	(wire
 		(pts
@@ -8201,16 +8231,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 22.86) (xy 165.1 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90636067-75ff-4def-9d42-3c93c2f3cc90")
-	)
-	(wire
-		(pts
 			(xy 45.72 140.97) (xy 48.26 140.97)
 		)
 		(stroke
@@ -8238,16 +8258,6 @@
 			(type default)
 		)
 		(uuid "9a5b9522-ef57-4905-9d65-30f158027253")
-	)
-	(wire
-		(pts
-			(xy 166.37 25.4) (xy 165.1 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d783243-045e-4dc3-b913-2567789bb810")
 	)
 	(wire
 		(pts
@@ -8298,16 +8308,6 @@
 			(type default)
 		)
 		(uuid "ab2e1b0c-ded7-4ac7-ab3c-8ec56fc20fb0")
-	)
-	(wire
-		(pts
-			(xy 49.53 41.91) (xy 64.77 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0edf865-e655-462c-baaa-8e311436a2e9")
 	)
 	(wire
 		(pts
@@ -8381,7 +8381,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 21.59) (xy 165.1 21.59)
+			(xy 147.32 21.59) (xy 167.64 21.59)
 		)
 		(stroke
 			(width 0)
@@ -8428,16 +8428,6 @@
 			(type default)
 		)
 		(uuid "cd760103-34ed-46ec-aee0-bdda8c99aabb")
-	)
-	(wire
-		(pts
-			(xy 49.53 39.37) (xy 64.77 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0107569-5b5b-4adf-92dc-b225c2adc14d")
 	)
 	(wire
 		(pts
@@ -8651,16 +8641,6 @@
 		)
 		(uuid "0820877b-9c88-4e4f-8fd4-0724166c3336")
 	)
-	(label "-XTAL_40_MHz"
-		(at 49.53 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f9ed366-998d-4383-983f-827acfaa1f4a")
-	)
 	(label "I2C_SDA"
 		(at 107.95 93.98 0)
 		(effects
@@ -8686,7 +8666,7 @@
 		(uuid "133bf377-3fa8-47c1-a73c-a76c27316773")
 	)
 	(label "USB_D-"
-		(at 66.04 170.18 270)
+		(at 60.96 170.18 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8852,7 +8832,7 @@
 		(uuid "34957395-a5e4-403c-b475-9e2861fe93f1")
 	)
 	(label "USB_D+"
-		(at 60.96 170.18 270)
+		(at 66.04 170.18 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9428,16 +9408,6 @@
 			(justify left)
 		)
 		(uuid "f66a59c6-73a5-4661-a832-8288f58a2f7a")
-	)
-	(label "+XTAL_40_MHz"
-		(at 49.53 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fac69ca6-ea4e-4bdf-8846-3d885df57800")
 	)
 	(symbol
 		(lib_id "power:+5VP")
@@ -12521,7 +12491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Espressif:QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
 			(at 92.71 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14384,7 +14354,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Wurth_WR-PHD:61300211121")
-		(at 171.45 24.13 270)
+		(at 172.72 24.13 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14395,7 +14365,7 @@
 		(fields_autoplaced yes)
 		(uuid "c02c0cbe-aa3f-4db3-bb8d-63627e07b037")
 		(property "Reference" "UART1"
-			(at 173.99 24.1299 90)
+			(at 175.26 24.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14406,7 +14376,7 @@
 			)
 		)
 		(property "Value" "61300211121"
-			(at 158.75 24.13 0)
+			(at 160.02 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14417,7 +14387,7 @@
 			)
 		)
 		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61300211121"
-			(at 177.8 24.13 0)
+			(at 179.07 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14428,7 +14398,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/61300211121?ki"
-			(at 184.15 64.77 0)
+			(at 185.42 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14439,7 +14409,7 @@
 			)
 		)
 		(property "Description" "2.54 mm THT Pin Header"
-			(at 171.45 24.13 0)
+			(at 172.72 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14450,7 +14420,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 181.61 64.77 0)
+			(at 182.88 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14461,7 +14431,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 179.07 64.77 0)
+			(at 180.34 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14472,7 +14442,7 @@
 			)
 		)
 		(property "Series" "WR-PHD"
-			(at 176.53 64.77 0)
+			(at 177.8 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14483,7 +14453,7 @@
 			)
 		)
 		(property "Pitch" "2.54 mm"
-			(at 173.99 64.77 0)
+			(at 175.26 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14494,7 +14464,7 @@
 			)
 		)
 		(property "Mounting Technology" "THT"
-			(at 171.45 64.77 0)
+			(at 172.72 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14505,7 +14475,7 @@
 			)
 		)
 		(property "Pins (pcs)" "2"
-			(at 168.91 64.77 0)
+			(at 170.18 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14516,7 +14486,7 @@
 			)
 		)
 		(property "Rows" "Single"
-			(at 166.37 64.77 0)
+			(at 167.64 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14527,7 +14497,7 @@
 			)
 		)
 		(property "Gender" "Pin Header"
-			(at 163.83 64.77 0)
+			(at 165.1 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14538,7 +14508,7 @@
 			)
 		)
 		(property "Type" "Straight"
-			(at 161.29 64.77 0)
+			(at 162.56 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14549,7 +14519,7 @@
 			)
 		)
 		(property "IR (A)" "3"
-			(at 158.75 64.77 0)
+			(at 160.02 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16159,7 +16129,7 @@
 				(justify left top)
 			)
 		)
-		(pin "+XTAL_40MHz" bidirectional
+		(pin "XTAL_40MHz+" bidirectional
 			(at 49.53 41.91 0)
 			(uuid "c95b3164-e361-48e8-a4ed-876afa8757cb")
 			(effects
@@ -16169,7 +16139,7 @@
 				(justify right)
 			)
 		)
-		(pin "-XTAL_40MHz" bidirectional
+		(pin "XTAL_40MHz-" bidirectional
 			(at 49.53 39.37 0)
 			(uuid "eeec0c1a-2ced-4163-abd4-9a567545430e")
 			(effects
