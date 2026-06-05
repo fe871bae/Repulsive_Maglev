@@ -15,4 +15,5 @@
 	(lib (name "CUSTOM") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/CUSTOM.pretty") (options "") (descr ""))
 	(lib (name "QFN50P500X500X90-33N") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/QFN50P500X500X90-33N.pretty") (options "") (descr ""))
 	(lib (name "Ringmagnet_D100_d70_T20") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/Ringmagnet_D100_d70_T20.pretty") (options "") (descr ""))
+	(lib (name "Artwork") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints/Artwork.pretty") (options "") (descr ""))
 )
