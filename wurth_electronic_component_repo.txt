@@ -1,1 +1,0 @@
-add this repository (https://github.com/WurthElektronik/KiCad-Library.git) to KiCad
