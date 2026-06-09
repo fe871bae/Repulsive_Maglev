@@ -1,132 +1,549 @@
 (version 1)
-# Custom Design Rules (DRC) for KiCAD 7.0 (Stored in '<project>.kicad_dru' file).
+
+# =============================================================================
+# JLCPCB 4-Layer FR-4 Design Rules for KiCad
+# =============================================================================
 #
-# Matching JLCPCB capabilities: https://jlcpcb.com/capabilities/pcb-capabilities
+# Target:
+#   Manufacturer: JLCPCB
+#   PCB type:     Rigid FR-4
+#   Layer count:  4 layers
+#   Copper:       Standard multilayer, usually 1 oz outer / 0.5 oz inner
+#   Vias:         Through-hole vias only
+#   HDI:          No blind vias, no buried vias
 #
-# KiCad documentation: https://docs.kicad.org/master/id/pcbnew/pcbnew_advanced.html#custom_design_rules
+# Practical target values used in this file:
 #
-# Inspiration
-# - https://gist.github.com/darkxst/f713268e5469645425eed40115fb8b49 (with comments)
-# - https://gist.github.com/denniskupec/e163d13b0a64c2044bd259f64659485e (with comments)
+#   Track width:              >= 0.100 mm
+#   Copper clearance:         >= 0.100 mm
+#   Via diameter:             >= 0.450 mm
+#   Via drill:                >= 0.200 mm
+#   Via annular ring:         >= 0.125 mm
+#   PTH annular ring:         >= 0.150 mm absolute, 0.200 mm recommended
+#   NPTH drill:               >= 0.500 mm
+#   Hole-to-hole:             >= 0.450 mm for pad holes, >=0.200 mm via-via
+#   Hole-to-copper:           >= 0.200 mm general
+#   PTH hole-to-track:        >= 0.280 mm absolute, 0.350 mm recommended
+#   Copper-to-routed-edge:    >= 0.200 mm
+#   Copper-to-V-cut-edge:     >= 0.400 mm, if V-cut is used
+#   Silkscreen text height:   >= 1.000 mm
+#   Silkscreen line/thickness:>= 0.150 mm
+#   Silkscreen-to-pad:        >= 0.150 mm
+#   Soldermask sliver:        >= 0.100 mm for colored 1 oz soldermask
+#
+# Notes:
+#   - KiCad DRU cannot check every JLCPCB order/manufacturing option.
+#   - Material, surface finish, board thickness, color, impedance tolerance,
+#     panelization method and finished copper tolerance must still be checked
+#     manually during ordering.
+#   - Always run JLCPCB's online Gerber/DFM check before ordering.
+#
+# =============================================================================
+# Non-checkable JLCPCB capability notes
+# =============================================================================
+#
+# Layer count:
+#   JLCPCB supports many layer counts. This file targets 4-layer FR-4 only.
+#
+# Board thickness:
+#   Common values include 0.4 / 0.6 / 0.8 / 1.0 / 1.2 / 1.6 / 2.0 mm.
+#   Thickness >= 1.0 mm usually has around +/-10% tolerance.
+#   Thickness < 1.0 mm usually has around +/-0.1 mm tolerance.
+#
+# Controlled impedance:
+#   Available for 4-layer and above.
+#   Impedance tolerance is typically +/-10%.
+#   KiCad cannot validate controlled impedance without the exact JLCPCB stackup.
+#   For USB D+/D-, calculate trace width/gap using the chosen JLCPCB stackup.
+#
+# Finished copper:
+#   Multilayer commonly uses 1 oz outer / 0.5 oz inner as standard.
+#   If using 2 oz copper, increase spacing, annular rings and soldermask slivers.
+#
+# Surface finish:
+#   HASL, lead-free HASL, ENIG, etc. are order options.
+#   Fine BGA pads and exposed trace coils usually prefer/require ENIG.
+#
+# =============================================================================
+# Global track width
+# =============================================================================
 
-# TODO new rule: NPTH pads.
-# Inner diameter of pad should be 0.4-0.5 mm larger than NPTH drill diameter.
-# JLCPCB: "We make NPTH via dry sealing film process, if customer would like a NPTH but around with pad/copper, our engineer will dig out around pad/copper about 0.2mm-0.25mm, otherwise the metal potion will be flowed into the hole and it becomes a PTH. (there will be no copper dig out optimization for single board)."
-
-# TODO: new rule for plated slots: min diameter/width 0.5mm
-# JLCPCB: "The minimum plated slot width is 0.5mm, which is drawn with a pad."
-
-# TODO new rule: non-plated slots: min diameter/width 1.0mm
-# JLCPCB: "The minimum Non-Plated Slot Width is 1.0mm, please draw the slot outline in the mechanical layer(GML or GKO)""
-
-(rule "Track width, outer layer (1oz copper)"
-	(layer outer)
-	(condition "A.Type == 'track'")
-	(constraint track_width (min 0.127mm))
+(rule "JLCPCB - track width minimum"
+    (condition "A.Type == 'Track'")
+    (constraint track_width (min 0.100mm))
 )
 
-(rule "Track spacing, outer layer (1oz copper)"
-	(layer outer)
-	(condition "A.Type == 'track' && B.Type == A.Type")
-	(constraint clearance (min 0.127mm))
+# If you want the absolute JLCPCB multilayer minimum instead of a robust value,
+# change the rule above from 0.100mm to 0.090mm.
+#
+# For most practical prototype routing, use 0.150mm or larger where possible.
+
+# =============================================================================
+# Global copper clearance
+# =============================================================================
+
+(rule "JLCPCB - copper clearance minimum different nets"
+    (condition "A.Net != B.Net")
+    (constraint clearance (min 0.100mm))
 )
 
-(rule "Track width, inner layer"
-	(layer inner)
-	(condition "A.Type == 'track'")
-	(constraint track_width (min 0.09mm))
+# If you want the absolute JLCPCB multilayer minimum instead of a robust value,
+# change the rule above from 0.100mm to 0.090mm.
+#
+# For most practical prototype routing, use 0.150mm or larger where possible.
+
+# =============================================================================
+# Via rules
+# =============================================================================
+#
+# KiCad note:
+#   There is no constraint called via_drill.
+#   Use hole_size for the via drill.
+#
+# JLCPCB practical recommendation for normal 4-layer prototypes:
+#   Via diameter >= 0.45 mm
+#   Via drill    >= 0.20 mm
+#   Annular ring >= 0.125 mm
+
+(rule "JLCPCB - via minimums"
+    (condition "A.Type == 'Via'")
+    (constraint via_diameter (min 0.450mm))
+    (constraint hole_size (min 0.200mm))
+    (constraint annular_width (min 0.125mm))
 )
 
-(rule "Track spacing, inner layer"
-	(layer inner)
-	(condition "A.Type == 'track' && B.Type == A.Type")
-	(constraint clearance (min 0.09mm))
+# Absolute JLCPCB multilayer capability may allow smaller vias.
+# For a robust prototype, keep 0.45 / 0.20 mm or larger.
+#
+# Recommended default via sizes in KiCad:
+#   Signal via: 0.50 mm / 0.20 mm
+#   Robust via: 0.60 mm / 0.30 mm
+
+# =============================================================================
+# Through-hole pad rules
+# =============================================================================
+#
+# JLCPCB:
+#   Multilayer drilled holes can be smaller, but for normal PTH components
+#   larger holes are more robust.
+#
+#   PTH annular ring for multilayer 1 oz:
+#     absolute minimum:    about 0.15 mm
+#     recommended:         about 0.20 mm
+#
+# This rule applies to pads. KiCad will only apply hole/annular checks where
+# the pad actually has a hole.
+
+(rule "JLCPCB - pad drilled hole and annular ring"
+    (condition "A.Type == 'Pad'")
+    (constraint hole_size (min 0.150mm) (max 6.300mm))
+    (constraint annular_width (min 0.150mm))
 )
 
-(rule "Silkscreen text"
-	(layer "?.Silkscreen")
-	(condition "A.Type == 'Text' || A.Type == 'Text Box'")
-	(constraint text_thickness (min 0.15mm))
-	(constraint text_height (min 1mm))
+# More robust PTH annular ring recommendation.
+# Enable if your board has enough space.
+#
+# (rule "JLCPCB - pad annular ring recommended"
+#     (condition "A.Type == 'Pad'")
+#     (constraint annular_width (min 0.200mm))
+# )
+
+# =============================================================================
+# NPTH and mechanical holes
+# =============================================================================
+#
+# JLCPCB:
+#   Minimum NPTH mechanical hole is usually 0.50 mm.
+#
+# KiCad custom rules cannot always reliably distinguish NPTH from PTH in every
+# version using simple portable syntax.
+#
+# Therefore:
+#   - Keep global Board Setup minimum NPTH drill at 0.500 mm if available.
+#   - For mouse-bites, use NPTH holes around 0.50 - 0.80 mm.
+#   - Check NPTH holes manually before ordering.
+#
+# Optional rule:
+#   This checks all pads with holes more strictly. Enable only if you do not
+#   intentionally use smaller plated vias/pads.
+#
+# (rule "JLCPCB - mechanical hole robust minimum"
+#     (condition "A.Type == 'Pad'")
+#     (constraint hole_size (min 0.500mm))
+# )
+
+# =============================================================================
+# Hole-to-hole spacing
+# =============================================================================
+#
+# JLCPCB:
+#   Via hole to via hole: around 0.20 mm
+#   Pad hole to pad hole: around 0.45 mm
+#
+# These rules avoid the duplicate-condition warning by using distinct conditions.
+
+(rule "JLCPCB - via to via hole spacing"
+    (condition "A.Type == 'Via' && B.Type == 'Via'")
+    (constraint hole_to_hole (min 0.200mm))
 )
 
-(rule "Pad to Silkscreen"
-	(layer outer)
-	(condition "A.Type == 'pad' && B.Layer == '?.Silkscreen'")
-	(constraint silk_clearance (min 0.15mm))
+(rule "JLCPCB - pad to pad hole spacing"
+    (condition "A.Type == 'Pad' && B.Type == 'Pad'")
+    (constraint hole_to_hole (min 0.450mm))
 )
 
-(rule "Edge (routed) to track clearance"
-	(condition "A.Type == 'track'")
-	(constraint edge_clearance (min 0.3mm))
+(rule "JLCPCB - pad to via hole spacing"
+    (condition "(A.Type == 'Pad' && B.Type == 'Via') || (A.Type == 'Via' && B.Type == 'Pad')")
+    (constraint hole_to_hole (min 0.450mm))
 )
 
-#(rule "Edge (v-cut) to track clearance"
-#	(condition "A.Type == 'track'")
-#	(constraint edge_clearance (min 0.4mm))
-#)
+# =============================================================================
+# Hole-to-copper / drilled-hole clearance
+# =============================================================================
+#
+# JLCPCB:
+#   Via hole to track:        >= 0.20 mm
+#   NPTH to track:            >= 0.20 mm
+#   PTH to track:             >= 0.28 mm absolute, 0.35 mm recommended
+#   Inner via hole to copper:  >= 0.20 mm
+#   Inner PTH hole to copper:  >= 0.30 mm
+#
+# KiCad hole_clearance is the correct constraint for copper-to-hole clearance.
 
-# JLCPCB restrictions ambiguous:
-# Illustration: 0.2 mm, 1&2 layer: 0.3 mm, multilayer: "(0.15mm more costly)"
-# This rule handles diameter minimum and maximum for ALL holes.
-# Other specialized rules handle restrictions (e.g. Via, PTH, NPTH) 
-(rule "Hole diameter"
-	(constraint hole_size (min 0.2mm) (max 6.3mm))
+(rule "JLCPCB - via hole to copper clearance"
+    (condition "A.Type == 'Via' || B.Type == 'Via'")
+    (constraint hole_clearance (min 0.200mm))
 )
 
-(rule "Hole (NPTH) diameter"
-	(layer outer)
-	(condition "!A.isPlated()")
-	(constraint hole_size (min 0.5mm))
+(rule "JLCPCB - pad hole to copper clearance"
+    (condition "A.Type == 'Pad' || B.Type == 'Pad'")
+    (constraint hole_clearance (min 0.280mm))
 )
 
-# TODO: Hole to board edge ≥ 1 mm. Min. board size 10 × 10 mm
-(rule "Hole (castellated) diameter"
-	(layer outer)
-	(condition "A.Type == 'pad' && A.Fabrication_Property == 'Castellated pad'")
-	(constraint hole_size (min 0.6mm))
+# Recommended stricter PTH-to-track / pad-hole-to-copper rule.
+# Enable if it is not too restrictive for your board.
+#
+# (rule "JLCPCB - pad hole to copper clearance recommended"
+#     (condition "A.Type == 'Pad' || B.Type == 'Pad'")
+#     (constraint hole_clearance (min 0.350mm))
+# )
+
+# =============================================================================
+# Pad-to-track and SMD pad spacing
+# =============================================================================
+#
+# JLCPCB:
+#   Pad to track:                        >= 0.10 mm
+#   SMD pad to SMD pad, different nets:  >= 0.15 mm
+#   Minimum SMD pad size:                about 0.25 x 0.25 mm
+#
+# KiCad custom rules cannot robustly check SMD pad X/Y size for every shape.
+# Check very small pads manually, especially BGAs and QFNs.
+
+(rule "JLCPCB - pad to track clearance"
+    (condition "((A.Type == 'Pad' && B.Type == 'Track') || (A.Type == 'Track' && B.Type == 'Pad')) && A.Net != B.Net")
+    (constraint clearance (min 0.100mm))
 )
 
-# JLCPCB: "Via diameter should be 0.1mm(0.15mm preferred) larger than Via hole size" (illustration shows diameters for both dimensions)
-# JLCPCB: PTH: "The annular ring size will be enlarged to 0.15mm in production."
-(rule "Annular ring width (via and PTH)"
-	(layer outer)
-	(condition "A.isPlated()")
-	(constraint annular_width (min 0.075mm))
+(rule "JLCPCB - pad to pad clearance"
+    (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Net != B.Net")
+    (constraint clearance (min 0.150mm))
 )
 
-(rule "Clearance: hole to hole (perimeter), different nets"
-	(layer outer)
-	(condition "A.Net != B.Net")
-	(constraint hole_to_hole (min 0.5mm))
+# =============================================================================
+# Board edge clearance
+# =============================================================================
+#
+# JLCPCB:
+#   Routed board edge copper clearance: >= 0.20 mm
+#   V-cut edge copper clearance:        >= 0.40 mm
+#
+# For normal routed boards, 0.20 mm is the JLCPCB minimum.
+# For extra margin, use 0.30 mm.
+# For V-cut boards, use 0.40 mm.
+#
+# Your Maglev board with mouse-bites/breakaway tabs should generally avoid
+# copper too close to break lines unless intentionally routed through the tab.
+
+(rule "JLCPCB - routed board edge copper clearance"
+    (condition "A.Type == 'Track' || A.Type == 'Via' || A.Type == 'Pad' || A.Type == 'Zone'")
+    (constraint edge_clearance (min 0.200mm))
 )
 
-(rule "Clearance: hole to hole (perimeter), same net"
-	(layer outer)
-	(condition "A.Net == B.Net")
-	(constraint hole_to_hole (min 0.254mm))
+# Robust routed-edge version:
+# Use this instead of the previous rule if you want 0.30 mm everywhere.
+#
+# (rule "JLCPCB - robust routed board edge copper clearance"
+#     (condition "A.Type == 'Track' || A.Type == 'Via' || A.Type == 'Pad' || A.Type == 'Zone'")
+#     (constraint edge_clearance (min 0.300mm))
+# )
+
+# V-cut version:
+# Use this instead of the routed-edge rule if your relevant board edges are V-cut.
+#
+# (rule "JLCPCB - V-cut board edge copper clearance"
+#     (condition "A.Type == 'Track' || A.Type == 'Via' || A.Type == 'Pad' || A.Type == 'Zone'")
+#     (constraint edge_clearance (min 0.400mm))
+# )
+
+# =============================================================================
+# Slots
+# =============================================================================
+#
+# JLCPCB:
+#   Minimum plated slot width, multilayer:     about 0.35 mm
+#   Minimum non-plated routed slot width:      about 1.00 mm
+#   Plated slot length should be at least 2x slot width.
+#
+# KiCad DRU cannot reliably detect every routed slot drawn on Edge.Cuts.
+# Oval through-hole pads are partially covered by hole_size checks above.
+#
+# Check all slots manually:
+#   - plated slots >= 0.35 mm
+#   - non-plated routed slots >= 1.00 mm
+#   - avoid rectangular sharp inside corners
+
+# =============================================================================
+# Castellated holes / plated edges
+# =============================================================================
+#
+# JLCPCB:
+#   Castellated hole diameter:     >= 0.50 mm
+#   Castellated hole to edge:      >= 1.00 mm
+#   Castellated hole to hole:      >= 0.50 mm
+#   Minimum board size:            10 x 10 mm
+#   Minimum board thickness:       0.60 mm
+#
+# Plated edges:
+#   Minimum board size:            10 x 10 mm
+#   Minimum board thickness:       0.60 mm
+#   ENIG required, HASL not supported.
+#
+# KiCad cannot know automatically whether a hole is castellated.
+# Check these manually if you use castellations or plated edges.
+
+# =============================================================================
+# Mouse-bites / breakaway tabs
+# =============================================================================
+#
+# JLCPCB recommendations:
+#   Mouse-bite hole diameter:       0.50 - 0.80 mm
+#   Mouse-bite hole spacing:        0.20 - 0.30 mm between holes
+#   Breakaway tab width:            >= 4 mm without mouse-bites
+#   Breakaway tab with mouse-bites: >= 5 mm
+#   Copper to non-mouse-bite edge:  >= 0.20 mm
+#
+# KiCad can only check these if mouse-bites are actual NPTH pad footprints.
+# For your design:
+#   - Put mouse-bite footprints as "not in schematic"
+#   - Exclude them from BOM and position files
+#   - Use NPTH mechanical holes
+#   - Manually inspect hole diameter and spacing
+
+# =============================================================================
+# Trace coils / exposed copper coils
+# =============================================================================
+#
+# JLCPCB:
+#   Trace coils covered by soldermask, 1 oz:
+#     trace width / clearance >= 0.15 / 0.15 mm
+#
+#   Trace coils not covered by soldermask, 1 oz:
+#     trace width / clearance >= 0.25 / 0.25 mm
+#
+#   ENIG recommended/required for exposed trace coils.
+#
+# KiCad needs a netclass to enforce this automatically.
+# If you use a netclass called Coil_PCB, uncomment these rules after creating
+# that netclass in Board Setup.
+
+# (rule "JLCPCB - covered PCB coil track width"
+#     (condition "A.NetClass == 'Coil_PCB'")
+#     (constraint track_width (min 0.150mm))
+# )
+#
+# (rule "JLCPCB - covered PCB coil clearance"
+#     (condition "A.NetClass == 'Coil_PCB' && A.Net != B.Net")
+#     (constraint clearance (min 0.150mm))
+# )
+
+# For exposed coil copper:
+#
+# (rule "JLCPCB - exposed PCB coil track width"
+#     (condition "A.NetClass == 'Coil_PCB_Exposed'")
+#     (constraint track_width (min 0.250mm))
+# )
+#
+# (rule "JLCPCB - exposed PCB coil clearance"
+#     (condition "A.NetClass == 'Coil_PCB_Exposed' && A.Net != B.Net")
+#     (constraint clearance (min 0.250mm))
+# )
+
+# =============================================================================
+# Soldermask
+# =============================================================================
+#
+# JLCPCB:
+#   1:1 soldermask opening is possible with newer LDI process.
+#   Soldermask bridge/sliver:
+#     colored mask, 1 oz:       >= 0.10 mm
+#     black/white mask, 1 oz:   >= 0.13 mm
+#     2 oz copper:              >= 0.20 mm
+#
+# KiCad note:
+#   Your KiCad version recognizes solder_mask_sliver and bridged_mask,
+#   not solder_mask_bridge.
+#
+# Recommended Board Setup:
+#   Solder mask expansion:        0.000 mm to 0.050 mm
+#   Minimum solder mask web:      0.100 mm colored mask
+#                                 0.130 mm black/white mask
+#                                 0.200 mm for 2 oz copper
+#
+# This rule checks minimum mask sliver.
+
+(rule "JLCPCB - soldermask sliver colored mask 1oz"
+    (condition "A.Type == 'Pad' && B.Type == 'Pad'")
+    (constraint solder_mask_sliver (min 0.100mm))
 )
 
-(rule "Clearance: track to NPTH hole (perimeter)"
-#	(condition "A.Pad_Type == 'NPTH, mechanical' && B.Type == 'track' && A.Net != B.Net")
-	(condition "!A.isPlated() && B.Type == 'track' && A.Net != B.Net")
-	(constraint hole_clearance (min 0.254mm))
+# For black or white soldermask on 1 oz, use this stricter rule instead:
+#
+# (rule "JLCPCB - soldermask sliver black white 1oz"
+#     (condition "A.Type == 'Pad' && B.Type == 'Pad'")
+#     (constraint solder_mask_sliver (min 0.130mm))
+# )
+#
+# For 2 oz copper, use this stricter rule:
+#
+# (rule "JLCPCB - soldermask sliver 2oz"
+#     (condition "A.Type == 'Pad' && B.Type == 'Pad'")
+#     (constraint solder_mask_sliver (min 0.200mm))
+# )
+
+# =============================================================================
+# Silkscreen / legend
+# =============================================================================
+#
+# JLCPCB:
+#   Minimum silkscreen line width:      >= 0.15 mm
+#   Minimum silkscreen text height:     >= 1.00 mm
+#   Silkscreen to pad clearance:        >= 0.15 mm
+#
+# KiCad note:
+#   Text height and text thickness must be in one rule per same condition,
+#   otherwise KiCad warns about duplicated conditions.
+
+(rule "JLCPCB - front silkscreen text"
+    (layer "F.Silkscreen")
+    (condition "A.Type == 'Text' || A.Type == 'Text Box'")
+    (constraint text_height (min 1.000mm))
+    (constraint text_thickness (min 0.150mm))
 )
 
-(rule "Clearance: track to PTH hole perimeter"
-	(condition "A.isPlated() && B.Type == 'track' && A.Net != B.Net")
-	(constraint hole_clearance (min 0.33mm))
+(rule "JLCPCB - back silkscreen text"
+    (layer "B.Silkscreen")
+    (condition "A.Type == 'Text' || A.Type == 'Text Box'")
+    (constraint text_height (min 1.000mm))
+    (constraint text_thickness (min 0.150mm))
 )
 
-# TODO: try combining with rule "Clearance: PTH to track, different nets"
-(rule "Clearance: track to pad"
-	(condition "A.Type == 'pad' && B.Type == 'track' &&  A.Net != B.Net")
-	(constraint clearance (min 0.2mm))
+# Depending on KiCad version, graphical line width assertions can be fragile.
+# Therefore the minimum line width is documented here and should additionally
+# be set in:
+#
+#   Board Setup -> Text & Graphics
+#
+# Recommended:
+#   Silkscreen line width >= 0.150 mm
+
+(rule "JLCPCB - silkscreen to pad clearance"
+    (condition "A.Type == 'Pad' || B.Type == 'Pad'")
+    (constraint silk_clearance (min 0.150mm))
 )
 
-(rule "Clearance: pad/via to pad/via"
-	(layer outer)
-#	(condition "(A.Type == 'Pad' || A.Type == 'Via') && (B.Type == 'Pad' || B.Type == 'Via') && A.Net != B.Net")	
-	(condition "A.isPlated() && B.isPlated() && A.Net != B.Net")
-	(constraint clearance (min 0.127mm))
-)
+# =============================================================================
+# USB / differential pair helper notes
+# =============================================================================
+#
+# These are not pure JLCPCB manufacturing rules.
+# For USB D+/D-, use the selected JLCPCB 4-layer stackup and impedance calculator.
+#
+# If you create a netclass called USB, you can enable and adapt these:
+#
+# (rule "USB2 - differential pair gap placeholder"
+#     (condition "A.NetClass == 'USB'")
+#     (constraint diff_pair_gap (min 0.100mm) (max 0.300mm))
+# )
+#
+# (rule "USB2 - differential pair skew placeholder"
+#     (condition "A.NetClass == 'USB'")
+#     (constraint skew (max 1.000mm))
+# )
+
+# =============================================================================
+# Power / coil current helper notes
+# =============================================================================
+#
+# JLCPCB manufacturability does not guarantee current capacity.
+# Your electromagnet / H-bridge / motor-current traces need separate electrical
+# sizing based on current, copper thickness, temperature rise and layer.
+#
+# Create real KiCad netclasses such as:
+#   Power
+#   Coil_Power
+#   USB
+#
+# Then enable/adapt rules like these:
+#
+# (rule "Power nets minimum width"
+#     (condition "A.NetClass == 'Power'")
+#     (constraint track_width (min 0.500mm))
+# )
+#
+# (rule "Coil power nets minimum width"
+#     (condition "A.NetClass == 'Coil_Power'")
+#     (constraint track_width (min 1.000mm))
+# )
+
+# =============================================================================
+# Recommended KiCad Board Setup values
+# =============================================================================
+#
+# In addition to this .kicad_dru, set these manually:
+#
+# Board Setup -> Design Rules -> Constraints:
+#
+#   Minimum clearance:                 0.100 mm
+#   Minimum track width:               0.100 mm
+#   Minimum via diameter:              0.450 mm
+#   Minimum via drill:                 0.200 mm
+#   Minimum through-hole drill:         0.150 mm
+#   Minimum annular width:             0.125 mm
+#   Minimum hole-to-hole clearance:     0.450 mm
+#   Copper to edge clearance:          0.200 mm
+#
+# For a more robust non-minimum design:
+#
+#   Minimum clearance:                 0.150 mm
+#   Minimum track width:               0.150 mm
+#   Signal via:                        0.50 / 0.20 mm
+#   Robust via:                        0.60 / 0.30 mm
+#   Copper to edge clearance:          0.300 mm
+#
+# Board Setup -> Solder Mask/Paste:
+#
+#   Solder mask expansion:             0.000 - 0.050 mm
+#   Solder mask minimum web width:      0.100 mm colored mask
+#                                       0.130 mm black/white mask
+#                                       0.200 mm 2 oz copper
+#
+# Board Setup -> Text & Graphics:
+#
+#   Silkscreen text height:             >= 1.000 mm
+#   Silkscreen text thickness:          >= 0.150 mm
+#   Silkscreen line width:              >= 0.150 mm
+#
+# =============================================================================
+# End of file
+# =============================================================================

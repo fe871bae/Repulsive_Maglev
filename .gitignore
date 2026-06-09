@@ -20,16 +20,18 @@ _autosave-*
 KiCad-Library/
 
 # Generated fabrication outputs
-# Keep this commented out if you want final Gerbers in Git.
 # Fabrication/
-# gerber_to_order/
+gerber_to_order/
 # *.gbr
 # *.drl
 # *.pos
 # *.gbrjob
+production/
+fabrication-toolkit-options.json
 
 # Archives / manual backups
 # Do not ignore all zip files if final order ZIPs should be versioned.
 *.backup.zip
 *_backup.zip
 *-backup.zip
+Maglev.kicad_pcb.zip
