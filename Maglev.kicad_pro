@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 10.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
@@ -76,7 +76,64 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|121107653|58392347|F.Cu|4|e9e3ed7e-a753-476a-80f6-9d7aeaab58d9|8f48f76a-b6ca-4374-9b1d-d929e8431791",
+          ""
+        ],
+        [
+          "unconnected_items|122005679|62484449|F.Cu|4|c4a525d8-d33d-4874-ade4-ca24f920f415|4ae2a45e-362e-4d4d-96d0-e004afd51b70",
+          ""
+        ],
+        [
+          "unconnected_items|161944263|129225000|F.Cu|4|db5230b1-eb1f-4f20-9526-3c0b13c8d302|d1838633-7da5-4547-b0f7-c99f13298ebe",
+          ""
+        ],
+        [
+          "unconnected_items|171198271|60688398|F.Cu|4|deab5ad6-f38e-43a3-9ede-98dee971f109|63c5067e-05c3-4048-b159-16ec09fdce87",
+          ""
+        ],
+        [
+          "unconnected_items|172096296|63382475|F.Cu|4|54588fbf-9e68-4dce-af24-909eff7b5fe8|946227a6-4daf-446f-a8f0-265d542abb7f",
+          ""
+        ],
+        [
+          "unconnected_items|174790373|57096296|F.Cu|4|4a7352e7-e22a-4ab6-8cf9-57c57c7edcfd|364086d4-70b5-4356-8276-7152db98a5a8",
+          ""
+        ],
+        [
+          "unconnected_items|175688399|59790373|F.Cu|4|b56502b9-94ef-4a7d-a5fd-30d4fda60ebc|c98636a8-1b1e-43bf-9a64-a31d75378d15",
+          ""
+        ],
+        [
+          "unconnected_items|179280501|56198270|F.Cu|4|8783837a-848e-4cf3-af5e-329521b7eb50|0c1cfc40-b313-4e87-aacc-e830b013b426",
+          ""
+        ],
+        [
+          "unconnected_items|214513864|96526336|F.Cu|4|9ba8594f-af51-4767-a0a4-664de9322a84|892f43dc-448d-47a0-b5ed-91b9e305e167",
+          ""
+        ],
+        [
+          "unconnected_items|215839689|97392544|F.Cu|4|9b684b76-9742-4053-aa59-6c9c7bdb88de|5a061aee-6d77-4e71-a20f-419272fddce3",
+          ""
+        ],
+        [
+          "unconnected_items|81550000|100500000|F.Cu|4|4e5b6269-43d6-4c0f-8b41-1637383f2c93|21c0d6de-4abc-4629-aa55-497befe518b8",
+          ""
+        ],
+        [
+          "unconnected_items|83000000|93000000|F.Cu|4|ac735397-5fe1-4c8a-a8cd-a3dc18ba98be|1c35a626-0fad-462d-b765-aec4e8fc2fb8",
+          ""
+        ],
+        [
+          "unconnected_items|87000000|103000000|F.Cu|4|f7279910-4523-4d3f-8acc-75f25aebe108|3d87dcbf-a0d0-4dd7-ac58-70ab0c35360e",
+          ""
+        ],
+        [
+          "unconnected_items|89000000|99000000|F.Cu|4|2d43ca3e-4dc8-46f9-803d-7618690096eb|bf8e2025-4b54-40fd-a832-12ff09f6d755",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -626,7 +683,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "Fabrication/",
+      "plot": "Fabrication/gerber",
       "specctra_dsn": "",
       "vrml": ""
     },

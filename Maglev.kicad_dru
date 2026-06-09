@@ -457,9 +457,14 @@
 # Recommended:
 #   Silkscreen line width >= 0.150 mm
 
-(rule "JLCPCB - silkscreen to pad clearance"
+(rule "JLCPCB - silkscreen to pads"
     (condition "A.Type == 'Pad' || B.Type == 'Pad'")
     (constraint silk_clearance (min 0.150mm))
+)
+
+(rule "JLCPCB - silkscreen to via clearance"
+    (condition "A.Type == 'Via' || B.Type == 'Via'")
+    (constraint silk_clearance (min 0.0mm))
 )
 
 # =============================================================================
