@@ -45,7 +45,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8874.pdf?ts=1781034268731&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fde-de%252FDRV8874%252Fpart-details%252FDRV8874PWPR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68,7 +68,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "Texas Instruments"
+		(property "Manufacturer" "Texas Instruments"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -116,7 +116,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "DRV8874PWPR"
+		(property "Part Number" "DRV8874PWPR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

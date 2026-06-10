@@ -12,4 +12,7 @@
 	(lib (name "TLV1117LV33DCYR") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/TLV1117LV33DCYR.kicad_sym") (options "") (descr ""))
 	(lib (name "TMAG5173A2QDBVRQ1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/TMAG5173A2QDBVRQ1.kicad_sym") (options "") (descr ""))
 	(lib (name "TPS259474ARPWR") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/TPS259474ARPWR.kicad_sym") (options "") (descr ""))
+	(lib (name "Connector_Wurth_WR-PHD_CUSTOM") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/Connector_Wurth_WR-PHD_CUSTOM.kicad_sym") (options "") (descr ""))
+	(lib (name "Connector_Wurth_WR-MM_CUSTOM") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/Connector_Wurth_WR-MM_CUSTOM.kicad_sym") (options "") (descr ""))
+	(lib (name "Power_Protection_CUSTOM") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/Power_Protection_CUSTOM.kicad_sym") (options "") (descr ""))
 )

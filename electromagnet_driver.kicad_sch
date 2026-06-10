@@ -1304,9 +1304,9 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
-			(in_pos_files no)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 1.651 5.842 0)
@@ -1328,7 +1328,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(property "Footprint" ""
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1431,7 +1431,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Wurth_WR-PHD:61300621121"
+		(symbol "Connector_Wurth_WR-PHD_CUSTOM:61300621121"
 			(pin_names
 				(hide yes)
 			)
@@ -1496,6 +1496,17 @@
 			)
 			(property "Manufacturer" "Wurth Elektronik"
 				(at 40.64 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "61300621121"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1930,7 +1941,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8874.pdf?ts=1781034268731&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fde-de%252FDRV8874%252Fpart-details%252FDRV8874PWPR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1953,7 +1964,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MF" "Texas Instruments"
+			(property "Manufacturer" "Texas Instruments"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2001,7 +2012,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MP" "DRV8874PWPR"
+			(property "Part Number" "DRV8874PWPR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -14645,7 +14656,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8874.pdf?ts=1781034268731&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fde-de%252FDRV8874%252Fpart-details%252FDRV8874PWPR"
 			(at 73.66 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14657,18 +14668,6 @@
 			)
 		)
 		(property "Description" "40-V, 6-A H-bridge motor driver with integrated current sensing feedback"
-			(at 73.66 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Texas Instruments"
 			(at 73.66 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14716,18 +14715,6 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "DRV8874PWPR"
-			(at 73.66 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Availability" "In Stock"
 			(at 73.66 53.34 0)
 			(hide yes)
@@ -14741,6 +14728,30 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DRV8874PWPR/Texas+Instruments/view-part/?ref=eda"
+			(at 73.66 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 73.66 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Part Number" "DRV8874PWPR"
 			(at 73.66 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15477,7 +15488,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8874.pdf?ts=1781034268731&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fde-de%252FDRV8874%252Fpart-details%252FDRV8874PWPR"
 			(at 205.74 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15489,18 +15500,6 @@
 			)
 		)
 		(property "Description" "40-V, 6-A H-bridge motor driver with integrated current sensing feedback"
-			(at 205.74 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Texas Instruments"
 			(at 205.74 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15548,18 +15547,6 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "DRV8874PWPR"
-			(at 205.74 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Availability" "In Stock"
 			(at 205.74 53.34 0)
 			(hide yes)
@@ -15573,6 +15560,30 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DRV8874PWPR/Texas+Instruments/view-part/?ref=eda"
+			(at 205.74 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 205.74 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Part Number" "DRV8874PWPR"
 			(at 205.74 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -17033,7 +17044,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Wurth_WR-PHD:61300621121")
+		(lib_id "Connector_Wurth_WR-PHD_CUSTOM:61300621121")
 		(at 153.67 181.61 270)
 		(unit 1)
 		(body_style 1)
@@ -17198,6 +17209,17 @@
 		)
 		(property "IR (A)" "3"
 			(at 140.97 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "61300621121"
+			(at 153.67 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17779,7 +17801,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8874.pdf?ts=1781034268731&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fde-de%252FDRV8874%252Fpart-details%252FDRV8874PWPR"
 			(at 205.74 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -17791,18 +17813,6 @@
 			)
 		)
 		(property "Description" "40-V, 6-A H-bridge motor driver with integrated current sensing feedback"
-			(at 205.74 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Texas Instruments"
 			(at 205.74 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -17850,18 +17860,6 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "DRV8874PWPR"
-			(at 205.74 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Availability" "In Stock"
 			(at 205.74 121.92 0)
 			(hide yes)
@@ -17875,6 +17873,30 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DRV8874PWPR/Texas+Instruments/view-part/?ref=eda"
+			(at 205.74 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 205.74 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Part Number" "DRV8874PWPR"
 			(at 205.74 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -17987,7 +18009,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8874.pdf?ts=1781034268731&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fde-de%252FDRV8874%252Fpart-details%252FDRV8874PWPR"
 			(at 73.66 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -17999,18 +18021,6 @@
 			)
 		)
 		(property "Description" "40-V, 6-A H-bridge motor driver with integrated current sensing feedback"
-			(at 73.66 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Texas Instruments"
 			(at 73.66 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -18058,18 +18068,6 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "DRV8874PWPR"
-			(at 73.66 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Availability" "In Stock"
 			(at 73.66 121.92 0)
 			(hide yes)
@@ -18083,6 +18081,30 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DRV8874PWPR/Texas+Instruments/view-part/?ref=eda"
+			(at 73.66 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 73.66 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Part Number" "DRV8874PWPR"
 			(at 73.66 121.92 0)
 			(hide yes)
 			(show_name no)

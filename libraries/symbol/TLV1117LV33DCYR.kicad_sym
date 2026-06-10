@@ -101,7 +101,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
+		(property "Manufacturer" "Texas Instruments"
 			(at 34.29 -694.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -113,7 +113,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TLV1117LV33DCYR"
+		(property "Part Number" "TLV1117LV33DCYR"
 			(at 34.29 -794.92 0)
 			(show_name no)
 			(do_not_autoplace no)

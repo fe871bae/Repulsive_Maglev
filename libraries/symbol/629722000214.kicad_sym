@@ -11,29 +11,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "J"
-			(at 0 11.43 0)
+		(property "Reference" "J1"
+			(at 0 12.192 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Value" "629722000214"
-			(at 0 -15.24 0)
+			(at -0.9525 12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Footprint" "629722000214:629722000214"
+		(property "Footprint" "WURTH_USB:629722000214_CUSTOM"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45,7 +44,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/629722000214.pdf?srsltid=AfmBOopgS1fpVqzIp88kkSziMYYixj-iXYRL22aRdxcRBDhgIMAZGuSl"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68,7 +67,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "Würth Elektronik"
+		(property "Manufacturer" "Würth Elektronik"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -116,7 +115,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "629722000214"
+		(property "Part Number" "629722000214"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -215,7 +214,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -12.065) (xy -10.16 -12.065)
+					(xy 10.16 -11.43) (xy -10.16 -11.43)
 				)
 				(stroke
 					(width 0.254)
@@ -238,7 +237,7 @@
 				)
 			)
 			(text "Shield"
-				(at -12.7 -14.732 0)
+				(at -12.7 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -246,9 +245,10 @@
 					(justify left bottom)
 				)
 			)
-			(pin power_out line
-				(at -15.24 7.62 0)
+			(pin passive line
+				(at 15.24 7.62 180)
 				(length 5.08)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -264,9 +264,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -15.24 5.08 0)
+			(pin passive line
+				(at 15.24 5.08 180)
 				(length 5.08)
+				(hide yes)
 				(name "VBUS"
 					(effects
 						(font
@@ -283,7 +284,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 2.54 0)
+				(at 15.24 -6.35 180)
 				(length 5.08)
 				(name "CC1"
 					(effects
@@ -301,8 +302,9 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 0 0)
+				(at 15.24 -2.54 180)
 				(length 5.08)
+				(hide yes)
 				(name "D+1"
 					(effects
 						(font
@@ -319,8 +321,9 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -2.54 0)
+				(at 15.24 0 180)
 				(length 5.08)
+				(hide yes)
 				(name "D-1"
 					(effects
 						(font
@@ -337,7 +340,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -5.08 0)
+				(at 15.24 2.54 180)
 				(length 5.08)
 				(name "SBU1"
 					(effects
@@ -354,9 +357,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -15.24 -7.62 0)
+			(pin passive line
+				(at 15.24 5.08 180)
 				(length 5.08)
+				(hide yes)
 				(name "VBUS1"
 					(effects
 						(font
@@ -372,9 +376,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -15.24 -10.16 0)
+			(pin passive line
+				(at 15.24 7.62 180)
 				(length 5.08)
+				(hide yes)
 				(name "GND1"
 					(effects
 						(font
@@ -390,9 +395,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 15.24 -10.16 180)
+			(pin passive line
+				(at 15.24 7.62 180)
 				(length 5.08)
+				(hide yes)
 				(name "GND3"
 					(effects
 						(font
@@ -408,9 +414,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 15.24 -7.62 180)
+			(pin passive line
+				(at 15.24 5.08 180)
 				(length 5.08)
+				(hide yes)
 				(name "VBUS3"
 					(effects
 						(font
@@ -427,7 +434,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -5.08 180)
+				(at 15.24 -8.89 180)
 				(length 5.08)
 				(name "CC2"
 					(effects
@@ -481,7 +488,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 2.54 180)
+				(at -15.24 3.81 0)
 				(length 5.08)
 				(name "SBU2"
 					(effects

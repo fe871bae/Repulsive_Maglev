@@ -768,7 +768,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U16"
+			(property "Reference" "U4"
 				(at 0 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -788,7 +788,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TMAG5173A2QDBVRQ1:SOT95P280X145-6N"
+			(property "Footprint" "SOT95P280X145-6N:SOT95P280X145-6N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -907,7 +907,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MF" "Texas Instruments"
+			(property "Part Number" "TMAG5173A2QDBVRQ1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -919,19 +919,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MP" "TMAG5173A2QDBVRQ1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "Texas Instruments"
+			(property "Manufacturer" "Texas Instruments"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1762,7 +1750,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "Texas Instruments"
+		(property "Part Number" "TMAG5173A2QDBVRQ1"
 			(at 134.62 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1774,19 +1762,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "TMAG5173A2QDBVRQ1"
-			(at 134.62 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
+		(property "Manufacturer" "Texas Instruments"
 			(at 134.62 99.06 0)
 			(hide yes)
 			(show_name no)

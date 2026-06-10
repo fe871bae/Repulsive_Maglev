@@ -510,7 +510,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/629722000214.pdf?srsltid=AfmBOopgS1fpVqzIp88kkSziMYYixj-iXYRL22aRdxcRBDhgIMAZGuSl"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -533,7 +533,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MF" "Würth Elektronik"
+			(property "Manufacturer" "Würth Elektronik"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -581,7 +581,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MP" "629722000214"
+			(property "Part Number" "629722000214"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1128,7 +1128,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/691103110002.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1151,7 +1151,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MF" "Wurth Electronics"
+			(property "Manufacturer" "Wurth Electronics"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1199,7 +1199,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MP" "691103110002"
+			(property "Part Number" "691103110002"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1329,6 +1329,8 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "691103110002_1_0"
 				(pin passive line
 					(at -2.54 -5.08 90)
 					(length 2.54)
@@ -1347,7 +1349,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name ""
@@ -1807,9 +1809,9 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
-			(in_pos_files no)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 1.651 5.842 0)
@@ -1831,7 +1833,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(property "Footprint" ""
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1934,7 +1936,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Wurth_WR-PHD:61300211121"
+		(symbol "Connector_Wurth_WR-PHD_CUSTOM:61300211121"
 			(pin_names
 				(hide yes)
 			)
@@ -2107,6 +2109,17 @@
 					)
 				)
 			)
+			(property "Part Number" "61300211121"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "THT"
 				(at 0 0 0)
 				(show_name no)
@@ -2226,7 +2239,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Wurth_WR-PHD:61300311121"
+		(symbol "Connector_Wurth_WR-PHD_CUSTOM:61300311121"
 			(pin_names
 				(hide yes)
 			)
@@ -2291,6 +2304,17 @@
 			)
 			(property "Manufacturer" "Wurth Elektronik"
 				(at 40.64 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "61300311121"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2559,7 +2583,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Wurth_WR-PHD:61300621121"
+		(symbol "Connector_Wurth_WR-PHD_CUSTOM:61300621121"
 			(pin_names
 				(hide yes)
 			)
@@ -2624,6 +2648,17 @@
 			)
 			(property "Manufacturer" "Wurth Elektronik"
 				(at 40.64 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "61300621121"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3015,7 +3050,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Wurth_WR-PHD:61300821121"
+		(symbol "Connector_Wurth_WR-PHD_CUSTOM:61300821121"
 			(pin_names
 				(hide yes)
 			)
@@ -3179,6 +3214,17 @@
 			)
 			(property "IR (A)" "3"
 				(at 40.64 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "61300821121"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3697,6 +3743,438 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ElectromagneticActor_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 1.27 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ElectromagneticActor"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Electromagnetic actor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "electromagnet coil inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ElectromagneticActor_1_0_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ElectromagneticActor_1_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ElectromagneticActor_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 1.27 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ElectromagneticActor"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Electromagnetic actor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "electromagnet coil inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ElectromagneticActor_2_0_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ElectromagneticActor_2_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ElectromagneticActor_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 1.27 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ElectromagneticActor"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Electromagnetic actor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "electromagnet coil inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ElectromagneticActor_3_0_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ElectromagneticActor_3_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LED_Wurth_WL-SMCW:0603dome_150060VS86000"
 			(pin_names
 				(hide yes)
@@ -4137,7 +4615,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ESP32-C3FH4:QFN50P500X500X90-33N"
+			(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
 				(at 0 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4163,6 +4641,28 @@
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Espressif"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "ESP32-C3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4790,7 +5290,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:WE-TVS-82400102"
+		(symbol "Power_Protection_CUSTOM:WE-TVS-82400102"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4839,6 +5339,28 @@
 				)
 			)
 			(property "Description" "Low Capacitance TVS Diode Array, 2 Channels, SOT-23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "82400102"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6667,142 +7189,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TestPoint_Probe_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files no)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 1.651 5.842 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_Probe"
-				(at 1.651 4.064 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point (alternative probe-style design)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_Probe_1_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TestPoint_Probe_1_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -7582,12 +7968,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb02e26b-0b58-4c87-bed9-18780d5993a2")
-	)
-	(junction
-		(at 109.22 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fcaa688a-3ef9-4790-8e31-6851fd999d53")
 	)
 	(no_connect
 		(at 45.72 146.05)
@@ -11469,7 +11849,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Wurth_WR-PHD:61300821121")
+		(lib_id "Connector_Wurth_WR-PHD_CUSTOM:61300821121")
 		(at 140.97 25.4 90)
 		(unit 1)
 		(body_style 1)
@@ -11644,6 +12024,17 @@
 				)
 			)
 		)
+		(property "Part Number" "61300821121"
+			(at 140.97 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60976d5b-2169-49be-a4a9-f31b4e5e3204")
 		)
@@ -11721,7 +12112,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/629722000214.pdf?srsltid=AfmBOopgS1fpVqzIp88kkSziMYYixj-iXYRL22aRdxcRBDhgIMAZGuSl"
 			(at 30.48 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11733,18 +12124,6 @@
 			)
 		)
 		(property "Description" "USB CONN, 2.0 TYPE C, R/A RCPT, 16P, SMT;"
-			(at 30.48 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Würth Elektronik"
 			(at 30.48 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11792,18 +12171,6 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "629722000214"
-			(at 30.48 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Availability" "In Stock"
 			(at 30.48 148.59 0)
 			(hide yes)
@@ -11817,6 +12184,30 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/629722000214/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 30.48 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 30.48 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Part Number" "629722000214"
 			(at 30.48 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -12523,6 +12914,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Espressif"
+			(at 92.71 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ESP32-C3"
+			(at 92.71 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7d744ec3-251d-43a5-b44b-2f835bf7ff8b")
 		)
@@ -12900,6 +13313,7 @@
 		)
 	)
 	(symbol
+		(lib_name "ElectromagneticActor_3")
 		(lib_id "Device:ElectromagneticActor")
 		(at 260.35 53.34 180)
 		(unit 1)
@@ -13060,7 +13474,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TestPoint_Probe_1")
 		(lib_id "Connector:TestPoint_Probe")
 		(at 124.46 172.72 90)
 		(unit 1)
@@ -13138,6 +13551,7 @@
 		)
 	)
 	(symbol
+		(lib_name "ElectromagneticActor_2")
 		(lib_id "Device:ElectromagneticActor")
 		(at 260.35 40.64 180)
 		(unit 1)
@@ -13220,7 +13634,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:WE-TVS-82400102")
+		(lib_id "Power_Protection_CUSTOM:WE-TVS-82400102")
 		(at 63.5 162.56 270)
 		(unit 1)
 		(body_style 1)
@@ -13286,6 +13700,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 63.5 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "82400102"
+			(at 63.5 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "2dad3942-e944-456b-9152-0c13efa3b547")
 		)
@@ -13314,6 +13750,7 @@
 		)
 	)
 	(symbol
+		(lib_name "ElectromagneticActor_1")
 		(lib_id "Device:ElectromagneticActor")
 		(at 260.35 26.67 180)
 		(unit 1)
@@ -14073,7 +14510,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Wurth_WR-PHD:61300621121")
+		(lib_id "Connector_Wurth_WR-PHD_CUSTOM:61300621121")
 		(at 102.87 114.3 270)
 		(unit 1)
 		(body_style 1)
@@ -14248,6 +14685,17 @@
 				)
 			)
 		)
+		(property "Part Number" "61300621121"
+			(at 102.87 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "65a963fa-dafc-4237-8a62-49f11028dac7")
 		)
@@ -14353,7 +14801,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Wurth_WR-PHD:61300211121")
+		(lib_id "Connector_Wurth_WR-PHD_CUSTOM:61300211121")
 		(at 172.72 24.13 270)
 		(unit 1)
 		(body_style 1)
@@ -14520,6 +14968,17 @@
 		)
 		(property "IR (A)" "3"
 			(at 160.02 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "61300211121"
+			(at 172.72 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14892,7 +15351,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Wurth_WR-PHD:61300311121")
+		(lib_id "Connector_Wurth_WR-PHD_CUSTOM:61300311121")
 		(at 132.08 93.98 270)
 		(unit 1)
 		(body_style 1)
@@ -15059,6 +15518,17 @@
 		)
 		(property "IR (A)" "3"
 			(at 119.38 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "61300311121"
+			(at 132.08 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15714,7 +16184,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/691103110002.pdf"
 			(at 74.93 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -15726,18 +16196,6 @@
 			)
 		)
 		(property "Description" "Serie 1031 - 3,50mm pitch - Modular THT - Blue - Horizontal cable entry Wire Protector 8.4mm height - 02p"
-			(at 74.93 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Wurth Electronics"
 			(at 74.93 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -15785,18 +16243,6 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "691103110002"
-			(at 74.93 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=544489&manufacturer=Wurth Electronics&part_name=691103110002&search_term=None"
 			(at 74.93 116.84 0)
 			(hide yes)
@@ -15822,6 +16268,30 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/691103110002/Wurth+Electronics/view-part/?ref=eda"
+			(at 74.93 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Wurth Electronics"
+			(at 74.93 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Part Number" "691103110002"
 			(at 74.93 116.84 0)
 			(hide yes)
 			(show_name no)

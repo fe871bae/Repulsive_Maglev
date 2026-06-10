@@ -45,7 +45,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps25947.pdf?ts=1781078698487&ref_url=https%253A%252F%252Fwww.ti.com%252Fcompare-products%252F%253Fid%253D422%2526type%253DGPT%2526mode%253Dalternate-gpn%2526partList%253DLM7310%252CTPS25947%2526sticky%253Dtrue"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68,7 +68,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "Texas Instruments"
+		(property "Manufacturer" "Texas Instruments"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -164,7 +164,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "TPS259474ARPWR"
+		(property "Part Number" "TPS259474ARPWR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -177,18 +177,6 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

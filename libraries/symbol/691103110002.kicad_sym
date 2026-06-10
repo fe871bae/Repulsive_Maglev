@@ -45,7 +45,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/691103110002.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68,7 +68,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "Wurth Electronics"
+		(property "Manufacturer" "Wurth Electronics"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -116,7 +116,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "691103110002"
+		(property "Part Number" "691103110002"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -248,7 +248,7 @@
 			)
 		)
 		(symbol "691103110002_1_0"
-			(pin output line
+			(pin passive line
 				(at -2.54 -5.08 90)
 				(length 2.54)
 				(name ""

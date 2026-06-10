@@ -5,7 +5,7 @@
 	(uuid "b1787db9-2d9e-45fb-aabc-9d55cf89bc27")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Wurth_WR-MM:690367190672"
+		(symbol "Connector_Wurth_WR-MM_CUSTOM:690367190672"
 			(pin_names
 				(hide yes)
 			)
@@ -224,6 +224,17 @@
 			)
 			(property "Tol. R" "max."
 				(at 45.72 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "690367190672"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -516,7 +527,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Wurth_WR-MM:690367191672"
+		(symbol "Connector_Wurth_WR-MM_CUSTOM:690367191672"
 			(pin_names
 				(hide yes)
 			)
@@ -735,6 +746,17 @@
 			)
 			(property "Tol. R" "max."
 				(at 45.72 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "690367191672"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2626,7 +2648,7 @@
 		(uuid "f99c2e4d-6751-4018-bb0f-3accbe860657")
 	)
 	(symbol
-		(lib_id "Connector_Wurth_WR-MM:690367191672")
+		(lib_id "Connector_Wurth_WR-MM_CUSTOM:690367191672")
 		(at 100.33 52.07 90)
 		(unit 1)
 		(body_style 1)
@@ -2856,6 +2878,28 @@
 				)
 			)
 		)
+		(property "Contact Resistance (mohm)" "10"
+			(at 123.19 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "690367191672"
+			(at 100.33 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "c3181dd2-ebb0-427d-84f3-e834a13bd464")
 		)
@@ -2914,7 +2958,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Wurth_WR-MM:690367190672")
+		(lib_id "Connector_Wurth_WR-MM_CUSTOM:690367190672")
 		(at 100.33 88.9 90)
 		(unit 1)
 		(body_style 1)
@@ -3144,6 +3188,28 @@
 				)
 			)
 		)
+		(property "Contact Resistance (mohm)" "10"
+			(at 123.19 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "690367190672"
+			(at 100.33 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5ffa2156-3adb-4fc5-a9f7-d7695ef3851b")
 		)
@@ -3172,7 +3238,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Wurth_WR-MM:690367191672")
+		(lib_id "Connector_Wurth_WR-MM_CUSTOM:690367191672")
 		(at 52.07 52.07 90)
 		(unit 1)
 		(body_style 1)
@@ -3402,6 +3468,28 @@
 				)
 			)
 		)
+		(property "Contact Resistance (mohm)" "10"
+			(at 74.93 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "690367191672"
+			(at 52.07 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "4913087e-aeb2-44e4-901f-e442621069c0")
 		)
@@ -3460,7 +3548,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Wurth_WR-MM:690367190672")
+		(lib_id "Connector_Wurth_WR-MM_CUSTOM:690367190672")
 		(at 52.07 90.17 90)
 		(unit 1)
 		(body_style 1)
@@ -3681,6 +3769,28 @@
 		)
 		(property "Tol. R" "max."
 			(at 77.47 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Contact Resistance (mohm)" "10"
+			(at 74.93 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "690367190672"
+			(at 52.07 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
