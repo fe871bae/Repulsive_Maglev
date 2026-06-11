@@ -22,6 +22,8 @@ KiCad-Library/
 # Generated fabrication outputs
 # Fabrication/
 gerber_to_order/
+Fabrication/gerber
+Fabrication/gerber.zip
 # *.gbr
 # *.drl
 # *.pos

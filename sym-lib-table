@@ -15,4 +15,5 @@
 	(lib (name "Connector_Wurth_WR-PHD_CUSTOM") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/Connector_Wurth_WR-PHD_CUSTOM.kicad_sym") (options "") (descr ""))
 	(lib (name "Connector_Wurth_WR-MM_CUSTOM") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/Connector_Wurth_WR-MM_CUSTOM.kicad_sym") (options "") (descr ""))
 	(lib (name "Power_Protection_CUSTOM") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/Power_Protection_CUSTOM.kicad_sym") (options "") (descr ""))
+	(lib (name "MCU_Espressif_CUSTOM") (type "KiCad") (uri "${KIPRJMOD}/Libraries/symbol/MCU_Espressif_CUSTOM.kicad_sym") (options "") (descr ""))
 )

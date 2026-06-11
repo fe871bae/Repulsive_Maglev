@@ -4589,7 +4589,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_Espressif:ESP32-C3"
+		(symbol "MCU_Espressif_CUSTOM:ESP32-C3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -12851,7 +12851,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_Espressif:ESP32-C3")
+		(lib_id "MCU_Espressif_CUSTOM:ESP32-C3")
 		(at 92.71 52.07 0)
 		(unit 1)
 		(body_style 1)
