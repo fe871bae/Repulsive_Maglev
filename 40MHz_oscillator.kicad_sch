@@ -1580,11 +1580,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f2b4939-5893-4dac-9ea3-63b25738a168")
+			(uuid "3406d10a-3519-4875-b08a-02c17b842fca")
 		)
 		(instances
 			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625/462a968e-6e6c-46a9-9af2-97d4ca29316d"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625/5b07e5a4-798a-496e-b101-9c853b6addc5"
 					(reference "#PWR053")
 					(unit 1)
 				)
@@ -1832,14 +1832,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "7cebd59b-ac14-440a-b6bc-56149953af1a")
+			(uuid "ca4530a6-4547-4dec-b9c7-60376c18ae24")
 		)
 		(pin "1"
-			(uuid "af90de4b-95d2-4c6a-af6a-4b19b11e9015")
+			(uuid "837d9df4-0fb5-4515-a641-f5dafb447db2")
 		)
 		(instances
 			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625/462a968e-6e6c-46a9-9af2-97d4ca29316d"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625/5b07e5a4-798a-496e-b101-9c853b6addc5"
 					(reference "L6")
 					(unit 1)
 				)
@@ -2096,20 +2096,20 @@
 			)
 		)
 		(pin "4"
-			(uuid "145754de-8b5f-4d50-b6b9-a6f9fce52126")
+			(uuid "e9077c8e-7d71-414d-bd17-9c527af88ca4")
 		)
 		(pin "3"
-			(uuid "1d591775-417a-46cb-a8f4-d1a4e9ddd8d0")
+			(uuid "06614948-de68-4936-b3a8-73885448f875")
 		)
 		(pin "2"
-			(uuid "dceecb87-7ab5-494f-bca6-6c07b362d6b2")
+			(uuid "2ce5844d-797e-4486-9a18-cf1fff278058")
 		)
 		(pin "1"
-			(uuid "24001d46-5ada-4088-a3de-f215037df29b")
+			(uuid "8069e78f-7573-4782-9a18-0d46a8124cab")
 		)
 		(instances
 			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625/462a968e-6e6c-46a9-9af2-97d4ca29316d"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625/5b07e5a4-798a-496e-b101-9c853b6addc5"
 					(reference "Y1")
 					(unit 1)
 				)
@@ -2456,14 +2456,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "75d5450b-9a3f-4e27-9153-8fe55ff289bd")
+			(uuid "f37133b4-abf0-4196-b041-93d255f5b5c3")
 		)
 		(pin "1"
-			(uuid "d68d4225-ce99-4b45-9eba-5173b9526a0e")
+			(uuid "90d58e60-55f3-4ba3-a4c3-32822c8642fa")
 		)
 		(instances
 			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625/462a968e-6e6c-46a9-9af2-97d4ca29316d"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625/5b07e5a4-798a-496e-b101-9c853b6addc5"
 					(reference "C32")
 					(unit 1)
 				)
@@ -2535,11 +2535,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "41fde8a4-bc17-4639-a69c-39946ed0ad9f")
+			(uuid "c181ec4c-0803-4918-8163-3501b00562cd")
 		)
 		(instances
 			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625/462a968e-6e6c-46a9-9af2-97d4ca29316d"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625/5b07e5a4-798a-496e-b101-9c853b6addc5"
 					(reference "#PWR055")
 					(unit 1)
 				)
@@ -2886,14 +2886,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "04d5d64d-0ca6-4f36-a889-299d165d7db6")
+			(uuid "ff529ddc-ea2a-4824-a38e-2828a70e808e")
 		)
 		(pin "1"
-			(uuid "95fccde7-28a1-460a-9110-2067ba3c86cc")
+			(uuid "2ab1a819-3253-4851-88d0-4874ead2946a")
 		)
 		(instances
 			(project "Maglev"
-				(path "/cf460145-35f8-4019-907e-b966a2c32625/462a968e-6e6c-46a9-9af2-97d4ca29316d"
+				(path "/cf460145-35f8-4019-907e-b966a2c32625/5b07e5a4-798a-496e-b101-9c853b6addc5"
 					(reference "C33")
 					(unit 1)
 				)

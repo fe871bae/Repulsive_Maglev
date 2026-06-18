@@ -317,14 +317,6 @@
       [
         "lib_symbol_mismatch|927100|520700|6e39a30b-bcc1-4208-826f-95add586d7b7|00000000-0000-0000-0000-000000000000|||",
         ""
-      ],
-      [
-        "multiple_net_names|1803400|1003300|699c0522-f06e-49c6-9688-7cdf271aa917|72062d12-3ea4-4f2c-8ce7-40f8906ae870|/cf460145-35f8-4019-907e-b966a2c32625/91cdb619-a34a-44d7-a3c8-16d4596465c1|/cf460145-35f8-4019-907e-b966a2c32625/91cdb619-a34a-44d7-a3c8-16d4596465c1|/cf460145-35f8-4019-907e-b966a2c32625/91cdb619-a34a-44d7-a3c8-16d4596465c1",
-        ""
-      ],
-      [
-        "multiple_net_names|1803400|571500|699c0522-f06e-49c6-9688-7cdf271aa917|98959a95-5ec0-46ec-bd5a-d7a6558a3e24|/cf460145-35f8-4019-907e-b966a2c32625/91cdb619-a34a-44d7-a3c8-16d4596465c1|/cf460145-35f8-4019-907e-b966a2c32625/91cdb619-a34a-44d7-a3c8-16d4596465c1|/cf460145-35f8-4019-907e-b966a2c32625/91cdb619-a34a-44d7-a3c8-16d4596465c1",
-        ""
       ]
     ],
     "meta": {
@@ -638,7 +630,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "Fabrication/Maglev.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1860,17 +1852,13 @@
         "uuid": "cf460145-35f8-4019-907e-b966a2c32625"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR17-18,Status_LED_RX2,R15,R40-46,Status_LED_TX2,TP3,TP17-19",
     "variants": []
   },
   "sheets": [
     [
       "cf460145-35f8-4019-907e-b966a2c32625",
       "Maglev"
-    ],
-    [
-      "91cdb619-a34a-44d7-a3c8-16d4596465c1",
-      "ESP32 Power Circuit"
     ],
     [
       "7adfdcc2-944c-4662-b790-50152b813ebf",
@@ -1887,10 +1875,6 @@
     [
       "40fcf314-ba7b-4496-9834-06d98f848b7c",
       "USB Power Circuit"
-    ],
-    [
-      "462a968e-6e6c-46a9-9af2-97d4ca29316d",
-      "40 MHz Oscillator"
     ]
   ],
   "text_variables": {},
