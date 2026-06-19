@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 1.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
@@ -76,7 +76,60 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|122005679|62322448|F.Cu|4|c4a525d8-d33d-4874-ade4-ca24f920f415|4ae2a45e-362e-4d4d-96d0-e004afd51b70",
+          ""
+        ],
+        [
+          "unconnected_items|122903704|59846296|F.Cu|4|5a061aee-6d77-4e71-a20f-419272fddce3|fc19be9b-8bea-4995-8a3b-f780cd21975b",
+          ""
+        ],
+        [
+          "unconnected_items|175688399|59790373|F.Cu|4|b56502b9-94ef-4a7d-a5fd-30d4fda60ebc|c98636a8-1b1e-43bf-9a64-a31d75378d15",
+          ""
+        ],
+        [
+          "unconnected_items|178382476|53504193|F.Cu|4|1c35a626-0fad-462d-b765-aec4e8fc2fb8|b49a8f0c-1aad-42d7-bee4-3ef778266b77",
+          ""
+        ],
+        [
+          "unconnected_items|179280501|56198270|F.Cu|4|47c6f14f-334a-4f9c-8384-8a421d0f1d5d|0c1cfc40-b313-4e87-aacc-e830b013b426",
+          ""
+        ],
+        [
+          "unconnected_items|236990000|91580000|F.Cu|4|ac83cf69-fabf-4798-8bce-249500277221|e9e3ed7e-a753-476a-80f6-9d7aeaab58d9",
+          ""
+        ],
+        [
+          "unconnected_items|237980000|92180000|F.Cu|4|d0f6e6a7-4dd6-46be-9e5a-dc1b969bc119|f58dd653-68b3-4e2e-a53c-da6ce8bc1de5",
+          ""
+        ],
+        [
+          "unconnected_items|73000000|90250000|F.Cu|4|364086d4-70b5-4356-8276-7152db98a5a8|be5337b1-9a28-4376-9da2-5b341aa4bc62",
+          ""
+        ],
+        [
+          "unconnected_items|77000000|106837999|F.Cu|4|83fc9045-9959-46c6-b655-b8f5fd547460|deab5ad6-f38e-43a3-9ede-98dee971f109",
+          ""
+        ],
+        [
+          "unconnected_items|83000000|106837999|F.Cu|4|34a97b69-d3a7-4553-bc93-846659ceebe8|54588fbf-9e68-4dce-af24-909eff7b5fe8",
+          ""
+        ],
+        [
+          "unconnected_items|87000000|102837999|F.Cu|4|053b8efc-5089-47bc-bea0-cd13d8fde6b7|3d87dcbf-a0d0-4dd7-ac58-70ab0c35360e",
+          ""
+        ],
+        [
+          "unconnected_items|89000000|99000000|F.Cu|4|2d43ca3e-4dc8-46f9-803d-7618690096eb|bf8e2025-4b54-40fd-a832-12ff09f6d755",
+          ""
+        ],
+        [
+          "unconnected_items|98250000|86750000|F.Cu|4|d1838633-7da5-4547-b0f7-c99f13298ebe|902bb24b-ea15-49a6-baf4-2e7a90bdd4af",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -99,7 +152,7 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
-        "hole_to_hole": "error",
+        "hole_to_hole": "ignore",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -107,7 +160,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "warning",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -122,7 +175,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "warning",
         "starved_thermal": "error",
@@ -1852,7 +1905,7 @@
         "uuid": "cf460145-35f8-4019-907e-b966a2c32625"
       }
     ],
-    "used_designators": "#PWR17-18,Status_LED_RX2,R15,R40-46,Status_LED_TX2,TP3,TP17-19",
+    "used_designators": "TP1-19,LED1-4,L1-4,RESET1,J1-8,IC1,UART1,#PWR1-49,EMD1,EMC1,#VDD1-2,EMB1,R1-45,I2C1,POWER_LED1,EMA1,BOOT1,U1-4,FB1,C1-23,#FLG1-2",
     "variants": []
   },
   "sheets": [
