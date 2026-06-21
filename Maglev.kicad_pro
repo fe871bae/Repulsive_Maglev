@@ -1905,7 +1905,7 @@
         "uuid": "cf460145-35f8-4019-907e-b966a2c32625"
       }
     ],
-    "used_designators": "TP1-19,LED1-4,L1-4,RESET1,J1-8,IC1,UART1,#PWR1-49,EMD1,EMC1,#VDD1-2,EMB1,R1-45,I2C1,POWER_LED1,EMA1,BOOT1,U1-4,FB1,C1-23,#FLG1-2",
+    "used_designators": "R4,TP20,BOOT2,C2-4,#PWR19,#PWR43,#PWR53,#VDD3,TR1-2",
     "variants": []
   },
   "sheets": [

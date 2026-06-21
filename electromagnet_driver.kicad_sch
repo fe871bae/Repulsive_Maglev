@@ -6509,7 +6509,7 @@
 		)
 		(uuid "9d17696e-42cb-4d9a-91a3-8715361405c8")
 	)
-	(hierarchical_label "FAULT_B"
+	(hierarchical_label "FAULT_C"
 		(shape input)
 		(at 68.58 190.5 0)
 		(effects
@@ -6564,7 +6564,7 @@
 		)
 		(uuid "ae993940-7b18-46e2-a503-d9e3c7bf3c28")
 	)
-	(hierarchical_label "FAULT_B"
+	(hierarchical_label "FAULT_D"
 		(shape input)
 		(at 90.17 190.5 0)
 		(effects

@@ -435,7 +435,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Capacitor_Wurth_WCAP-CSGP:1206_H1.6_885012108003"
+		(symbol "Capacitor_Wurth_WCAP-CSGP:1206_H1.6_885012108018"
 			(pin_numbers
 				(hide yes)
 			)
@@ -482,7 +482,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012108003.pdf?ki"
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012108018.pdf?ki"
 				(at 5.08 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -494,7 +494,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "MLCCs 6.3 V(DC) ED"
+			(property "Description" "MLCCs 16 V(DC) ED"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -577,7 +577,7 @@
 					(justify left)
 				)
 			)
-			(property "Part Number" "885012108003"
+			(property "Part Number" "885012108018"
 				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -599,7 +599,7 @@
 					(justify left)
 				)
 			)
-			(property "Voltage" "6.3"
+			(property "Voltage" "16.0"
 				(at 5.08 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -634,7 +634,7 @@
 					(justify left)
 				)
 			)
-			(property "VR (V (DC))" "6.3"
+			(property "VR (V (DC))" "16.0"
 				(at 12.7 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -670,7 +670,7 @@
 					(justify left)
 				)
 			)
-			(property "RISO" "0.002 Gohm"
+			(property "RISO" "0.005 Gohm"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -730,7 +730,7 @@
 					(justify left)
 				)
 			)
-			(property "Fl (mm)" "0.6"
+			(property "Fl (mm)" "0.5"
 				(at 12.7 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -742,7 +742,7 @@
 					(justify left)
 				)
 			)
-			(property "Q (%)" "nan"
+			(property "Q (%)" "–"
 				(at 12.7 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -754,7 +754,7 @@
 					(justify left)
 				)
 			)
-			(property "Demoboard" "nan"
+			(property "Demoboard" "–"
 				(at 12.7 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -799,7 +799,7 @@
 					)
 				)
 			)
-			(symbol "1206_H1.6_885012108003_0_1"
+			(symbol "1206_H1.6_885012108018_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -825,7 +825,7 @@
 					)
 				)
 			)
-			(symbol "1206_H1.6_885012108003_1_1"
+			(symbol "1206_H1.6_885012108018_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -5507,7 +5507,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor_Wurth_WCAP-CSGP:1206_H1.6_885012108003")
+		(lib_id "Capacitor_Wurth_WCAP-CSGP:1206_H1.6_885012108018")
 		(at 182.88 127 0)
 		(unit 1)
 		(body_style 1)
@@ -5517,8 +5517,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "567b815b-1c1f-4174-a65d-f08e751faf26")
-		(property "Reference" "C31"
+		(uuid "5fa4ee4d-d642-4225-9233-c9ad30ec3f47")
+		(property "Reference" "C4"
 			(at 186.69 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5529,7 +5529,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1206_H1.6_885012108003"
+		(property "Value" "22 uF"
 			(at 187.96 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5553,7 +5553,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012108003.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012108018.pdf?ki"
 			(at 187.96 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5565,7 +5565,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "MLCCs 6.3 V(DC) ED"
+		(property "Description" "MLCCs 16 V(DC) ED"
 			(at 182.88 127 0)
 			(hide yes)
 			(show_name no)
@@ -5648,7 +5648,7 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "885012108003"
+		(property "Part Number" "885012108018"
 			(at 186.69 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5659,7 +5659,7 @@
 				(justify left)
 			)
 		)
-		(property "Capacitance" "22 µF"
+		(property "Capacitance" "22 uF"
 			(at 186.69 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5670,7 +5670,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "6.3"
+		(property "Voltage" "16.0"
 			(at 186.69 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5681,7 +5681,7 @@
 				(justify left)
 			)
 		)
-		(property "C" "22 µF"
+		(property "C" "22 uF"
 			(at 195.58 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5705,7 +5705,7 @@
 				(justify left)
 			)
 		)
-		(property "VR (V (DC))" "6.3"
+		(property "VR (V (DC))" "16.0"
 			(at 195.58 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5741,7 +5741,7 @@
 				(justify left)
 			)
 		)
-		(property "RISO" "0.002 GΩ"
+		(property "RISO" "0.005 Gohm"
 			(at 195.58 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5801,7 +5801,7 @@
 				(justify left)
 			)
 		)
-		(property "Fl (mm)" "0.6"
+		(property "Fl (mm)" "0.5"
 			(at 195.58 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -5813,7 +5813,7 @@
 				(justify left)
 			)
 		)
-		(property "Q (%)" "nan"
+		(property "Q (%)" "–"
 			(at 195.58 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -5825,7 +5825,7 @@
 				(justify left)
 			)
 		)
-		(property "Demoboard" "nan"
+		(property "Demoboard" "–"
 			(at 195.58 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -5848,16 +5848,16 @@
 				(justify left)
 			)
 		)
-		(pin "2"
-			(uuid "6e4f3f3c-89ee-43ec-8b0c-aa4b8a924dca")
-		)
 		(pin "1"
-			(uuid "346b3df3-fffa-4433-8073-824c320b354b")
+			(uuid "efc813d8-1908-47d4-9690-acafc4756fa7")
+		)
+		(pin "2"
+			(uuid "a22b9087-f149-41b5-9c1e-fcde99a45759")
 		)
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "C31")
+					(reference "C4")
 					(unit 1)
 				)
 			)
