@@ -4468,7 +4468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02311dc1-b499-4448-b744-2bc59884a3e0")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 127 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4488,7 +4488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS259474ARPWR:IC_TPS259474ARPWR"
+		(property "Footprint" "IC_TPS259474ARPWR:IC_TPS259474ARPWR"
 			(at 127 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4676,7 +4676,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4714,7 +4714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT230P700X180-4N"
+		(property "Footprint" "SOT230P700X180-4N:SOT230P700X180-4N"
 			(at 144.78 166.04 0)
 			(hide yes)
 			(show_name no)
@@ -4841,7 +4841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f66a9df-de40-47ae-88ce-7079ce93e0eb")
-		(property "Reference" "R18"
+		(property "Reference" "R44"
 			(at 164.846 125.984 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5092,7 +5092,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "R18")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -5518,7 +5518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fa4ee4d-d642-4225-9233-c9ad30ec3f47")
-		(property "Reference" "C4"
+		(property "Reference" "C25"
 			(at 186.69 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5857,7 +5857,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "C4")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -5874,7 +5874,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66d8e7b6-7853-4458-ad5c-f7586d878bbb")
-		(property "Reference" "C27"
+		(property "Reference" "C21"
 			(at 99.06 79.756 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6215,7 +6215,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "C27")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6312,7 +6312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "711cfbcd-6f67-46e5-9865-b18ca9fc51da")
-		(property "Reference" "R19"
+		(property "Reference" "R45"
 			(at 176.53 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6563,7 +6563,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "R19")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -6581,7 +6581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "748d3a8d-beed-4015-9068-75f83a37cde3")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR050"
 			(at 173.99 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6642,7 +6642,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "#PWR051")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -6659,7 +6659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74d40660-4471-4dc3-a09d-891d7897dc81")
-		(property "Reference" "C28"
+		(property "Reference" "C23"
 			(at 158.496 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7000,7 +7000,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "C28")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -7097,7 +7097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b1fb302-6fc5-420c-a51c-9207a3800269")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 153.67 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7158,7 +7158,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7176,7 +7176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "976ed6a5-9293-4944-b454-cdfd7430f14a")
-		(property "Reference" "POWER_LED2"
+		(property "Reference" "POWER_LED1"
 			(at 176.53 75.5607 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7411,7 +7411,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "POWER_LED2")
+					(reference "POWER_LED1")
 					(unit 1)
 				)
 			)
@@ -7585,7 +7585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8b1f826-3313-497e-821e-25f11c5c3c07")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 154.94 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7646,7 +7646,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7664,7 +7664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc71bf49-a04c-4779-9a70-8fe02c65103a")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 173.99 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7725,7 +7725,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7742,7 +7742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f338f93a-0402-4f57-a548-87c5918bb544")
-		(property "Reference" "C29"
+		(property "Reference" "C22"
 			(at 157.48 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8083,7 +8083,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "C29")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -8100,7 +8100,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5845549-c0a4-409c-8cc2-bea129411c64")
-		(property "Reference" "C30"
+		(property "Reference" "C24"
 			(at 176.276 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8428,7 +8428,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/40fcf314-ba7b-4496-9834-06d98f848b7c"
-					(reference "C30")
+					(reference "C24")
 					(unit 1)
 				)
 			)

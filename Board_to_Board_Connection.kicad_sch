@@ -2969,7 +2969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36afa055-e130-4104-93b5-c0a235cbbe49")
-		(property "Reference" "J11"
+		(property "Reference" "J8"
 			(at 100.33 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3231,7 +3231,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/fa0f1235-f62c-4c44-92f4-296ab8f601de"
-					(reference "J11")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3249,7 +3249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a047aa88-39c0-446b-bed8-4ff937313d34")
-		(property "Reference" "J8"
+		(property "Reference" "J5"
 			(at 52.07 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3541,7 +3541,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/fa0f1235-f62c-4c44-92f4-296ab8f601de"
-					(reference "J8")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3559,7 +3559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb8bdd14-969b-4f92-9e3c-2813b4a0f1ea")
-		(property "Reference" "J12"
+		(property "Reference" "J6"
 			(at 52.07 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3821,7 +3821,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/fa0f1235-f62c-4c44-92f4-296ab8f601de"
-					(reference "J12")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3838,7 +3838,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c13085f4-6ce6-44a8-b6bc-83bfeaf986ed")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR043"
 			(at 109.22 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3898,7 +3898,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/fa0f1235-f62c-4c44-92f4-296ab8f601de"
-					(reference "#PWR056")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3915,7 +3915,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb6533a3-9fa9-4d8b-bb59-a1acd25d0bd5")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR042"
 			(at 60.96 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3975,7 +3975,7 @@
 		(instances
 			(project "Maglev"
 				(path "/cf460145-35f8-4019-907e-b966a2c32625/fa0f1235-f62c-4c44-92f4-296ab8f601de"
-					(reference "#PWR057")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
