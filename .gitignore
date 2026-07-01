@@ -12,6 +12,7 @@
 *.bak
 _autosave-*
 *.tmp
+*.zip
 
 # KiCad local history
 .history/
@@ -24,10 +25,10 @@ KiCad-Library/
 gerber_to_order/
 Fabrication/gerber
 Fabrication/gerber.zip
-# *.gbr
-# *.drl
-# *.pos
-# *.gbrjob
+*.gbr
+*.drl
+*.pos
+*.gbrjob
 production/
 fabrication-toolkit-options.json
 

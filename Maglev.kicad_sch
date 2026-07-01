@@ -2669,9 +2669,9 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 1.651 5.842 0)
@@ -2693,7 +2693,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8379,7 +8379,7 @@
 		(uuid "2c1d54f9-e419-478c-9934-e9d15972b43c")
 	)
 	(junction
-		(at 45.72 175.26)
+		(at 45.72 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "360447a6-f807-4827-bb18-05c46794ea59")
@@ -8409,6 +8409,12 @@
 		(uuid "50253d4e-7011-42bd-bbb8-f2519f1d220e")
 	)
 	(junction
+		(at 64.77 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50afc0bb-9f89-4df0-8d00-f3eb3c2b1019")
+	)
+	(junction
 		(at 124.46 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8431,12 +8437,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac097076-08b5-481f-b740-f34d92132143")
-	)
-	(junction
-		(at 63.5 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1976ca2-b74d-47e8-9a70-8156b5285f1b")
 	)
 	(junction
 		(at 45.72 66.04)
@@ -8536,7 +8536,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 172.72) (xy 49.53 175.26)
+			(xy 49.53 185.42) (xy 49.53 187.96)
 		)
 		(stroke
 			(width 0)
@@ -8563,16 +8563,6 @@
 			(type default)
 		)
 		(uuid "06dc810e-5bfc-490c-aba5-87af4ee7d452")
-	)
-	(wire
-		(pts
-			(xy 63.5 179.07) (xy 63.5 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06e0d8ad-2f7c-4902-b146-cdb10d3891c1")
 	)
 	(wire
 		(pts
@@ -8676,23 +8666,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 143.51) (xy 69.85 143.51)
+			(xy 45.72 143.51) (xy 64.77 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "30e661a6-653e-4eaa-ab1e-eb5a38c8a26a")
-	)
-	(wire
-		(pts
-			(xy 45.72 143.51) (xy 63.5 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3240139a-fab2-43a1-984c-4982a261bc4f")
 	)
 	(wire
 		(pts
@@ -8766,13 +8746,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 172.72) (xy 45.72 175.26)
+			(xy 45.72 185.42) (xy 45.72 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3c6c80bc-3495-4e03-b20c-0cc8f184c2eb")
+	)
+	(wire
+		(pts
+			(xy 52.07 151.13) (xy 52.07 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dedce73-3fae-421b-8011-7edc9534c7ee")
 	)
 	(wire
 		(pts
@@ -8856,16 +8846,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 148.59) (xy 60.96 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47c68d87-9b2c-4c93-a8da-d4ba2645869b")
-	)
-	(wire
-		(pts
 			(xy 19.05 92.71) (xy 19.05 88.9)
 		)
 		(stroke
@@ -8946,6 +8926,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 148.59) (xy 55.88 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2a7d1f-ccbf-4227-824f-c2b1fe322b2a")
+	)
+	(wire
+		(pts
 			(xy 142.24 39.37) (xy 148.59 39.37)
 		)
 		(stroke
@@ -8976,6 +8966,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 157.48) (xy 64.77 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d63320-951b-4b10-a712-39af70ff50c4")
+	)
+	(wire
+		(pts
 			(xy 45.72 62.23) (xy 45.72 66.04)
 		)
 		(stroke
@@ -8983,6 +8983,16 @@
 			(type default)
 		)
 		(uuid "564e2ef4-6b68-496e-b446-cd11414ec60a")
+	)
+	(wire
+		(pts
+			(xy 55.88 161.29) (xy 59.69 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a7f895-6478-4f58-8f66-409a5e04f63c")
 	)
 	(wire
 		(pts
@@ -9016,6 +9026,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 166.37) (xy 59.69 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6575db8c-188f-4334-adcc-b15a445d5f67")
+	)
+	(wire
+		(pts
 			(xy 124.46 186.69) (xy 124.46 189.23)
 		)
 		(stroke
@@ -9023,16 +9043,6 @@
 			(type default)
 		)
 		(uuid "672e5e37-03cd-4265-88f7-92c9c1f9f219")
-	)
-	(wire
-		(pts
-			(xy 45.72 148.59) (xy 60.96 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a9b4ddd-5b9f-4b47-9476-5972af739c0c")
 	)
 	(wire
 		(pts
@@ -9093,6 +9103,16 @@
 			(type default)
 		)
 		(uuid "6f534e56-60c9-4ad9-b6cd-b904944b6289")
+	)
+	(wire
+		(pts
+			(xy 64.77 143.51) (xy 69.85 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6a0ae1-3f01-41d6-af8a-225cf37f25bd")
 	)
 	(wire
 		(pts
@@ -9216,16 +9236,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 151.13) (xy 66.04 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fa4e9e6-5a3f-44bb-b48f-cbdf2c39999d")
-	)
-	(wire
-		(pts
 			(xy 231.14 101.6) (xy 218.44 101.6)
 		)
 		(stroke
@@ -9243,6 +9253,16 @@
 			(type default)
 		)
 		(uuid "90087182-db41-47b3-abf1-ebf392a50250")
+	)
+	(wire
+		(pts
+			(xy 85.09 157.48) (xy 64.77 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f90c2d-aa5c-4ca3-bc1c-27fdb8258975")
 	)
 	(wire
 		(pts
@@ -9266,7 +9286,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 154.94) (xy 49.53 165.1)
+			(xy 49.53 154.94) (xy 49.53 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9283,16 +9303,6 @@
 			(type default)
 		)
 		(uuid "9cb0c073-0666-44f2-8b6e-43c13a7021f0")
-	)
-	(wire
-		(pts
-			(xy 45.72 151.13) (xy 66.04 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a18637a2-4906-4e9d-8129-4b05375e7103")
 	)
 	(wire
 		(pts
@@ -9323,6 +9333,16 @@
 			(type default)
 		)
 		(uuid "ab6f27da-5e55-43e6-849a-ed25fc75ab27")
+	)
+	(wire
+		(pts
+			(xy 45.72 148.59) (xy 55.88 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8e4e34-ce06-460d-9488-72c02f196e78")
 	)
 	(wire
 		(pts
@@ -9466,7 +9486,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 175.26) (xy 49.53 175.26)
+			(xy 45.72 187.96) (xy 49.53 187.96)
 		)
 		(stroke
 			(width 0)
@@ -9546,13 +9566,23 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 143.51) (xy 63.5 154.94)
+			(xy 85.09 163.83) (xy 85.09 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4fd1e93-e66e-4052-9365-e4ff21104677")
+		(uuid "e4c4fbfb-7ab4-459b-9a25-b75932c38835")
+	)
+	(wire
+		(pts
+			(xy 57.15 163.83) (xy 59.69 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58bf37c-9006-4c99-9d9a-877d6ec4466a")
 	)
 	(wire
 		(pts
@@ -9576,6 +9606,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 163.83) (xy 85.09 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5bc96c-630b-4408-8a67-b37b9a14c933")
+	)
+	(wire
+		(pts
 			(xy 152.4 144.78) (xy 157.48 144.78)
 		)
 		(stroke
@@ -9586,7 +9626,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 157.48) (xy 45.72 165.1)
+			(xy 45.72 157.48) (xy 45.72 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9603,6 +9643,16 @@
 			(type default)
 		)
 		(uuid "f2c7078c-c889-4a76-b6eb-b7e8623ad380")
+	)
+	(wire
+		(pts
+			(xy 45.72 151.13) (xy 52.07 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f31e7928-de16-4ac4-977e-fdbaf8c2aa10")
 	)
 	(wire
 		(pts
@@ -9735,14 +9785,14 @@
 		(uuid "12f323ea-b19b-4c52-bc49-5d290f579a2c")
 	)
 	(label "USB_D-"
-		(at 60.96 170.18 270)
+		(at 74.93 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "135cb699-25f2-4955-99d0-0baf510b8e8b")
 	)
@@ -9925,14 +9975,14 @@
 		(uuid "34957395-a5e4-403c-b475-9e2861fe93f1")
 	)
 	(label "USB_D+"
-		(at 66.04 170.18 270)
+		(at 74.93 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "35b86627-2f83-4cca-a103-524f6f5727f2")
 	)
@@ -11099,7 +11149,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 175.26 0)
+		(at 45.72 187.96 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11111,7 +11161,7 @@
 		(fields_autoplaced yes)
 		(uuid "0937b3bf-2b9f-46b1-abd3-48ecb8e0067b")
 		(property "Reference" "#PWR06"
-			(at 45.72 181.61 0)
+			(at 45.72 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11122,7 +11172,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 180.34 0)
+			(at 45.72 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11132,7 +11182,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 175.26 0)
+			(at 45.72 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11143,7 +11193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 175.26 0)
+			(at 45.72 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11154,7 +11204,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 175.26 0)
+			(at 45.72 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11340,7 +11390,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11417,7 +11467,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11494,7 +11544,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11567,7 +11617,7 @@
 	)
 	(symbol
 		(lib_id "Resistor_Wurth_WRIS-RSKS:0805_R_560112120019")
-		(at 49.53 168.91 270)
+		(at 49.53 181.61 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11578,7 +11628,7 @@
 		(fields_autoplaced yes)
 		(uuid "12480e24-86d6-449e-8cb9-e30e0178f5b2")
 		(property "Reference" "R10"
-			(at 52.07 167.6399 90)
+			(at 52.07 180.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11589,7 +11639,7 @@
 			)
 		)
 		(property "Value" "0805_R_560112120019"
-			(at 46.99 168.91 0)
+			(at 46.99 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11600,7 +11650,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-0805_R"
-			(at 57.15 168.91 0)
+			(at 57.15 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11611,7 +11661,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112120019.pdf?ki"
-			(at 67.31 220.98 0)
+			(at 67.31 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11622,7 +11672,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfur Thick Film Resistors"
-			(at 49.53 168.91 0)
+			(at 49.53 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11633,7 +11683,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 64.77 220.98 0)
+			(at 64.77 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11644,7 +11694,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 62.23 220.98 0)
+			(at 62.23 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11655,7 +11705,7 @@
 			)
 		)
 		(property "Created Date" "20250214"
-			(at 59.69 220.98 0)
+			(at 59.69 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11666,7 +11716,7 @@
 			)
 		)
 		(property "Series" "WRIS-RSKS"
-			(at 57.15 220.98 0)
+			(at 57.15 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11677,7 +11727,7 @@
 			)
 		)
 		(property "Part Number" "560112120019"
-			(at 54.61 220.98 0)
+			(at 54.61 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11688,7 +11738,7 @@
 			)
 		)
 		(property "Size" "0805_R"
-			(at 52.07 220.98 0)
+			(at 52.07 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11699,7 +11749,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 49.53 220.98 0)
+			(at 49.53 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11710,7 +11760,7 @@
 			)
 		)
 		(property "R" "5.1 kΩ"
-			(at 46.99 220.98 0)
+			(at 46.99 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11721,7 +11771,7 @@
 			)
 		)
 		(property "Tol. R" "±5%"
-			(at 44.45 220.98 0)
+			(at 44.45 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11732,7 +11782,7 @@
 			)
 		)
 		(property "PRated (mW)" "250.0"
-			(at 41.91 220.98 0)
+			(at 41.91 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11743,7 +11793,7 @@
 			)
 		)
 		(property "TCR (ppm/ °C)" "-100"
-			(at 39.37 220.98 0)
+			(at 39.37 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11754,7 +11804,7 @@
 			)
 		)
 		(property "TCR (ppm/ °C).1" "100"
-			(at 36.83 220.98 0)
+			(at 36.83 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11765,7 +11815,7 @@
 			)
 		)
 		(property "VE (V)" "150"
-			(at 34.29 220.98 0)
+			(at 34.29 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11776,7 +11826,7 @@
 			)
 		)
 		(property "L (mm)" "2.0"
-			(at 31.75 220.98 0)
+			(at 31.75 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11787,7 +11837,7 @@
 			)
 		)
 		(property "W (mm)" "1.25"
-			(at 29.21 220.98 0)
+			(at 29.21 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11798,7 +11848,7 @@
 			)
 		)
 		(property "H (mm)" "0.5"
-			(at 26.67 220.98 0)
+			(at 26.67 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11809,7 +11859,7 @@
 			)
 		)
 		(property "Critical Parameter" "5.1 kΩ"
-			(at 52.07 170.1799 90)
+			(at 52.07 182.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12377,7 +12427,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13467,7 +13517,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 179.07 0)
+		(at 57.15 163.83 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13477,7 +13528,7 @@
 		(dnp no)
 		(uuid "4a3fa1da-498f-4c60-b1e3-1ad7b0fb2374")
 		(property "Reference" "#PWR08"
-			(at 63.5 185.42 0)
+			(at 50.8 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13488,7 +13539,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 183.134 0)
+			(at 55.372 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13498,7 +13549,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 179.07 0)
+			(at 57.15 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13509,7 +13560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 179.07 0)
+			(at 57.15 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13520,7 +13571,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 179.07 0)
+			(at 57.15 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15133,7 +15184,7 @@
 	)
 	(symbol
 		(lib_id "Resistor_Wurth_WRIS-RSKS:0805_R_560112120019")
-		(at 45.72 168.91 270)
+		(at 45.72 181.61 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15143,7 +15194,7 @@
 		(dnp no)
 		(uuid "6ec1058f-5dc8-4831-96a0-0f9d11a19e52")
 		(property "Reference" "R9"
-			(at 40.894 167.64 90)
+			(at 40.894 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15154,7 +15205,7 @@
 			)
 		)
 		(property "Value" "0805_R_560112120019"
-			(at 43.18 168.91 0)
+			(at 43.18 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15165,7 +15216,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-0805_R"
-			(at 53.34 168.91 0)
+			(at 53.34 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15176,7 +15227,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112120019.pdf?ki"
-			(at 63.5 220.98 0)
+			(at 63.5 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15187,7 +15238,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfur Thick Film Resistors"
-			(at 45.72 168.91 0)
+			(at 45.72 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15198,7 +15249,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 60.96 220.98 0)
+			(at 60.96 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15209,7 +15260,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 58.42 220.98 0)
+			(at 58.42 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15220,7 +15271,7 @@
 			)
 		)
 		(property "Created Date" "20250214"
-			(at 55.88 220.98 0)
+			(at 55.88 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15231,7 +15282,7 @@
 			)
 		)
 		(property "Series" "WRIS-RSKS"
-			(at 53.34 220.98 0)
+			(at 53.34 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15242,7 +15293,7 @@
 			)
 		)
 		(property "Part Number" "560112120019"
-			(at 50.8 220.98 0)
+			(at 50.8 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15253,7 +15304,7 @@
 			)
 		)
 		(property "Size" "0805_R"
-			(at 48.26 220.98 0)
+			(at 48.26 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15264,7 +15315,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 45.72 220.98 0)
+			(at 45.72 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15275,7 +15326,7 @@
 			)
 		)
 		(property "R" "5.1 kΩ"
-			(at 43.18 220.98 0)
+			(at 43.18 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15286,7 +15337,7 @@
 			)
 		)
 		(property "Tol. R" "±5%"
-			(at 40.64 220.98 0)
+			(at 40.64 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15297,7 +15348,7 @@
 			)
 		)
 		(property "PRated (mW)" "250.0"
-			(at 38.1 220.98 0)
+			(at 38.1 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15308,7 +15359,7 @@
 			)
 		)
 		(property "TCR (ppm/ °C)" "-100"
-			(at 35.56 220.98 0)
+			(at 35.56 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15319,7 +15370,7 @@
 			)
 		)
 		(property "TCR (ppm/ °C).1" "100"
-			(at 33.02 220.98 0)
+			(at 33.02 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15330,7 +15381,7 @@
 			)
 		)
 		(property "VE (V)" "150"
-			(at 30.48 220.98 0)
+			(at 30.48 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15341,7 +15392,7 @@
 			)
 		)
 		(property "L (mm)" "2.0"
-			(at 27.94 220.98 0)
+			(at 27.94 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15352,7 +15403,7 @@
 			)
 		)
 		(property "W (mm)" "1.25"
-			(at 25.4 220.98 0)
+			(at 25.4 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15363,7 +15414,7 @@
 			)
 		)
 		(property "H (mm)" "0.5"
-			(at 22.86 220.98 0)
+			(at 22.86 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15374,7 +15425,7 @@
 			)
 		)
 		(property "Critical Parameter" "5.1 kΩ"
-			(at 37.084 170.18 90)
+			(at 37.084 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16278,7 +16329,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection_CUSTOM:WE-TVS-82400102")
-		(at 63.5 162.56 270)
+		(at 67.31 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16286,10 +16337,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "90d223b4-2f26-44f9-8f01-4aa316b1927d")
 		(property "Reference" "U1"
-			(at 68.58 161.2899 90)
+			(at 67.31 169.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16300,7 +16350,7 @@
 			)
 		)
 		(property "Value" "WE-TVS-82400102"
-			(at 68.58 163.8299 90)
+			(at 67.31 171.704 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16311,7 +16361,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 58.42 162.56 0)
+			(at 67.31 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16322,7 +16372,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/82400102.pdf"
-			(at 57.15 162.56 0)
+			(at 67.31 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16333,7 +16383,7 @@
 			)
 		)
 		(property "Description" "Low Capacitance TVS Diode Array, 2 Channels, SOT-23-6"
-			(at 63.5 162.56 0)
+			(at 67.31 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16344,7 +16394,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 63.5 162.56 0)
+			(at 67.31 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16355,7 +16405,7 @@
 			)
 		)
 		(property "Part Number" "82400102"
-			(at 63.5 162.56 0)
+			(at 67.31 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
