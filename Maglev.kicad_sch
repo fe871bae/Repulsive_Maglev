@@ -4909,8 +4909,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -43.18 43.18 0)
+			(property "Reference" "U2"
+				(at 2.1433 41.91 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4921,7 +4921,7 @@
 				)
 			)
 			(property "Value" "ESP32-S3-WROOM-1"
-				(at -43.18 40.64 0)
+				(at 2.1433 39.37 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4931,7 +4931,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-1"
+			(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-1U"
 				(at 2.54 -48.26 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4954,6 +4954,28 @@
 				)
 			)
 			(property "Description" "2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Esspresif"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "ESP32S3WM1UN16R8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -16185,6 +16207,28 @@
 			)
 		)
 		(property "Description" "2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna"
+			(at 96.52 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Esspresif"
+			(at 96.52 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ESP32S3WM1UN16R8"
 			(at 96.52 74.93 0)
 			(hide yes)
 			(show_name no)
